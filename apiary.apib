@@ -314,11 +314,69 @@ GOTData is a simple API allowing consumers to view data on the Novel series A So
             "event_list": "A list of Events in A Song of Ice and Fire.",
             "events": [
                 {
-                
+                    "name": "Red Wedding",
+                    "date": "299 AC",
+                    "location": [
+                        "The Twins",
+                        "Riverlands"
+                    ],
+                    "result": [
+                        "Iron Throne Victory",
+                        "Robb Stark and most of his loyal soldiers killed ",
+                        "Roose Bolton declared as the new Warden of the North",
+                    ],
+                    "combatant1": "House Stark",
+                    "combatant2": [
+                        "House Frey",
+                        "House Bolton"
+                    ],
+                    "commander1": "King Robb Stark",
+                    "commander2": [
+                        "Lord Walder Frey",
+                        "Lord Roose Bolton",
+                        "Ser Walder Rivers",
+                    ],
                 }, {
-                   
+                    "battle_name": "Battle of the Bells",
+                    "conflict": "Robert's Rebellion",
+                    "date": "Date|283}}",
+                    "place": "Stoney Sept",
+                    "result": "Rebel victory",
+                    "combatant1":  [
+                        "Rebel army of North Riverlands Vale Stormlands",
+                    ],
+                    "combatant2": "Royal army of King's Landing ",
+                    "commander1": [
+                        "Lord Eddard Stark",
+                        "Lord Hoster TullyLord",
+                        "Robert Baratheon",
+                    ],
+                    "commander2": "Lord Jon Connington",
+                    "casualties1": "Ser Denys Arryn",
                 }, {
-                
+                    "name": "Battle at Fairmarket",
+                    "place": "Fairmarket",
+                    "result": "House Hoare victory",
+                    "combatant1": [
+                        "House Hoare",
+                        "House Bracken",
+                        "House Charlton",
+                        "House Goodbrook",
+                        "House Paege",
+                        "House Vypren",
+                    ],
+                    "combatant2": "House Durrandon",
+                    "commander1": [
+                        "Harwyn Hoare",
+                        "Lothar Bracken",
+                        "Theo Charlton",
+                    ],
+                    "commander2": "Arrec Durrandon",
+                    "casualties1": "unknown",
+                    "casualties2": [
+                        "Half lost",
+                        "Two brothers of Arrect",
+                    ],
                 },
             ],
         }
@@ -330,8 +388,8 @@ GOTData is a simple API allowing consumers to view data on the Novel series A So
 + Response 200 (application/json)
 
         {
-            "event_list": "A list of Locations in A Song of Ice and Fire.",
-            "events": [
+            "location_list": "A list of Locations in A Song of Ice and Fire.",
+            "locations": [
                 {
                 
                 }, {
