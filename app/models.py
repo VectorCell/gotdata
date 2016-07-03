@@ -61,3 +61,16 @@ class Event(db.Model):
     commander_2 = db.Column(postgresql.ARRAY(String))
     casualties_1 = db.Column(postgresql.ARRAY(String))
     casualties_2 = db.Column(postgresql.ARRAY(String))
+
+class Location(db.Model):
+    __tablename__ = "locations"
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(256))
+    sub_locations = db.Column(postgresql.ARRAY(db.String))
+    seat = db.Column(db.String(256))
+    seat_type = db.Column(db.String(256))
+    religion = db.Column(db.String(256))
+    population = db.Column(db.String(256))
+    size = db.Column(db.String(256))
+    events = db.Column(postgresql.ARRAY(db.String))
