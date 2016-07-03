@@ -1,47 +1,48 @@
 from __init__ import app
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.dialects import postgresql
 
-# app.config["SQLALCHEMY_DATABASE_URI"] = ("postgresql://ahounsel:mypassword@localhost" 
-#                                         "/var/www/FlaskApp/db/test.db")
+# app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://localhost/test_db" 
 # db = SQLAlchemy(app)
 
 class Character(db.Model):
     __tablename__ = "characters"
 
-    character_id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
     url = db.Column(db.String(256))
+    name = db.Column(db.String(256))
     gender = db.Column(db.String(256))
     culture = db.Column(db.String(256))
     birth_date = db.Column(db.String(256))
     death_date = db.Column(db.String(256))
-    titles = db.Column(db.String(256))
-    aliases = db.Column(db.String(256))
+    titles = db.Column(postgresql.ARRAY(db.String))
+    aliases = db.Column(postgresql.ARRAY(db.String))
     father = db.Column(db.String(256))
     mother = db.Column(db.String(256))
     spouse = db.Column(db.String(256))
-    allegiances = db.Column(db.String(256))
-    books = db.Column(db.String(256))
-    pov_books = db.Column(db.String(256))
-    tv_seasons = db.Column(db.String(256))
-    played_by = db.Column(db.String(256))
+    allegiances = db.Column(postgresql.ARRAY(db.String))
+    books = db.Column(postgresql.ARRAY(db.String))
+    pov_books = db.Column(postgresql.ARRAY(db.String))
+    tv_series = db.Column(postgresql.ARRAY(db.String))
+    played_by = db.Column(postgresql.ARRAY(db.String))
 
-    def __init__(self, url, gender, culture, birth_date, 
-                death_date, titles, aliases, father, 
-                mother, spouse, allegiances, books, 
-                pov_books, tv_seasons, played_by):
+class House(db.Model):
+    __tablename__ = "houses"
 
-        self.url = url
-        self.gender = gender
-        self.culture = culture
-        self.birth_date = birth_date
-        self.death_date = death_date
-        self.titles = titles
-        self.aliases = alises
-        self.father = father
-        self.mother = mother
-        self.spouse = spouse
-        self.allegiances = allegiances
-        self.books = books
-        self.pov_books = pov_books
-        self.tv_seasons = tv_seasons
-        self.played_by = played_by
+    id = db.Column(db.Integer, primary_key=True)
+    url = db.Column(db.String(256))
+    name = db.Column(db.String(256))
+    region = db.Column(db.String(256))
+    coat_of_arms = db.Column(db.String(256))
+    words = db.Column(db.String(256))
+    titles = db.Column(postgresql.ARRAY(db.String))
+    seats = db.Column(postgresql.ARRAY(db.String))
+    current_lord = db.Column(db.String(256))
+    heir = db.Column(db.String(256))
+    overlord = db.Column(db.String(256))
+    founded = db.Column(db.String(256))
+    founder = db.Column(db.String(256))
+    died_out = db.Column(db.String(256))
+    ancestral_weapons = db.Column(postgresql.ARRAY(db.String))
+    cadet_branches = db.Column(postgresql.ARRAY(db.String))
+    sworn_members = db.Column(postgresql.ARRAY(db.String))
