@@ -8,6 +8,7 @@ from sqlalchemy.dialects import postgresql
 class Character(db.Model):
     __tablename__ = "characters"
 
+    # Table attributes
     id = db.Column(db.Integer, primary_key=True)
     url = db.Column(db.String(256))
     name = db.Column(db.String(256))
@@ -26,20 +27,21 @@ class Character(db.Model):
     tv_series = db.Column(postgresql.ARRAY(db.String))
     played_by = db.Column(postgresql.ARRAY(db.String))
 
+    # Foreign keys
+    house_id = db.Column(db.Integer, db.ForeignKey("houses.id"))
+    location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
+    
 class House(db.Model):
     __tablename__ = "houses"
 
+    # Table attributes
     id = db.Column(db.Integer, primary_key=True)
     url = db.Column(db.String(256))
     name = db.Column(db.String(256))
-    region = db.Column(db.String(256))
     coat_of_arms = db.Column(db.String(256))
     words = db.Column(db.String(256))
     titles = db.Column(postgresql.ARRAY(db.String))
     seats = db.Column(postgresql.ARRAY(db.String))
-    current_lord = db.Column(db.String(256))
-    heir = db.Column(db.String(256))
-    overlord = db.Column(db.String(256))
     founded = db.Column(db.String(256))
     founder = db.Column(db.String(256))
     died_out = db.Column(db.String(256))
@@ -47,13 +49,19 @@ class House(db.Model):
     cadet_branches = db.Column(postgresql.ARRAY(db.String))
     sworn_members = db.Column(postgresql.ARRAY(db.String))
 
+    # Foreign keys
+    region_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
+    lord_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+    heir_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+    overlord_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+
 class Event(db.Model):
     __tablename__ = "events"
 
+    # Table attributes
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(256))
     date = db.Column(db.String(256))
-    location = db.Column(postgresql.ARRAY(String))
     result = db.Column(postgresql.ARRAY(String))
     combatant_1 = db.Column(postgresql.ARRAY(String))
     combatant_2 = db.Column(postgresql.ARRAY(String))
@@ -62,9 +70,13 @@ class Event(db.Model):
     casualties_1 = db.Column(postgresql.ARRAY(String))
     casualties_2 = db.Column(postgresql.ARRAY(String))
 
+    # Foreign keys
+    location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
+
 class Location(db.Model):
     __tablename__ = "locations"
 
+    # Table attributes
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(256))
     sub_locations = db.Column(postgresql.ARRAY(db.String))
