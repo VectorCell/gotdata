@@ -46,3 +46,18 @@ class House(db.Model):
     ancestral_weapons = db.Column(postgresql.ARRAY(db.String))
     cadet_branches = db.Column(postgresql.ARRAY(db.String))
     sworn_members = db.Column(postgresql.ARRAY(db.String))
+
+class Event(db.Model):
+    __tablename__ = "events"
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(256))
+    date = db.Column(db.String(256))
+    location = db.Column(postgresql.ARRAY(String))
+    result = db.Column(postgresql.ARRAY(String))
+    combatant_1 = db.Column(postgresql.ARRAY(String))
+    combatant_2 = db.Column(postgresql.ARRAY(String))
+    commander_1 = db.Column(postgresql.ARRAY(String))
+    commander_2 = db.Column(postgresql.ARRAY(String))
+    casualties_1 = db.Column(postgresql.ARRAY(String))
+    casualties_2 = db.Column(postgresql.ARRAY(String))
