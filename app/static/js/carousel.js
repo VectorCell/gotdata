@@ -7,10 +7,8 @@ jQuery(document).ready(function() {
 
   $('.carousel img').each(function() {
     var $src = $(this).attr('src');
-    // var $color = $(this).attr('data-color');
     $(this).parent().css({
-      'background-image': 'url('+$src+')',
-      // 'background-color': $color
+      'background-image': 'url('+$src+')'
     });
     $(this).remove();
   });
