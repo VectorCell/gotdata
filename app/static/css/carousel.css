@@ -1,3 +1,8 @@
+/*html,
+body {
+  height: 100%;
+}
+
 .carousel,
 .item,
 .active {
@@ -5,16 +10,25 @@
 }
 
 .carousel-inner {
-  height: 100vh;
+  height: 100%;
 }
 
 .fill {
-  height: 100vh;
-  width: auto;
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-/*  -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
+}*/
+
+.full-screen {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
