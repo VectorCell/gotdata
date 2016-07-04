@@ -31,8 +31,24 @@ class Character(db.Model):
     house_id = db.Column(db.Integer, db.ForeignKey("houses.id"))
     location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
    
-    # Relationshipss
+    # Relationships
     # lord = db.relationship("House", uselist=False, backref="lord")
+
+    def __init__(self, url="", name="", gender="", culture="", birth_date="",
+                 death_date="", father="", mother="", spouse="", 
+                 house_id=None, location_id=None):
+
+        self.url = url
+        self.name = name
+        self.gender = gender
+        self.culture = culture
+        self.birth_date = birth_date
+        self.death_date = death_date
+        self.father = father
+        self.mother = mother
+        self.spouse = spouse
+        self.house_id = house_id
+        self.location_id = location_id
 
 
 class House(db.Model):
@@ -63,11 +79,25 @@ class House(db.Model):
     characters_at = db.relationship("Character", backref="house", 
                                           lazy="dynamic")
 
+    def __init__(self, url="", name="", coat_of_arms="", words="", founded="",
+                 founder="", died_out="", location_id=None):
+
+        self.url = url
+        self.name = name
+        self.coat_of_arms = coat_of_arms
+        self.words = words
+        self.founded = founded
+        self.founder = founder
+        self.died_out = died_out
+        self.location_id = location_id
+
+
 # Many-to-many table for events and houses involved
 events_houses = db.Table("events_houses",
             db.Column("event_id", db.Integer, db.ForeignKey("events.id")),
             db.Column("house_id", db.Integer, db.ForeignKey("houses.id"))
 )
+
 
 class Event(db.Model):
     __tablename__ = "events"
@@ -91,6 +121,11 @@ class Event(db.Model):
     houses_involved = db.relationship("House", secondary=events_houses,
                                       backref="events")
 
+    def __init__(self, name="", date="", location_id=None):
+        self.name = name
+        self.date = date
+        self.location_id = location_id
+
 class Location(db.Model):
     __tablename__ = "locations"
 
@@ -111,3 +146,13 @@ class Location(db.Model):
                                 lazy="dynamic")
     events_at = db.relationship("Event", backref="location",
                                 lazy="dynamic")
+
+    def __init__(self, name="", seat="", seat_type="", religion="",
+                 population="", size=""):
+
+        self.name = name
+        self.seat = seat
+        self.seat_type = seat_type
+        self.religion = religion
+        self.population = population
+        self.size = size
