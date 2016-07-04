@@ -7,4 +7,4 @@ def hello():
     # return "Hello, I love Digital Ocean! But I hate everything else."
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=8081)

@@ -30,7 +30,11 @@ class Character(db.Model):
     # Foreign keys
     house_id = db.Column(db.Integer, db.ForeignKey("houses.id"))
     location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
-    
+   
+    # Relationshipss
+    # lord = db.relationship("House", uselist=False, backref="lord")
+
+
 class House(db.Model):
     __tablename__ = "houses"
 
@@ -50,10 +54,20 @@ class House(db.Model):
     # sworn_members = db.Column(postgresql.ARRAY(db.String))
 
     # Foreign keys
-    region_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
-    lord_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
-    heir_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
-    overlord_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+    location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
+    # lord_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+    # heir_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+    # overlord_id = db.Column(db.Integer, db.ForeignKey("characters.id"))
+
+    # Relationships
+    characters_at = db.relationship("Character", backref="house", 
+                                          lazy="dynamic")
+
+# Many-to-many table for events and houses involved
+events_houses = db.Table("events_houses",
+            db.Column("event_id", db.Integer, db.ForeignKey("events.id")),
+            db.Column("house_id", db.Integer, db.ForeignKey("houses.id"))
+)
 
 class Event(db.Model):
     __tablename__ = "events"
@@ -73,6 +87,10 @@ class Event(db.Model):
     # Foreign keys
     location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
 
+    # Relationships
+    houses_involved = db.relationship("House", secondary=events_houses,
+                                      backref="events")
+
 class Location(db.Model):
     __tablename__ = "locations"
 
@@ -85,4 +103,11 @@ class Location(db.Model):
     religion = db.Column(db.String(256))
     population = db.Column(db.String(256))
     size = db.Column(db.String(256))
-    # events = db.Column(postgresql.ARRAY(db.String))
+
+    # Relationships
+    characters_at = db.relationship("Character", backref="location",
+                                    lazy="dynamic")
+    houses_at = db.relationship("House", backref="location",
+                                lazy="dynamic")
+    events_at = db.relationship("Event", backref="location",
+                                lazy="dynamic")
