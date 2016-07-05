@@ -70,7 +70,7 @@ class House(db.Model):
                                                             lazy="dynamic"))
 
     def __init__(self, url="", name="", coat_of_arms="", words="", founded="",
-                 founder="", died_out="", location_id=None):
+                 founder="", died_out="", location=None):
 
         self.url = url
         self.name = name
@@ -79,8 +79,10 @@ class House(db.Model):
         self.founded = founded
         self.founder = founder
         self.died_out = died_out
-        self.location_id = location_id
+        self.location = location
 
+    def __repr__(self):
+        return "<House %r>" % self.name
 
 # Many-to-many table for events and houses involved
 events_houses = db.Table("events_houses",
@@ -104,10 +106,13 @@ class Event(db.Model):
     location = db.relationship("Location", backref=db.backref("events",
                                                             lazy="dynamic"))
 
-    def __init__(self, name="", date="", location_id=None):
+    def __init__(self, name="", date="", location=None):
         self.name = name
         self.date = date
-        self.location_id = location_id
+        self.location = location
+
+    def __repr__(self):
+        return "<Event %r>" % self.name
 
 class Location(db.Model):
     __tablename__ = "locations"
@@ -130,3 +135,6 @@ class Location(db.Model):
         self.religion = religion
         self.population = population
         self.size = size
+
+    def __repr__(self):
+        return "<Location %r>" % self.name
