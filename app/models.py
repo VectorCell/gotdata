@@ -5,33 +5,34 @@ from flask_sqlalchemy import SQLAlchemy
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"
 db = SQLAlchemy(app)
 
+
 class Character(db.Model):
     __tablename__ = "characters"
 
     # Table attributes
-    id          = db.Column(db.Integer, primary_key=True)
-    url         = db.Column(db.String(256))
-    name        = db.Column(db.String(256))
-    gender      = db.Column(db.String(256))
-    culture     = db.Column(db.String(256))
-    birth_date  = db.Column(db.String(256))
-    death_date  = db.Column(db.String(256))
-    father      = db.Column(db.String(256))
-    mother      = db.Column(db.String(256))
-    spouse      = db.Column(db.String(256))
+    id = db.Column(db.Integer, primary_key=True)
+    url = db.Column(db.String(256))
+    name = db.Column(db.String(256))
+    gender = db.Column(db.String(256))
+    culture = db.Column(db.String(256))
+    birth_date = db.Column(db.String(256))
+    death_date = db.Column(db.String(256))
+    father = db.Column(db.String(256))
+    mother = db.Column(db.String(256))
+    spouse = db.Column(db.String(256))
 
     # Foreign keys
-    house_id    = db.Column(db.Integer, db.ForeignKey("houses.id"))
+    house_id = db.Column(db.Integer, db.ForeignKey("houses.id"))
     location_id = db.Column(db.Integer, db.ForeignKey("locations.id"))
- 
-    # Relationships 
-    house       = db.relationship("House", backref=db.backref("characters",
-                                                             lazy="dynamic"))
-    location    = db.relationship("Location", backref=db.backref("characters",
+
+    # Relationships
+    house = db.relationship("House", backref=db.backref("characters",
+                                                        lazy="dynamic"))
+    location = db.relationship("Location", backref=db.backref("characters",
                                                               lazy="dynamic"))
-    
+
     def __init__(self, url="", name="", gender="", culture="", birth_date="",
-                 death_date="", father="", mother="", spouse="", 
+                 death_date="", father="", mother="", spouse="",
                  house=None, location=None):
 
         self.url = url
@@ -48,6 +49,7 @@ class Character(db.Model):
 
     def __repr__(self):
         return "<Character %r>" % self.name
+
 
 class House(db.Model):
     __tablename__ = "houses"
@@ -67,7 +69,7 @@ class House(db.Model):
 
     # Relationships
     location = db.relationship("Location", backref=db.backref("houses",
-                                                            lazy="dynamic"))
+                                                              lazy="dynamic"))
 
     def __init__(self, url="", name="", coat_of_arms="", words="", founded="",
                  founder="", died_out="", location=None):
@@ -84,11 +86,14 @@ class House(db.Model):
     def __repr__(self):
         return "<House %r>" % self.name
 
+
 # Many-to-many table for events and houses involved
 events_houses = db.Table("events_houses",
-            db.Column("event_id", db.Integer, db.ForeignKey("events.id")),
-            db.Column("house_id", db.Integer, db.ForeignKey("houses.id"))
-)
+                         db.Column(
+                             "event_id", db.Integer, db.ForeignKey("events.id")),
+                         db.Column(
+                         "house_id", db.Integer, db.ForeignKey("houses.id"))
+                         )
 
 
 class Event(db.Model):
@@ -104,7 +109,7 @@ class Event(db.Model):
 
     # Relationships
     location = db.relationship("Location", backref=db.backref("events",
-                                                            lazy="dynamic"))
+                                                              lazy="dynamic"))
 
     def __init__(self, name="", date="", location=None):
         self.name = name
@@ -113,6 +118,7 @@ class Event(db.Model):
 
     def __repr__(self):
         return "<Event %r>" % self.name
+
 
 class Location(db.Model):
     __tablename__ = "locations"

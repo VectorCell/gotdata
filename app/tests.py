@@ -38,7 +38,7 @@ class TestGOTData(TestCase):
         db.session.add(a_character)
         db.session.commit()
         self.assertEqual(repr(Character.query.all()),
-                            "[<Character u'A character'>]")
+                         "[<Character u'A character'>]")
 
     def test_get_characters_two(self):
         character_a = Character(name="Character_A")
@@ -47,8 +47,8 @@ class TestGOTData(TestCase):
         db.session.add(character_b)
         db.session.commit()
         self.assertEqual(repr(Character.query.all()),
-                            "[<Character u'Character_A'>,"
-                             " <Character u'Character_B'>]")
+                         "[<Character u'Character_A'>,"
+                         " <Character u'Character_B'>]")
 
     def test_get_characters_three(self):
         character_a = Character(name="Character_A")
@@ -59,9 +59,9 @@ class TestGOTData(TestCase):
         db.session.add(character_c)
         db.session.commit()
         self.assertEqual(repr(Character.query.all()),
-                            "[<Character u'Character_A'>,"
-                             " <Character u'Character_B'>,"
-                             " <Character u'Character_C'>]")
+                         "[<Character u'Character_A'>,"
+                         " <Character u'Character_B'>,"
+                         " <Character u'Character_C'>]")
 
     # -----------
     # House table tests
@@ -72,7 +72,7 @@ class TestGOTData(TestCase):
         db.session.add(a_house)
         db.session.commit()
         self.assertEqual(repr(House.query.all()),
-                            "[<House u'A house'>]")
+                         "[<House u'A house'>]")
 
     def test_get_houses_two(self):
         house_a = House(name="House_A")
@@ -81,7 +81,7 @@ class TestGOTData(TestCase):
         db.session.add(house_b)
         db.session.commit()
         self.assertEqual(repr(House.query.all()),
-                            "[<House u'House_A'>, <House u'House_B'>]")
+                         "[<House u'House_A'>, <House u'House_B'>]")
 
     def test_get_house_characters(self):
         a_house = House(name="A house")
@@ -103,7 +103,7 @@ class TestGOTData(TestCase):
         db.session.add(a_location)
         db.session.commit()
         self.assertEqual(repr(Location.query.all()),
-                            "[<Location u'A location'>]")
+                         "[<Location u'A location'>]")
 
     def test_get_location_characters(self):
         a_location = Location(name="A location")
@@ -136,7 +136,7 @@ class TestGOTData(TestCase):
         db.session.add(event_b)
         db.session.commit()
         self.assertEqual(repr(a_location.events.all()),
-                        "[<Event u'Event_A'>, <Event u'Event_B'>]") 
+                         "[<Event u'Event_A'>, <Event u'Event_B'>]")
 
     # -----------
     # Event table tests
@@ -147,7 +147,7 @@ class TestGOTData(TestCase):
         db.session.add(a_event)
         db.session.commit()
         self.assertEqual(repr(Event.query.all()),
-                            "[<Event u'A event'>]")
+                         "[<Event u'A event'>]")
 
     def test_get_events_two(self):
         event_a = Event(name="Event_A")
@@ -156,8 +156,8 @@ class TestGOTData(TestCase):
         db.session.add(event_b)
         db.session.commit()
         self.assertEqual(repr(Event.query.all()),
-                            "[<Event u'Event_A'>,"
-                             " <Event u'Event_B'>]")
+                         "[<Event u'Event_A'>,"
+                         " <Event u'Event_B'>]")
 
     def test_get_events_three(self):
         event_a = Event(name="Event_A")
@@ -168,9 +168,9 @@ class TestGOTData(TestCase):
         db.session.add(event_c)
         db.session.commit()
         self.assertEqual(repr(Event.query.all()),
-                            "[<Event u'Event_A'>,"
-                             " <Event u'Event_B'>,"
-                             " <Event u'Event_C'>]")
+                         "[<Event u'Event_A'>,"
+                         " <Event u'Event_B'>,"
+                         " <Event u'Event_C'>]")
 
 # -----------
 # Main
