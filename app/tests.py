@@ -11,6 +11,10 @@ from models import db, Character, House, Event, Location
 
 class TestGOTData(TestCase):
 
+    # -----------
+    # Set up the db
+    # -----------
+
     SQLALCHEMY_DATABASE_URI = "sqlite:////tmp/unittest.db"
 
     def create_app(self):
@@ -25,6 +29,26 @@ class TestGOTData(TestCase):
         db.session.remove()
         db.drop_all()
 
+    # -----------
+    # House table tests
+    # -----------
+
+    def test_get_houses_one(self):
+        a_house = House(name="A house")
+        db.session.add(a_house)
+        db.session.commit()
+        self.assertEqual(repr(House.query.all()),
+                            "[<House u'A house'>]")
+
+    def test_get_houses_two(self):
+        house_a = House(name="House_A")
+        house_b = House(name="House_B")
+        db.session.add(house_a)
+        db.session.add(house_b)
+        db.session.commit()
+        self.assertEqual(repr(House.query.all()),
+                            "[<House u'House_A'>, <House u'House_B'>]")
+
     def test_get_house_characters(self):
         a_house = House(name="A house")
         jeff = Character(name="Jeff", house=a_house)
@@ -35,6 +59,17 @@ class TestGOTData(TestCase):
         db.session.commit()
         self.assertEqual(repr(a_house.characters.all()),
                          "[<Character u'Jeff'>, <Character u'Kyle'>]")
+
+    # -----------
+    # Location table tests
+    # -----------
+
+    def test_get_locations(self):
+        a_location = Location(name="A location")
+        db.session.add(a_location)
+        db.session.commit()
+        self.assertEqual(repr(Location.query.all()),
+                            "[<Location u'A location'>]")
 
     def test_get_location_characters(self):
         a_location = Location(name="A location")
@@ -69,6 +104,9 @@ class TestGOTData(TestCase):
         self.assertEqual(repr(a_location.events.all()),
                         "[<Event u'Event_A'>, <Event u'Event_B'>]") 
 
+# -----------
+# Main
+# -----------
 
 if __name__ == "__main__":
     main()
