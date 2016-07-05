@@ -1,0 +1,9 @@
+.person {
+  padding: 36px 20px;
+}
+
+.person-pic {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
