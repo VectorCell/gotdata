@@ -30,6 +30,40 @@ class TestGOTData(TestCase):
         db.drop_all()
 
     # -----------
+    # Character table tests
+    # -----------
+
+    def test_get_characters_one(self):
+        a_character = Character(name="A character")
+        db.session.add(a_character)
+        db.session.commit()
+        self.assertEqual(repr(Character.query.all()),
+                            "[<Character u'A character'>]")
+
+    def test_get_characters_two(self):
+        character_a = Character(name="Character_A")
+        character_b = Character(name="Character_B")
+        db.session.add(character_a)
+        db.session.add(character_b)
+        db.session.commit()
+        self.assertEqual(repr(Character.query.all()),
+                            "[<Character u'Character_A'>,"
+                             " <Character u'Character_B'>]")
+
+    def test_get_characters_three(self):
+        character_a = Character(name="Character_A")
+        character_b = Character(name="Character_B")
+        character_c = Character(name="Character_C")
+        db.session.add(character_a)
+        db.session.add(character_b)
+        db.session.add(character_c)
+        db.session.commit()
+        self.assertEqual(repr(Character.query.all()),
+                            "[<Character u'Character_A'>,"
+                             " <Character u'Character_B'>,"
+                             " <Character u'Character_C'>]")
+
+    # -----------
     # House table tests
     # -----------
 
@@ -103,6 +137,40 @@ class TestGOTData(TestCase):
         db.session.commit()
         self.assertEqual(repr(a_location.events.all()),
                         "[<Event u'Event_A'>, <Event u'Event_B'>]") 
+
+    # -----------
+    # Event table tests
+    # -----------
+
+    def test_get_events_one(self):
+        a_event = Event(name="A event")
+        db.session.add(a_event)
+        db.session.commit()
+        self.assertEqual(repr(Event.query.all()),
+                            "[<Event u'A event'>]")
+
+    def test_get_events_two(self):
+        event_a = Event(name="Event_A")
+        event_b = Event(name="Event_B")
+        db.session.add(event_a)
+        db.session.add(event_b)
+        db.session.commit()
+        self.assertEqual(repr(Event.query.all()),
+                            "[<Event u'Event_A'>,"
+                             " <Event u'Event_B'>]")
+
+    def test_get_events_three(self):
+        event_a = Event(name="Event_A")
+        event_b = Event(name="Event_B")
+        event_c = Event(name="Event_C")
+        db.session.add(event_a)
+        db.session.add(event_b)
+        db.session.add(event_c)
+        db.session.commit()
+        self.assertEqual(repr(Event.query.all()),
+                            "[<Event u'Event_A'>,"
+                             " <Event u'Event_B'>,"
+                             " <Event u'Event_C'>]")
 
 # -----------
 # Main
