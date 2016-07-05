@@ -1,9 +1,8 @@
 jQuery(document).ready(function() {
-  var $item = $('.carousel .item'); 
-  var $wHeight = $(window).height();
+  var $item = $('.carousel .item');
 
-  $item.height($wHeight); 
-  $item.addClass('full-screen');
+  $item.height($(window).height());
+  $item.addClass('fill');
 
   $('.carousel img').each(function() {
     var $src = $(this).attr('src');
@@ -13,9 +12,8 @@ jQuery(document).ready(function() {
     $(this).remove();
   });
 
-  $(window).on('resize', function (){
-    $wHeight = $(window).height();
-    $item.height($wHeight);
+  $(window).on('resize', function() {
+    $item.height($(window).height());
   });
 
   $('.carousel').carousel({

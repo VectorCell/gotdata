@@ -24,7 +24,7 @@ body {
   -o-background-size: cover;
 }*/
 
-.full-screen {
+.fill {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
