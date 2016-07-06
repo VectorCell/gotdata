@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/193",
+  "name": "House Hetherspoon",
+  "region": "The Westerlands",
+  "coatOfArms": "An oak spoon within a white cartouche, on a field of orange and black diamonds(Lozengy tenné and sable, on a cartouche argent a spoon or)",
+  "words": "",
+  "titles": [
+    "Ser"
+  ],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1047",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/739",
+    "http://anapioficeandfire.com/api/characters/1047"
+  ]
+}

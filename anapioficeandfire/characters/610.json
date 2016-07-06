@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/610",
+  "name": "Laena Velaryon",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 93 AC",
+  "died": "In 120 AC, at Driftmark",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/269",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378",
+    "http://anapioficeandfire.com/api/houses/407"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

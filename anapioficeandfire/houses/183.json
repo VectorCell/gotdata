@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/183",
+  "name": "House Harroway of Harrenhal",
+  "region": "The Riverlands",
+  "coatOfArms": "Per bend sinister orange and sable rayonné, a castle counterchanged(Per bend sinister rayonné tenné and sable, a castle counterchanged)",
+  "words": "",
+  "titles": [
+    "Lord of Harrenhal"
+  ],
+  "seats": [
+    "Harrenhal"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "",
+  "founder": "",
+  "diedOut": "44 AC",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

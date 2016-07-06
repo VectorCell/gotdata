@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/81",
+  "name": "Alyce Graceford",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/159"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/310",
+  "name": "House Qoherys of Harrenhal",
+  "region": "The Riverlands",
+  "coatOfArms": "A flaming red and yellow saltire between four white skulls, on a black field(Sable, a saltire rayonné gules, tipped or, between four skulls argent)",
+  "words": "",
+  "titles": [
+    "Lord of Harrenhal"
+  ],
+  "seats": [
+    "Harrenhal"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "ca. 1 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/841",
+  "diedOut": "37 AC or shortly after",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/841"
+  ]
+}

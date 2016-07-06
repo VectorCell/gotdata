@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/488",
+  "name": "Helaena Targaryen",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 109 AC",
+  "died": "In 130 AC, at King's Landing",
+  "titles": [
+    "Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/39",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

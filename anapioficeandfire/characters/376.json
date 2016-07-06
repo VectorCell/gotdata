@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/376",
+  "name": "Emmon Cuy",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Sunflower Hall",
+  "died": "In 299 AC, at near Storm's End",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Emmon the Yellow"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/91"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

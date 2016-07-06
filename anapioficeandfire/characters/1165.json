@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1165",
+  "name": "Anguy",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Dornish Marches",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "The Archer"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 3"
+  ],
+  "playedBy": [
+    "Philip McGinley"
+  ]
+}

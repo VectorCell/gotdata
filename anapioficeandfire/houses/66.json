@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/66",
+  "name": "House Cerwyn of Cerwyn",
+  "region": "The North",
+  "coatOfArms": "Argent, a battle-axe paleways sable",
+  "words": "Honed and Ready",
+  "titles": [
+    "Lord of Cerwyn"
+  ],
+  "seats": [
+    "Castle Cerwyn"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/588",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/247",
+    "http://anapioficeandfire.com/api/characters/588",
+    "http://anapioficeandfire.com/api/characters/734"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/350",
+  "name": "House Shett of Gull Tower",
+  "region": "The Vale",
+  "coatOfArms": "Three golden wings, bendwise, on a checkered white and black field(Chequy argent and sable, in bend three dexter wings elevated bendwise or)",
+  "words": "",
+  "titles": [
+    "the Knight of Gull Tower"
+  ],
+  "seats": [
+    "Gull Tower"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/287",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/328",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/287"
+  ]
+}

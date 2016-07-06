@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/146",
+  "name": "House Gargalen of Salt Shore",
+  "region": "Dorne",
+  "coatOfArms": "Or, a cockatrice gules, in its beak a serpent sable",
+  "words": "",
+  "titles": [
+    "Lord of Salt Shore"
+  ],
+  "seats": [
+    "Salt Shore"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1036",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1036"
+  ]
+}

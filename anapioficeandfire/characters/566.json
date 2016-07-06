@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/566",
+  "name": "Joffrey Caswell",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 190 AC or 191 AC",
+  "died": "",
+  "titles": [
+    "Lord of Bitterbridge"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/63"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

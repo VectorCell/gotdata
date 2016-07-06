@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/109",
+  "name": "Alyssa Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In or between 51 AC and 60 AC",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/157",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

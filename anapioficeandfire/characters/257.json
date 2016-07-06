@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/257",
+  "name": "Crake",
+  "gender": "Male",
+  "culture": "",
+  "born": "In Age of Heroes",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Crake the Boarkiller"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/86"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

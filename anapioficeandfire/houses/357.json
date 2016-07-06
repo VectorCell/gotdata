@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/357",
+  "name": "House Spicer of Castamere",
+  "region": "The Westerlands",
+  "coatOfArms": "Three black pepperpots on a saffron bend, across a field of green and silver stripes (Paly vert and argent, three pepperpots sable on a bend tenné)",
+  "words": "",
+  "titles": [
+    "Lord of Castamere"
+  ],
+  "seats": [
+    "Castamere"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/927",
+  "heir": "http://anapioficeandfire.com/api/characters/997",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/927",
+    "http://anapioficeandfire.com/api/characters/953",
+    "http://anapioficeandfire.com/api/characters/997"
+  ]
+}

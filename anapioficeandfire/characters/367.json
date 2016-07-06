@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/367",
+  "name": "Ellyn Reyne",
+  "gender": "Female",
+  "culture": "",
+  "born": "At Castamere",
+  "died": "In 261 AC, at Tarbeck Hall",
+  "titles": [
+    "Lady of Tarbeck Hall"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1026",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229",
+    "http://anapioficeandfire.com/api/houses/319",
+    "http://anapioficeandfire.com/api/houses/377"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

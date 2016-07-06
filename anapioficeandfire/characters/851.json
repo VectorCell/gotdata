@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/851",
+  "name": "Ravella Swann",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Acorn Hall"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1020",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/355",
+    "http://anapioficeandfire.com/api/houses/373"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

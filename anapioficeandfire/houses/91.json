@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/91",
+  "name": "House Cuy of Sunhouse",
+  "region": "The Reach",
+  "coatOfArms": "Six yellow flowers on blue",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Sunhouse"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/215",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/195",
+  "founded": "Andal Invasion",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/215",
+    "http://anapioficeandfire.com/api/characters/376"
+  ]
+}

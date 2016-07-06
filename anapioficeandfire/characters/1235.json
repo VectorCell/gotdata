@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1235",
+  "name": "Briar",
+  "gender": "Male",
+  "culture": "Free Folk",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

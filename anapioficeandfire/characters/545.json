@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/545",
+  "name": "Jeffory Norcross",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Neveryield"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/281"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

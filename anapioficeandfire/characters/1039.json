@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1039",
+  "name": "Tristifer Botley",
+  "gender": "Male",
+  "culture": "Ironborn",
+  "born": "At Lordsport",
+  "died": "",
+  "titles": [
+    "Heir to Lordsport"
+  ],
+  "aliases": [
+    "Tris"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/36"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

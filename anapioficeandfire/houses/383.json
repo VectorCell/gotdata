@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/383",
+  "name": "House Templeton",
+  "region": "",
+  "coatOfArms": "Nine stars, one of seven points and eight of six points, on a gold saltire, on a black field(Sable, on a saltire or, nine mullets of the field, that in fesse-point of seven points, all others of six points)",
+  "words": "",
+  "titles": [
+    "The Knight of Ninestars"
+  ],
+  "seats": [
+    "Ninestars"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1005",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1005"
+  ]
+}

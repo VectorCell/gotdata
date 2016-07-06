@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/52",
+  "name": "House Bulwer of Blackcrown",
+  "region": "The Reach",
+  "coatOfArms": "Sanguine, a bull`s skull argent",
+  "words": "Death Before Disgrace",
+  "titles": [],
+  "seats": [
+    "Blackcrown"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/100",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/195",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/100",
+    "http://anapioficeandfire.com/api/characters/224",
+    "http://anapioficeandfire.com/api/characters/575"
+  ]
+}

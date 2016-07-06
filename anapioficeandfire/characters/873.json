@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/873",
+  "name": "Rhaena Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 23 AC",
+  "died": "",
+  "titles": [
+    "Princess",
+    "Queen"
+  ],
+  "aliases": [
+    "Black Bride"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/43",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

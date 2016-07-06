@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/182",
+  "name": "House Harlton",
+  "region": "The Riverlands",
+  "coatOfArms": "A silver tree on green",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Castlewood"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

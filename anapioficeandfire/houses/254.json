@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/254",
+  "name": "House Mallister of Seagard",
+  "region": "The Riverlands",
+  "coatOfArms": "A silver eagle, displayed, on an indigo field(Purpure, an eagle displayed argent)",
+  "words": "Above the Rest",
+  "titles": [
+    "Lord of Seagard"
+  ],
+  "seats": [
+    "Seagard"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/539",
+  "heir": "http://anapioficeandfire.com/api/characters/814",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/303",
+    "http://anapioficeandfire.com/api/characters/539",
+    "http://anapioficeandfire.com/api/characters/544",
+    "http://anapioficeandfire.com/api/characters/596",
+    "http://anapioficeandfire.com/api/characters/675",
+    "http://anapioficeandfire.com/api/characters/814"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/27",
+  "name": "House Blackwood of Raventree Hall",
+  "region": "The Riverlands",
+  "coatOfArms": "A flock of ravens surrounding a black shield charged with a dead weirwood, on a scarlet field(Gules, on an escutcheon sable a dead weirwood tree proper, all within an orle of ravens volant sable)",
+  "words": "",
+  "titles": [
+    "Lord of Raventree"
+  ],
+  "seats": [
+    "Raventree Hall"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/2045",
+  "heir": "http://anapioficeandfire.com/api/characters/1241",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "Age of Heroes",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/108",
+    "http://anapioficeandfire.com/api/characters/195",
+    "http://anapioficeandfire.com/api/characters/737",
+    "http://anapioficeandfire.com/api/characters/744",
+    "http://anapioficeandfire.com/api/characters/843",
+    "http://anapioficeandfire.com/api/characters/1241",
+    "http://anapioficeandfire.com/api/characters/1640",
+    "http://anapioficeandfire.com/api/characters/2045"
+  ]
+}

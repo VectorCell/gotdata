@@ -1,0 +1,49 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/291",
+  "name": "House Osgrey of Standfast",
+  "region": "The Reach",
+  "coatOfArms": "Argent, a lion rampant chequy vert and or",
+  "words": "",
+  "titles": [
+    "Knight of Standfast",
+    "Marshall of the Northmarch (pre-Conquest)"
+  ],
+  "seats": [
+    "Standfast",
+    "Coldmoat (formally)"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/326",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/290"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/32",
+    "http://anapioficeandfire.com/api/characters/104",
+    "http://anapioficeandfire.com/api/characters/186",
+    "http://anapioficeandfire.com/api/characters/353",
+    "http://anapioficeandfire.com/api/characters/388",
+    "http://anapioficeandfire.com/api/characters/478",
+    "http://anapioficeandfire.com/api/characters/791",
+    "http://anapioficeandfire.com/api/characters/821",
+    "http://anapioficeandfire.com/api/characters/1108",
+    "http://anapioficeandfire.com/api/characters/1308",
+    "http://anapioficeandfire.com/api/characters/1542",
+    "http://anapioficeandfire.com/api/characters/1614",
+    "http://anapioficeandfire.com/api/characters/1731",
+    "http://anapioficeandfire.com/api/characters/1803",
+    "http://anapioficeandfire.com/api/characters/1879",
+    "http://anapioficeandfire.com/api/characters/1891",
+    "http://anapioficeandfire.com/api/characters/1928",
+    "http://anapioficeandfire.com/api/characters/2079",
+    "http://anapioficeandfire.com/api/characters/2083",
+    "http://anapioficeandfire.com/api/characters/2084",
+    "http://anapioficeandfire.com/api/characters/2103",
+    "http://anapioficeandfire.com/api/characters/2105"
+  ]
+}

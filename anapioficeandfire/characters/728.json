@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/728",
+  "name": "Mary Mertyns",
+  "gender": "Female",
+  "culture": "Westeros",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Mistwood"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/265"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

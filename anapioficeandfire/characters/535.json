@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/535",
+  "name": "Jared Frey",
+  "gender": "Male",
+  "culture": "",
+  "born": "At 248 AC or 249 AC",
+  "died": "In 300 AC (suspected)",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/95",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/143"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

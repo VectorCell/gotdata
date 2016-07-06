@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1449",
+  "name": "Grisella",
+  "gender": "Female",
+  "culture": "Free Folk",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

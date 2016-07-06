@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/751",
+  "name": "Merrett Frey",
+  "gender": "Male",
+  "culture": "Riverlands",
+  "born": "In 262 AC",
+  "died": "In 300 AC, at Near Oldstones",
+  "titles": [],
+  "aliases": [
+    "Merrett Muttonhead"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/712",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/143"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "tvSeries": [],
+  "playedBy": []
+}

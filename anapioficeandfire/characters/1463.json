@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1463",
+  "name": "Haggo",
+  "gender": "Male",
+  "culture": "Dothraki",
+  "born": "",
+  "died": "In 298 AC, at Dothraki sea",
+  "titles": [
+    "Bloodrider of Khal Drogo"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

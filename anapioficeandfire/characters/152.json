@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/152",
+  "name": "Aubrey Ambrose",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/4"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/439",
+  "name": "House Wynch of Iron Holt",
+  "region": "Iron Islands",
+  "coatOfArms": "a bloody moon on purple",
+  "words": "",
+  "titles": [
+    "Lord of Iron Holt"
+  ],
+  "seats": [
+    "Iron Holt"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1097",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/64",
+    "http://anapioficeandfire.com/api/characters/1097"
+  ]
+}

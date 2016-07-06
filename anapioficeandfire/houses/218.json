@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/218",
+  "name": "House Kenning of Harlaw",
+  "region": "Iron Islands",
+  "coatOfArms": "Sable, issuant from a cloud bank in chief the Storm God's hand cendrée with lightning flashing from its fingertip Or",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/178",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/219"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/492",
+    "http://anapioficeandfire.com/api/characters/830",
+    "http://anapioficeandfire.com/api/characters/846"
+  ]
+}

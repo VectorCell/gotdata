@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/287",
+  "name": "Damon Shett",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "the Knight of Gull Tower",
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/350"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

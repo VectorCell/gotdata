@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1006",
+  "name": "Taena of Myr",
+  "gender": "Female",
+  "culture": "Myrish",
+  "born": "In 276 AC (roughly)",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Taena Merryweather",
+    "Myr"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/796",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/264"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

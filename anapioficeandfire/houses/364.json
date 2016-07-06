@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/364",
+  "name": "House Stokeworth of Stokeworth",
+  "region": "The Crownlands",
+  "coatOfArms": "Vert, a lamb couchant argent holding a goblet or",
+  "words": "Proud to be Faithful",
+  "titles": [
+    "Lord of Stokeworth"
+  ],
+  "seats": [
+    "Stokeworth"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/638",
+  "heir": "http://anapioficeandfire.com/api/characters/2043",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/217",
+    "http://anapioficeandfire.com/api/characters/391",
+    "http://anapioficeandfire.com/api/characters/392",
+    "http://anapioficeandfire.com/api/characters/638",
+    "http://anapioficeandfire.com/api/characters/1010",
+    "http://anapioficeandfire.com/api/characters/2043"
+  ]
+}

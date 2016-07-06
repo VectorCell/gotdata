@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/419",
+  "name": "Germund Botley",
+  "gender": "Male",
+  "culture": "Ironborn",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Lordsport"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/36"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

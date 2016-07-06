@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/965",
+  "name": "Selmond Stackspear",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/359"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

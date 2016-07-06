@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/34",
+  "name": "Addison Hill",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Cornfield",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Lord Commander of the Kingsguard"
+  ],
+  "aliases": [
+    "The Bastard of Cornfield"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/374"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

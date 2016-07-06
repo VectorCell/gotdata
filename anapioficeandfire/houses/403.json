@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/403",
+  "name": "House Vaith of the Red Dunes",
+  "region": "Dorne",
+  "coatOfArms": "Tenny, on a pile Or three leopards statant sable",
+  "words": "",
+  "titles": [
+    "Lord of the Red Dunes"
+  ],
+  "seats": [
+    "Vaith"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/277",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "Andal Invasion",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/231",
+    "http://anapioficeandfire.com/api/characters/277"
+  ]
+}

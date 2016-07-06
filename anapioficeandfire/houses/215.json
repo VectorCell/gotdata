@@ -1,0 +1,34 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/215",
+  "name": "House Karstark of Karhold",
+  "region": "The North",
+  "coatOfArms": "Sable, a sunburst argent",
+  "words": "The Sun of Winter",
+  "titles": [
+    "Lord of Karhold"
+  ],
+  "seats": [
+    "Karhold"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/476",
+  "heir": "http://anapioficeandfire.com/api/characters/96",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "One thousand years ago",
+  "founder": "http://anapioficeandfire.com/api/characters/603",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/96",
+    "http://anapioficeandfire.com/api/characters/97",
+    "http://anapioficeandfire.com/api/characters/98",
+    "http://anapioficeandfire.com/api/characters/134",
+    "http://anapioficeandfire.com/api/characters/140",
+    "http://anapioficeandfire.com/api/characters/258",
+    "http://anapioficeandfire.com/api/characters/338",
+    "http://anapioficeandfire.com/api/characters/476",
+    "http://anapioficeandfire.com/api/characters/603",
+    "http://anapioficeandfire.com/api/characters/884",
+    "http://anapioficeandfire.com/api/characters/1033"
+  ]
+}

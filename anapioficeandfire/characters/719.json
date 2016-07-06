@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/719",
+  "name": "Maron Nymeros Martell",
+  "gender": "Male",
+  "culture": "Dornish",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Prince of Dorne"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/271",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/285"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

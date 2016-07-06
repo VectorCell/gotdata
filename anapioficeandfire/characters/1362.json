@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1362",
+  "name": "Elia Sand",
+  "gender": "Female",
+  "culture": "Dornishmen",
+  "born": "In 285 AC or 286 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "El",
+    "Lady Lance"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/285"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

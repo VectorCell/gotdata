@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/352",
+  "name": "House Slate of Blackpool",
+  "region": "The North",
+  "coatOfArms": "Pale grey, a double tressure white",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Blackpool"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1498"
+  ]
+}

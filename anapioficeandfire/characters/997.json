@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/997",
+  "name": "Sybell Spicer",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of the Crag"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/413",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/357",
+    "http://anapioficeandfire.com/api/houses/425"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

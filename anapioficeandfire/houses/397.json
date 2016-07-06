@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/397",
+  "name": "House Tyrell of Brightwater Keep",
+  "region": "The Reach",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "Lord of Brightwater Keep"
+  ],
+  "seats": [
+    "Brightwater Keep (disputed by House Florent)"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/401",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "299 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/401",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/401",
+    "http://anapioficeandfire.com/api/characters/1618"
+  ]
+}

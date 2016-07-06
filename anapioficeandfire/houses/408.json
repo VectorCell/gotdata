@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/408",
+  "name": "House Vikary",
+  "region": "The Westerlands",
+  "coatOfArms": "Quarterly: a red boar's head on a white field; beneath a gold bend sinister, a silver lion rampant regardant with a forked tail, with gold teeth and claws, on a red field(Quarterly, first and fourth, argent, a boar's head couped gules, second and third, gules, a lion rampant regardant queue-forché argent, armed and langued or, debruised by a bend sinister of the last)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/676",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/676"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/387",
+  "name": "House Toland of Ghost Hill",
+  "region": "Dorne",
+  "coatOfArms": "Or, a dragon biting its tail vert",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Ghost Hill"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/781",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/781"
+  ]
+}

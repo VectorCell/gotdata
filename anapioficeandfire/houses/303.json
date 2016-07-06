@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/303",
+  "name": "House Plumm",
+  "region": "The Westerlands",
+  "coatOfArms": "Three purple roundels, on a gold field(Or, three golpes)",
+  "words": "Come Try Me",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/826",
+  "heir": "http://anapioficeandfire.com/api/characters/299",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/299",
+    "http://anapioficeandfire.com/api/characters/485",
+    "http://anapioficeandfire.com/api/characters/732",
+    "http://anapioficeandfire.com/api/characters/803",
+    "http://anapioficeandfire.com/api/characters/822",
+    "http://anapioficeandfire.com/api/characters/826",
+    "http://anapioficeandfire.com/api/characters/1078",
+    "http://anapioficeandfire.com/api/characters/1358"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/428",
+  "name": "Glendon Flowers",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 196 AC",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Glendon Ball",
+    "The Knight of the Pussywillows",
+    "Glendon the Bastard"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

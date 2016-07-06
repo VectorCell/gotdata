@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/871",
+  "name": "Rhaena Targaryen",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 116 AC, at Pentos",
+  "died": "",
+  "titles": [
+    "Lady"
+  ],
+  "aliases": [
+    "Rhaena of Pentos"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/255",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/81",
+    "http://anapioficeandfire.com/api/houses/195",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

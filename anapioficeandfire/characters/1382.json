@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1382",
+  "name": "Falia Flowers",
+  "gender": "Female",
+  "culture": "",
+  "born": "In either 281 AC, 282 AC or 283 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/194"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

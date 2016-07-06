@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/354",
+  "name": "House Slynt of Harrenhal",
+  "region": "None",
+  "coatOfArms": "A bloody gold spear, on a black field, within a checkered gold and black border(Sable, a spear or, tipped gules, within a bordure chequy of the field and of the second)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "None, formerly Harrenhal"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/761",
+  "heir": "http://anapioficeandfire.com/api/characters/599",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "298 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/533",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/290",
+    "http://anapioficeandfire.com/api/characters/533",
+    "http://anapioficeandfire.com/api/characters/599",
+    "http://anapioficeandfire.com/api/characters/761"
+  ]
+}

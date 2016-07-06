@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/33",
+  "name": "Addam Velaryon",
+  "gender": "Male",
+  "culture": "Valyrian",
+  "born": "In 114 AC, at Hull",
+  "died": "In 130 AC, at Tumbleton",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Addam of Hull"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378",
+    "http://anapioficeandfire.com/api/houses/407"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/116",
+  "name": "House Errol of Haystack Hall",
+  "region": "The Stormlands",
+  "coatOfArms": "A yellow haystack, on an orange field(Tenné, a haystack or)",
+  "words": "",
+  "titles": [
+    "Lord of Haystack Hall"
+  ],
+  "seats": [
+    "Haystack Hall"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/962",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/962",
+    "http://anapioficeandfire.com/api/characters/977"
+  ]
+}

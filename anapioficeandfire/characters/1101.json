@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1101",
+  "name": "Walton Stark",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "King in the North",
+    "Lord of Winterfell"
+  ],
+  "aliases": [
+    "Walton the Moon King"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/362"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/186",
+  "name": "House Hasty",
+  "region": "The Stormlands",
+  "coatOfArms": "A white bend cotised, on a purple field(Purpure, a bend cotised argent)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/200"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/85",
+  "name": "House Crabb",
+  "region": "The Crownlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "The Whispers (former)"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/241",
+    "http://anapioficeandfire.com/api/characters/244",
+    "http://anapioficeandfire.com/api/characters/942",
+    "http://anapioficeandfire.com/api/characters/1271",
+    "http://anapioficeandfire.com/api/characters/1330"
+  ]
+}

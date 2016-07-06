@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/420",
+  "name": "House Wells",
+  "region": "Dorne",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/2108"
+  ]
+}

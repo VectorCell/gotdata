@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/981",
+  "name": "Simon Leygood",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/235"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/12",
+  "name": "House Ball",
+  "region": "The Reach",
+  "coatOfArms": "Three white plates upon a chevron red on a white field",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/842"
+  ]
+}

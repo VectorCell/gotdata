@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/342",
+  "name": "House Serrett of Silverhill",
+  "region": "The Westerlands",
+  "coatOfArms": "A peacock in his pride, on a cream field(Argent, a peacock-in-his-pride proper)",
+  "words": "I Have No Rival",
+  "titles": [],
+  "seats": [
+    "Silverhill"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

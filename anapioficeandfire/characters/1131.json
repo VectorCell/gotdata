@@ -1,0 +1,34 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1131",
+  "name": "Yohn Royce",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Runestone"
+  ],
+  "aliases": [
+    "Bronze Yohn"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/328"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 4"
+  ],
+  "playedBy": [
+    "Rupert Vansittart"
+  ]
+}

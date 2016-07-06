@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/499",
+  "name": "Horton Redfort",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Redfort"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/316"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

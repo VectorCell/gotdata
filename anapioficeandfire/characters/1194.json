@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1194",
+  "name": "Becca",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "At Riverlands",
+  "titles": [],
+  "aliases": [
+    "Becca the Baker"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

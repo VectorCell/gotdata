@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/709",
+  "name": "Mariah Martell",
+  "gender": "Female",
+  "culture": "Dornish",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [
+    "Myriah Martell"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/274",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/285",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/4",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

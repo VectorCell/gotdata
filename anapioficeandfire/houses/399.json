@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/399",
+  "name": "House Uffering",
+  "region": "The Reach",
+  "coatOfArms": "Paly tenné and cendrée, upon a chief argent seven hands couped vert",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/489",
+    "http://anapioficeandfire.com/api/characters/926"
+  ]
+}

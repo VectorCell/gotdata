@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/388",
+  "name": "House Tollett of the Grey Glen",
+  "region": "The Vale",
+  "coatOfArms": "Pily grey and black(Pily cendrée and sable)",
+  "words": "When All is Darkest",
+  "titles": [
+    "Lord of the Grey Glen"
+  ],
+  "seats": [
+    "The Grey Glen"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1064",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/328",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/341",
+    "http://anapioficeandfire.com/api/characters/1064"
+  ]
+}

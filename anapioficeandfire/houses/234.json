@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/234",
+  "name": "House Lefford of the Golden Tooth",
+  "region": "The Westerlands",
+  "coatOfArms": "A golden inverted pile on a sky-blue field, a yellow sun in the first(Bleu celeste, a pile reversed or, in canton a sun-in-splendor of the same)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Golden Tooth"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/103",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "Andal invasion",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/103",
+    "http://anapioficeandfire.com/api/characters/622",
+    "http://anapioficeandfire.com/api/characters/628",
+    "http://anapioficeandfire.com/api/characters/773",
+    "http://anapioficeandfire.com/api/characters/1633"
+  ]
+}

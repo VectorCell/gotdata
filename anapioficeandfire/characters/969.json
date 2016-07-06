@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/969",
+  "name": "Serwyn",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser (in songs and tales)"
+  ],
+  "aliases": [
+    "Serwyn of the Mirror Shield"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/4",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

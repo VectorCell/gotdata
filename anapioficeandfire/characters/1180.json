@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1180",
+  "name": "Azzak",
+  "gender": "Male",
+  "culture": "Ghiscari",
+  "born": "At Meereen",
+  "died": "",
+  "titles": [
+    "Cupbearer"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

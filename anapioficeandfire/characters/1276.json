@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1276",
+  "name": "Clifford Conklyn",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/79"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

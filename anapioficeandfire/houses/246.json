@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/246",
+  "name": "House Lothston of Harrenhal",
+  "region": "The Riverlands",
+  "coatOfArms": "A black bat on a field per bend, silver and gold(Per bend argent and or, a bat displayed sable\")",
+  "words": "",
+  "titles": [
+    "Lord of Harrenhal"
+  ],
+  "seats": [
+    "Harrenhal"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "151 AC (House Lothston of Harrenhal)",
+  "founder": "http://anapioficeandfire.com/api/characters/656",
+  "diedOut": "After 212 AC",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/289",
+    "http://anapioficeandfire.com/api/characters/391",
+    "http://anapioficeandfire.com/api/characters/554",
+    "http://anapioficeandfire.com/api/characters/656",
+    "http://anapioficeandfire.com/api/characters/703",
+    "http://anapioficeandfire.com/api/characters/706"
+  ]
+}

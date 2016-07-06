@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1291",
+  "name": "Craghas Drahar",
+  "gender": "Male",
+  "culture": "Myrish",
+  "born": "",
+  "died": "In 108 AC",
+  "titles": [],
+  "aliases": [
+    "Craghas Crabfeeder"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/10"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

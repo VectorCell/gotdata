@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/151",
+  "name": "House Goodbrook",
+  "region": "The Riverlands",
+  "coatOfArms": "A blue wavy bend, on a gold field(Or, a bend wavy azure)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/673",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/404",
+    "http://anapioficeandfire.com/api/characters/553",
+    "http://anapioficeandfire.com/api/characters/673",
+    "http://anapioficeandfire.com/api/characters/1094"
+  ]
+}

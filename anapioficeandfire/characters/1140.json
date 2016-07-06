@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1140",
+  "name": "Aethelmure",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Grand Maester"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

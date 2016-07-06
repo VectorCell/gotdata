@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/313",
+  "name": "House Rambton",
+  "region": "The Crownlands",
+  "coatOfArms": "Gules, a ram's head cabossed argent attired or",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/372",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/507"
+  ]
+}

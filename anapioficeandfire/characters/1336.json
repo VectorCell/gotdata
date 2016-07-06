@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1336",
+  "name": "Donnis",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/362"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

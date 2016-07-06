@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/157",
+  "name": "Baelon Targaryen",
+  "gender": "Male",
+  "culture": "Valyrian",
+  "born": "In or between 53 AC and 64 AC",
+  "died": "In 101 AC",
+  "titles": [
+    "Prince of Dragonstone",
+    "Hand of the King"
+  ],
+  "aliases": [
+    "Baelon the Brave",
+    "The Spring Prince"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/109",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

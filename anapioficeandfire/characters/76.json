@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/76",
+  "name": "Alicent Hightower",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 88 AC",
+  "died": "In 133 AC",
+  "titles": [
+    "Lady",
+    "Queen",
+    "Dowager Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1076",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/195",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/372",
+  "name": "House Sunglass of Sweetport Sound",
+  "region": "The Crownlands",
+  "coatOfArms": "Argent, seven mullets of seven points or",
+  "words": "",
+  "titles": [
+    "Lord of Sweetport Sound"
+  ],
+  "seats": [
+    "Sweetport Sound"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/443",
+    "http://anapioficeandfire.com/api/characters/2032"
+  ]
+}

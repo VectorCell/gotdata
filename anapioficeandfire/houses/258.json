@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/258",
+  "name": "House Marbrand of Ashemark",
+  "region": "The Westerlands",
+  "coatOfArms": "An orange burning tree, on a smoky field(Cendrée, a tree in flame tenné)",
+  "words": "Burning bright",
+  "titles": [],
+  "seats": [
+    "Ashemark"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/285",
+  "heir": "http://anapioficeandfire.com/api/characters/31",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/31",
+    "http://anapioficeandfire.com/api/characters/285",
+    "http://anapioficeandfire.com/api/characters/292",
+    "http://anapioficeandfire.com/api/characters/556",
+    "http://anapioficeandfire.com/api/characters/646"
+  ]
+}

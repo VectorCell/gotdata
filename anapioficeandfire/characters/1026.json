@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1026",
+  "name": "Tion Lannister",
+  "gender": "Male",
+  "culture": "",
+  "born": "In or between 211 AC and 219 AC",
+  "died": "In 236 AC, at the Wendwater",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/367",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

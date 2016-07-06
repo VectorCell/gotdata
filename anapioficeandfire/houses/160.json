@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/160",
+  "name": "House Grafton of Gulltown",
+  "region": "The Vale",
+  "coatOfArms": "A yellow tower, burning, on a black pile, on a flame-red field(Gules, on a pile sable a tower or with flames issuant from the battlements proper)",
+  "words": "",
+  "titles": [
+    "Lord of Gulltown"
+  ],
+  "seats": [
+    "Gulltown"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/420",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/420",
+    "http://anapioficeandfire.com/api/characters/456",
+    "http://anapioficeandfire.com/api/characters/1673"
+  ]
+}

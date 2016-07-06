@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/386",
+  "name": "House Thorne",
+  "region": "The Crownlands",
+  "coatOfArms": "Gules, a flail argent within an bordure rayonne sable",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/79",
+    "http://anapioficeandfire.com/api/characters/888"
+  ]
+}

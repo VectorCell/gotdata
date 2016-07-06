@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/437",
+  "name": "House Wyl of the Boneway",
+  "region": "Dorne",
+  "coatOfArms": "A black adder biting a heel on yellow",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Wyl"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

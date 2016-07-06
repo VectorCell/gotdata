@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1040",
+  "name": "Tristifer IV Mudd",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "King of the Rivers and the Hills"
+  ],
+  "aliases": [
+    "The Hammer of Justice"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

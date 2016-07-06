@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/305",
+  "name": "House Poole",
+  "region": "The North",
+  "coatOfArms": "White, a roundel azure, a tressure cendrée",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/557",
+    "http://anapioficeandfire.com/api/characters/1069"
+  ]
+}

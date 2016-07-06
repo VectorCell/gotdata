@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/467",
+  "name": "Harlen Tyrell",
+  "gender": "Male",
+  "culture": "Reach",
+  "born": "",
+  "died": "In 5 AC, at Dorne",
+  "titles": [
+    "High Steward of Highgarden",
+    "Lord Paramount of the Mander",
+    "Lord of Highgarden",
+    "Warden of the South"
+  ],
+  "aliases": [
+    "Harlan Tyrell"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/398"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

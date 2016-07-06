@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/190",
+  "name": "House Heddle",
+  "region": "The Riverlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1554",
+    "http://anapioficeandfire.com/api/characters/2021"
+  ]
+}

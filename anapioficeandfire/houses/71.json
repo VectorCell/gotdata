@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/71",
+  "name": "House Chyttering",
+  "region": "The Crownlands",
+  "coatOfArms": "Three golden enhanced bendlets on a white shield(Argent, three bendlets enhanced or)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Chyttering"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/663",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/663"
+  ]
+}

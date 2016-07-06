@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/6",
+  "name": "House Arryn of Gulltown",
+  "region": "The Vale",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Gulltown"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

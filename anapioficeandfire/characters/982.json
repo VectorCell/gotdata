@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/982",
+  "name": "Simon Staunton",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1891",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/363"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/897",
+  "name": "Robert Brax",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 290 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/40"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

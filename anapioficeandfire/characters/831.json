@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/831",
+  "name": "Qarlton Chelsted",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 283 AC, at King's Landing",
+  "titles": [
+    "Lord",
+    "Master of Coin",
+    "Hand of the King"
+  ],
+  "aliases": [
+    "The mace-and-dagger Hand"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/69"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

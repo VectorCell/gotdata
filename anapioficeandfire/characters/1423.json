@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1423",
+  "name": "Gerrick",
+  "gender": "Male",
+  "culture": "Free folk",
+  "born": "",
+  "died": "",
+  "titles": [
+    "King of the Wildlings"
+  ],
+  "aliases": [
+    "Gerrick Kingsblood"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/314"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

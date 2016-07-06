@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/343",
+  "name": "Edgerran Oakheart",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord"
+  ],
+  "aliases": [
+    "Edgerran the Open-Handed"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/286"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

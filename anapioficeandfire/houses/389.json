@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/389",
+  "name": "House Torrent of Littlesister",
+  "region": "The Vale",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "Lord of Littlesister"
+  ],
+  "seats": [
+    "Littlesister"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1150",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/370",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1150"
+  ]
+}

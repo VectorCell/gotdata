@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/781",
+  "name": "Nymella Toland",
+  "gender": "Female",
+  "culture": "Dornish",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Ghost Hill"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/387"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

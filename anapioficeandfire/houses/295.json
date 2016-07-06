@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/295",
+  "name": "House Payne",
+  "region": "The Westerlands",
+  "coatOfArms": "Gold coins in the checks of a checkered purple and white field(Chequy purpure and argent, each chequer charged with a bezant)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/233",
+    "http://anapioficeandfire.com/api/characters/521",
+    "http://anapioficeandfire.com/api/characters/827"
+  ]
+}

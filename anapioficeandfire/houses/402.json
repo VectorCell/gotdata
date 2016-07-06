@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/402",
+  "name": "House Upcliff",
+  "region": "The Vale",
+  "coatOfArms": "A cresting sea-green wave, on a black field(Sable, a wave cresting vert)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Witch Isle"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

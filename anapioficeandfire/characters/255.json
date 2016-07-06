@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/255",
+  "name": "Corwyn Corbray",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 134 AC, at Runestone",
+  "titles": [
+    "Ser",
+    "Lord Regent"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/871",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/81"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,32 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1106",
+  "name": "Wendel Manderly",
+  "gender": "Male",
+  "culture": "",
+  "born": "In or between 254 AC and 263 AC, at White Harbor",
+  "died": "In 299 AC, at the Twins",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/255"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 3"
+  ],
+  "playedBy": [
+    "Oddie Braddell"
+  ]
+}

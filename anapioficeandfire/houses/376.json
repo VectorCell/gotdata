@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/376",
+  "name": "House Tallhart of Torrhen's Square",
+  "region": "The North",
+  "coatOfArms": "Tenny, three sentinel trees vert",
+  "words": "Proud and Free",
+  "titles": [
+    "Master of Torrhen's Square"
+  ],
+  "seats": [
+    "Torrhen's Square"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/337",
+  "heir": "http://anapioficeandfire.com/api/characters/214",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/179",
+    "http://anapioficeandfire.com/api/characters/188",
+    "http://anapioficeandfire.com/api/characters/189",
+    "http://anapioficeandfire.com/api/characters/214",
+    "http://anapioficeandfire.com/api/characters/337",
+    "http://anapioficeandfire.com/api/characters/490",
+    "http://anapioficeandfire.com/api/characters/625"
+  ]
+}

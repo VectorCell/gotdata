@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/126",
+  "name": "Archibald Yronwood",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Big Man",
+    "Ser Greenguts"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/444"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

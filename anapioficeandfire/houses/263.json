@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/263",
+  "name": "House Merlyn of Pebbleton",
+  "region": "Iron Islands",
+  "coatOfArms": "Argent, Twining waterspouts vert",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Pebbleton"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/740"
+  ]
+}

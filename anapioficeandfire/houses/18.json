@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/18",
+  "name": "House Beesbury of Honeyholt",
+  "region": "The Reach",
+  "coatOfArms": "Paly or and sable, on a pale of the last three beehives of the first",
+  "words": "Beware our Sting",
+  "titles": [],
+  "seats": [
+    "Honeyholt"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1103",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/195",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/366",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/94",
+    "http://anapioficeandfire.com/api/characters/187",
+    "http://anapioficeandfire.com/api/characters/193",
+    "http://anapioficeandfire.com/api/characters/366",
+    "http://anapioficeandfire.com/api/characters/509",
+    "http://anapioficeandfire.com/api/characters/513",
+    "http://anapioficeandfire.com/api/characters/549",
+    "http://anapioficeandfire.com/api/characters/671",
+    "http://anapioficeandfire.com/api/characters/1103"
+  ]
+}

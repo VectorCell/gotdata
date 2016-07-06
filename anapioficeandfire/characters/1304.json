@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1304",
+  "name": "Daeryssa",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

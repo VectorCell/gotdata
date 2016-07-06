@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/51",
+  "name": "Aemon Costayne",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/83"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

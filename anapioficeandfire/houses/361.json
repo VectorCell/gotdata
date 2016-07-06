@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/361",
+  "name": "House Stane of Driftwood Hall",
+  "region": "The North",
+  "coatOfArms": "A driftwood tree, bare and brown, on pale green",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Driftwood Hall"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

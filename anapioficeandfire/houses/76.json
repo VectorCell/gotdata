@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/76",
+  "name": "House Coldwater of Coldwater Burn",
+  "region": "The Vale",
+  "coatOfArms": "A blue pall with white borders, on a red field(Gules, a pall azure, fimbriated argent)",
+  "words": "",
+  "titles": [
+    "Lord of Coldwater Burn"
+  ],
+  "seats": [
+    "Coldwater Burn"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/939",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/328",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/939"
+  ]
+}

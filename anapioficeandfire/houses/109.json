@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/109",
+  "name": "House Durrandon",
+  "region": "The Stormlands",
+  "coatOfArms": "A black crowned stag, on a gold field(Or, a stag salient, crowned, sable)",
+  "words": "Ours is the Fury",
+  "titles": [
+    "Storm King"
+  ],
+  "seats": [
+    "Storm's End"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "",
+  "founded": "Age of Heroes",
+  "founder": "http://anapioficeandfire.com/api/characters/333",
+  "diedOut": "1 AC",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/17",
+    "http://anapioficeandfire.com/api/houses/33",
+    "http://anapioficeandfire.com/api/houses/423"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/128",
+    "http://anapioficeandfire.com/api/characters/1361"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/963",
+  "name": "Sebaston Farman",
+  "gender": "Male",
+  "culture": "Westerman",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Fair Isle"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/120"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/903",
+  "name": "Robett Glover",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "At Deepwood Motte",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/998",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/150"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/129",
+  "name": "House Flint  of the mountains",
+  "region": "The North",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "The Flint",
+    "Lord Flint"
+  ],
+  "seats": [
+    "northern mountains"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/2023",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/131",
+    "http://anapioficeandfire.com/api/houses/132"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1175",
+    "http://anapioficeandfire.com/api/characters/2023"
+  ]
+}

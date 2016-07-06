@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/242",
+  "name": "Clarent Crakehall",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Crakehall",
+  "died": "In 130 AC, at Gods Eye",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/86"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

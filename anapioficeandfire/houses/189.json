@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/189",
+  "name": "House Hayford of Hayford",
+  "region": "The Crownlands",
+  "coatOfArms": "Green fretty over gold, a green pale wavy",
+  "words": "",
+  "titles": [
+    "Lord of Hayford"
+  ],
+  "seats": [
+    "Hayford"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/382",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/382"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/471",
+  "name": "Harmond Umber",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of the Last Hearth"
+  ],
+  "aliases": [
+    "The Drunken Giant"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/401"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

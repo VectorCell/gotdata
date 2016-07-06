@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/202",
+  "name": "House Hornwood of Hornwood",
+  "region": "The North",
+  "coatOfArms": "Tenny, a bull moose trippant proper",
+  "words": "Righteous in Wrath",
+  "titles": [
+    "Lord of the Hornwood"
+  ],
+  "seats": [
+    "Hornwood"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/189",
+    "http://anapioficeandfire.com/api/characters/293",
+    "http://anapioficeandfire.com/api/characters/317",
+    "http://anapioficeandfire.com/api/characters/463",
+    "http://anapioficeandfire.com/api/characters/617"
+  ]
+}

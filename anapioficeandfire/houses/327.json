@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/327",
+  "name": "House Roxton of the Ring",
+  "region": "The Reach",
+  "coatOfArms": "Bleu celeste, per saltire a chain of rings Or",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "The Ring"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [
+    "Orphan-Maker"
+  ],
+  "cadetBranches": [],
+  "swornMembers": []
+}

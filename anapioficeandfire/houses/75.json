@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/75",
+  "name": "House Codd",
+  "region": "Iron Islands",
+  "coatOfArms": "",
+  "words": "Though All Men Do Despise Us",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/358",
+    "http://anapioficeandfire.com/api/characters/653"
+  ]
+}

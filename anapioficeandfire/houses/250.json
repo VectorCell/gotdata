@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/250",
+  "name": "House Lydden of Deep Den",
+  "region": "The Westerlands",
+  "coatOfArms": "A white badger on a per pale green and brown field(Per pale vert and tenné, a badger passant argent)",
+  "words": "",
+  "titles": [
+    "Lord of the Deep Den"
+  ],
+  "seats": [
+    "Deep Den"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/632",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/555",
+    "http://anapioficeandfire.com/api/characters/632"
+  ]
+}

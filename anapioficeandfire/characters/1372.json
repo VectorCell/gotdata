@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1372",
+  "name": "Erik Ironmaker",
+  "gender": "Male",
+  "culture": "Ironborn",
+  "born": "In 211 AC or 212 AC",
+  "died": "",
+  "titles": [
+    "Lord Steward of the Iron Islands",
+    "Castellan of Pyke"
+  ],
+  "aliases": [
+    "Erik the Just",
+    "Erik Anvil-Breaker"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/150",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/169",
+    "http://anapioficeandfire.com/api/houses/210"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

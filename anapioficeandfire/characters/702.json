@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/702",
+  "name": "Manfred Dondarrion",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/102"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

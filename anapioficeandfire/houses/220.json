@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/220",
+  "name": "House Kettleblack",
+  "region": "The Crownlands",
+  "coatOfArms": "Gules, a kettle within an orle sable",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/799",
+    "http://anapioficeandfire.com/api/characters/801",
+    "http://anapioficeandfire.com/api/characters/802",
+    "http://anapioficeandfire.com/api/characters/804"
+  ]
+}

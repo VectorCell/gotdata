@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/79",
+  "name": "House Conklyn",
+  "region": "The Reach",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1276"
+  ]
+}

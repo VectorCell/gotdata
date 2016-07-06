@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/19",
+  "name": "House Belmore of Strongsong",
+  "region": "The Vale",
+  "coatOfArms": "Six silver bells, 3, 2, 1, on a purple field(Purpure, six bells, 3, 2, 1, argent)",
+  "words": "",
+  "titles": [
+    "Lord of Strongsong"
+  ],
+  "seats": [
+    "Strongsong"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/176",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/176",
+    "http://anapioficeandfire.com/api/characters/727"
+  ]
+}

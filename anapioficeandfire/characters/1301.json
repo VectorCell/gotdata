@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1301",
+  "name": "Daemon Sand",
+  "gender": "Male",
+  "culture": "Dornish",
+  "born": "In 275 or 276 AC",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Bastard of Godsgrace"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/2"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 4"
+  ],
+  "playedBy": []
+}

@@ -1,0 +1,34 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/635",
+  "name": "Leyton Hightower",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of the Hightower",
+    "Lord of the Port",
+    "Voice of Oldtown",
+    "Defender of the Citadel",
+    "Beacon of the South"
+  ],
+  "aliases": [
+    "Old Man of Oldtown"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/877",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/195"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

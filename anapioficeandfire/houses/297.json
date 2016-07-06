@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/297",
+  "name": "House Peasebury of Poddingfield",
+  "region": "The Stormlands",
+  "coatOfArms": "A green pea pod, burst open, on a white field, bordered by three rows of green peas(Argent, a pea pod open within a bordure of three rows of peas vert)",
+  "words": "",
+  "titles": [
+    "Lord of Poddingfield"
+  ],
+  "seats": [
+    "Poddingfield"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/908",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/908"
+  ]
+}

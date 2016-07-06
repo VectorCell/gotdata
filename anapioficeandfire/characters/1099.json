@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1099",
+  "name": "Walter Whent",
+  "gender": "Male",
+  "culture": "Rivermen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Harrenhal"
+  ],
+  "aliases": [
+    "Old Lord Whent"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/972",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/427"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

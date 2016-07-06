@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1189",
+  "name": "Barsena",
+  "gender": "Female",
+  "culture": "Ghiscari",
+  "born": "In 270 AC (roughly)",
+  "died": "In 300 AC, at Meereen",
+  "titles": [],
+  "aliases": [
+    "Barsena Blackhair"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

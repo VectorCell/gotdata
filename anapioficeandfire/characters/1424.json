@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1424",
+  "name": "Gerris Drinkwater",
+  "gender": "Male",
+  "culture": "Dornish",
+  "born": "In 275 AC",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Drink",
+    "Dornish Gerrold"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/104"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

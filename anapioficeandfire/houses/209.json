@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/209",
+  "name": "House Inchfield",
+  "region": "The Reach",
+  "coatOfArms": "Cendrée, a bend sinister chequy sable and argent",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/655",
+    "http://anapioficeandfire.com/api/characters/810"
+  ]
+}

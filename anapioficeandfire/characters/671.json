@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/671",
+  "name": "Lyman Beesbury",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 48 AC or 49 AC",
+  "died": "In 129 AC, at King's Landing",
+  "titles": [
+    "Lord",
+    "Master of coin"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/18"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

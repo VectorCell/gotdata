@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/878",
+  "name": "Rhea Royce",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "In 115 AC, at The Vale",
+  "titles": [
+    "Lady of Runestone"
+  ],
+  "aliases": [
+    "Bronze Bitch"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/269",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/328"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

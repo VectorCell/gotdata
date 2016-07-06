@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/920",
+  "name": "Rohanne",
+  "gender": "Female",
+  "culture": "Tyroshi",
+  "born": "",
+  "died": "In or after 211 AC",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/267",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/23"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/83",
+  "name": "House Costayne of Three Towers",
+  "region": "The Reach",
+  "coatOfArms": "Quarterly; sable, a chalice argent; or, a rose sable",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Three Towers"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1030",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/195",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/51",
+    "http://anapioficeandfire.com/api/characters/1028",
+    "http://anapioficeandfire.com/api/characters/1030"
+  ]
+}

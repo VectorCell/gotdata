@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1243",
+  "name": "Bump",
+  "gender": "Male",
+  "culture": "Free folk",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

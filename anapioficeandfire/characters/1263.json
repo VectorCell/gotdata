@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1263",
+  "name": "Cerrick",
+  "gender": "Male",
+  "culture": "Ironborn",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Maester"
+  ],
+  "aliases": [
+    "The Grey Pup"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/419"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

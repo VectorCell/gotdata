@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/348",
+  "name": "House Shepherd",
+  "region": "Iron Islands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1300",
+    "http://anapioficeandfire.com/api/characters/1834"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/270",
+  "name": "Daena Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 145 AC, at King's Landing",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [
+    "Daena the Defiant"
+  ],
+  "father": "http://anapioficeandfire.com/api/characters/40",
+  "mother": "http://anapioficeandfire.com/api/characters/1302",
+  "spouse": "http://anapioficeandfire.com/api/characters/160",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/71",
+  "name": "Alesander Staedmon",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Broad Arch"
+  ],
+  "aliases": [
+    "the Pennylover"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/360"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

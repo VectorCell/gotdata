@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/175",
+  "name": "Ben Plumm",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Commander of the Second Sons"
+  ],
+  "aliases": [
+    "Brown Ben Plumm"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/655",
+  "name": "Lucas Inchfield",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 211 AC, at the Chequy Water",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Lucas the Longinch"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/209",
+    "http://anapioficeandfire.com/api/houses/419"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

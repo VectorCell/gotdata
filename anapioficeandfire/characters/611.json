@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/611",
+  "name": "Laenor Velaryon.",
+  "gender": "Male",
+  "culture": "Valyrian",
+  "born": "In 94 AC",
+  "died": "In 120 AC, at Spicetown",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/874",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378",
+    "http://anapioficeandfire.com/api/houses/407"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

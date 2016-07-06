@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1324",
+  "name": "Denyo Terys",
+  "gender": "Male",
+  "culture": "Braavosi",
+  "born": "In 287 AC or 288 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

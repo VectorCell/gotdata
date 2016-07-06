@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/870",
+  "name": "Rhaelle Targaryen",
+  "gender": "Female",
+  "culture": "",
+  "born": "In or between 229 AC and 233 AC",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/794",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/17",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

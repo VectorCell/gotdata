@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/136",
+  "name": "House Foote of Nightsong",
+  "region": "The Stormlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "Lord of Nightsong",
+    "Lord of the Marches"
+  ],
+  "seats": [
+    "Nightsong"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/825",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "299 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/825",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/825"
+  ]
+}

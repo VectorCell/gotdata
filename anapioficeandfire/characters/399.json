@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/399",
+  "name": "Galtry the Green",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/999",
+  "name": "Sylva Santagar",
+  "gender": "Female",
+  "culture": "Dornish",
+  "born": "In 276 AC or 277 AC, at Spottswood",
+  "died": "",
+  "titles": [
+    "Lady of Greenstone"
+  ],
+  "aliases": [
+    "Spotted Sylva"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/357",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/117",
+    "http://anapioficeandfire.com/api/houses/337"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/769",
+  "name": "Mylenda Caron",
+  "gender": "Female",
+  "culture": "",
+  "born": "In or between 258 AC and 265 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/824",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/60",
+    "http://anapioficeandfire.com/api/houses/143"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

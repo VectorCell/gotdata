@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/221",
+  "name": "House Kidwell of Ivy Hall",
+  "region": "The Reach",
+  "coatOfArms": "Cendrée masoned sable, semy of ivy leaves vert",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Ivy Hall"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

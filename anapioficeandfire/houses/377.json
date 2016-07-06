@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/377",
+  "name": "House Tarbeck of Tarbeck Hall",
+  "region": "The Westerlands",
+  "coatOfArms": "A seven-pointed star, parts silver parts blue, on a silver and blue field(Gyronny argent and azure, a star of seven points counterchanged)",
+  "words": "",
+  "titles": [
+    "Lord of Tarbeck Hall"
+  ],
+  "seats": [
+    "Tarbeck Hall"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "261 AC",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/90",
+    "http://anapioficeandfire.com/api/characters/367",
+    "http://anapioficeandfire.com/api/characters/560"
+  ]
+}

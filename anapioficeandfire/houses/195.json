@@ -1,0 +1,49 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/195",
+  "name": "House Hightower of the Hightower",
+  "region": "The Reach",
+  "coatOfArms": "Cendrée, a tower argent with a beacon on fire gules",
+  "words": "We Light the Way",
+  "titles": [
+    "Lord of the Hightower",
+    "Lord of the Port",
+    "Voice of Oldtown",
+    "Defender of the Citadel",
+    "Beacon of the South",
+    "King of the High Tower (formerly)"
+  ],
+  "seats": [
+    "The Hightower, Oldtown"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/635",
+  "heir": "http://anapioficeandfire.com/api/characters/159",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "Age of Dawn",
+  "founder": "http://anapioficeandfire.com/api/characters/2062",
+  "diedOut": "",
+  "ancestralWeapons": [
+    "Vigilance"
+  ],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/29",
+    "http://anapioficeandfire.com/api/characters/69",
+    "http://anapioficeandfire.com/api/characters/76",
+    "http://anapioficeandfire.com/api/characters/102",
+    "http://anapioficeandfire.com/api/characters/159",
+    "http://anapioficeandfire.com/api/characters/239",
+    "http://anapioficeandfire.com/api/characters/305",
+    "http://anapioficeandfire.com/api/characters/407",
+    "http://anapioficeandfire.com/api/characters/421",
+    "http://anapioficeandfire.com/api/characters/444",
+    "http://anapioficeandfire.com/api/characters/449",
+    "http://anapioficeandfire.com/api/characters/634",
+    "http://anapioficeandfire.com/api/characters/635",
+    "http://anapioficeandfire.com/api/characters/678",
+    "http://anapioficeandfire.com/api/characters/808",
+    "http://anapioficeandfire.com/api/characters/840",
+    "http://anapioficeandfire.com/api/characters/871",
+    "http://anapioficeandfire.com/api/characters/877",
+    "http://anapioficeandfire.com/api/characters/940"
+  ]
+}

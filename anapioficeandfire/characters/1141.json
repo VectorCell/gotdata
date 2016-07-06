@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1141",
+  "name": "Aggar",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 299 AC, at Winterfell",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/169"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

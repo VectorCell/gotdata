@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1203",
+  "name": "Bellegere Otherys",
+  "gender": "Female",
+  "culture": "Braavosi",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Black Pearl",
+    "Brown Pearl"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

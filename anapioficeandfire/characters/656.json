@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/656",
+  "name": "Lucas Lothston",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Harrenhal",
+    "Hand of the King"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/391",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/246"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

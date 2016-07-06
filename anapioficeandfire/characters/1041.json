@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1041",
+  "name": "Tristifer V",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "King of the Rivers and the Hills"
+  ],
+  "aliases": [
+    "Tristifer the Last"
+  ],
+  "father": "http://anapioficeandfire.com/api/characters/1040",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

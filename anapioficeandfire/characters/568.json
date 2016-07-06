@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/568",
+  "name": "Johanna Lannister",
+  "gender": "Female",
+  "culture": "",
+  "born": "At the Crag",
+  "died": "",
+  "titles": [
+    "Lady of Casterly Rock"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/538",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229",
+    "http://anapioficeandfire.com/api/houses/425"
+  ],
+  "books": [],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

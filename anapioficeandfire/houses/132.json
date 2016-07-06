@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/132",
+  "name": "House Flint of Widow's Watch",
+  "region": "The North",
+  "coatOfArms": "Azure, semy of whitecaps argent on a chief wavy Or two eyes of the second irised of the first and pupiled sable",
+  "words": "Ever Vigilant",
+  "titles": [],
+  "seats": [
+    "Widow's Watch"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/669",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/129",
+    "http://anapioficeandfire.com/api/houses/131"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/669",
+    "http://anapioficeandfire.com/api/characters/1882"
+  ]
+}

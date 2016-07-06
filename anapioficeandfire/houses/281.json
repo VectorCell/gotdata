@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/281",
+  "name": "House Norcross",
+  "region": "The Reach",
+  "coatOfArms": "Argent, a cross embattled sable",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/73",
+    "http://anapioficeandfire.com/api/characters/172",
+    "http://anapioficeandfire.com/api/characters/296",
+    "http://anapioficeandfire.com/api/characters/500",
+    "http://anapioficeandfire.com/api/characters/545",
+    "http://anapioficeandfire.com/api/characters/863"
+  ]
+}

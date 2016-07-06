@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/830",
+  "name": "Qarl Kenning",
+  "gender": "Male",
+  "culture": "Ironborn",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Queer Qarl Kenning"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/218"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

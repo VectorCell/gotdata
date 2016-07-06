@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1239",
+  "name": "Bryan of Oldtown",
+  "gender": "Male",
+  "culture": "Reach",
+  "born": "At Oldtown",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/322",
+  "name": "House Rogers of Amberly",
+  "region": "The Stormlands",
+  "coatOfArms": "Nine silver unicorns around a silver maze, on a black field(Sable, a maze surrounded by an orle of nine unicorns rampant argent)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Amberly"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

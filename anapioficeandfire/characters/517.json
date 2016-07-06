@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/517",
+  "name": "Humfrey Wagstaff",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 230 AC, 231 AC or 232 AC",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Castellan of Grandview"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/161",
+    "http://anapioficeandfire.com/api/houses/413"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

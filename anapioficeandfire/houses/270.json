@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/270",
+  "name": "House Moreland",
+  "region": "The Westerlands",
+  "coatOfArms": "Per pale barry russet and green(Per pale barry tenné and vert)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/907",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/813",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/813",
+    "http://anapioficeandfire.com/api/characters/907"
+  ]
+}

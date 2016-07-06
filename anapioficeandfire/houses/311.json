@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/311",
+  "name": "House Qorgyle of Sandstone",
+  "region": "Dorne",
+  "coatOfArms": "Gules, three scorpions sable.",
+  "words": "",
+  "titles": [
+    "Lord of Sandstone"
+  ],
+  "seats": [
+    "Sandstone"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/845",
+  "heir": "http://anapioficeandfire.com/api/characters/441",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/138",
+    "http://anapioficeandfire.com/api/characters/441",
+    "http://anapioficeandfire.com/api/characters/834",
+    "http://anapioficeandfire.com/api/characters/845"
+  ]
+}

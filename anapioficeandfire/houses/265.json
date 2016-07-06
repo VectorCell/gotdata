@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/265",
+  "name": "House Mertyns of Mistwood",
+  "region": "The Stormlands",
+  "coatOfArms": "A white great horned owl on a grey field(Cendrée, a great-horned owl close affronté argent)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Mistwood"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/728",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/728",
+    "http://anapioficeandfire.com/api/characters/753"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/187",
+  "name": "House Hawick of Saltpans",
+  "region": "The Riverlands",
+  "coatOfArms": "White seabirds strewn across a blue field(Azure, semé of seabirds argent)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Saltpans"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/173"
+  ]
+}

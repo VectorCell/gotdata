@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/314",
+  "name": "House Redbeard",
+  "region": "Beyond the Wall",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "King of the Wildlings"
+  ],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1423",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "300 AC",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1423"
+  ]
+}

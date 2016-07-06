@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/599",
+  "name": "Jothos Slynt",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/354"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

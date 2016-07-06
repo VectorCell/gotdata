@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/65",
+  "name": "House Celtigar of Claw Isle",
+  "region": "The Crownlands",
+  "coatOfArms": "Argent, semy of crabs gules",
+  "words": "",
+  "titles": [
+    "Lord of Claw Isle"
+  ],
+  "seats": [
+    "Claw Isle"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/127",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "prior to ~112 years before the Conquest",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/127"
+  ]
+}

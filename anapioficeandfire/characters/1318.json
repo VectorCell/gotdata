@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1318",
+  "name": "Darla Deddings",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/100"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1487",
+  "name": "Harsley",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 299 AC, at Pennytree",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

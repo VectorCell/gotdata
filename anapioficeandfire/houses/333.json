@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/333",
+  "name": "House Ryger of Willow Wood",
+  "region": "The Riverlands",
+  "coatOfArms": "A green weeping willow, on a white field(Argent, a willow-tree vert)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Willow Wood"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/909",
+    "http://anapioficeandfire.com/api/characters/1038"
+  ]
+}

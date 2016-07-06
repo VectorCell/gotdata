@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/207",
+  "name": "House Hunter of Longbow Hall",
+  "region": "The Vale",
+  "coatOfArms": "Five silver arrows, fanned, on a brown field(Tenné, a sheaf of five arrows, points to chief, argent)",
+  "words": "",
+  "titles": [
+    "Lord of Longbow Hall"
+  ],
+  "seats": [
+    "Longbow Hall"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/426",
+  "heir": "http://anapioficeandfire.com/api/characters/387",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/380",
+    "http://anapioficeandfire.com/api/characters/387",
+    "http://anapioficeandfire.com/api/characters/426",
+    "http://anapioficeandfire.com/api/characters/466",
+    "http://anapioficeandfire.com/api/characters/534"
+  ]
+}

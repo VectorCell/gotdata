@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1008",
+  "name": "Talla Tarly",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/379"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

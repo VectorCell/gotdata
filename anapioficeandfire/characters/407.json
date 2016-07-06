@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/407",
+  "name": "Garth Hightower",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Oldtown",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Garth Greysteel"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/195"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

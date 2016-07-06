@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/142",
+  "name": "House Frey of Riverrun",
+  "region": "The Riverlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "Lord of Riverrun"
+  ],
+  "seats": [
+    "Riverrun"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/377",
+  "heir": "http://anapioficeandfire.com/api/characters/1058",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "299 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/377",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/377",
+    "http://anapioficeandfire.com/api/characters/415",
+    "http://anapioficeandfire.com/api/characters/682",
+    "http://anapioficeandfire.com/api/characters/1058",
+    "http://anapioficeandfire.com/api/characters/1092",
+    "http://anapioficeandfire.com/api/characters/1115"
+  ]
+}

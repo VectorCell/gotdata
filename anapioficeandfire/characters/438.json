@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/438",
+  "name": "Grazdan mo Eraz",
+  "gender": "Male",
+  "culture": "Ghiscari",
+  "born": "At Yunkai",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

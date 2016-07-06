@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/478",
+  "name": "Harrold Osgrey",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "At the Redgrass Field",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/291"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

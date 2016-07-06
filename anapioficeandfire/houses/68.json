@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/68",
+  "name": "House Charlton",
+  "region": "The Riverlands",
+  "coatOfArms": "Three sprigs of mistletoe, green and red, on a gold field within a green border(Or, three sprigs of mistletoe vert, fructed gules, within a bordure of the second)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/143",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/119",
+    "http://anapioficeandfire.com/api/characters/240"
+  ]
+}

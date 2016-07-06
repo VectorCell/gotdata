@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/251",
+  "name": "Colmar Frey",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 288 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/143"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

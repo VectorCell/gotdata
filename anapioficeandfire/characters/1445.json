@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1445",
+  "name": "Grey Worm",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 3",
+    "Season 4",
+    "Season 5"
+  ],
+  "playedBy": [
+    "Jacob Anderson"
+  ]
+}

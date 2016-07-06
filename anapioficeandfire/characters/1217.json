@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1217",
+  "name": "Betharios",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Betharios of Braavos"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1004",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/143"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/437",
+  "name": "Grance Morrigen",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/272"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

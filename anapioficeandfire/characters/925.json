@@ -1,0 +1,31 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/925",
+  "name": "Rolland Storm",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Castellan of Dragonstone",
+    "Lord of Nightsong (claimant)"
+  ],
+  "aliases": [
+    "The Bastard of Nightsong"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/15",
+    "http://anapioficeandfire.com/api/houses/60"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

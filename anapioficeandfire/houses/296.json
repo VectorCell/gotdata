@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/296",
+  "name": "House Peake of Starpike",
+  "region": "The Reach",
+  "coatOfArms": "Tenny, three castles sable",
+  "words": "",
+  "titles": [
+    "Lord of Starpike"
+  ],
+  "seats": [
+    "Starpike",
+    "Whitegrove (formerly)"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1027",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/431",
+    "http://anapioficeandfire.com/api/characters/708",
+    "http://anapioficeandfire.com/api/characters/1027"
+  ]
+}

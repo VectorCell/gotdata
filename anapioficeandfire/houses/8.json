@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/8",
+  "name": "House Ashford of Ashford",
+  "region": "The Reach",
+  "coatOfArms": "Tenny, a sun in splendour beneath a chevron inverted argent",
+  "words": "Our Sun Shines Bright",
+  "titles": [
+    "Lord of Ashford"
+  ],
+  "seats": [
+    "Ashford"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/121",
+    "http://anapioficeandfire.com/api/characters/641",
+    "http://anapioficeandfire.com/api/characters/895",
+    "http://anapioficeandfire.com/api/characters/1812"
+  ]
+}

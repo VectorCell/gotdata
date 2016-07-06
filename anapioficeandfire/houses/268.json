@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/268",
+  "name": "House Moore",
+  "region": "The Vale",
+  "coatOfArms": "Three bronze spearheads, on a white field, within a bronze embattled border(Argent, three spearheads within a bordure embattled tenné)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/701"
+  ]
+}

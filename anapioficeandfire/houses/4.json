@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/4",
+  "name": "House Ambrose",
+  "region": "The Reach",
+  "coatOfArms": "Or, semy of ants gules",
+  "words": "Never Resting",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/141",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/82",
+    "http://anapioficeandfire.com/api/characters/102",
+    "http://anapioficeandfire.com/api/characters/141",
+    "http://anapioficeandfire.com/api/characters/152",
+    "http://anapioficeandfire.com/api/characters/344"
+  ]
+}

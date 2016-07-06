@@ -1,0 +1,34 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/692",
+  "name": "Maege Mormont",
+  "gender": "Female",
+  "culture": "Northmen",
+  "born": "In or between 239 AC and 257 AC",
+  "died": "",
+  "titles": [
+    "Lady of Bear Island"
+  ],
+  "aliases": [
+    "The She-Bear"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/271"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 1"
+  ],
+  "playedBy": [
+    "Elizabeth Barrett"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/272",
+  "name": "Daenora Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/58",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/234",
+  "name": "Cedrik Storm",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "the Bastard of Bronzegate"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/50"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

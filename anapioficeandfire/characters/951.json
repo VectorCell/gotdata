@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/951",
+  "name": "Saera Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In or between 61 AC and 82 AC",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

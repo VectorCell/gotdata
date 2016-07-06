@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/840",
+  "name": "Quenton Hightower",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "At Oldtown",
+  "titles": [
+    "Lord of the Hightower",
+    "Lord of the Port",
+    "Voice of Oldtown",
+    "Defender of the Citadel",
+    "Beacon of the South"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/195"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

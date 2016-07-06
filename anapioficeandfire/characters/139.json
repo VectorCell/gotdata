@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/139",
+  "name": "Arstan Selmy",
+  "gender": "Male",
+  "culture": "Westeros",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Harvest Hall"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/341"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

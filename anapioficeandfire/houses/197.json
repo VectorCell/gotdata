@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/197",
+  "name": "House Hogg of Sow's Horn",
+  "region": "The Crownlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "the Knight of Sow's Horn"
+  ],
+  "seats": [
+    "Sow's Horn"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1887",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/189",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1887"
+  ]
+}

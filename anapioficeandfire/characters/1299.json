@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1299",
+  "name": "Dacks",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/316"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

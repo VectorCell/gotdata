@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/391",
+  "name": "House Towers of Harrenhal",
+  "region": "The Riverlands",
+  "coatOfArms": "Five black towers within a red and black double tressure, on a white field(Argent, five towers sable within a double-tressure, the outer gules and the inner of the second)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Harrenhal"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

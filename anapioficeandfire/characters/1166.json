@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1166",
+  "name": "Areo Hotah",
+  "gender": "Male",
+  "culture": "Norvos",
+  "born": "In 257 AC or before, at Norvos",
+  "died": "",
+  "titles": [
+    "Captain of the Guard at Sunspear"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/285"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "tvSeries": [
+    "Season 5"
+  ],
+  "playedBy": [
+    "DeObia Oparei"
+  ]
+}

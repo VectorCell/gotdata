@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/123",
+  "name": "House Farwynd of the Lonely Light",
+  "region": "Iron Islands",
+  "coatOfArms": "Per fess wavy tenny and sable, a demi-torteaux gules issuant from the division surmounted by a longship sailing upon the division of the second",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Lonely Light"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/453",
+  "heir": "http://anapioficeandfire.com/api/characters/455",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/453",
+    "http://anapioficeandfire.com/api/characters/455",
+    "http://anapioficeandfire.com/api/characters/1128",
+    "http://anapioficeandfire.com/api/characters/1130"
+  ]
+}

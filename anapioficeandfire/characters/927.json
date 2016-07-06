@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/927",
+  "name": "Rolph Spicer",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Castellan of the Crag",
+    "Lord of Castamere"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/357",
+    "http://anapioficeandfire.com/api/houses/425"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

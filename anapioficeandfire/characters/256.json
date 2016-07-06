@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/256",
+  "name": "Corwyn Corbray",
+  "gender": "Male",
+  "culture": "Andal",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Lord of the Five Fingers"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/81"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

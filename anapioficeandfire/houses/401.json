@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/401",
+  "name": "House Umber of the Last Hearth",
+  "region": "The North",
+  "coatOfArms": "Gules, a roaring giant proper with shattered chains argent",
+  "words": "",
+  "titles": [
+    "Lord of the Last Hearth"
+  ],
+  "seats": [
+    "The Last Hearth"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/585",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/471",
+    "http://anapioficeandfire.com/api/characters/495",
+    "http://anapioficeandfire.com/api/characters/504",
+    "http://anapioficeandfire.com/api/characters/585",
+    "http://anapioficeandfire.com/api/characters/586",
+    "http://anapioficeandfire.com/api/characters/764"
+  ]
+}

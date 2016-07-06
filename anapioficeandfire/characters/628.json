@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/628",
+  "name": "Leonella Lefford",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/649",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/143",
+    "http://anapioficeandfire.com/api/houses/234"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

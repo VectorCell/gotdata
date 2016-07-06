@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/226",
+  "name": "Calla Blackfyre",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/47",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/23"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

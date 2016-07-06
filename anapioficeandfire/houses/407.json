@@ -1,0 +1,38 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/407",
+  "name": "House Velaryon of Driftmark",
+  "region": "The Crownlands",
+  "coatOfArms": "seahorse rampant argent, on sea green",
+  "words": "The Old, the True, the Brave",
+  "titles": [
+    "Lord of the Tides  Master of Driftmark"
+  ],
+  "seats": [
+    "High Tide or Driftmark"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/757",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "prior to 114BC",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/33",
+    "http://anapioficeandfire.com/api/characters/91",
+    "http://anapioficeandfire.com/api/characters/110",
+    "http://anapioficeandfire.com/api/characters/154",
+    "http://anapioficeandfire.com/api/characters/253",
+    "http://anapioficeandfire.com/api/characters/610",
+    "http://anapioficeandfire.com/api/characters/611",
+    "http://anapioficeandfire.com/api/characters/756",
+    "http://anapioficeandfire.com/api/characters/757",
+    "http://anapioficeandfire.com/api/characters/875",
+    "http://anapioficeandfire.com/api/characters/1066",
+    "http://anapioficeandfire.com/api/characters/1070",
+    "http://anapioficeandfire.com/api/characters/1177",
+    "http://anapioficeandfire.com/api/characters/1302",
+    "http://anapioficeandfire.com/api/characters/1833"
+  ]
+}

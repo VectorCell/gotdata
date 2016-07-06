@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/428",
+  "name": "House Whitehill",
+  "region": "The North",
+  "coatOfArms": "A white pile inverted on indigo, an arch of 4-pointed stars above",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Highpoint (Telltale)"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

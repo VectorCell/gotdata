@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/271",
+  "name": "Daenerys Targaryen",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 172 AC",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/719",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/285",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

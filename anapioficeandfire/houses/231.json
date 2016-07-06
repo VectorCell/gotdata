@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/231",
+  "name": "House Lannister of Lannisport",
+  "region": "The Westerlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Lannisport"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/936"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/301",
+  "name": "Denys Darklyn",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Duskendale"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/967",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/95"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

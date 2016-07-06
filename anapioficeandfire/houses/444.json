@@ -1,0 +1,32 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/444",
+  "name": "House Yronwood of Yronwood",
+  "region": "Dorne",
+  "coatOfArms": "Or, a portcullis sable",
+  "words": "We Guard the Way",
+  "titles": [
+    "The Bloodroyal",
+    "Lord of Yronwood",
+    "Warden of the Stone Way",
+    "High King of Dorne (formerly)"
+  ],
+  "seats": [
+    "Yronwood"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/117",
+  "heir": "http://anapioficeandfire.com/api/characters/452",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/117",
+    "http://anapioficeandfire.com/api/characters/126",
+    "http://anapioficeandfire.com/api/characters/246",
+    "http://anapioficeandfire.com/api/characters/452",
+    "http://anapioficeandfire.com/api/characters/793",
+    "http://anapioficeandfire.com/api/characters/1129"
+  ]
+}

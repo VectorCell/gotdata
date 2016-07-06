@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/111",
+  "name": "Alyx Frey",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 282 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "http://anapioficeandfire.com/api/characters/1004",
+  "mother": "http://anapioficeandfire.com/api/characters/1217",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/143"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

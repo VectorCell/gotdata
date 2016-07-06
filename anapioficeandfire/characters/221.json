@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/221",
+  "name": "Bryen Caron",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 289 AC",
+  "titles": [
+    "Lord of the Marches",
+    "Lord of Nightsong"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/60"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

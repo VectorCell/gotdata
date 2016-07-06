@@ -1,0 +1,36 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/427",
+  "name": "House Whent of Harrenhal",
+  "region": "The Riverlands",
+  "coatOfArms": "Nine black bats, on a yellow field(Or, nine bats, 4, 3, 2, displayed sable)",
+  "words": "",
+  "titles": [
+    "Lord of Harrenhal"
+  ],
+  "seats": [
+    "Harrenhal (stripped)"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/972",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/755",
+    "http://anapioficeandfire.com/api/characters/805",
+    "http://anapioficeandfire.com/api/characters/960",
+    "http://anapioficeandfire.com/api/characters/972",
+    "http://anapioficeandfire.com/api/characters/1099",
+    "http://anapioficeandfire.com/api/characters/1120",
+    "http://anapioficeandfire.com/api/characters/1125",
+    "http://anapioficeandfire.com/api/characters/1161",
+    "http://anapioficeandfire.com/api/characters/1207",
+    "http://anapioficeandfire.com/api/characters/1483",
+    "http://anapioficeandfire.com/api/characters/1638",
+    "http://anapioficeandfire.com/api/characters/1811",
+    "http://anapioficeandfire.com/api/characters/2091"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/382",
+  "name": "House Teague",
+  "region": "The Riverlands",
+  "coatOfArms": "A golden trident upright between two golden flanches, on a black field(Sable, between two flaunches a trident erect or)",
+  "words": "",
+  "titles": [
+    "King of the Trident"
+  ],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/1032",
+  "diedOut": "Battle of Six Kings",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

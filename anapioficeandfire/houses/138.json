@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/138",
+  "name": "House Forrester",
+  "region": "The North",
+  "coatOfArms": "an ironwood tree outline with a sword outline drawn inside it, pointing down. (Telltale)",
+  "words": "Iron from Ice (Telltale)",
+  "titles": [],
+  "seats": [
+    "Ironrath (Telltale)"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/150",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/154",
+  "name": "Baela Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 116 AC, at Pentos",
+  "died": "",
+  "titles": [
+    "Lady"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/91",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378",
+    "http://anapioficeandfire.com/api/houses/407"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

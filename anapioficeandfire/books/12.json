@@ -1,0 +1,15 @@
+{
+  "url": "http://anapioficeandfire.com/api/books/12",
+  "name": "A Knight of the Seven Kingdoms",
+  "isbn": "978-0345533487",
+  "authors": [
+    "George R. R. Martin"
+  ],
+  "numberOfPages": 368,
+  "publisher": "Bantam Books",
+  "country": "United States",
+  "mediaType": "Hardcover",
+  "released": "2015-10-06T00:00:00",
+  "characters": [],
+  "povCharacters": []
+}

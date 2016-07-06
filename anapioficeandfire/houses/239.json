@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/239",
+  "name": "House Locke of Oldcastle",
+  "region": "The North",
+  "coatOfArms": "Two bronze keys crossed on an argent pale on purpure.",
+  "words": "",
+  "titles": [
+    "Lord of Oldcastle"
+  ],
+  "seats": [
+    "Oldcastle"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/788",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/321",
+    "http://anapioficeandfire.com/api/characters/716",
+    "http://anapioficeandfire.com/api/characters/788",
+    "http://anapioficeandfire.com/api/characters/998"
+  ]
+}

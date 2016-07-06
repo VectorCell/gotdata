@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1070",
+  "name": "Velaena Velaryon",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Dragonstone"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/59",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378",
+    "http://anapioficeandfire.com/api/houses/407"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

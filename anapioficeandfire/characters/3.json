@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/3",
+  "name": "",
+  "gender": "Unknown",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Lamprey"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/15"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

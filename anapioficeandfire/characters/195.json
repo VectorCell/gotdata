@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/195",
+  "name": "Betha Blackwood",
+  "gender": "Female",
+  "culture": "",
+  "born": "At Raventree Hall",
+  "died": "",
+  "titles": [
+    "Lady",
+    "Queen"
+  ],
+  "aliases": [
+    "Black Betha"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/46",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/27",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

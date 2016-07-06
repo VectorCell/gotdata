@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/92",
+  "name": "House Dalt of Lemonwood",
+  "region": "Dorne",
+  "coatOfArms": "Purpure, semy of lemons Or",
+  "words": "",
+  "titles": [
+    "The Knight of Lemonwood"
+  ],
+  "seats": [
+    "Lemonwood"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/309",
+  "heir": "http://anapioficeandfire.com/api/characters/1163",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/309",
+    "http://anapioficeandfire.com/api/characters/1163"
+  ]
+}

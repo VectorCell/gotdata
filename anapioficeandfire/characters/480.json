@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/480",
+  "name": "Harry Strickland",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Captain-General"
+  ],
+  "aliases": [
+    "Homeless Harry Strickland"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/368"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

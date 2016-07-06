@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/773",
+  "name": "Myranda Lefford",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/984",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229",
+    "http://anapioficeandfire.com/api/houses/234"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

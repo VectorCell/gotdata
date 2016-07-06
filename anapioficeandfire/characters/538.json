@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/538",
+  "name": "Jason Lannister",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 130 AC, at the Red Fork",
+  "titles": [
+    "Ser",
+    "Lord of Casterly Rock",
+    "Shield of Lannisport",
+    "Warden of the West"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/568",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

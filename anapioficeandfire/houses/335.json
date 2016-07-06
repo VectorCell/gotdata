@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/335",
+  "name": "House Ryswell of the Rills",
+  "region": "The North",
+  "coatOfArms": "Bronze, a horse's head sable orbed and maned gules within a bordure engrailed sable",
+  "words": "",
+  "titles": [
+    "Lord of the Rills"
+  ],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/915",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/166",
+    "http://anapioficeandfire.com/api/characters/196",
+    "http://anapioficeandfire.com/api/characters/714",
+    "http://anapioficeandfire.com/api/characters/885",
+    "http://anapioficeandfire.com/api/characters/911",
+    "http://anapioficeandfire.com/api/characters/915",
+    "http://anapioficeandfire.com/api/characters/934",
+    "http://anapioficeandfire.com/api/characters/1888"
+  ]
+}

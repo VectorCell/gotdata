@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/431",
+  "name": "Gormon Peake",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 211 AC, at Whitewalls",
+  "titles": [
+    "Lord of Starpike, Dunstonbury (stripped) and Whitegrove (stripped)"
+  ],
+  "aliases": [
+    "Gormy"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/296"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/7",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

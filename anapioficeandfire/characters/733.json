@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/733",
+  "name": "Medgar Tully",
+  "gender": "Male",
+  "culture": "Rivermen",
+  "born": "",
+  "died": "In or between 209 AC and 211 AC",
+  "titles": [
+    "Lord Paramount of the Trident",
+    "Lord of Riverrun"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/395"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

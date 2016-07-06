@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/69",
+  "name": "House Chelsted",
+  "region": "The Crownlands",
+  "coatOfArms": "Per bend green and white shield, a spiked mace and a silver dagger crossed(Per bend vert and argent, in pale a mace surmounted by a dagger in fesse of the second)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/831"
+  ]
+}

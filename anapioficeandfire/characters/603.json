@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/603",
+  "name": "Karlon Stark",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Karl's Hold"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/215",
+    "http://anapioficeandfire.com/api/houses/362"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

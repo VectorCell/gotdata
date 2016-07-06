@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/203",
+  "name": "House Horpe",
+  "region": "The Stormlands",
+  "coatOfArms": "Per chevron engrailed grey and bone, three death's head moths counterchanged(Per chevron reversed engrailed cendrée and argent, three death's head moths counterchanged)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/881"
+  ]
+}

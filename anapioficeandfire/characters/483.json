@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/483",
+  "name": "Harwood Stout",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Goldgrass"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/111",
+    "http://anapioficeandfire.com/api/houses/367"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

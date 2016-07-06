@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/2",
+  "name": "House Allyrion of Godsgrace",
+  "region": "Dorne",
+  "coatOfArms": "Gyronny Gules and Sable, a hand couped Or",
+  "words": "No Foe May Pass",
+  "titles": [],
+  "seats": [
+    "Godsgrace"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/298",
+  "heir": "http://anapioficeandfire.com/api/characters/1922",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/298",
+    "http://anapioficeandfire.com/api/characters/1129",
+    "http://anapioficeandfire.com/api/characters/1301",
+    "http://anapioficeandfire.com/api/characters/1922"
+  ]
+}

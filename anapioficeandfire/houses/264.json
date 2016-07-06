@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/264",
+  "name": "House Merryweather of Longtable",
+  "region": "The Reach",
+  "coatOfArms": "White, a cornucopia Or spilling foods proper within a bordure Or",
+  "words": "Behold Our Bounty",
+  "titles": [],
+  "seats": [
+    "Longtable"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/796",
+  "heir": "http://anapioficeandfire.com/api/characters/943",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/796",
+    "http://anapioficeandfire.com/api/characters/943",
+    "http://anapioficeandfire.com/api/characters/1006"
+  ]
+}

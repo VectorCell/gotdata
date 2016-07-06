@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/410",
+  "name": "House Vypren",
+  "region": "",
+  "coatOfArms": "A black toad on white lily pad, on a green field(Vert, a toad sable atop a lilypad argent)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/660",
+  "heir": "http://anapioficeandfire.com/api/characters/288",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/288",
+    "http://anapioficeandfire.com/api/characters/370",
+    "http://anapioficeandfire.com/api/characters/660"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/111",
+  "name": "House Dustin of Barrowton",
+  "region": "The North",
+  "coatOfArms": "Two rusted longaxes with black shafts crossed, a black crown between their points, on yellow",
+  "words": "",
+  "titles": [
+    "Lord of Barrowton"
+  ],
+  "seats": [
+    "Barrow Hall"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/166",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/166",
+    "http://anapioficeandfire.com/api/characters/483",
+    "http://anapioficeandfire.com/api/characters/1110"
+  ]
+}

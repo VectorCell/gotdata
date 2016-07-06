@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/130",
+  "name": "House Flint of Breakstone Hill",
+  "region": "The North",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Breakstone Hill"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

@@ -1,0 +1,34 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/72",
+  "name": "House Clegane",
+  "region": "The Westerlands",
+  "coatOfArms": "Three dogs on a yellow field(Or, three dogs courant in pale sable)",
+  "words": "",
+  "titles": [
+    "Ser"
+  ],
+  "seats": [
+    "Clegane's Keep"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/1272",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/955",
+    "http://anapioficeandfire.com/api/characters/1270",
+    "http://anapioficeandfire.com/api/characters/1272",
+    "http://anapioficeandfire.com/api/characters/1350",
+    "http://anapioficeandfire.com/api/characters/1356",
+    "http://anapioficeandfire.com/api/characters/1442",
+    "http://anapioficeandfire.com/api/characters/1568",
+    "http://anapioficeandfire.com/api/characters/1814",
+    "http://anapioficeandfire.com/api/characters/1852",
+    "http://anapioficeandfire.com/api/characters/1994",
+    "http://anapioficeandfire.com/api/characters/2012"
+  ]
+}

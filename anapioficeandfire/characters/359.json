@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/359",
+  "name": "Eleanor Mooton",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 286 AC or 287 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/313",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/269",
+    "http://anapioficeandfire.com/api/houses/379"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

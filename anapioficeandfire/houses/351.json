@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/351",
+  "name": "House Shett of Gulltown",
+  "region": "The Vale",
+  "coatOfArms": "Nine white seagulls on a field of brown(Tenné, nine seagulls argent, 3, 3, 2, 1)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Gulltown"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/160",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}
