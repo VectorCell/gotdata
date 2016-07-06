@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/135",
+  "name": "House Foote",
+  "region": "The Westerlands",
+  "coatOfArms": "A copper dagger across a black chevron, on a white field(Argent, a chevron reversed sable, surmounted by a dagger erect tenné)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/136"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/825"
+  ]
+}

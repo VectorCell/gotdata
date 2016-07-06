@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/386",
+  "name": "Eustace",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Septon"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

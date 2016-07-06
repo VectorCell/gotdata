@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1112",
+  "name": "Willam Wythers",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Captain of the Guards"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/398",
+    "http://anapioficeandfire.com/api/houses/440"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

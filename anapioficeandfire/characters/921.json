@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/921",
+  "name": "Roland Crakehall",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/86"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4",
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

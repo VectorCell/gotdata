@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/616",
+  "name": "Lanna Lannister",
+  "gender": "Female",
+  "culture": "",
+  "born": "In or between 271 AC and 286 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/124",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/212",
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

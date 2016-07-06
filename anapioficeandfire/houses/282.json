@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/282",
+  "name": "House Norrey",
+  "region": "The North",
+  "coatOfArms": "Or,six thistles slipped vert",
+  "words": "",
+  "titles": [
+    "The Norrey",
+    "Lord Norrey"
+  ],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/205",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/136",
+    "http://anapioficeandfire.com/api/characters/205",
+    "http://anapioficeandfire.com/api/characters/811"
+  ]
+}

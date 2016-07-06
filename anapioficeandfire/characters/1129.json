@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1129",
+  "name": "Ynys Yronwood",
+  "gender": "Female",
+  "culture": "Dornish",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1922",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/2",
+    "http://anapioficeandfire.com/api/houses/444"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

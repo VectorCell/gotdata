@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/84",
+  "name": "House Cox of Saltpans",
+  "region": "",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "the Knight of Saltpans"
+  ],
+  "seats": [
+    "Saltpans"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1846",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/395",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1846"
+  ]
+}

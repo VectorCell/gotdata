@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/245",
+  "name": "House Lorch",
+  "region": "The Westerlands",
+  "coatOfArms": "A black manticore on a white field, beneath a crimson chief with three gold coins(Argent, a manticore passant sable, on a chief gules three bezants)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/645",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/115",
+    "http://anapioficeandfire.com/api/characters/645"
+  ]
+}

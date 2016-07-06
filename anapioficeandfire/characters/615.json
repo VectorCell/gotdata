@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/615",
+  "name": "Lann",
+  "gender": "Male",
+  "culture": "",
+  "born": "In Age of Heroes",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Lann the Clever"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

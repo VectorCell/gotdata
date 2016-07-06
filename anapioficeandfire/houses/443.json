@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/443",
+  "name": "House Yew",
+  "region": "The Westerlands",
+  "coatOfArms": "A golden longbow between two crimson flaunches, on a white field(Argent, a longbow or between two flaunches gules)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/707",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/65",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/65",
+    "http://anapioficeandfire.com/api/characters/707"
+  ]
+}

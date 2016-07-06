@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/205",
+  "name": "Brandon Norrey",
+  "gender": "Male",
+  "culture": "Northern mountain clans",
+  "born": "",
+  "died": "",
+  "titles": [
+    "The Norrey",
+    "Lord Norrey"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/282"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

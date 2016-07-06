@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/150",
+  "name": "House Glover of Deepwood Motte",
+  "region": "The North",
+  "coatOfArms": "Gules, a gauntlet argent",
+  "words": "",
+  "titles": [
+    "Master of Deepwood Motte"
+  ],
+  "seats": [
+    "Deepwood Motte"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/397",
+  "heir": "http://anapioficeandfire.com/api/characters/903",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/381",
+    "http://anapioficeandfire.com/api/characters/384",
+    "http://anapioficeandfire.com/api/characters/397",
+    "http://anapioficeandfire.com/api/characters/411",
+    "http://anapioficeandfire.com/api/characters/903",
+    "http://anapioficeandfire.com/api/characters/998"
+  ]
+}

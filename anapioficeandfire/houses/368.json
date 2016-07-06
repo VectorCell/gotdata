@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/368",
+  "name": "House Strickland",
+  "region": "",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/480",
+  "heir": "",
+  "overlord": "",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/480"
+  ]
+}

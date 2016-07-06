@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/359",
+  "name": "House Stackspear",
+  "region": "The Westerlands",
+  "coatOfArms": "Two crossed black spears, on a checkered silver and gold field(Chequy argent and or, two spears in saltire sable)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/965",
+  "heir": "http://anapioficeandfire.com/api/characters/991",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/89",
+    "http://anapioficeandfire.com/api/characters/965",
+    "http://anapioficeandfire.com/api/characters/991"
+  ]
+}

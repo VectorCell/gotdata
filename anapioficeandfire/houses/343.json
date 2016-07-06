@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/343",
+  "name": "House Serry of Southshield",
+  "region": "The Reach",
+  "coatOfArms": "Argent, an escutcheon gules charged with a rose of the first all within a bordure embattled of the second",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Southshield"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/798",
+  "heir": "http://anapioficeandfire.com/api/characters/1007",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/636",
+    "http://anapioficeandfire.com/api/characters/798",
+    "http://anapioficeandfire.com/api/characters/1007"
+  ]
+}

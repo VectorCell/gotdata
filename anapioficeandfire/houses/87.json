@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/87",
+  "name": "House Crane of Red Lake",
+  "region": "The Reach",
+  "coatOfArms": "Azure, cranes in chevron or",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Red Lake"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/1905",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/738",
+    "http://anapioficeandfire.com/api/characters/746",
+    "http://anapioficeandfire.com/api/characters/812",
+    "http://anapioficeandfire.com/api/characters/946",
+    "http://anapioficeandfire.com/api/characters/949",
+    "http://anapioficeandfire.com/api/characters/1080"
+  ]
+}

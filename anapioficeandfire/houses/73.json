@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/73",
+  "name": "House Clifton",
+  "region": "The Westerlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1403",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/120",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/551",
+    "http://anapioficeandfire.com/api/characters/1403",
+    "http://anapioficeandfire.com/api/characters/1516"
+  ]
+}

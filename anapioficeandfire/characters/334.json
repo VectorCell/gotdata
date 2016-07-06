@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/334",
+  "name": "Dyanna Dayne",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "In or between 201 AC and 209 AC",
+  "titles": [
+    "Lady"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/695",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/99",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

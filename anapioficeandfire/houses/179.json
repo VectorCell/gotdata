@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/179",
+  "name": "House Harlaw of Harlaw Hall",
+  "region": "Iron Islands",
+  "coatOfArms": "Per bend black and silver, two scythes counterchanged",
+  "words": "",
+  "titles": [
+    "Master of Harlaw Hall"
+  ],
+  "seats": [
+    "Harlaw Hall, Harlaw"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/979",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/178",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/979"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/481",
+  "name": "Harwin Strong",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 90 AC or before",
+  "died": "In 120 AC, at Harrenhal",
+  "titles": [
+    "Ser",
+    "Captain"
+  ],
+  "aliases": [
+    "Breakbones",
+    "Brokenbones"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/369"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

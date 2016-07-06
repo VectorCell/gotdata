@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1274",
+  "name": "Cleon",
+  "gender": "Male",
+  "culture": "Astapori",
+  "born": "",
+  "died": "In 300 AC, at Astapor",
+  "titles": [
+    "King of Astapor"
+  ],
+  "aliases": [
+    "Cleon the Great",
+    "The Butcher King",
+    "King Cleaver"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

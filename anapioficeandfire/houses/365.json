@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/365",
+  "name": "House Stonehouse of Old Wyk",
+  "region": "Iron Islands",
+  "coatOfArms": "a black brazier on a grey masonry field",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Old Wyk"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1016",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/847",
+    "http://anapioficeandfire.com/api/characters/1016"
+  ]
+}

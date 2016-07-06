@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1446",
+  "name": "Griffin King",
+  "gender": "Male",
+  "culture": "First Men",
+  "born": "",
+  "died": "",
+  "titles": [
+    "last of the Mountain King"
+  ],
+  "aliases": [
+    "Griffin King"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/78",
+  "name": "House Condon",
+  "region": "The North",
+  "coatOfArms": "An eagle's head between crossed tridents, red on white",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/66",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/607"
+  ]
+}

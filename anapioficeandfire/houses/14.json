@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/14",
+  "name": "House Bar Emmon of Sharp Point",
+  "region": "The Crownlands",
+  "coatOfArms": "Fretty argent and white, a swordfish embowed haurient azure",
+  "words": "",
+  "titles": [
+    "Lord of Sharp Point"
+  ],
+  "seats": [
+    "Sharp Point"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/332",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/332"
+  ]
+}

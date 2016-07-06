@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/497",
+  "name": "Hooded Man",
+  "gender": "Male",
+  "culture": "",
+  "born": "In Age of Heroes",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/13"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

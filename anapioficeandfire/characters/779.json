@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/779",
+  "name": "Naerys Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 138 AC, at King's Landing",
+  "died": "In or between 179 AC and 184 AC, at King's Landing",
+  "titles": [
+    "Princess",
+    "Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/41",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

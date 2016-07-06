@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/165",
+  "name": "Barba Bracken",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 155 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/37"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

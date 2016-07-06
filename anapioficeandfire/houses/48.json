@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/48",
+  "name": "House Brune of Brownhollow",
+  "region": "The Crownlands",
+  "coatOfArms": "Argent, a bear's paw erased within a double tressure tenné",
+  "words": "",
+  "titles": [
+    "The Knight of Brownhollow"
+  ],
+  "seats": [
+    "Brownhollow"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/184",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/184",
+    "http://anapioficeandfire.com/api/characters/651"
+  ]
+}

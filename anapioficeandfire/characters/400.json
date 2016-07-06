@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/400",
+  "name": "Gared",
+  "gender": "Male",
+  "culture": "",
+  "born": "In or between 231 AC and 246 AC",
+  "died": "In 297 AC, at Beyond the Wall",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": [
+    "Dermot Keaney"
+  ]
+}

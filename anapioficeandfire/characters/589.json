@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/589",
+  "name": "Jonnel Stark",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Winterfell",
+    "Warden of the North"
+  ],
+  "aliases": [
+    "One-Eye"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/911",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/362"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

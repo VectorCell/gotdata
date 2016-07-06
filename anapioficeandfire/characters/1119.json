@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1119",
+  "name": "Willis Fell",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/124"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

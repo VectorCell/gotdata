@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/117",
+  "name": "House Estermont of Greenstone",
+  "region": "The Stormlands",
+  "coatOfArms": "A dark-green sea-turtle on a pale-green field(Vert, a sea-turtle tergiant of the field)",
+  "words": "",
+  "titles": [
+    "Lord of Greenstone"
+  ],
+  "seats": [
+    "Greenstone"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/357",
+  "heir": "http://anapioficeandfire.com/api/characters/52",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/52",
+    "http://anapioficeandfire.com/api/characters/85",
+    "http://anapioficeandfire.com/api/characters/118",
+    "http://anapioficeandfire.com/api/characters/230",
+    "http://anapioficeandfire.com/api/characters/357",
+    "http://anapioficeandfire.com/api/characters/639",
+    "http://anapioficeandfire.com/api/characters/999"
+  ]
+}

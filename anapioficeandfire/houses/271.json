@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/271",
+  "name": "House Mormont of Bear Island",
+  "region": "The North",
+  "coatOfArms": "A wood vert, a bear sable",
+  "words": "Here We Stand",
+  "titles": [
+    "Lord of Bear Island"
+  ],
+  "seats": [
+    "Bear Island"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/692",
+  "heir": "http://anapioficeandfire.com/api/characters/99",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [
+    "Longclaw"
+  ],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/99",
+    "http://anapioficeandfire.com/api/characters/264",
+    "http://anapioficeandfire.com/api/characters/547",
+    "http://anapioficeandfire.com/api/characters/594",
+    "http://anapioficeandfire.com/api/characters/667",
+    "http://anapioficeandfire.com/api/characters/687",
+    "http://anapioficeandfire.com/api/characters/692",
+    "http://anapioficeandfire.com/api/characters/1560"
+  ]
+}

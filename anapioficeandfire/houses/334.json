@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/334",
+  "name": "House Rykker of Duskendale",
+  "region": "The Crownlands",
+  "coatOfArms": "Azure, a cross saltire argent charged with two crossed warhammers sable",
+  "words": "",
+  "titles": [
+    "Lord of Duskendale"
+  ],
+  "seats": [
+    "The Dun Fort"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/861",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/861",
+    "http://anapioficeandfire.com/api/characters/1910"
+  ]
+}

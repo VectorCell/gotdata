@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/853",
+  "name": "Raymun Fossoway",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/140"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

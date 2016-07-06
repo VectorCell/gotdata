@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/161",
+  "name": "Baelor Targaryen",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 170 AC",
+  "died": "In 209 AC, at Ashford",
+  "titles": [
+    "Prince of Dragonstone",
+    "Protector of the Realm",
+    "Hand of the King"
+  ],
+  "aliases": [
+    "Baelor Breakspear",
+    "The Hammer"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/546",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/4",
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/7",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

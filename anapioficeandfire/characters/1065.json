@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1065",
+  "name": "Uthor Underleaf",
+  "gender": "Male",
+  "culture": "",
+  "born": "In or around 181 AC, 182 AC or 183 AC",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "The Snail"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1",
+  "name": "",
+  "gender": "Unknown",
+  "culture": "Braavosi",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "The Daughter of the Dusk"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/61",
+  "name": "House Cassel",
+  "region": "The North",
+  "coatOfArms": "Ten white wolf heads, 4-3-2-1, on grey with a black border",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/194",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/194",
+    "http://anapioficeandfire.com/api/characters/595",
+    "http://anapioficeandfire.com/api/characters/724",
+    "http://anapioficeandfire.com/api/characters/912"
+  ]
+}

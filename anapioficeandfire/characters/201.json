@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/201",
+  "name": "Boremund Harlaw",
+  "gender": "Male",
+  "culture": "Ironborn",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Master of Harridan Hill"
+  ],
+  "aliases": [
+    "Boremund the Blue"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/180"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

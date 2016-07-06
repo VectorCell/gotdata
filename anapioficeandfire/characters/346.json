@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/346",
+  "name": "Edmure Tully",
+  "gender": "Male",
+  "culture": "Rivermen",
+  "born": "In or between 267 AC and 274 AC",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Lord of Riverrun (lost to Emmon Frey)"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/937",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/395"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 3"
+  ],
+  "playedBy": [
+    "Tobias Menzies"
+  ]
+}

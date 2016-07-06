@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1050",
+  "name": "Tyland Lannister",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 133 AC",
+  "titles": [
+    "Ser",
+    "Master of ships",
+    "Master of coin",
+    "Hand of the King"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

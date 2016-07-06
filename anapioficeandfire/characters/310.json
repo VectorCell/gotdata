@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/310",
+  "name": "Dick Follard",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 299 AC, at Castle Black",
+  "titles": [],
+  "aliases": [
+    "Deaf Dick Follard"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

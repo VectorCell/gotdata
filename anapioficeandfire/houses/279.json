@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/279",
+  "name": "House Nayland of Hag's Mire",
+  "region": "The Riverlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Hag's Mire"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/143",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1641",
+    "http://anapioficeandfire.com/api/characters/1865"
+  ]
+}

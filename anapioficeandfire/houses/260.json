@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/260",
+  "name": "House Massey of Stonedance",
+  "region": "The Crownlands",
+  "coatOfArms": "A triple spiral; red, green and blue, on white",
+  "words": "",
+  "titles": [
+    "Lord of Stonedance"
+  ],
+  "seats": [
+    "Stonedance"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "Age of Heroes",
+  "founder": "http://anapioficeandfire.com/api/characters/698",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/601",
+    "http://anapioficeandfire.com/api/characters/698"
+  ]
+}

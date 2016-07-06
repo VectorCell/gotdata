@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/302",
+  "name": "House Piper of Pinkmaiden",
+  "region": "The Riverlands",
+  "coatOfArms": "A pink dancing maiden in a swirl of white silk, on a blue field(Azure, a maiden dancing proper enwrapped with silk argent)",
+  "words": "Brave and Beautiful",
+  "titles": [],
+  "seats": [
+    "Pinkmaiden Castle"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/245",
+  "heir": "http://anapioficeandfire.com/api/characters/721",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/245",
+    "http://anapioficeandfire.com/api/characters/633",
+    "http://anapioficeandfire.com/api/characters/721"
+  ]
+}

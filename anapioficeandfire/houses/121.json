@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/121",
+  "name": "House Farring",
+  "region": "The Crownlands",
+  "coatOfArms": "Per pale purpure and argent, two knights combatant crossing swords counterchanged",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/123",
+    "http://anapioficeandfire.com/api/characters/222",
+    "http://anapioficeandfire.com/api/characters/424",
+    "http://anapioficeandfire.com/api/characters/430"
+  ]
+}

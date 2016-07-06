@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1302",
+  "name": "Daenaera Velaryon",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 127 AC",
+  "died": "",
+  "titles": [
+    "Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/40",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378",
+    "http://anapioficeandfire.com/api/houses/407"
+  ],
+  "books": [],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

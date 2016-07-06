@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/411",
+  "name": "House Vyrwel of Darkdell",
+  "region": "The Reach",
+  "coatOfArms": "a silver wyvern within a red double tressure on sable",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Darkdell"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/519"
+  ]
+}

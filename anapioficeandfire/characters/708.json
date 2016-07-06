@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/708",
+  "name": "Margot Lannister",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Starpike"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1027",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229",
+    "http://anapioficeandfire.com/api/houses/296"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/75",
+  "name": "Alester Tyrell",
+  "gender": "Male",
+  "culture": "Andal",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/145",
+    "http://anapioficeandfire.com/api/houses/398"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

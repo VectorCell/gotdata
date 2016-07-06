@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/70",
+  "name": "House Chester of Greenshield",
+  "region": "The Reach",
+  "coatOfArms": "A green hand on a gold escutcheon on a green field, a border of red rayonne",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Greenshield"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/760",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/760"
+  ]
+}

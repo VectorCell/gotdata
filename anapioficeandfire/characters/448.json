@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/448",
+  "name": "Gwayne Gaunt",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "At Duskendale",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/148"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

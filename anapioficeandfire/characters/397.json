@@ -1,0 +1,32 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/397",
+  "name": "Galbart Glover",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "At Deepwood Motte",
+  "died": "",
+  "titles": [
+    "Master of Deepwood Motte"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/150"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 1"
+  ],
+  "playedBy": [
+    "Mark Coney"
+  ]
+}

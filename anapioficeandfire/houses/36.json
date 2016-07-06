@@ -1,0 +1,37 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/36",
+  "name": "House Botley of Lordsport",
+  "region": "Iron Islands",
+  "coatOfArms": "Vert, semy of fishes argent",
+  "words": "",
+  "titles": [
+    "Lord of Lordsport"
+  ],
+  "seats": [
+    "Lordsport"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/419",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/163",
+    "http://anapioficeandfire.com/api/characters/185",
+    "http://anapioficeandfire.com/api/characters/419",
+    "http://anapioficeandfire.com/api/characters/468",
+    "http://anapioficeandfire.com/api/characters/474",
+    "http://anapioficeandfire.com/api/characters/661",
+    "http://anapioficeandfire.com/api/characters/717",
+    "http://anapioficeandfire.com/api/characters/835",
+    "http://anapioficeandfire.com/api/characters/958",
+    "http://anapioficeandfire.com/api/characters/961",
+    "http://anapioficeandfire.com/api/characters/1003",
+    "http://anapioficeandfire.com/api/characters/1039",
+    "http://anapioficeandfire.com/api/characters/1071",
+    "http://anapioficeandfire.com/api/characters/2097"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/971",
+  "name": "Shaera Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In 226 AC",
+  "died": "In or after 259AC",
+  "titles": [
+    "Princess",
+    "Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/527",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

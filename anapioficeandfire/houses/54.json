@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/54",
+  "name": "House Bushy",
+  "region": "The Reach",
+  "coatOfArms": "A green fess embattled on white",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/174"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/809",
+  "name": "Ottyn Wythers",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 230 AC (roughly)",
+  "died": "In 299 AC, at Fist of the First Men, Beyond the Wall",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/440"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

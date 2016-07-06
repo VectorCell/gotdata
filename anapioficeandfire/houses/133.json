@@ -1,0 +1,37 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/133",
+  "name": "House Florent of Brightwater Keep",
+  "region": "The Reach",
+  "coatOfArms": "A red fox in a circle of blue flowers on ermine",
+  "words": "",
+  "titles": [
+    "Lord of Brightwater"
+  ],
+  "seats": [
+    "Stripped (formerly Brightwater Keep)"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/68",
+  "heir": "http://anapioficeandfire.com/api/characters/742",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/1388",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/68",
+    "http://anapioficeandfire.com/api/characters/72",
+    "http://anapioficeandfire.com/api/characters/153",
+    "http://anapioficeandfire.com/api/characters/250",
+    "http://anapioficeandfire.com/api/characters/296",
+    "http://anapioficeandfire.com/api/characters/383",
+    "http://anapioficeandfire.com/api/characters/522",
+    "http://anapioficeandfire.com/api/characters/738",
+    "http://anapioficeandfire.com/api/characters/742",
+    "http://anapioficeandfire.com/api/characters/750",
+    "http://anapioficeandfire.com/api/characters/877",
+    "http://anapioficeandfire.com/api/characters/944",
+    "http://anapioficeandfire.com/api/characters/949",
+    "http://anapioficeandfire.com/api/characters/1935"
+  ]
+}

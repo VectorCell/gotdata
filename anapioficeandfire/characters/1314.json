@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1314",
+  "name": "Dan",
+  "gender": "Male",
+  "culture": "Free Folk",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Hempen Dan"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

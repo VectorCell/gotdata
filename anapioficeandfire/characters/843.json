@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/843",
+  "name": "Quentyn Blackwood",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 205 AC, at King's Landing",
+  "titles": [
+    "Lord"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/27"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

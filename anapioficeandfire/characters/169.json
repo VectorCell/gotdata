@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/169",
+  "name": "Barth",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 99 AC",
+  "titles": [
+    "Septon",
+    "Hand of the King"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

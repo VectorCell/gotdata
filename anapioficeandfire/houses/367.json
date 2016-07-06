@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/367",
+  "name": "House Stout of Goldgrass",
+  "region": "The North",
+  "coatOfArms": "Chevronny tenné and Or",
+  "words": "",
+  "titles": [
+    "Lord of Goldgrass"
+  ],
+  "seats": [
+    "Goldgrass"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/483",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/111",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/483",
+    "http://anapioficeandfire.com/api/characters/931",
+    "http://anapioficeandfire.com/api/characters/1127"
+  ]
+}

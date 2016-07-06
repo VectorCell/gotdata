@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/967",
+  "name": "Serala of Myr",
+  "gender": "Female",
+  "culture": "Myrish",
+  "born": "In Myr",
+  "died": "",
+  "titles": [
+    "Lady of Duskendale"
+  ],
+  "aliases": [
+    "The Lace Serpent"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/301",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/95"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/427",
+  "name": "Gladden Wylde",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 298 AC, at the Mummer's Ford",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/438"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

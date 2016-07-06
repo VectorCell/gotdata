@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/363",
+  "name": "House Staunton of Rook's Rest",
+  "region": "The Crownlands",
+  "coatOfArms": "two black wings upon a white fess on checkered black and grey",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Rook's Rest"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/15",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/643",
+    "http://anapioficeandfire.com/api/characters/964",
+    "http://anapioficeandfire.com/api/characters/982"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/258",
+  "name": "Cregan Karstark",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "In 249 AC (roughly), at Karhold",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/215"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

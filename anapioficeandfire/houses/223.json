@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/223",
+  "name": "House Kyndall",
+  "region": "The Westerlands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1989"
+  ]
+}

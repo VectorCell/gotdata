@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/381",
+  "name": "House Tawney of Orkmont",
+  "region": "Iron Islands",
+  "coatOfArms": "A scourge of nettles, red and black, on white",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Orkmont"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/620"
+  ]
+}

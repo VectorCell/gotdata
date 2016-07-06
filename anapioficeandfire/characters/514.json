@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/514",
+  "name": "Humfrey Hardyng",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 209 AC, at Ashford",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/176"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4",
+    "http://anapioficeandfire.com/api/books/6"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

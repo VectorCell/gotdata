@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/134",
+  "name": "Arnolf Karstark",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "At Karhold",
+  "died": "",
+  "titles": [
+    "Castellan of Karhold"
+  ],
+  "aliases": [
+    "Lord Arnolf"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/215"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

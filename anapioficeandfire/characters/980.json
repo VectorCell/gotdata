@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/980",
+  "name": "Sigorn",
+  "gender": "Male",
+  "culture": "Thenn",
+  "born": "At Thenn",
+  "died": "",
+  "titles": [
+    "Magnar of Thenn"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/96",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/385"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

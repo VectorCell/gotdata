@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/44",
+  "name": "Aegon Targaryen",
+  "gender": "Male",
+  "culture": "Valyrian",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Prince"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

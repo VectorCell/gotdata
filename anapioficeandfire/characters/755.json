@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/755",
+  "name": "Minisa Whent",
+  "gender": "Female",
+  "culture": "Rivermen",
+  "born": "",
+  "died": "At Riverrun",
+  "titles": [
+    "Lady of Riverrun"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/503",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/395",
+    "http://anapioficeandfire.com/api/houses/427"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/2",
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

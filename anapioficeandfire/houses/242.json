@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/242",
+  "name": "House Longthorpe of Longsister",
+  "region": "The Vale",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Longsister"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1895",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/370",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1895"
+  ]
+}

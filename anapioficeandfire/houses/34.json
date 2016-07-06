@@ -1,0 +1,40 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/34",
+  "name": "House Bolton of the Dreadfort",
+  "region": "The North",
+  "coatOfArms": "A red flayed man on pink de sang",
+  "words": "Our Blades are Sharp",
+  "titles": [
+    "Red King (Age of Heroes)",
+    "Lord of the Dreadfort",
+    "Warden of the North"
+  ],
+  "seats": [
+    "The Dreadfort"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/933",
+  "heir": "http://anapioficeandfire.com/api/characters/849",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "Age of Heroes",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/196",
+    "http://anapioficeandfire.com/api/characters/314",
+    "http://anapioficeandfire.com/api/characters/849",
+    "http://anapioficeandfire.com/api/characters/933",
+    "http://anapioficeandfire.com/api/characters/1084",
+    "http://anapioficeandfire.com/api/characters/1159",
+    "http://anapioficeandfire.com/api/characters/1208",
+    "http://anapioficeandfire.com/api/characters/1313",
+    "http://anapioficeandfire.com/api/characters/1329",
+    "http://anapioficeandfire.com/api/characters/1452",
+    "http://anapioficeandfire.com/api/characters/1492",
+    "http://anapioficeandfire.com/api/characters/1648",
+    "http://anapioficeandfire.com/api/characters/1747",
+    "http://anapioficeandfire.com/api/characters/1949",
+    "http://anapioficeandfire.com/api/characters/2077"
+  ]
+}

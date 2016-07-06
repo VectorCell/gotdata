@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/23",
+  "name": "House Blackfyre of King's Landing",
+  "region": "",
+  "coatOfArms": "Gules, a three headed dragon breathing flames sable",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/378",
+  "founded": "184 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/267",
+  "diedOut": "260 AC",
+  "ancestralWeapons": [
+    "Blackfyre"
+  ],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/8",
+    "http://anapioficeandfire.com/api/characters/35",
+    "http://anapioficeandfire.com/api/characters/47",
+    "http://anapioficeandfire.com/api/characters/50",
+    "http://anapioficeandfire.com/api/characters/83",
+    "http://anapioficeandfire.com/api/characters/226",
+    "http://anapioficeandfire.com/api/characters/267",
+    "http://anapioficeandfire.com/api/characters/268",
+    "http://anapioficeandfire.com/api/characters/697",
+    "http://anapioficeandfire.com/api/characters/920",
+    "http://anapioficeandfire.com/api/characters/1462",
+    "http://anapioficeandfire.com/api/characters/2021"
+  ]
+}

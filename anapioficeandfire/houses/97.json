@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/97",
+  "name": "House Darry of Darry",
+  "region": "The Riverlands",
+  "coatOfArms": "A black plowman on a brown field(Tenné, a plowman sable)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Darry"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/712",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/550",
+    "http://anapioficeandfire.com/api/characters/592",
+    "http://anapioficeandfire.com/api/characters/672",
+    "http://anapioficeandfire.com/api/characters/712",
+    "http://anapioficeandfire.com/api/characters/852",
+    "http://anapioficeandfire.com/api/characters/1114"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/166",
+  "name": "Barbrey Dustin",
+  "gender": "Female",
+  "culture": "Northmen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Barrowton"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1110",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/111",
+    "http://anapioficeandfire.com/api/houses/335"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

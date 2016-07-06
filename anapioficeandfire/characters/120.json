@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/120",
+  "name": "Andros Brax",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 298 AC, at Riverrun",
+  "titles": [
+    "Lord of Hornvale"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/40"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

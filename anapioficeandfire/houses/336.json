@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/336",
+  "name": "House Saltcliffe of Saltcliffe",
+  "region": "Iron Islands",
+  "coatOfArms": "Argent, a serpent nine-headed sable",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Saltcliffe"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/323",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/323"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/160",
+  "name": "Baelor I",
+  "gender": "Male",
+  "culture": "",
+  "born": "144 AC, at King's Landing",
+  "died": "171 AC, at King's Landing",
+  "titles": [
+    "King of the Andals, the Rhoynar and the First Men",
+    "Lord of the Seven Kingdoms",
+    "Protector of the Realm"
+  ],
+  "aliases": [
+    "Baelor the Beloved",
+    "Baelor the Blessed",
+    "Baelor the Befuddled"
+  ],
+  "father": "http://anapioficeandfire.com/api/characters/40",
+  "mother": "http://anapioficeandfire.com/api/characters/1302",
+  "spouse": "http://anapioficeandfire.com/api/characters/270",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

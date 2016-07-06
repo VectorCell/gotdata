@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/805",
+  "name": "Oswell Whent",
+  "gender": "Male",
+  "culture": "Rivermen",
+  "born": "",
+  "died": "In 283 AC, at Tower of Joy",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/427"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

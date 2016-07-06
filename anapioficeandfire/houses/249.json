@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/249",
+  "name": "House Lychester",
+  "region": "The Riverlands",
+  "coatOfArms": "A black talon, on an orange and white gyronny field(Gyronny tenné and argent, an eagle's leg erased sable)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Castle Lychester"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/674",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/674"
+  ]
+}

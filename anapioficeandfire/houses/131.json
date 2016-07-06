@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/131",
+  "name": "House Flint of Flint's Finger",
+  "region": "The North",
+  "coatOfArms": "Paly sable and cendrée on a pall inverted argent a hand couped of the second",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Flint's Finger"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1882",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1882"
+  ]
+}

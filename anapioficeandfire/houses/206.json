@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/206",
+  "name": "House Hunt",
+  "region": "The Reach",
+  "coatOfArms": "Argent, a deer bound and slung on a pole fesswise tenny",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/379",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/88",
+    "http://anapioficeandfire.com/api/characters/518"
+  ]
+}

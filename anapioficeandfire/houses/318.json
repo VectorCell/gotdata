@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/318",
+  "name": "House Reed of Greywater Watch",
+  "region": "The Neck",
+  "coatOfArms": "Vert, a lizard-lion sable",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Greywater Watch"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/506",
+  "heir": "http://anapioficeandfire.com/api/characters/571",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/506",
+    "http://anapioficeandfire.com/api/characters/571",
+    "http://anapioficeandfire.com/api/characters/735",
+    "http://anapioficeandfire.com/api/characters/1572"
+  ]
+}

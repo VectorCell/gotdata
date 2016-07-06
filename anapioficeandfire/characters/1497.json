@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1497",
+  "name": "Henk",
+  "gender": "Male",
+  "culture": "Free Folk",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Henk the Helm"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

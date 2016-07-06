@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/236",
+  "name": "Cerissa Brax",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Casterly Rock"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/283",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/40",
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

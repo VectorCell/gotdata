@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/59",
+  "name": "Aerion Targaryen",
+  "gender": "Male",
+  "culture": "Valyrian",
+  "born": "At Dragonstone",
+  "died": "At Dragonstone",
+  "titles": [
+    "Lord of Dragonstone"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1070",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

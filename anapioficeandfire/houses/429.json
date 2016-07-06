@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/429",
+  "name": "House Willum",
+  "region": "The Reach",
+  "coatOfArms": "three silver longswords crossed on black beneath a dragonbone skeleton on a white chief",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/371",
+    "http://anapioficeandfire.com/api/characters/598"
+  ]
+}

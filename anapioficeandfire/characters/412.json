@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/412",
+  "name": "Gawen Swann",
+  "gender": "Male",
+  "culture": "",
+  "born": "In 152 AC or before, at Stonehelm",
+  "died": "",
+  "titles": [
+    "Lord of Stonehelm"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/373"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

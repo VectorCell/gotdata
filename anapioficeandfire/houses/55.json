@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/55",
+  "name": "House Butterwell",
+  "region": "The Riverlands",
+  "coatOfArms": "Barry wavy green, white, and yellow(Barry wavy vert, argent, and or)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "formerly Whitewalls"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/113",
+    "http://anapioficeandfire.com/api/characters/1167",
+    "http://anapioficeandfire.com/api/characters/1287",
+    "http://anapioficeandfire.com/api/characters/2021",
+    "http://anapioficeandfire.com/api/characters/2054"
+  ]
+}

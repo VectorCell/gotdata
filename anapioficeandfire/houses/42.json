@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/42",
+  "name": "House Briar",
+  "region": "Dorne",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "High King of Dorne"
+  ],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

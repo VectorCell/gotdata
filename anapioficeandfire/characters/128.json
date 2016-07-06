@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/128",
+  "name": "Argella Durrandon",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Princess",
+    "Storm Queen",
+    "Lady of Storm's End"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/797",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/17",
+    "http://anapioficeandfire.com/api/houses/109"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

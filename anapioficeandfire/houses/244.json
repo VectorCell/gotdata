@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/244",
+  "name": "House Lonmouth",
+  "region": "The Stormlands",
+  "coatOfArms": "Quartered of six: red lips strewn on a yellow field, yellow skulls strewn on a black field(Quarterly of six, first, third and fifth, or, semé of lips gules, second, fourth and sixth, sable, semé of skulls of the first)",
+  "words": "The Choice is Yours",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/567",
+    "http://anapioficeandfire.com/api/characters/882"
+  ]
+}

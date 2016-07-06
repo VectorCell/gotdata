@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/409",
+  "name": "House Volmark",
+  "region": "Iron Islands",
+  "coatOfArms": "Cendrée, a leviathan sable",
+  "words": "",
+  "titles": [
+    "Lord of Volmark",
+    "Lord of Greenshield"
+  ],
+  "seats": [
+    "Volmark"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/720",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/178",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/720"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1406",
+  "name": "Garin",
+  "gender": "Male",
+  "culture": "Rhoynar",
+  "born": "",
+  "died": "At Chroyane",
+  "titles": [
+    "Prince"
+  ],
+  "aliases": [
+    "Garin the Great"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

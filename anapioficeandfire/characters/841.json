@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/841",
+  "name": "Quenton Qoherys",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Harrenhal",
+    "Master-at-arms of Dragonstone"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/347",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/310"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/552",
+  "name": "Jeyne Fossoway",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/444",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/140"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,51 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/15",
+  "name": "House Baratheon of Dragonstone",
+  "region": "The Crownlands",
+  "coatOfArms": "Or, a heart gules enflamed proper charged with a stag's head sable crowned of the field",
+  "words": "",
+  "titles": [
+    "Lord of Dragonstone",
+    "King of Westeros"
+  ],
+  "seats": [
+    "Dragonstone"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1963",
+  "heir": "http://anapioficeandfire.com/api/characters/975",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "284 AC",
+  "founder": "http://anapioficeandfire.com/api/characters/1963",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/3",
+    "http://anapioficeandfire.com/api/characters/7",
+    "http://anapioficeandfire.com/api/characters/220",
+    "http://anapioficeandfire.com/api/characters/243",
+    "http://anapioficeandfire.com/api/characters/308",
+    "http://anapioficeandfire.com/api/characters/369",
+    "http://anapioficeandfire.com/api/characters/430",
+    "http://anapioficeandfire.com/api/characters/601",
+    "http://anapioficeandfire.com/api/characters/795",
+    "http://anapioficeandfire.com/api/characters/881",
+    "http://anapioficeandfire.com/api/characters/908",
+    "http://anapioficeandfire.com/api/characters/925",
+    "http://anapioficeandfire.com/api/characters/975",
+    "http://anapioficeandfire.com/api/characters/1285",
+    "http://anapioficeandfire.com/api/characters/1312",
+    "http://anapioficeandfire.com/api/characters/1319",
+    "http://anapioficeandfire.com/api/characters/1325",
+    "http://anapioficeandfire.com/api/characters/1467",
+    "http://anapioficeandfire.com/api/characters/1516",
+    "http://anapioficeandfire.com/api/characters/1535",
+    "http://anapioficeandfire.com/api/characters/1623",
+    "http://anapioficeandfire.com/api/characters/1680",
+    "http://anapioficeandfire.com/api/characters/1777",
+    "http://anapioficeandfire.com/api/characters/1797",
+    "http://anapioficeandfire.com/api/characters/1925",
+    "http://anapioficeandfire.com/api/characters/1935",
+    "http://anapioficeandfire.com/api/characters/2100"
+  ]
+}

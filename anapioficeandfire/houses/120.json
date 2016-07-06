@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/120",
+  "name": "House Farman of Faircastle",
+  "region": "The Westerlands",
+  "coatOfArms": "Three silver ships on a blue field with a border of crimson and gold(Azure, three galleys argent within a bordure compony gules and or)",
+  "words": "",
+  "titles": [
+    "Lord of Fair Isle"
+  ],
+  "seats": [
+    "Faircastle, Fair Isle"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/963",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/101",
+    "http://anapioficeandfire.com/api/characters/551",
+    "http://anapioficeandfire.com/api/characters/963"
+  ]
+}

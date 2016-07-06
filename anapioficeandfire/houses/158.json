@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/158",
+  "name": "House Gower",
+  "region": "The Stormlands",
+  "coatOfArms": "Nine yellow trefoils on a black cross, on an ermine field(Ermine, on a cross sable nine trefoils or)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/416"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/90",
+  "name": "Alyn Tarbeck",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 43 AC, at Gods Eye",
+  "titles": [
+    "Lord of Tarbeck Hall"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/560",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/377"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

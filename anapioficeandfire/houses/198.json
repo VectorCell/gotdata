@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/198",
+  "name": "House Hollard",
+  "region": "The Crownlands",
+  "coatOfArms": "Barry gules and carnation, a chief azure with three crowns Or",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/95",
+  "founded": "",
+  "founder": "",
+  "diedOut": "300 AC",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/325",
+    "http://anapioficeandfire.com/api/characters/578",
+    "http://anapioficeandfire.com/api/characters/906",
+    "http://anapioficeandfire.com/api/characters/990",
+    "http://anapioficeandfire.com/api/characters/1001"
+  ]
+}

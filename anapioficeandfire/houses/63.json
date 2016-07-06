@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/63",
+  "name": "House Caswell of Bitterbridge",
+  "region": "The Reach",
+  "coatOfArms": "Argent, a centaur with bow or",
+  "words": "",
+  "titles": [
+    "Lord of Bitterbridge",
+    "Defender of the Fords"
+  ],
+  "seats": [
+    "Bitterbridge"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/644",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/133",
+    "http://anapioficeandfire.com/api/characters/248",
+    "http://anapioficeandfire.com/api/characters/566",
+    "http://anapioficeandfire.com/api/characters/642",
+    "http://anapioficeandfire.com/api/characters/644",
+    "http://anapioficeandfire.com/api/characters/789"
+  ]
+}

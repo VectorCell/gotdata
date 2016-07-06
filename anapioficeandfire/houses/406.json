@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/406",
+  "name": "House Varner",
+  "region": "The Reach",
+  "coatOfArms": "Ermines, a weasel argent",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/993",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/993"
+  ]
+}

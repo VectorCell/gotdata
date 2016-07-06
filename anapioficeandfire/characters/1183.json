@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1183",
+  "name": "Balaq",
+  "gender": "Male",
+  "culture": "Summer Islander",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Black Balaq"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

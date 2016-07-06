@@ -1,0 +1,35 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/37",
+  "name": "House Bracken of Stone Hedge",
+  "region": "The Riverlands",
+  "coatOfArms": "A red stallion upon a gold shield, on a brown field(Tenné, on an escutcheon or a stallion rampant gules)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Stone Hedge"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1559",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "Age of Heroes",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/47",
+    "http://anapioficeandfire.com/api/characters/165",
+    "http://anapioficeandfire.com/api/characters/197",
+    "http://anapioficeandfire.com/api/characters/807",
+    "http://anapioficeandfire.com/api/characters/1160",
+    "http://anapioficeandfire.com/api/characters/1187",
+    "http://anapioficeandfire.com/api/characters/1212",
+    "http://anapioficeandfire.com/api/characters/1259",
+    "http://anapioficeandfire.com/api/characters/1496",
+    "http://anapioficeandfire.com/api/characters/1537",
+    "http://anapioficeandfire.com/api/characters/1559",
+    "http://anapioficeandfire.com/api/characters/1596",
+    "http://anapioficeandfire.com/api/characters/1624",
+    "http://anapioficeandfire.com/api/characters/1710"
+  ]
+}

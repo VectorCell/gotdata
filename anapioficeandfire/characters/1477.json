@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1477",
+  "name": "Harle",
+  "gender": "Male",
+  "culture": "Free Folk",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Harle the Handsome"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

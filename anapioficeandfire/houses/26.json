@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/26",
+  "name": "House Blacktyde of Blacktyde",
+  "region": "Iron Islands",
+  "coatOfArms": "Vairy vert and sable",
+  "words": "",
+  "titles": [
+    "Lord of Blacktyde"
+  ],
+  "seats": [
+    "Blacktyde"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/158",
+    "http://anapioficeandfire.com/api/characters/191"
+  ]
+}

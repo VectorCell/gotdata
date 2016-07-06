@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/417",
+  "name": "House Waynwood of Ironoaks",
+  "region": "The Vale",
+  "coatOfArms": "A broken black wheel, on a green field(Vert, a wheel broken sable)",
+  "words": "",
+  "titles": [
+    "Lord of Ironoaks"
+  ],
+  "seats": [
+    "Ironoaks"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/125",
+  "heir": "http://anapioficeandfire.com/api/characters/1727",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/92",
+    "http://anapioficeandfire.com/api/characters/125",
+    "http://anapioficeandfire.com/api/characters/228",
+    "http://anapioficeandfire.com/api/characters/373",
+    "http://anapioficeandfire.com/api/characters/542",
+    "http://anapioficeandfire.com/api/characters/723",
+    "http://anapioficeandfire.com/api/characters/1098",
+    "http://anapioficeandfire.com/api/characters/1121",
+    "http://anapioficeandfire.com/api/characters/1335",
+    "http://anapioficeandfire.com/api/characters/1727"
+  ]
+}

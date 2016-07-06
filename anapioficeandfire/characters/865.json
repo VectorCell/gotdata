@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/865",
+  "name": "Rhae Targaryen",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "In or between 201 AC and 209 AC",
+  "died": "",
+  "titles": [
+    "Princess"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

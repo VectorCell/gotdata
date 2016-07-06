@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/98",
+  "name": "House Dayne of High Hermitage",
+  "region": "Dorne",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [
+    "the Knight of High Hermitage"
+  ],
+  "seats": [
+    "High Hermitage"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1421",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/99",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1421"
+  ]
+}

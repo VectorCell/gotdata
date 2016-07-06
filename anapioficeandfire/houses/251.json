@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/251",
+  "name": "House Lynderly of the Snakewood",
+  "region": "The Vale",
+  "coatOfArms": "A black field strewn with green vipers(Sable, semé of snakes vert)",
+  "words": "",
+  "titles": [
+    "Lord of the Snakewood"
+  ],
+  "seats": [
+    "Snakewood"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/579",
+  "heir": "http://anapioficeandfire.com/api/characters/1012",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/579",
+    "http://anapioficeandfire.com/api/characters/1012"
+  ]
+}

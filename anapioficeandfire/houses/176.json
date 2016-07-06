@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/176",
+  "name": "House Hardyng",
+  "region": "The Vale",
+  "coatOfArms": "A field of red and white diamonds(Lozengy argent and gules)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/417",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/295",
+    "http://anapioficeandfire.com/api/characters/477",
+    "http://anapioficeandfire.com/api/characters/514"
+  ]
+}

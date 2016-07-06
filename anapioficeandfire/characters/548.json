@@ -1,0 +1,31 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/548",
+  "name": "Jeyne Arryn",
+  "gender": "Female",
+  "culture": "Vale",
+  "born": "",
+  "died": "In 134 AC, at Gulltown",
+  "titles": [
+    "Lady of the Eyrie",
+    "Defender of the Vale",
+    "Warden of the East",
+    "Lady Regent"
+  ],
+  "aliases": [
+    "The Maiden of the Vale"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/7"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

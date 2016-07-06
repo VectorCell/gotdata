@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/373",
+  "name": "Elys Waynwood",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/92",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/417"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

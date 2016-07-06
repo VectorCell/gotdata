@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/648",
+  "name": "Lorra Royce",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady of Winterfell"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/192",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/328",
+    "http://anapioficeandfire.com/api/houses/362"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

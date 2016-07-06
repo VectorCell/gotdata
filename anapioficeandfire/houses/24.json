@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/24",
+  "name": "House Blackmont of Blackmont",
+  "region": "Dorne",
+  "coatOfArms": "A black vulture with a pink infant in its claws, on yellow",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Blackmont"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1607",
+  "heir": "http://anapioficeandfire.com/api/characters/1574",
+  "overlord": "http://anapioficeandfire.com/api/houses/285",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1574",
+    "http://anapioficeandfire.com/api/characters/1607",
+    "http://anapioficeandfire.com/api/characters/1810"
+  ]
+}

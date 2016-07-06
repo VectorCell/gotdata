@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/174",
+  "name": "House Harclay",
+  "region": "The North",
+  "coatOfArms": "Azure, on a bend argent a hurt between an increscent and decrescent of the first",
+  "words": "",
+  "titles": [
+    "Lord Harclay",
+    "The Harclay"
+  ],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/930"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/181",
+  "name": "House Harlaw of the Tower of Glimmering",
+  "region": "Iron Islands",
+  "coatOfArms": "The Harlaw scythe girdled within an embattled border.",
+  "words": "",
+  "titles": [
+    "Master of the Tower of Glimmering"
+  ],
+  "seats": [
+    "Tower of Glimmering, Harlaw"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/505",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/178",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/505"
+  ]
+}

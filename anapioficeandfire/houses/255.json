@@ -1,0 +1,40 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/255",
+  "name": "House Manderly of White Harbor",
+  "region": "The North",
+  "coatOfArms": "A white merman with dark green hair, beard and tail, carrying a black trident, on a blue-green field",
+  "words": "",
+  "titles": [
+    "Lord of White Harbor",
+    "Warden of the White Knife",
+    "Shield of the Faith",
+    "Defender of the Dispossessed",
+    "Lord Marshal of the Mander",
+    "Knight of the Order of the Green Hand",
+    "Lord of Dunstonbury (formerly)"
+  ],
+  "seats": [
+    "New Castle in White Harbor",
+    "Dunstonbury (formerly)"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1124",
+  "heir": "http://anapioficeandfire.com/api/characters/1122",
+  "overlord": "http://anapioficeandfire.com/api/houses/34",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/317",
+    "http://anapioficeandfire.com/api/characters/627",
+    "http://anapioficeandfire.com/api/characters/715",
+    "http://anapioficeandfire.com/api/characters/777",
+    "http://anapioficeandfire.com/api/characters/1106",
+    "http://anapioficeandfire.com/api/characters/1122",
+    "http://anapioficeandfire.com/api/characters/1123",
+    "http://anapioficeandfire.com/api/characters/1124",
+    "http://anapioficeandfire.com/api/characters/1126",
+    "http://anapioficeandfire.com/api/characters/1999"
+  ]
+}

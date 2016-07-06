@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/306",
+  "name": "House Prester of Feastfires",
+  "region": "The Westerlands",
+  "coatOfArms": "A red ox, on an ermine field(Ermine, an ox passant gules)",
+  "words": "Tireless",
+  "titles": [
+    "Lord of Feastfires"
+  ],
+  "seats": [
+    "Feastfires"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/403",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/394",
+    "http://anapioficeandfire.com/api/characters/403"
+  ]
+}

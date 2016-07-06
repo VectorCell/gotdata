@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/159",
+  "name": "Baelor Hightower",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Oldtown",
+  "died": "",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "Baelor Brightsmile",
+    "Baelor Breakwind"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/880",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/195"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

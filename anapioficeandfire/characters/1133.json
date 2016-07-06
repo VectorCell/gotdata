@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1133",
+  "name": "Ysilla Royce",
+  "gender": "Female",
+  "culture": "Valemen",
+  "born": "",
+  "died": "",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/768",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/316",
+    "http://anapioficeandfire.com/api/houses/328"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/435",
+  "name": "House Wull",
+  "region": "The North",
+  "coatOfArms": "Azure, three wooden buckets tenné, a bordure chequy cendrée and white",
+  "words": "",
+  "titles": [
+    "The Wull  Lord Wull"
+  ],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/512",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/362",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/512",
+    "http://anapioficeandfire.com/api/characters/1017"
+  ]
+}

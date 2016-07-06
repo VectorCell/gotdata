@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/56",
+  "name": "House Byrch",
+  "region": "The Crownlands",
+  "coatOfArms": "Gryonny white and black quartered with a silver axe on a green field(Quarterly, first and fourth, gyronny argent and sable, second and third, vert, an axe palewise argent)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/162",
+    "http://anapioficeandfire.com/api/characters/392"
+  ]
+}

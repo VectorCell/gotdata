@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/650",
+  "name": "Lothar Mallery",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 298 AC, at Mummer's Ford",
+  "titles": [
+    "Lord"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/253"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

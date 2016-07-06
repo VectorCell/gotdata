@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/418",
+  "name": "House Weaver",
+  "region": "Iron Islands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1898"
+  ]
+}

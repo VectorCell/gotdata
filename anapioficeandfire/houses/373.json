@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/373",
+  "name": "House Swann of Stonehelm",
+  "region": "The Stormlands",
+  "coatOfArms": "Battling swans black and white, beaks and feet golden, on per pale white and black field(Per pale argent and sable, two swans combatant counterchanged, beaked and membered or)",
+  "words": "",
+  "titles": [
+    "Lord of Stonehelm"
+  ],
+  "seats": [
+    "Stonehelm"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/442",
+  "heir": "http://anapioficeandfire.com/api/characters/322",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/164",
+    "http://anapioficeandfire.com/api/characters/252",
+    "http://anapioficeandfire.com/api/characters/263",
+    "http://anapioficeandfire.com/api/characters/322",
+    "http://anapioficeandfire.com/api/characters/412",
+    "http://anapioficeandfire.com/api/characters/442",
+    "http://anapioficeandfire.com/api/characters/559",
+    "http://anapioficeandfire.com/api/characters/569",
+    "http://anapioficeandfire.com/api/characters/704",
+    "http://anapioficeandfire.com/api/characters/851"
+  ]
+}

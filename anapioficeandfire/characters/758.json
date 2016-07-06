@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/758",
+  "name": "Moqorro",
+  "gender": "Male",
+  "culture": "",
+  "born": "At Volantis",
+  "died": "",
+  "titles": [
+    "Slave of R'hllor"
+  ],
+  "aliases": [
+    "Black Flame"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

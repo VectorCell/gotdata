@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/396",
+  "name": "Frankyln Fowler",
+  "gender": "Male",
+  "culture": "Dornishmen",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Skyreach",
+    "Warden of the Prince's Pass"
+  ],
+  "aliases": [
+    "The Old Hawk"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/141"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

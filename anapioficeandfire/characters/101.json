@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/101",
+  "name": "Alysanne Farman",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lady"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/422",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/120",
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

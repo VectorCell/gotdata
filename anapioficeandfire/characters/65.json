@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/65",
+  "name": "Alan",
+  "gender": "Male",
+  "culture": "",
+  "born": "In Age of Heroes",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Alan o' the Oak",
+    "The Blind Bowman"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/443"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

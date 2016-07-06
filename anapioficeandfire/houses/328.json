@@ -1,0 +1,40 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/328",
+  "name": "House Royce of Runestone",
+  "region": "The Vale",
+  "coatOfArms": "Black iron studs on a bronze field, bordered with runes(Tenné pelletée, an orle of ancient runes sable)",
+  "words": "We Remember",
+  "titles": [
+    "High King of the Vale, the Fingers and the Mountains of the Moon (formerly)",
+    "Lord of Runestone"
+  ],
+  "seats": [
+    "Runestone"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1131",
+  "heir": "http://anapioficeandfire.com/api/characters/116",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "Age of Heroes",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [
+    "Lamentation"
+  ],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/329"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/116",
+    "http://anapioficeandfire.com/api/characters/558",
+    "http://anapioficeandfire.com/api/characters/608",
+    "http://anapioficeandfire.com/api/characters/648",
+    "http://anapioficeandfire.com/api/characters/818",
+    "http://anapioficeandfire.com/api/characters/878",
+    "http://anapioficeandfire.com/api/characters/892",
+    "http://anapioficeandfire.com/api/characters/948",
+    "http://anapioficeandfire.com/api/characters/1104",
+    "http://anapioficeandfire.com/api/characters/1131",
+    "http://anapioficeandfire.com/api/characters/1133",
+    "http://anapioficeandfire.com/api/characters/1929"
+  ]
+}

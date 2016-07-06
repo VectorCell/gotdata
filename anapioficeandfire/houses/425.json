@@ -1,0 +1,35 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/425",
+  "name": "House Westerling of the Crag",
+  "region": "The Westerlands",
+  "coatOfArms": "Six white shells, on a sand-coloured field(Or, six escallops argent)",
+  "words": "Honor, Not Honors",
+  "titles": [
+    "Lord of the Crag"
+  ],
+  "seats": [
+    "The Crag"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/413",
+  "heir": "http://anapioficeandfire.com/api/characters/923",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/360",
+    "http://anapioficeandfire.com/api/characters/374",
+    "http://anapioficeandfire.com/api/characters/413",
+    "http://anapioficeandfire.com/api/characters/479",
+    "http://anapioficeandfire.com/api/characters/560",
+    "http://anapioficeandfire.com/api/characters/561",
+    "http://anapioficeandfire.com/api/characters/568",
+    "http://anapioficeandfire.com/api/characters/792",
+    "http://anapioficeandfire.com/api/characters/856",
+    "http://anapioficeandfire.com/api/characters/923",
+    "http://anapioficeandfire.com/api/characters/927",
+    "http://anapioficeandfire.com/api/characters/997"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/789",
+  "name": "Orbert Caswell",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "At Castle Black",
+  "titles": [
+    "Lord Commander of the Night's Watch"
+  ],
+  "aliases": [
+    "The Black Centaur"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/63"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

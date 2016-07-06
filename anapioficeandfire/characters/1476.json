@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1476",
+  "name": "Harghaz",
+  "gender": "Male",
+  "culture": "Ghiscari",
+  "born": "",
+  "died": "In 300 AC, at Meereen",
+  "titles": [],
+  "aliases": [
+    "Harghaz the Hero",
+    "Harghaz the Dragonslayer"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

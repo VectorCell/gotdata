@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1467",
+  "name": "Hal",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 299 AC",
+  "titles": [],
+  "aliases": [
+    "Hal the Hog"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/15"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

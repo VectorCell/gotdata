@@ -1,0 +1,35 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/178",
+  "name": "House Harlaw of Harlaw",
+  "region": "Iron Islands",
+  "coatOfArms": "Sable, a scythe argent",
+  "words": "",
+  "titles": [
+    "Lord of Harlaw"
+  ],
+  "seats": [
+    "Ten Towers"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/914",
+  "heir": "http://anapioficeandfire.com/api/characters/473",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/177",
+    "http://anapioficeandfire.com/api/houses/179",
+    "http://anapioficeandfire.com/api/houses/180",
+    "http://anapioficeandfire.com/api/houses/181"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/66",
+    "http://anapioficeandfire.com/api/characters/335",
+    "http://anapioficeandfire.com/api/characters/423",
+    "http://anapioficeandfire.com/api/characters/451",
+    "http://anapioficeandfire.com/api/characters/914",
+    "http://anapioficeandfire.com/api/characters/1021",
+    "http://anapioficeandfire.com/api/characters/2004"
+  ]
+}

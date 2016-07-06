@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/393",
+  "name": "House Trant of Gallowsgrey",
+  "region": "The Stormlands",
+  "coatOfArms": "A black hanged man, on a blue field(Azure, a hanged man sable)",
+  "words": "So End Our Foes",
+  "titles": [
+    "Lord of Gallowsgrey"
+  ],
+  "seats": [
+    "Gallowsgrey"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/752"
+  ]
+}

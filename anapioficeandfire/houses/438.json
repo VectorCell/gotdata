@@ -1,0 +1,33 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/438",
+  "name": "House Wylde of Rain House",
+  "region": "The Stormlands",
+  "coatOfArms": "A blue-green maelstrom, on a gold field(Or, a maelstrom azure)",
+  "words": "",
+  "titles": [
+    "Lord of the Rain House"
+  ],
+  "seats": [
+    "Rain House"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/229",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/229",
+    "http://anapioficeandfire.com/api/characters/370",
+    "http://anapioficeandfire.com/api/characters/414",
+    "http://anapioficeandfire.com/api/characters/427",
+    "http://anapioficeandfire.com/api/characters/543",
+    "http://anapioficeandfire.com/api/characters/587",
+    "http://anapioficeandfire.com/api/characters/795",
+    "http://anapioficeandfire.com/api/characters/890",
+    "http://anapioficeandfire.com/api/characters/1045",
+    "http://anapioficeandfire.com/api/characters/1117"
+  ]
+}

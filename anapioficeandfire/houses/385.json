@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/385",
+  "name": "House Thenn",
+  "region": "The North",
+  "coatOfArms": "Argent, a sun in splendour gules",
+  "words": "",
+  "titles": [
+    "Magnar of Thenn"
+  ],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/980",
+  "heir": "",
+  "overlord": "",
+  "founded": "300 AC",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/96",
+    "http://anapioficeandfire.com/api/characters/980"
+  ]
+}

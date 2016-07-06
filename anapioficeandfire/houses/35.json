@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/35",
+  "name": "House Borrell of Sweetsister",
+  "region": "The Vale",
+  "coatOfArms": "A white spider crab, on a grey-green field(Vert-cendrée, a spider crab argent)",
+  "words": "",
+  "titles": [
+    "Lord of Sweetsister"
+  ],
+  "seats": [
+    "Breakwater in Sisterton"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/429",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/370",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/429"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/293",
+  "name": "House Paege",
+  "region": "The Riverlands",
+  "coatOfArms": "Twining red-and-white snakes, on a black field(Sable, two serpents argent and gules entwined palewise)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "http://anapioficeandfire.com/api/characters/462",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/286",
+    "http://anapioficeandfire.com/api/characters/402",
+    "http://anapioficeandfire.com/api/characters/462",
+    "http://anapioficeandfire.com/api/characters/464",
+    "http://anapioficeandfire.com/api/characters/902",
+    "http://anapioficeandfire.com/api/characters/952",
+    "http://anapioficeandfire.com/api/characters/1000"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/275",
+  "name": "House Mullendore of Uplands",
+  "region": "The Reach",
+  "coatOfArms": "Black-and-orange butterflies on white",
+  "words": "",
+  "titles": [
+    "Lord of Uplands"
+  ],
+  "seats": [
+    "Uplands"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/726",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/195",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/713",
+    "http://anapioficeandfire.com/api/characters/726"
+  ]
+}

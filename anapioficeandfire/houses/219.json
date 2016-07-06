@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/219",
+  "name": "House Kenning of Kayce",
+  "region": "The Westerlands",
+  "coatOfArms": "Four sunbursts counterchanged on a quartered orange and black field(Quarterly tenné and sable, four suns-in-splendour counterchanged)",
+  "words": "",
+  "titles": [
+    "Lord of Kayce"
+  ],
+  "seats": [
+    "Kayce"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1013",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/492",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/492",
+    "http://anapioficeandfire.com/api/characters/1013",
+    "http://anapioficeandfire.com/api/characters/1584"
+  ]
+}

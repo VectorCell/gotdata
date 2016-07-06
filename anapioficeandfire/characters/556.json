@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/556",
+  "name": "Jeyne Marbrand",
+  "gender": "Female",
+  "culture": "",
+  "born": "",
+  "died": "In 255 AC",
+  "titles": [
+    "Lady of Casterly Rock"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1057",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229",
+    "http://anapioficeandfire.com/api/houses/258"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

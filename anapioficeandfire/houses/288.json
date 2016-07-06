@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/288",
+  "name": "House Orkwood of Orkmont",
+  "region": "Iron Islands",
+  "coatOfArms": "Or, semy of pines vert",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Orkmont"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

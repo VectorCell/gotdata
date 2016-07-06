@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/49",
+  "name": "Aemma Arryn",
+  "gender": "Female",
+  "culture": "",
+  "born": "In 82 AC",
+  "died": "In 105 AC",
+  "titles": [
+    "Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1076",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/7",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/9",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

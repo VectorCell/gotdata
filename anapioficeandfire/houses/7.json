@@ -1,0 +1,53 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/7",
+  "name": "House Arryn of the Eyrie",
+  "region": "The Vale",
+  "coatOfArms": "A sky-blue falcon soaring against a white moon, on a sky-blue field(Bleu celeste, upon a plate a falcon volant of the field)",
+  "words": "As High as Honor",
+  "titles": [
+    "King of Mountain and Vale (formerly)",
+    "Lord of the Eyrie",
+    "Defender of the Vale",
+    "Warden of the East"
+  ],
+  "seats": [
+    "The Eyrie (summer)",
+    "Gates of the Moon (winter)"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/894",
+  "heir": "http://anapioficeandfire.com/api/characters/477",
+  "overlord": "http://anapioficeandfire.com/api/houses/16",
+  "founded": "Coming of the Andals",
+  "founder": "http://anapioficeandfire.com/api/characters/144",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [
+    "http://anapioficeandfire.com/api/houses/6"
+  ],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/49",
+    "http://anapioficeandfire.com/api/characters/92",
+    "http://anapioficeandfire.com/api/characters/93",
+    "http://anapioficeandfire.com/api/characters/107",
+    "http://anapioficeandfire.com/api/characters/223",
+    "http://anapioficeandfire.com/api/characters/265",
+    "http://anapioficeandfire.com/api/characters/300",
+    "http://anapioficeandfire.com/api/characters/356",
+    "http://anapioficeandfire.com/api/characters/477",
+    "http://anapioficeandfire.com/api/characters/508",
+    "http://anapioficeandfire.com/api/characters/540",
+    "http://anapioficeandfire.com/api/characters/548",
+    "http://anapioficeandfire.com/api/characters/558",
+    "http://anapioficeandfire.com/api/characters/572",
+    "http://anapioficeandfire.com/api/characters/688",
+    "http://anapioficeandfire.com/api/characters/894",
+    "http://anapioficeandfire.com/api/characters/1068",
+    "http://anapioficeandfire.com/api/characters/1193",
+    "http://anapioficeandfire.com/api/characters/1280",
+    "http://anapioficeandfire.com/api/characters/1443",
+    "http://anapioficeandfire.com/api/characters/1655",
+    "http://anapioficeandfire.com/api/characters/1693",
+    "http://anapioficeandfire.com/api/characters/1715",
+    "http://anapioficeandfire.com/api/characters/1884"
+  ]
+}

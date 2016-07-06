@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/796",
+  "name": "Orton Merryweather",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Longtable",
+    "Justiciar",
+    "Master of laws",
+    "Hand of the King"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/1006",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/264"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

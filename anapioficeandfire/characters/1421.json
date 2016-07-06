@@ -1,0 +1,28 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1421",
+  "name": "Gerold Dayne",
+  "gender": "Male",
+  "culture": "Dorne",
+  "born": "In or between 270 AC and 274 AC",
+  "died": "",
+  "titles": [
+    "Ser",
+    "Knight of High Hermitage"
+  ],
+  "aliases": [
+    "Darkstar"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/98"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

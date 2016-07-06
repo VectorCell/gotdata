@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/137",
+  "name": "House Footly of Tumbleton",
+  "region": "The Reach",
+  "coatOfArms": "a field of silver caltrops on black",
+  "words": "Tread Lightly Here",
+  "titles": [],
+  "seats": [
+    "Tumbleton"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": []
+}

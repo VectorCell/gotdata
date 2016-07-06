@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1328",
+  "name": "Dhazzar",
+  "gender": "Female",
+  "culture": "Ghiscari",
+  "born": "At Meereen",
+  "died": "",
+  "titles": [
+    "Cupbearer"
+  ],
+  "aliases": [
+    "The dancer"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

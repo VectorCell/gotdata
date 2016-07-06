@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/744",
+  "name": "Melissa Blackwood",
+  "gender": "Female",
+  "culture": "",
+  "born": "In or between 156 AC and 160 AC",
+  "died": "",
+  "titles": [],
+  "aliases": [
+    "Missy"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/27"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/8",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

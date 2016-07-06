@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/852",
+  "name": "Raymun Darry",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 298 AC, at Mummer's Ford",
+  "titles": [
+    "Lord of Darry"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/97"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

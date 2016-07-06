@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/283",
+  "name": "Damon Lannister",
+  "gender": "Male",
+  "culture": "Westerman",
+  "born": "",
+  "died": "In 210 AC",
+  "titles": [
+    "Lord of Casterly Rock",
+    "Shield of Lannisport",
+    "Warden of the West"
+  ],
+  "aliases": [
+    "The Grey Lion"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/236",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/4",
+    "http://anapioficeandfire.com/api/books/7"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

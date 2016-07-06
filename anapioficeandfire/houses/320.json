@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/320",
+  "name": "House Rhysling",
+  "region": "The Reach",
+  "coatOfArms": "An oaken door banded with iron, in a grey stone doorway, on black masonry",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/910"
+  ]
+}

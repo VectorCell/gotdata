@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/180",
+  "name": "House Harlaw of Harridan Hill",
+  "region": "Iron Islands",
+  "coatOfArms": "the Harlaw scythe on a pale blue field",
+  "words": "",
+  "titles": [
+    "Master of Harridan Hill"
+  ],
+  "seats": [
+    "Harridan Hill, Harlaw"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/201",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/178",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/201"
+  ]
+}

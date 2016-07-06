@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/286",
+  "name": "House Oakheart of Old Oak",
+  "region": "The Reach",
+  "coatOfArms": "Or, three oak leaves vert",
+  "words": "Our Roots Go Deep",
+  "titles": [],
+  "seats": [
+    "Old Oak"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/147",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/398",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/570",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/74",
+    "http://anapioficeandfire.com/api/characters/147",
+    "http://anapioficeandfire.com/api/characters/149",
+    "http://anapioficeandfire.com/api/characters/343",
+    "http://anapioficeandfire.com/api/characters/570",
+    "http://anapioficeandfire.com/api/characters/787"
+  ]
+}

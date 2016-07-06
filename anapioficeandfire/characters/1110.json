@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1110",
+  "name": "Willam Dustin",
+  "gender": "Male",
+  "culture": "Northmen",
+  "born": "",
+  "died": "In 283 AC, at the Tower of Joy",
+  "titles": [
+    "Lord of Barrowton"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/166",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/111"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/1",
+    "http://anapioficeandfire.com/api/books/5",
+    "http://anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

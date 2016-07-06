@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/405",
+  "name": "House Vance of Wayfarer's Rest",
+  "region": "The Riverlands",
+  "coatOfArms": "Quartered, a black dragon on a white field and two golden eyes in a golden ring on a black field(Quarterly, first and fourth, argent, a dragon sable, second and third, sable, a pair of eyes within an annulet or)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Wayfarer's Rest"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/604",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/10",
+  "founded": "",
+  "founder": "http://anapioficeandfire.com/api/characters/1169",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/378",
+    "http://anapioficeandfire.com/api/characters/604",
+    "http://anapioficeandfire.com/api/characters/637",
+    "http://anapioficeandfire.com/api/characters/879"
+  ]
+}

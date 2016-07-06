@@ -1,0 +1,30 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/329",
+  "name": "House Royce of the Gates of the Moon",
+  "region": "The Vale",
+  "coatOfArms": "A black portcullis over a white crescent moon, on a purple field, bordered with runes on bronze(Purpure, a moon increscent argent surmounted by a portcullis sable, all within a bordure tenné charged with ancient runes of the third)",
+  "words": "",
+  "titles": [
+    "Lord of the Gates of the Moon"
+  ],
+  "seats": [
+    "Gates of the Moon"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/1755",
+  "heir": "http://anapioficeandfire.com/api/characters/67",
+  "overlord": "http://anapioficeandfire.com/api/houses/7",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/67",
+    "http://anapioficeandfire.com/api/characters/774",
+    "http://anapioficeandfire.com/api/characters/1256",
+    "http://anapioficeandfire.com/api/characters/1741",
+    "http://anapioficeandfire.com/api/characters/1755",
+    "http://anapioficeandfire.com/api/characters/1788",
+    "http://anapioficeandfire.com/api/characters/1864"
+  ]
+}

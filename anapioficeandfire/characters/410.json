@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/410",
+  "name": "Garth the Gardener",
+  "gender": "Male",
+  "culture": "First Men",
+  "born": "",
+  "died": "",
+  "titles": [
+    "King of the Reach"
+  ],
+  "aliases": [],
+  "father": "http://anapioficeandfire.com/api/characters/1411",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

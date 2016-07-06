@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/767",
+  "name": "Murmison",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 41 AC, at King's Landing",
+  "titles": [
+    "Septon",
+    "Hand of the King"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

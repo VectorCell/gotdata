@@ -1,0 +1,20 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/20",
+  "name": "House Bettley",
+  "region": "The Westerlands",
+  "coatOfArms": "Three blue beetles, on a gold field(Or, three beetles azure)",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/573"
+  ]
+}

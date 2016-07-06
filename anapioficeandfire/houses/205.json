@@ -1,0 +1,21 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/205",
+  "name": "House Humble",
+  "region": "Iron Islands",
+  "coatOfArms": "",
+  "words": "",
+  "titles": [],
+  "seats": [],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/169",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1841",
+    "http://anapioficeandfire.com/api/characters/2106"
+  ]
+}

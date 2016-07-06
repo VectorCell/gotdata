@@ -1,0 +1,24 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/675",
+  "name": "Lymond Mallister",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Lord of Seagard"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/254"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/10"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

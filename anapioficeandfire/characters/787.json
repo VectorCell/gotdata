@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/787",
+  "name": "Olyvar Oakheart",
+  "gender": "Male",
+  "culture": "",
+  "born": "",
+  "died": "In 161 AC",
+  "titles": [
+    "Ser"
+  ],
+  "aliases": [
+    "The Green Oak"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/286"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/5"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

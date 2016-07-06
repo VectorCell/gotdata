@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/1462",
+  "name": "Haegon Blackfyre",
+  "gender": "Male",
+  "culture": "Valyrian",
+  "born": "In or between 189 AC and 193 AC",
+  "died": "In 219 AC",
+  "titles": [],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/23"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/7",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

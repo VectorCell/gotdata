@@ -1,0 +1,22 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/58",
+  "name": "House Cafferen of Fawnton",
+  "region": "The Stormlands",
+  "coatOfArms": "Two white fawns counter salient, on a green field(Vert, two fawns counter-salient argent)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Fawnton"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/1252"
+  ]
+}

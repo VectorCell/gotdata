@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/48",
+  "name": "Aelinor Penrose",
+  "gender": "Female",
+  "culture": "Valyrian",
+  "born": "",
+  "died": "",
+  "titles": [
+    "Queen"
+  ],
+  "aliases": [],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/61",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/300",
+    "http://anapioficeandfire.com/api/houses/378"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

@@ -1,0 +1,32 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/374",
+  "name": "House Swyft of Cornfield",
+  "region": "The Westerlands",
+  "coatOfArms": "A blue bantam rooster, on a yellow field(Or, a cock close azure)",
+  "words": "Awake! Awake!",
+  "titles": [
+    "Knight of Cornfield"
+  ],
+  "seats": [
+    "Cornfield"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/487",
+  "heir": "http://anapioficeandfire.com/api/characters/992",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/34",
+    "http://anapioficeandfire.com/api/characters/327",
+    "http://anapioficeandfire.com/api/characters/487",
+    "http://anapioficeandfire.com/api/characters/516",
+    "http://anapioficeandfire.com/api/characters/563",
+    "http://anapioficeandfire.com/api/characters/564",
+    "http://anapioficeandfire.com/api/characters/974",
+    "http://anapioficeandfire.com/api/characters/992",
+    "http://anapioficeandfire.com/api/characters/2111"
+  ]
+}

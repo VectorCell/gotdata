@@ -1,0 +1,26 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/105",
+  "name": "Alysanne Targaryen",
+  "gender": "Female",
+  "culture": "",
+  "born": "36 AC",
+  "died": "99 AC or 100 AC",
+  "titles": [
+    "Queen"
+  ],
+  "aliases": [
+    "Good Queen Alysanne"
+  ],
+  "father": "http://anapioficeandfire.com/api/characters/57",
+  "mother": "http://anapioficeandfire.com/api/characters/110",
+  "spouse": "http://anapioficeandfire.com/api/characters/526",
+  "allegiances": [],
+  "books": [
+    "http://anapioficeandfire.com/api/books/3",
+    "http://anapioficeandfire.com/api/books/10",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

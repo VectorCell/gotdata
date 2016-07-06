@@ -1,0 +1,23 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/50",
+  "name": "House Buckler of Bronzegate",
+  "region": "The Stormlands",
+  "coatOfArms": "Three brass buckles, on a blue field(Azure, three buckles or)",
+  "words": "",
+  "titles": [],
+  "seats": [
+    "Bronzegate"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/848",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/234",
+    "http://anapioficeandfire.com/api/characters/848"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/300",
+  "name": "House Penrose of Parchments",
+  "region": "The Stormlands",
+  "coatOfArms": "White crossed quills, on a russet field(Tenné, two quills saltirewise argent)",
+  "words": "Set Down Our Deeds",
+  "titles": [
+    "Lord of Parchments"
+  ],
+  "seats": [
+    "Parchments"
+  ],
+  "currentLord": "",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/17",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/48",
+    "http://anapioficeandfire.com/api/characters/254",
+    "http://anapioficeandfire.com/api/characters/581",
+    "http://anapioficeandfire.com/api/characters/1358"
+  ]
+}

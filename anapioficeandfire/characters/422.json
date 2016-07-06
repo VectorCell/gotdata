@@ -1,0 +1,29 @@
+{
+  "url": "http://anapioficeandfire.com/api/characters/422",
+  "name": "Gerold Lannister",
+  "gender": "Male",
+  "culture": "Westerman",
+  "born": "",
+  "died": "In 244 AC",
+  "titles": [
+    "Lord of Casterly Rock",
+    "Shield of Lannisport",
+    "Warden of the West"
+  ],
+  "aliases": [
+    "Gerold the Golden"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "http://anapioficeandfire.com/api/characters/101",
+  "allegiances": [
+    "http://anapioficeandfire.com/api/houses/229"
+  ],
+  "books": [
+    "http://anapioficeandfire.com/api/books/6",
+    "http://anapioficeandfire.com/api/books/11"
+  ],
+  "povBooks": [],
+  "tvSeries": [],
+  "playedBy": []
+}

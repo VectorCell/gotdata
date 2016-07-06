@@ -1,0 +1,25 @@
+{
+  "url": "http://anapioficeandfire.com/api/houses/163",
+  "name": "House Greenfield of Greenfield",
+  "region": "The Westerlands",
+  "coatOfArms": "A white double-tressure, on a green field(Vert, a double-tressure argent)",
+  "words": "",
+  "titles": [
+    "The Knight of Greenfield"
+  ],
+  "seats": [
+    "Greenfield"
+  ],
+  "currentLord": "http://anapioficeandfire.com/api/characters/405",
+  "heir": "",
+  "overlord": "http://anapioficeandfire.com/api/houses/229",
+  "founded": "",
+  "founder": "",
+  "diedOut": "",
+  "ancestralWeapons": [],
+  "cadetBranches": [],
+  "swornMembers": [
+    "http://anapioficeandfire.com/api/characters/405",
+    "http://anapioficeandfire.com/api/characters/828"
+  ]
+}
