@@ -5,6 +5,12 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"
 db = SQLAlchemy(app)
 
 
+characters_houses = db.Table("characters_houses",
+                             db.Column("character_url", db.String(
+                                 256), db.ForeignKey("characters.url")),
+                             db.Column("house_url", db.String(256), db.ForeignKey("houses.url")))
+
+
 class Character(db.Model):
     __tablename__ = "characters"
 
@@ -21,7 +27,8 @@ class Character(db.Model):
     # Foreign keys
 
     # Relationships
-    # allegiances = db.relationship(
+    allegiances = db.relationship("House", secondary=characters_houses,
+                                  back_populates="swornMembers")
     # books = db.relationship(
     # povBooks = db.relationship(
 
@@ -61,7 +68,8 @@ class House(db.Model):
     # overlord = db.relationship
     # founder = db.relationship(
     # cadetBranches = db.relationship(
-    # swornMembers = db.relationship(
+    swornMembers = db.relationship("Character", secondary=characters_houses,
+                                   back_populates="allegiances")
 
     def __init__(self, url="", name="", region="", coatOfArms="",
                  words="", founded="", diedOut=""):
