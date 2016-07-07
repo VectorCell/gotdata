@@ -20,3 +20,8 @@ echo -e "books\ncharacters\nhouses" | while read base; do
 
 
 done
+
+find -type f -size 0 | while read file; do
+	echo "removing empty file $file"
+	rm "$file"
+done
