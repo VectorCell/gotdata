@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <title>{{ LOCATION_NAME }}</title>
+
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -41,37 +43,26 @@
   </nav>
 
   <div class="container">
-    <h1>House Frey</h1>
+    <h1>{{ LOCATION_NAME }}</h1>
 
     <div>
-      <h3>Region</h3>
-        <li><a href="theValeofArryn">The Riverlands</a></li>
+      <img src={{ LOCATION_IMG }}></img>
 
-      <h3>Coat of Arms</h3>
-        <img src="http://vignette1.wikia.nocookie.net/gameofthrones/images/e/e6/House-Frey-Main-Shield.PNG/revision/latest?cb=20160312124244"></img>
+      <h3>Significant Figures</h3>
+        <li>{{ LOCATION_PEOPLE }}</li>
 
-      <h3>Words</h3>
-        <q>We Stand Together</q>
+      <h3>Ruling Houses</h3>
+        <li>{{ LOCATION_RULING_HOUSES}}</li>
 
-      <h3>Current Lord</h3>
-        <li>Steven Frey</li>
+      <h3>Neighbors</h3>
+        <li>{{ LOCATION_NEIGHBORS }}</li>
 
-      <h3>Heir</h3>
-        <li>Uncertain</li>
+      <h3>Conflicts</h3>
+        <li>{{ LOCATION_CONFLICTS }}</li>
 
-      <h3>Overlord</h3>
-        <li>House Lannister</li>
+      <h3>Significant Events</h3>
+        <li>{{ LOCATION_EVENTS }}</li>
 
-      <h3>Ancestral Weapons</h3>
-
-      <h3>Characters</h3>
-        <li></li>
-
-      <h3>Events</h3>
-        <li></li>
-
-      <h3>Locations</h3>
-        <li></li>
     </div>
   </div>
 
