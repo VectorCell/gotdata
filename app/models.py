@@ -67,13 +67,19 @@ class House(db.Model):
     diedOut = db.Column(db.String(256))
 
     # Foreign keys
+    currentLord_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
+    heir_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
+    overlord_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
+    founder_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
+    # parentBranch_url = db.Column(db.String(256), db.ForeignKey("house.url"))
 
     # Relationships
-    # currentLord = db.relationship(
-    # heir = db.relationship(
-    # overlord = db.relationship
-    # founder = db.relationship(
-    # cadetBranches = db.relationship(
+    currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_url")
+    heir = db.relationship("Character", uselist=False, foreign_keys="House.heir_url")
+    overlord = db.relationship("Character", uselist=False, foreign_keys="House.overlord_url")
+    founder = db.relationship("Character", uselist=False, foreign_keys="House.founder_url")
+    # parentBranch = db.relationship("House", back_populates="cadetBranches")
+    # cadetBranches = db.relationship("House", back_populates="parentBranch")
     swornMembers = db.relationship("Character", secondary=characters_houses,
                                    back_populates="allegiances")
 
