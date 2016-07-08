@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <title>{{ HOUSE_TITLE }}</title>
+
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -41,37 +43,38 @@
   </nav>
 
   <div class="container">
-    <h1>House Frey</h1>
+    <h1>{{ HOUSE_TITLE }}</h1>
 
     <div>
       <h3>Region</h3>
-        <li><a href="theValeofArryn">The Riverlands</a></li>
+        <li>{{ HOUSE_REGION }}</li>
 
       <h3>Coat of Arms</h3>
-        <img src="http://vignette1.wikia.nocookie.net/gameofthrones/images/e/e6/House-Frey-Main-Shield.PNG/revision/latest?cb=20160312124244"></img>
+        <img src={{ HOUSE_IMG }}></img>
 
       <h3>Words</h3>
-        <q>We Stand Together</q>
+        <q>{{ HOUSE_WORDS }}</q>
 
       <h3>Current Lord</h3>
-        <li>Steven Frey</li>
+        <li>{{ HOUSE_LORD }}</li>
 
       <h3>Heir</h3>
-        <li>Uncertain</li>
+        <li>{{ HOUSE_HEIR }}</li>
 
       <h3>Overlord</h3>
-        <li>House Lannister</li>
+        <li>{{ HOUSE_OVERLORD }}</li>
 
       <h3>Ancestral Weapons</h3>
+        <li>{{ HOUSE_WEAPONS }}</li>
 
       <h3>Characters</h3>
-        <li></li>
+        <li>{{ HOUSE_CHARACTERS }}</li>
 
       <h3>Events</h3>
-        <li></li>
+        <li>{{ HOUSE_EVENTS }}</li>
 
       <h3>Locations</h3>
-        <li></li>
+        <li>{{ HOUSE_LOCATIONS }}</li>
     </div>
   </div>
 
