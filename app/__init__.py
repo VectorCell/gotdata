@@ -5,6 +5,11 @@ app = Flask(__name__)
 def index():
     return app.send_static_file('index.html')
 
+@app.route('/character/<arg>')
+def index(arg):
+	character = {"name": arg}
+    return app.render_template('index.html', character=character)
+
 """
 @app.route('/static/houses')
 def houses():
