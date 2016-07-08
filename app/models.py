@@ -10,6 +10,10 @@ characters_houses = db.Table("characters_houses",
                                  256), db.ForeignKey("characters.url")),
                              db.Column("house_url", db.String(256), db.ForeignKey("houses.url")))
 
+characters_books = db.Table("characters_books",
+                            db.Column("character_url", db.String(
+                                 256), db.ForeignKey("characters.url")),
+                            db.Column("book_url", db.String(256), db.ForeignKey("books.url")))
 
 class Character(db.Model):
     __tablename__ = "characters"
@@ -29,8 +33,10 @@ class Character(db.Model):
     # Relationships
     allegiances = db.relationship("House", secondary=characters_houses,
                                   back_populates="swornMembers")
-    # books = db.relationship(
-    # povBooks = db.relationship(
+    books = db.relationship("Book", secondary=characters_books,
+                            back_populates="characters")
+    povBooks = db.relationship("Book", secondary=characters_books,
+                               back_populates="povCharacters")
 
     def __init__(self, url="", name="", culture="", born="",
                  died="", father="", mother="", spouse=""):
@@ -102,8 +108,10 @@ class Book(db.Model):
     # Foreign keys
 
     # Relationships
-    # characters = db.relationship(
-    # povCharacters = db.relationship(
+    characters = db.relationship("Character", secondary=characters_books,
+                                 back_populates="books")
+    povCharacters = db.relationship("Character", secondary=characters_books,
+                                    back_populates="povBooks")
 
     def __init__(self, url="", name="", isbn="",
                  numberOfPages=0, publisher="", country="",
