@@ -5,10 +5,22 @@ app = Flask(__name__)
 def index():
     return app.send_static_file('index.html')
 
-@app.route('/character/<arg>')
-def index(arg):
-	character = {"name": arg}
-    return app.render_template('index.html', character=character)
+@app.route('/character/<int:arg>')
+def character(arg):
+    character = {
+        name: arg,
+        img: "",
+        seasons: 1,
+        house: "Lannister",
+        allegiance: "Nope",
+        alive: True,
+        titles: "None",
+        other_names: "None",
+        actor: "Peter Dinklage",
+        current_location: "King's Landing",
+        locations: "None"
+    }
+    return render_template('character.html', character=character)
 
 """
 @app.route('/static/houses')
