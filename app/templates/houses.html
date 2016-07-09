@@ -4,15 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>Characters</title>
 
+  <title>Houses</title>
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
 </head>
 
@@ -43,16 +44,25 @@
   </nav>
 
   <div class="container">
-    <h1>Events</h1>
-
-    <div class="list-events">
-      <ul>
-        <li><a href="red_wedding.html">Red Wedding</a></li>
-        <li><a href="fall_of_moat_cailin.html">Fall of Moat Cailin</a></li>
-        <li><a href="purple_wedding.html">Purple Wedding</a></li>
-      </ul>
-    </div>
+    <h1>Houses</h1>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Region</th>
+        <th>Coat of Arms</th>
+        <th>URL</th>
+      </tr>
+      {% for house in houses %}
+        <tr>
+          <td>{{ house['name']       }}</td>
+          <td>{{ house['region']     }}</td>
+          <td>{{ house['coatOfArms'] }}</td>
+          <td>{{ house['url']        }}</td>
+        </tr>
+      {% endfor %}
+    </table>
   </div>
+
 </body>
 
 </html>

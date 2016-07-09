@@ -1,10 +1,25 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine, MetaData, Table
+
+import query_db
+
 app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
 def index():
     return app.send_static_file('index.html')
+
+@app.route('/characters')
+def characters():
+    characters = [c for c in query_db.get_all_characters()]
+    return render_template('characters.html', characters=characters)
+
+@app.route('/houses')
+def houses():
+    houses = [c for c in query_db.get_all_houses()]
+    return render_template('houses.html', houses=houses)
 
 @app.route('/character/<int:arg>')
 def character(arg):
@@ -75,4 +90,4 @@ def static_proxy(path):
     return app.send_static_file(path)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8082)
+    app.run()
