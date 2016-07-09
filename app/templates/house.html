@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>{{ HOUSE_TITLE }}</title>
+  <title>{{house.name}}</title>
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
 </head>
 
@@ -43,43 +43,37 @@
   </nav>
 
   <div class="container">
-    <h1>{{ HOUSE_TITLE }}</h1>
+    <h1>{{house.name}}</h1>
 
     <div>
       <h3>Region</h3>
-        <li>{{ HOUSE_REGION }}</li>
+        <li>{{house.region}}</li>
 
       <h3>Coat of Arms</h3>
-        <img src={{ HOUSE_IMG }}></img>
+        <img src={{house.img}}></img>
 
       <h3>Words</h3>
-        <q>{{ HOUSE_WORDS }}</q>
+        <q>{{house.words}}</q>
 
       <h3>Current Lord</h3>
-        <li>{{ HOUSE_LORD }}</li>
+        <li>{{house.lord}}</li>
 
       <h3>Heir</h3>
-        <li>{{ HOUSE_HEIR }}</li>
+        <li>{{house.heir}}</li>
 
       <h3>Overlord</h3>
-        <li>{{ HOUSE_OVERLORD }}</li>
+        <li>{{house.overlord}}</li>
 
       <h3>Ancestral Weapons</h3>
-        <li>{{ HOUSE_WEAPONS }}</li>
+        <li>{{house.weapons}}</li>
 
       <h3>Characters</h3>
-        <li>{{ HOUSE_CHARACTERS }}</li>
-
-      <h3>Events</h3>
-        <li>{{ HOUSE_EVENTS }}</li>
+        <li>{{house.characters}}</li>
 
       <h3>Locations</h3>
-        <li>{{ HOUSE_LOCATIONS }}</li>
+        <li>{{house.locations}}</li>
     </div>
   </div>
-
-  <button align="middle|bottom">Facebook</button>
-  <button align="middle|bottom">Twitter</button>
 
 </body>
 
