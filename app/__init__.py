@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
+import os
 
 import query_db
 
@@ -90,4 +91,17 @@ def static_proxy(path):
     return app.send_static_file(path)
 
 if __name__ == "__main__":
-    app.run()
+    if (os.getuid() == 1003): # ahounsel
+        app.run(host='0.0.0.0', port=8081)
+    elif (os.getuid() == 1000): # bismith
+        app.run(host='0.0.0.0', port=8082)
+    elif (os.getuid() == 1001): # holtk
+        app.run(host='0.0.0.0', port=8083)
+    elif (os.getuid() == 1005): # rkaman
+        app.run(host='0.0.0.0', port=8084)
+    elif (os.getuid() == 1004): # sh115
+        app.run(host='0.0.0.0', port=8085)
+    elif (os.getuid() == 1002): # shcott
+        app.run(host='0.0.0.0', port=8086)
+    else:
+        app.run()
