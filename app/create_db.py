@@ -11,7 +11,7 @@ def create_db():
     db.create_all()
 
     create_characters()    
-    # create_houses()
+    create_houses()
     create_books()
 
     db.session.commit()

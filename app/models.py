@@ -10,13 +10,13 @@ Many-to-many association tables
 """
 characters_houses = db.Table("characters_houses",
                              db.Column("character_url", db.String(
-                                 256), db.ForeignKey("characters.url")),
-                             db.Column("house_url", db.String(256), db.ForeignKey("houses.url")))
+                                 512), db.ForeignKey("characters.url")),
+                             db.Column("house_url", db.String(512), db.ForeignKey("houses.url")))
 
 characters_books = db.Table("characters_books",
                             db.Column("character_url", db.String(
-                                 256), db.ForeignKey("characters.url")),
-                            db.Column("book_url", db.String(256), db.ForeignKey("books.url")))
+                                 512), db.ForeignKey("characters.url")),
+                            db.Column("book_url", db.String(512), db.ForeignKey("books.url")))
 
 
 """
@@ -26,14 +26,14 @@ class Character(db.Model):
     __tablename__ = "characters"
 
     # Table attributes
-    url = db.Column(db.String(256), primary_key=True)
-    name = db.Column(db.String(256))
-    culture = db.Column(db.String(256))
-    born = db.Column(db.String(256))
-    died = db.Column(db.String(256))
-    father = db.Column(db.String(256))
-    mother = db.Column(db.String(256))
-    spouse = db.Column(db.String(256))
+    url = db.Column(db.String(512), primary_key=True)
+    name = db.Column(db.String(512))
+    culture = db.Column(db.String(512))
+    born = db.Column(db.String(512))
+    died = db.Column(db.String(512))
+    father = db.Column(db.String(512))
+    mother = db.Column(db.String(512))
+    spouse = db.Column(db.String(512))
 
     # Relationships
     allegiances = db.relationship("House", secondary=characters_houses,
@@ -66,19 +66,19 @@ class House(db.Model):
     __tablename__ = "houses"
 
     # Table attributes
-    url = db.Column(db.String(256), primary_key=True)
-    name = db.Column(db.String(256))
-    region = db.Column(db.String(256))
-    coatOfArms = db.Column(db.String(256))
-    words = db.Column(db.String(256))
-    founded = db.Column(db.String(256))
-    diedOut = db.Column(db.String(256))
+    url = db.Column(db.String(512), primary_key=True)
+    name = db.Column(db.String(512))
+    region = db.Column(db.String(512))
+    coatOfArms = db.Column(db.String(512))
+    words = db.Column(db.String(512))
+    founded = db.Column(db.String(512))
+    diedOut = db.Column(db.String(512))
 
     # Foreign keys
-    currentLord_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
-    heir_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
-    overlord_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
-    founder_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
+    currentLord_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
+    heir_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
+    overlord_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
+    founder_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
 
     # Relationships
     currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_url")
@@ -110,14 +110,14 @@ class Book(db.Model):
     __tablename__ = "books"
 
     # Table attributes
-    url = db.Column(db.String(256), primary_key=True)
-    name = db.Column(db.String(256))
-    isbn = db.Column(db.String(256))
+    url = db.Column(db.String(512), primary_key=True)
+    name = db.Column(db.String(512))
+    isbn = db.Column(db.String(512))
     numberOfPages = db.Column(db.Integer)
-    publisher = db.Column(db.String(256))
-    country = db.Column(db.String(256))
-    mediaType = db.Column(db.String(256))
-    released = db.Column(db.String(256))
+    publisher = db.Column(db.String(512))
+    country = db.Column(db.String(512))
+    mediaType = db.Column(db.String(512))
+    released = db.Column(db.String(512))
 
     # Relationships
     characters = db.relationship("Character", secondary=characters_books,
