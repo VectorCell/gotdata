@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>{{ LOCATION_NAME }}</title>
+  <title>{{location.name}}</title>
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
 </head>
 
@@ -43,31 +43,25 @@
   </nav>
 
   <div class="container">
-    <h1>{{ LOCATION_NAME }}</h1>
+    <h1>{{location.name}}</h1>
 
     <div>
-      <img src={{ LOCATION_IMG }}></img>
+      <img src="{{location.img}}"></img>
 
       <h3>Significant Figures</h3>
-        <li>{{ LOCATION_PEOPLE }}</li>
+        <li>{{location.people}}</li>
 
       <h3>Ruling Houses</h3>
-        <li>{{ LOCATION_RULING_HOUSES}}</li>
+        <li>{{location.ruling_houses}}</li>
 
       <h3>Neighbors</h3>
-        <li>{{ LOCATION_NEIGHBORS }}</li>
+        <li>{{location.neighbors}}</li>
 
       <h3>Conflicts</h3>
-        <li>{{ LOCATION_CONFLICTS }}</li>
-
-      <h3>Significant Events</h3>
-        <li>{{ LOCATION_EVENTS }}</li>
+        <li>{{location.conflicts}}</li>
 
     </div>
   </div>
-
-  <button align="middle|bottom">Facebook</button>
-  <button align="middle|bottom">Twitter</button>
 
 </body>
 

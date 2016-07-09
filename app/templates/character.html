@@ -5,22 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ CHARACTER_NAME }}</title>
+  <title>{{character.name}}</title>
   
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
 </head>
 
 <body>
-  <nav class="navbar navbar-default" rlie="navigation">
+  <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="clilapse" data-target="#theNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -28,7 +29,7 @@
         <a class="navbar-brand" href="index.html">GoT Data</a>
       </div>
 
-      <div class="clilapse navbar-clilapse" id="theNavbar">
+      <div class="collapse navbar-collapse" id="theNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="about.html">About</a></li>
         </ul>
@@ -43,45 +44,39 @@
   </nav>
 
   <div class="container">
-    <h1>{{ CHARACTER_NAME }}</h1>
+    <h1>{{character.name}}</h1>
 
     <div>
-      <img src={{ CHARACTER_IMG }}></img>
+      <img src="{{character.img}}"></img>
 
       <h3>Season(s)</h3>
-        <li>{{ CHARACTER_SEASONS }}</li>
+        <li>{{character.seasons}}</li>
 
       <h3>House</h3>
-        <li>{{ CHARACTER_HOUSE }}</li>
+        <li>{{character.house}}</li>
 
       <h3>Allegiance</h3>
-        <li>{{ CHARACTER_ALLEGIANCE }}</li>
+        <li>{{character.allegiance}}</li>
 
       <h3>Alive/Dead Status</h3>
-        <li>{{ CHARACTER_ALIVE }}</li>
+        <p>{{character.alive}}</p>
 
       <h3>Titles</h3>
-        <li>{{ CHARACTER_TITLES }}</li>
+        <li>{{character.titles}}</li>
 
       <h3>Also Known As</h3>
-        <li>{{ CHARACTER_OTHER_NAMES }}</li>
+        <li>{{character.other_names}}</li>
 
       <h3>Portrayed by</h3>
-        <li>{{ CHARACTER_ACTOR }}</li>
-
-      <h3>Events</h3>
-        <li>{{ CHARACTER_EVENTS }}</li>
+        <p>{{character.actor}}</p>
 
       <h3>Current Location</h3>
-        <li>{{ CHARACTER_LOCATION }}</li>
+        <li>{{character.current_location}}</li>
 
       <h3>Locations</h3>
-        <li>{{ CHARACTER_LOCATIONS }}</li>
+        <li>{{character.locations}}</li>
     </div>
   </div>
-
-  <button align="middle|bottom">Facebook</button>
-  <button align="middle|bottom">Twitter</button>
 
 </body>
 
