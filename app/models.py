@@ -5,6 +5,9 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://austin:ahh10523@localhost/
 db = SQLAlchemy(app)
 
 
+"""
+Many-to-many association tables
+"""
 characters_houses = db.Table("characters_houses",
                              db.Column("character_url", db.String(
                                  256), db.ForeignKey("characters.url")),
@@ -15,6 +18,10 @@ characters_books = db.Table("characters_books",
                                  256), db.ForeignKey("characters.url")),
                             db.Column("book_url", db.String(256), db.ForeignKey("books.url")))
 
+
+"""
+Characters table model
+"""
 class Character(db.Model):
     __tablename__ = "characters"
 
@@ -27,8 +34,6 @@ class Character(db.Model):
     father = db.Column(db.String(256))
     mother = db.Column(db.String(256))
     spouse = db.Column(db.String(256))
-
-    # Foreign keys
 
     # Relationships
     allegiances = db.relationship("House", secondary=characters_houses,
@@ -54,6 +59,9 @@ class Character(db.Model):
         return "<Character %r>" % self.name
 
 
+"""
+Houses table model
+"""
 class House(db.Model):
     __tablename__ = "houses"
 
@@ -71,15 +79,12 @@ class House(db.Model):
     heir_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
     overlord_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
     founder_url = db.Column(db.String(256), db.ForeignKey("characters.url"))
-    # parentBranch_url = db.Column(db.String(256), db.ForeignKey("house.url"))
 
     # Relationships
     currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_url")
     heir = db.relationship("Character", uselist=False, foreign_keys="House.heir_url")
     overlord = db.relationship("Character", uselist=False, foreign_keys="House.overlord_url")
     founder = db.relationship("Character", uselist=False, foreign_keys="House.founder_url")
-    # parentBranch = db.relationship("House", back_populates="cadetBranches")
-    # cadetBranches = db.relationship("House", back_populates="parentBranch")
     swornMembers = db.relationship("Character", secondary=characters_houses,
                                    back_populates="allegiances")
 
@@ -98,6 +103,9 @@ class House(db.Model):
         return "<House %r>" % self.name
 
 
+"""
+Books table model
+"""
 class Book(db.Model):
     __tablename__ = "books"
 
@@ -110,8 +118,6 @@ class Book(db.Model):
     country = db.Column(db.String(256))
     mediaType = db.Column(db.String(256))
     released = db.Column(db.String(256))
-
-    # Foreign keys
 
     # Relationships
     characters = db.relationship("Character", secondary=characters_books,
