@@ -34,6 +34,7 @@ class Character(db.Model):
     # Table attributes
     url = db.Column(db.String(512), primary_key=True)
     name = db.Column(db.String(512))
+    gender = db.Column(db.String(512))
     culture = db.Column(db.String(512))
     born = db.Column(db.String(512))
     died = db.Column(db.String(512))
@@ -49,11 +50,12 @@ class Character(db.Model):
     povBooks = db.relationship("Book", secondary=characters_povbooks,
                                back_populates="povCharacters")
 
-    def __init__(self, url="", name="", culture="", born="",
-                 died="", father="", mother="", spouse=""):
+    def __init__(self, url="", name="", gender="", culture="", 
+                 born="", died="", father="", mother="", spouse=""):
 
         self.url = url
         self.name = name
+        self.gender = gender
         self.culture = culture
         self.born = born
         self.died = died

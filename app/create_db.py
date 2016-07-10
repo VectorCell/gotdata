@@ -27,6 +27,7 @@ def create_characters():
     for d in characters:
         url = d["url"]
         name = d["name"]
+        gender = d["gender"]
         culture = d["culture"]
         born = d["born"]
         died = d["died"]
@@ -36,10 +37,11 @@ def create_characters():
 
         c = Character.query.get(url)
         if not c:
-            c = Character(url=url, name=name, culture=culture, born=born,
+            c = Character(url=url, name=name, gender=gender, culture=culture, born=born,
                           died=died, father=father, mother=mother, spouse=spouse)
         else:
             c.name = name
+            c.gender = gender
             c.culture = culture
             c.born = born
             c.died = died
@@ -47,12 +49,13 @@ def create_characters():
             c.mother = mother
             c.spouse = spouse            
 
-        print(c)
-        db.session.add(c)
-
         create_rel_allegiances(c, d["allegiances"])
         create_rel_books(c, d["books"])
         create_rel_povbooks(c, d["povBooks"])
+
+        db.session.add(c)
+        print(c)
+
 
 """
 Create the allegiances/swornMembers many-to-many 
@@ -85,7 +88,7 @@ def create_rel_books(c, b):
 
 
 """
-Create the povBooks/characters many-to-many 
+Create the povBooks/povCharacters many-to-many 
 relationship between characters and books
 """
 def create_rel_povbooks(c, b):
@@ -127,8 +130,69 @@ def create_houses():
             h.founded = founded
             h.diedOut = diedOut
 
-        print(h)
+        create_rel_currentlord(h, d["currentLord"])
+        create_rel_heir(h, d["heir"])
+        create_rel_overlord(h, d["overlord"])
+        create_rel_founder(h, d["founder"])
+
         db.session.add(h)
+        print(h)
+
+
+"""
+Create the currentLord one-to-one 
+relationship between a house and 
+a character
+"""
+def create_rel_currentlord(h, character_url):
+    c = Character.query.get(character_url)
+    if not c:
+        c = Character(url=character_url)
+    h.currentLord = c
+
+    db.session.add(c)
+
+
+"""
+Create the heir one-to-one 
+relationship between a house and 
+a character
+"""
+def create_rel_heir(h, character_url):
+    c = Character.query.get(character_url)
+    if not c:
+        c = Character(url=character_url)
+    h.heir = c
+
+    db.session.add(c)
+
+
+"""
+Create the overlord one-to-one 
+relationship between a house and 
+a character
+"""
+def create_rel_overlord(h, character_url):
+    c = Character.query.get(character_url)
+    if not c:
+        c = Character(url=character_url)
+    h.overlord = c
+
+    db.session.add(c)
+
+
+"""
+Create the founder one-to-one 
+relationship between a house and 
+a character
+"""
+def create_rel_founder(h, character_url):
+    c = Character.query.get(character_url)
+    if not c:
+        c = Character(url=character_url)
+    h.founder = c
+
+    db.session.add(c)
 
 
 """
@@ -162,8 +226,8 @@ def create_books():
             b.mediaType = mediaType
             b.released = released
         
-        print(b)
         db.session.add(b)
+        print(b)
 
 
 """
