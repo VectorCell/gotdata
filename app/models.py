@@ -18,6 +18,12 @@ characters_books = db.Table("characters_books",
                                  512), db.ForeignKey("characters.url")),
                             db.Column("book_url", db.String(512), db.ForeignKey("books.url")))
 
+characters_povbooks = db.Table("characters_povbooks",
+                               db.Column("character_url", db.String(
+                                    512), db.ForeignKey("characters.url")),
+                               db.Column("book_url", db.String(512), db.ForeignKey("books.url")))
+
+
 
 """
 Characters table model
@@ -40,7 +46,7 @@ class Character(db.Model):
                                   back_populates="swornMembers")
     books = db.relationship("Book", secondary=characters_books,
                             back_populates="characters")
-    povBooks = db.relationship("Book", secondary=characters_books,
+    povBooks = db.relationship("Book", secondary=characters_povbooks,
                                back_populates="povCharacters")
 
     def __init__(self, url="", name="", culture="", born="",
@@ -122,7 +128,7 @@ class Book(db.Model):
     # Relationships
     characters = db.relationship("Character", secondary=characters_books,
                                  back_populates="books")
-    povCharacters = db.relationship("Character", secondary=characters_books,
+    povCharacters = db.relationship("Character", secondary=characters_povbooks,
                                     back_populates="povBooks")
 
     def __init__(self, url="", name="", isbn="",

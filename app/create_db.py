@@ -51,8 +51,13 @@ def create_characters():
         db.session.add(c)
 
         create_rel_allegiances(c, d["allegiances"])
+        create_rel_books(c, d["books"])
+        create_rel_povbooks(c, d["povBooks"])
 
-
+"""
+Create the allegiances/swornMembers many-to-many 
+relationship between characters and houses
+"""
 def create_rel_allegiances(c, a):
     for house_url in a:
         h = House.query.get(house_url)
@@ -62,6 +67,36 @@ def create_rel_allegiances(c, a):
             c.allegiances.append(h)
             
         db.session.add(h)
+
+
+"""
+Create the books/characters many-to-many 
+relationship between characters and books
+"""
+def create_rel_books(c, b):
+    for book_url in b:
+        b = Book.query.get(book_url)
+        if not b:
+            b = Book(url=book_url)
+        else:
+            c.books.append(b)
+
+        db.session.add(b)
+
+
+"""
+Create the povBooks/characters many-to-many 
+relationship between characters and books
+"""
+def create_rel_povbooks(c, b):
+    for book_url in b:
+        b = Book.query.get(book_url)
+        if not b:
+            b = Book(url=book_url)
+        else:
+            c.povBooks.append(b)
+
+        db.session.add(b)
 
 
 """
