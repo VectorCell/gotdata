@@ -34,11 +34,34 @@ def create_characters():
         mother = d["mother"]
         spouse = d["spouse"]
 
-        c = Character(url=url, name=name, culture=culture, born=born,
-                      died=died, father=father, mother=mother, spouse=spouse) 
+        c = Character.query.get(url)
+        if not c:
+            c = Character(url=url, name=name, culture=culture, born=born,
+                          died=died, father=father, mother=mother, spouse=spouse)
+        else:
+            c.name = name
+            c.culture = culture
+            c.born = born
+            c.died = died
+            c.father = father
+            c.mother = mother
+            c.spouse = spouse            
+
+        print(c)
         db.session.add(c)
 
-    db.session.commit()
+        create_rel_allegiances(c, d["allegiances"])
+
+
+def create_rel_allegiances(c, a):
+    for house_url in a:
+        h = House.query.get(house_url)
+        if not h:
+            h = House(url=house_url)
+        else:
+            c.allegiances.append(h)
+            
+        db.session.add(h)
 
 
 """
@@ -57,11 +80,20 @@ def create_houses():
         founded = d["founded"]
         diedOut = d["diedOut"]
 
-        h = House(url=url, name=name, region=region, coatOfArms=coatOfArms,
-                  words=words, founded=founded, diedOut=diedOut)
-        db.session.add(h)
+        h = House.query.get(url)
+        if not h:
+            h = House(url=url, name=name, region=region, coatOfArms=coatOfArms,
+                      words=words, founded=founded, diedOut=diedOut)
+        else:
+            h.name = name
+            h.region = region
+            h.coatOfArms = coatOfArms
+            h.words = words
+            h.founded = founded
+            h.diedOut = diedOut
 
-    db.session.commit()
+        print(h)
+        db.session.add(h)
 
 
 """
@@ -81,12 +113,22 @@ def create_books():
         mediaType = d["mediaType"]
         released = d["released"]
 
-        b = Book(url=url, name=name, isbn=isbn, numberOfPages=numberOfPages,
-                 publisher=publisher, country=country, mediaType=mediaType,
-                 released=released)
+        b = Book.query.get(url)
+        if not b:
+            b = Book(url=url, name=name, isbn=isbn, numberOfPages=numberOfPages,
+                     publisher=publisher, country=country, mediaType=mediaType,
+                     released=released)
+        else:
+            b.name = name
+            b.isbn = isbn
+            b.numberOfPages = numberOfPages
+            b.publisher = publisher
+            b.country = country
+            b.mediaType = mediaType
+            b.released = released
+        
+        print(b)
         db.session.add(b)
-
-    db.session.commit()
 
 
 """
