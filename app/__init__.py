@@ -12,6 +12,15 @@ app = Flask(__name__)
 def index():
     return app.send_static_file('index.html')
 
+@app.route('/query=<string:type>', methods=["GET"])
+def query(type):
+    data = None
+    if type == "characters":
+        return [c for c in query_db.get_all_characters()]
+    elif type == "houses":
+        return [c for c in query_db.get_all_houses()]
+    return data
+
 @app.route('/characters')
 def characters():
     characters = [c for c in query_db.get_all_characters()]
@@ -37,7 +46,8 @@ def character(arg):
         "current_location": "King's Landing",
         "locations": "None"
     }
-    return render_template('character.html', character=character)
+    # return render_template('character.html', character=character)
+    return render_template('character.html')
 
 @app.route('/house/<int:arg>')
 def house(arg):
@@ -103,5 +113,7 @@ if __name__ == "__main__":
         app.run(host='0.0.0.0', port=8085)
     elif (os.getuid() == 1002): # shcott
         app.run(host='0.0.0.0', port=8086)
+    elif (os.getuid() == 197609): # shcott's laptop
+        app.run(host='0.0.0.0', port=8087)
     else:
         app.run()
