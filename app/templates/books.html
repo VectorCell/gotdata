@@ -44,22 +44,24 @@
 
   <div class="container">
     <h1>Books</h1>
-    <table class="table table-striped">
-      <tr>
-        <th>Name</th>
-        <th>ISBN</th>
-        <th>Released</th>
-        <th>URL</th>
-      </tr>
-      {% for book in books %}
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
         <tr>
-          <td>{{ book['name']       }}</td>
-          <td>{{ book['isbn']     }}</td>
-          <td>{{ book['released'] }}</td>
-          <td>{{ book['url']        }}</td>
+          <th>Name</th>
+          <th>ISBN</th>
+          <th>Released</th>
+          <th>URL</th>
         </tr>
-      {% endfor %}
-    </table>
+        {% for book in books %}
+          <tr>
+            <td>{{ book['name']       }}</td>
+            <td>{{ book['isbn']     }}</td>
+            <td>{{ book['released'] }}</td>
+            <td>{{ book['url']        }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
   </div>
 
 </body>

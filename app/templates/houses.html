@@ -44,22 +44,24 @@
 
   <div class="container">
     <h1>Houses</h1>
-    <table class="table table-striped">
-      <tr>
-        <th>Name</th>
-        <th>Region</th>
-        <th>Coat of Arms</th>
-        <th>URL</th>
-      </tr>
-      {% for house in houses %}
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
         <tr>
-          <td>{{ house['name']       }}</td>
-          <td>{{ house['region']     }}</td>
-          <td>{{ house['coatOfArms'] }}</td>
-          <td>{{ house['url']        }}</td>
+          <th>Name</th>
+          <th>Region</th>
+          <th>Coat of Arms</th>
+          <th>URL</th>
         </tr>
-      {% endfor %}
-    </table>
+        {% for house in houses %}
+          <tr>
+            <td>{{ house['name']       }}</td>
+            <td>{{ house['region']     }}</td>
+            <td>{{ house['coatOfArms'] }}</td>
+            <td>{{ house['url']        }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
   </div>
 
 </body>
