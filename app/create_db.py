@@ -25,7 +25,7 @@ def create_characters():
         characters = json.load(char_file)
 
     for d in characters:
-        url = d["url"]
+        id = d["url"].split("/").pop()
         name = d["name"]
         gender = d["gender"]
         culture = d["culture"]
@@ -35,9 +35,9 @@ def create_characters():
         mother = d["mother"]
         spouse = d["spouse"]
 
-        c = Character.query.get(url)
+        c = Character.query.get(id)
         if not c:
-            c = Character(url=url, name=name, gender=gender, culture=culture, born=born,
+            c = Character(id=id, name=name, gender=gender, culture=culture, born=born,
                           died=died, father=father, mother=mother, spouse=spouse)
         else:
             c.name = name
@@ -54,7 +54,7 @@ def create_characters():
         create_rel_povbooks(c, d["povBooks"])
 
         db.session.add(c)
-        print(c)
+        print(c.id)
 
 
 """
@@ -62,10 +62,10 @@ Create the allegiances/swornMembers many-to-many
 relationship between characters and houses
 """
 def create_rel_allegiances(c, a):
-    for house_url in a:
-        h = House.query.get(house_url)
+    for house_id in a:
+        h = House.query.get(house_id)
         if not h:
-            h = House(url=house_url)
+            h = House(id=house_id)
         else:
             c.allegiances.append(h)
             
@@ -77,10 +77,10 @@ Create the books/characters many-to-many
 relationship between characters and books
 """
 def create_rel_books(c, b):
-    for book_url in b:
-        b = Book.query.get(book_url)
+    for book_id in b:
+        b = Book.query.get(book_id)
         if not b:
-            b = Book(url=book_url)
+            b = Book(id=book_id)
         else:
             c.books.append(b)
 
@@ -92,10 +92,10 @@ Create the povBooks/povCharacters many-to-many
 relationship between characters and books
 """
 def create_rel_povbooks(c, b):
-    for book_url in b:
-        b = Book.query.get(book_url)
+    for book_id in b:
+        b = Book.query.get(book_id)
         if not b:
-            b = Book(url=book_url)
+            b = Book(id=book_id)
         else:
             c.povBooks.append(b)
 
@@ -110,7 +110,7 @@ def create_houses():
         houses = json.load(house_file)
 
     for d in houses:
-        url = d["url"]
+        id = d["url"].split("/").pop()
         name = d["name"]
         region = d["region"]
         coatOfArms = d["coatOfArms"]
@@ -118,9 +118,9 @@ def create_houses():
         founded = d["founded"]
         diedOut = d["diedOut"]
 
-        h = House.query.get(url)
+        h = House.query.get(id)
         if not h:
-            h = House(url=url, name=name, region=region, coatOfArms=coatOfArms,
+            h = House(id=id, name=name, region=region, coatOfArms=coatOfArms,
                       words=words, founded=founded, diedOut=diedOut)
         else:
             h.name = name
@@ -136,7 +136,7 @@ def create_houses():
         create_rel_founder(h, d["founder"])
 
         db.session.add(h)
-        print(h)
+        print(h.id)
 
 
 """
@@ -144,10 +144,10 @@ Create the currentLord one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_currentlord(h, character_url):
-    c = Character.query.get(character_url)
+def create_rel_currentlord(h, character_id):
+    c = Character.query.get(character_id)
     if not c:
-        c = Character(url=character_url)
+        c = Character(id=character_id)
     h.currentLord = c
 
     db.session.add(c)
@@ -158,10 +158,10 @@ Create the heir one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_heir(h, character_url):
-    c = Character.query.get(character_url)
+def create_rel_heir(h, character_id):
+    c = Character.query.get(character_id)
     if not c:
-        c = Character(url=character_url)
+        c = Character(id=character_id)
     h.heir = c
 
     db.session.add(c)
@@ -172,10 +172,10 @@ Create the overlord one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_overlord(h, character_url):
-    c = Character.query.get(character_url)
+def create_rel_overlord(h, character_id):
+    c = Character.query.get(character_id)
     if not c:
-        c = Character(url=character_url)
+        c = Character(id=character_id)
     h.overlord = c
 
     db.session.add(c)
@@ -186,10 +186,10 @@ Create the founder one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_founder(h, character_url):
-    c = Character.query.get(character_url)
+def create_rel_founder(h, character_id):
+    c = Character.query.get(character_id)
     if not c:
-        c = Character(url=character_url)
+        c = Character(id=character_id)
     h.founder = c
 
     db.session.add(c)
@@ -203,7 +203,7 @@ def create_books():
         books = json.load(book_file)
 
     for d in books:
-        url = d["url"]
+        id = d["url"].split("/").pop()
         name = d["name"]
         isbn = d["isbn"]
         numberOfPages = d["numberOfPages"]
@@ -212,9 +212,9 @@ def create_books():
         mediaType = d["mediaType"]
         released = d["released"]
 
-        b = Book.query.get(url)
+        b = Book.query.get(id)
         if not b:
-            b = Book(url=url, name=name, isbn=isbn, numberOfPages=numberOfPages,
+            b = Book(id=id, name=name, isbn=isbn, numberOfPages=numberOfPages,
                      publisher=publisher, country=country, mediaType=mediaType,
                      released=released)
         else:
@@ -227,7 +227,7 @@ def create_books():
             b.released = released
         
         db.session.add(b)
-        print(b)
+        print(b.id)
 
 
 """

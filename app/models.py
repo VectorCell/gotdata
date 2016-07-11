@@ -10,18 +10,18 @@ Many-to-many association tables
 """
 characters_houses = db.Table("characters_houses",
                              db.Column("character_url", db.String(
-                                 512), db.ForeignKey("characters.url")),
-                             db.Column("house_url", db.String(512), db.ForeignKey("houses.url")))
+                                 512), db.ForeignKey("characters.id")),
+                             db.Column("house_url", db.String(512), db.ForeignKey("houses.id")))
 
 characters_books = db.Table("characters_books",
                             db.Column("character_url", db.String(
-                                 512), db.ForeignKey("characters.url")),
-                            db.Column("book_url", db.String(512), db.ForeignKey("books.url")))
+                                 512), db.ForeignKey("characters.id")),
+                            db.Column("book_url", db.String(512), db.ForeignKey("books.id")))
 
 characters_povbooks = db.Table("characters_povbooks",
                                db.Column("character_url", db.String(
-                                    512), db.ForeignKey("characters.url")),
-                               db.Column("book_url", db.String(512), db.ForeignKey("books.url")))
+                                    512), db.ForeignKey("characters.id")),
+                               db.Column("book_url", db.String(512), db.ForeignKey("books.id")))
 
 
 
@@ -32,7 +32,7 @@ class Character(db.Model):
     __tablename__ = "characters"
 
     # Table attributes
-    url = db.Column(db.String(512), primary_key=True)
+    id = db.Column(db.String(512), primary_key=True)
     name = db.Column(db.String(512))
     gender = db.Column(db.String(512))
     culture = db.Column(db.String(512))
@@ -50,10 +50,10 @@ class Character(db.Model):
     povBooks = db.relationship("Book", secondary=characters_povbooks,
                                back_populates="povCharacters")
 
-    def __init__(self, url="", name="", gender="", culture="", 
+    def __init__(self, id="", name="", gender="", culture="", 
                  born="", died="", father="", mother="", spouse=""):
 
-        self.url = url
+        self.id = id
         self.name = name
         self.gender = gender
         self.culture = culture
@@ -74,7 +74,7 @@ class House(db.Model):
     __tablename__ = "houses"
 
     # Table attributes
-    url = db.Column(db.String(512), primary_key=True)
+    id = db.Column(db.String(512), primary_key=True)
     name = db.Column(db.String(512))
     region = db.Column(db.String(512))
     coatOfArms = db.Column(db.String(512))
@@ -83,10 +83,10 @@ class House(db.Model):
     diedOut = db.Column(db.String(512))
 
     # Foreign keys
-    currentLord_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
-    heir_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
-    overlord_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
-    founder_url = db.Column(db.String(512), db.ForeignKey("characters.url"))
+    currentLord_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    heir_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    overlord_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    founder_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
 
     # Relationships
     currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_url")
@@ -96,10 +96,10 @@ class House(db.Model):
     swornMembers = db.relationship("Character", secondary=characters_houses,
                                    back_populates="allegiances")
 
-    def __init__(self, url="", name="", region="", coatOfArms="",
+    def __init__(self, id="", name="", region="", coatOfArms="",
                  words="", founded="", diedOut=""):
 
-        self.url = url
+        self.id = id
         self.name = name
         self.region = region
         self.coatOfArms = coatOfArms
@@ -118,7 +118,7 @@ class Book(db.Model):
     __tablename__ = "books"
 
     # Table attributes
-    url = db.Column(db.String(512), primary_key=True)
+    id = db.Column(db.String(512), primary_key=True)
     name = db.Column(db.String(512))
     isbn = db.Column(db.String(512))
     numberOfPages = db.Column(db.Integer)
@@ -133,11 +133,11 @@ class Book(db.Model):
     povCharacters = db.relationship("Character", secondary=characters_povbooks,
                                     back_populates="povBooks")
 
-    def __init__(self, url="", name="", isbn="",
+    def __init__(self, id="", name="", isbn="",
                  numberOfPages=0, publisher="", country="",
                  mediaType="", released=""):
 
-        self.url = url
+        self.id = id
         self.name = name
         self.isbn = isbn
         self.numberOfPages = numberOfPages
