@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>{{location.name}}</title>
 
+  <title>Books</title>
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
@@ -35,32 +36,30 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
           <li><a href="/houses">Houses</a></li>
-          <li><a href="/events.html">Events</a></li>
-          <li><a href="/locations.html">Locations</a></li>
+          <li><a href="/book">Books</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <div class="container">
-    <h1>{{location.name}}</h1>
-
-    <div>
-      <img src="{{location.img}}"></img>
-
-      <h3>Significant Figures</h3>
-        <li>{{location.people}}</li>
-
-      <h3>Ruling Houses</h3>
-        <li>{{location.ruling_houses}}</li>
-
-      <h3>Neighbors</h3>
-        <li>{{location.neighbors}}</li>
-
-      <h3>Conflicts</h3>
-        <li>{{location.conflicts}}</li>
-
-    </div>
+    <h1>Books</h1>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>ISBN</th>
+        <th>Released</th>
+        <th>URL</th>
+      </tr>
+      {% for book in books %}
+        <tr>
+          <td>{{ book['name']       }}</td>
+          <td>{{ book['isbn']     }}</td>
+          <td>{{ book['released'] }}</td>
+          <td>{{ book['url']        }}</td>
+        </tr>
+      {% endfor %}
+    </table>
   </div>
 
 </body>

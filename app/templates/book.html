@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Houses</title>
   
+  <title>{{book.name}}</title>
+
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
@@ -43,23 +42,44 @@
   </nav>
 
   <div class="container">
-    <h1>Houses</h1>
-    <table border="1">
-      <tr>
-        <th>Name</th>
-        <th>Region</th>
-        <th>Coat of Arms</th>
-        <th>URL</th>
-      </tr>
-      {% for house in houses %}
-        <tr>
-          <td>{{ house['name']       }}</td>
-          <td>{{ house['region']     }}</td>
-          <td>{{ house['coatOfArms'] }}</td>
-          <td>{{ house['url']        }}</td>
-        </tr>
-      {% endfor %}
-    </table>
+    <h1>{{book.name}}</h1>
+
+    <div>
+      <img src="{{book.img}}"></img>
+
+      <h3>Characters</h3>
+        <ul>
+          {% for character in book.characters %}
+            <li>{{character}}</li>
+          {% end for %}
+        </ul>
+
+      <h3>Characters</h3>
+        <ul>
+          {% for character in book.characters %}
+            <li>{{character}}</li>
+          {% end for %}
+        </ul>
+
+      <h3>Number of Pages</h3>
+        <p>{{book.numberOfPages}}</p>
+
+      <h3>ISBN</h3>
+        <p>{{book.isbn}}</p>
+
+      <h3>Publisher</h3>
+        <p>{{book.publisher}}</p>
+
+      <h3>Country</h3>
+        <p>{{book.country}}</p>
+
+      <h3>Released</h3>
+        <p>{{book.released}}</p>
+
+      <h3>Media Type</h3>
+        <p>{{book.mediaType}}</p>
+
+    </div>
   </div>
 
 </body>

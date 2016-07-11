@@ -31,53 +31,28 @@ def houses():
     houses = [c for c in query_db.get_all_houses()]
     return render_template('houses.html', houses=houses)
 
+@app.route('/books')
+def books():
+    # books = [c for c in query_db.get_all_books()]
+    books = []
+    return render_template('books.html', books=books)
+
 @app.route('/character/<int:arg>')
 def character(arg):
-    # character = {
-    #     "name": "Tyrion Lannister",
-    #     "img": "",
-    #     "seasons": 1,
-    #     "house": "Lannister",
-    #     "allegiance": "Nope",
-    #     "alive": True,
-    #     "titles": "None",
-    #     "other_names": "None",
-    #     "actor": "Peter Dinklage",
-    #     "current_location": "King's Landing",
-    #     "locations": "None"
-    # }
     characters = [c for c in query_db.get_all_characters()]
-    character = characters[arg]
-    return render_template('character.html', character=character)
-    # return render_template('character.html')
+    return render_template('character.html', character=characters[arg])
 
 @app.route('/house/<int:arg>')
 def house(arg):
-    house = {
-        "name": "House Tyrell",
-        "region": "lol",
-        "img": "",
-        "words": "I'm a pig",
-        "lord": "King Joffrey",
-        "heir": "A baby",
-        "overlord": "None",
-        "weapons": "None",
-        "characters": "None",
-        "locations": "None"
-    }
-    return render_template('house.html', house=house)
+    houses = [c for c in query_db.get_all_houses()]
+    return render_template('house.html', house=houses[arg])
 
-@app.route('/location/<int:arg>')
-def location(arg):
-    location = {
-        "name": "The Eyrie",
-        "img": "",
-        "people": "None",
-        "ruling_houses": "House Stark",
-        "neighbors": "None",
-        "conflicts": "???"
+@app.route('/book/<int:arg>')
+def book(arg):
+    book={
+        name = "Game of Thrones!"
     }
-    return render_template('location.html', location=location)
+    return render_template('book.html', book=book)
 
 """
 @app.route('/static/houses')
