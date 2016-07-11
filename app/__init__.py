@@ -33,21 +33,23 @@ def houses():
 
 @app.route('/character/<int:arg>')
 def character(arg):
-    character = {
-        "name": "Tyrion Lannister",
-        "img": "",
-        "seasons": 1,
-        "house": "Lannister",
-        "allegiance": "Nope",
-        "alive": True,
-        "titles": "None",
-        "other_names": "None",
-        "actor": "Peter Dinklage",
-        "current_location": "King's Landing",
-        "locations": "None"
-    }
-    # return render_template('character.html', character=character)
-    return render_template('character.html')
+    # character = {
+    #     "name": "Tyrion Lannister",
+    #     "img": "",
+    #     "seasons": 1,
+    #     "house": "Lannister",
+    #     "allegiance": "Nope",
+    #     "alive": True,
+    #     "titles": "None",
+    #     "other_names": "None",
+    #     "actor": "Peter Dinklage",
+    #     "current_location": "King's Landing",
+    #     "locations": "None"
+    # }
+    characters = [c for c in query_db.get_all_characters()]
+    character = characters[arg]
+    return render_template('character.html', character=character)
+    # return render_template('character.html')
 
 @app.route('/house/<int:arg>')
 def house(arg):
