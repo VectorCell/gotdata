@@ -35,8 +35,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
           <li><a href="/houses">Houses</a></li>
-          <li><a href="/events.html">Events</a></li>
-          <li><a href="/locations.html">Locations</a></li>
+          <li><a href="/books">Books</a></li>
         </ul>
       </div>
     </div>
@@ -50,28 +49,29 @@
         <li>{{house.region}}</li>
 
       <h3>Coat of Arms</h3>
-        <img src={{house.img}}></img>
+        <p>{{house.coatOfArms}}</p>
 
       <h3>Words</h3>
-        <q>{{house.words}}</q>
+        <p>{{house.words}}</p>
 
       <h3>Current Lord</h3>
-        <li>{{house.lord}}</li>
+        <li>{{house.currentLord}}</li>
 
       <h3>Heir</h3>
-        <li>{{house.heir}}</li>
+        <p>{{house.heir}}</p>
 
       <h3>Overlord</h3>
-        <li>{{house.overlord}}</li>
+        <p>{{house.overlord}}</p>
 
-      <h3>Ancestral Weapons</h3>
-        <li>{{house.weapons}}</li>
+      <h3>Founder</h3>
+        <p>{{house.founder}}</p>
 
-      <h3>Characters</h3>
-        <li>{{house.characters}}</li>
-
-      <h3>Locations</h3>
-        <li>{{house.locations}}</li>
+      <h3>Sworn Members</h3>
+        <ul>
+          {% for members in house.swornMembers %}
+            <li>{{members}}</li>
+          {% endfor %}
+        </ul>
     </div>
   </div>
 

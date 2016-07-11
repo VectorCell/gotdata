@@ -36,8 +36,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
           <li><a href="/houses">Houses</a></li>
-          <li><a href="/events.html">Events</a></li>
-          <li><a href="/locations.html">Locations</a></li>
+          <li><a href="/books">Books</a></li>
         </ul>
       </div>
     </div>
@@ -49,32 +48,45 @@
     <div>
       <img src="{{character.img}}"></img>
 
-      <h3>Season(s)</h3>
-        <li>{{character.seasons}}</li>
+      <h3>Book(s)</h3>
+        <ul>
+          {% for book in character.books %}
+            <li>{{book}}</li>
+          {% endfor %}
+        </ul>
 
-      <h3>House</h3>
-        <li>{{character.house}}</li>
+      <h3>POV Book(s)</h3>
+        <ul>
+          {% for book in character.povBooks %}
+            <li>{{book}}</li>
+          {% endfor %}
+        </ul>
 
-      <h3>Allegiance</h3>
-        <li>{{character.allegiance}}</li>
+      <h3>Allegiances</h3>
+        <ul>
+          {% for house in character.allegiances %}
+            <li>{{house}}</li>
+          {% endfor %}
+        </ul>
+
+      <h3>Born</h3>
+        <p>{{character.born}}</p>
 
       <h3>Alive/Dead Status</h3>
-        <p>{{character.alive}}</p>
+        <p>{{character.died}}</p>
 
-      <h3>Titles</h3>
-        <li>{{character.titles}}</li>
+      <h3>Mother</h3>
+        <p>{{character.mother}}</p>
 
-      <h3>Also Known As</h3>
-        <li>{{character.other_names}}</li>
+      <h3>Father</h3>
+        <p>{{character.father}}</p>
 
-      <h3>Portrayed by</h3>
-        <p>{{character.actor}}</p>
+      <h3>Spouse</h3>
+        <p>{{character.spouse}}</p>
 
-      <h3>Current Location</h3>
-        <li>{{character.current_location}}</li>
+      <h3>Culture</h3>
+        <p>{{character.culture}}</p>
 
-      <h3>Locations</h3>
-        <li>{{character.locations}}</li>
     </div>
   </div>
 

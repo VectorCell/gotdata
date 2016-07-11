@@ -15,3 +15,5 @@ def get_all_characters():
 def get_all_houses():
     return Table('houses', metadata, autoload=True).select(True).execute()
 
+def get_all_books():
+    return Table('books', metadata, autoload=True).select(True).execute()

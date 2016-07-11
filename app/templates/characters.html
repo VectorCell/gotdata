@@ -36,8 +36,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
           <li><a href="/houses">Houses</a></li>
-          <li><a href="/events.html">Events</a></li>
-          <li><a href="/locations.html">Locations</a></li>
+          <li><a href="/books">Books</a></li>
         </ul>
       </div>
     </div>
@@ -45,20 +44,22 @@
 
   <div class="container">
     <h1>Characters</h1>
-    <table border="1">
-      <tr>
-        <th>Name</th>
-        <th>Culture</th>
-        <th>URL</th>
-      </tr>
-      {% for character in characters %}
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
         <tr>
-          <td>{{ character['name']    }}</td>
-          <td>{{ character['culture'] }}</td>
-          <td>{{ character['url']     }}</td>
+          <th>Name</th>
+          <th>Culture</th>
+          <th>URL</th>
         </tr>
-      {% endfor %}
-    </table>
+        {% for character in characters %}
+          <tr>
+            <td>{{ character['name']    }}</td>
+            <td>{{ character['culture'] }}</td>
+            <td>{{ character['url']     }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
   </div>
 
 </body>

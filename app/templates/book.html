@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>{{location.name}}</title>
+  <title>{{book.name}}</title>
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -35,30 +35,49 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
           <li><a href="/houses">Houses</a></li>
-          <li><a href="/events.html">Events</a></li>
-          <li><a href="/locations.html">Locations</a></li>
+          <li><a href="/books">Books</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <div class="container">
-    <h1>{{location.name}}</h1>
+    <h1>{{book.name}}</h1>
 
     <div>
-      <img src="{{location.img}}"></img>
+      <img src="{{book.img}}"></img>
 
-      <h3>Significant Figures</h3>
-        <li>{{location.people}}</li>
+      <h3>Characters</h3>
+        <ul>
+          {% for character in book.characters %}
+            <li>{{character}}</li>
+          {% endfor %}
+        </ul>
 
-      <h3>Ruling Houses</h3>
-        <li>{{location.ruling_houses}}</li>
+      <h3>Characters</h3>
+        <ul>
+          {% for character in book.characters %}
+            <li>{{character}}</li>
+          {% endfor %}
+        </ul>
 
-      <h3>Neighbors</h3>
-        <li>{{location.neighbors}}</li>
+      <h3>Number of Pages</h3>
+        <p>{{book.numberOfPages}}</p>
 
-      <h3>Conflicts</h3>
-        <li>{{location.conflicts}}</li>
+      <h3>ISBN</h3>
+        <p>{{book.isbn}}</p>
+
+      <h3>Publisher</h3>
+        <p>{{book.publisher}}</p>
+
+      <h3>Country</h3>
+        <p>{{book.country}}</p>
+
+      <h3>Released</h3>
+        <p>{{book.released}}</p>
+
+      <h3>Media Type</h3>
+        <p>{{book.mediaType}}</p>
 
     </div>
   </div>
