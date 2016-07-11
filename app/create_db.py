@@ -62,7 +62,8 @@ Create the allegiances/swornMembers many-to-many
 relationship between characters and houses
 """
 def create_rel_allegiances(c, a):
-    for house_id in a:
+    for house_url in a:
+        house_id = house_url.split("/").pop()
         h = House.query.get(house_id)
         if not h:
             h = House(id=house_id)
@@ -77,7 +78,8 @@ Create the books/characters many-to-many
 relationship between characters and books
 """
 def create_rel_books(c, b):
-    for book_id in b:
+    for book_url in b:
+        book_id = book_url.split("/").pop()
         b = Book.query.get(book_id)
         if not b:
             b = Book(id=book_id)
@@ -92,7 +94,8 @@ Create the povBooks/povCharacters many-to-many
 relationship between characters and books
 """
 def create_rel_povbooks(c, b):
-    for book_id in b:
+    for book_url in b:
+        book_id = book_url.split("/").pop()
         b = Book.query.get(book_id)
         if not b:
             b = Book(id=book_id)
@@ -144,7 +147,8 @@ Create the currentLord one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_currentlord(h, character_id):
+def create_rel_currentlord(h, character_url):
+    character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
         c = Character(id=character_id)
@@ -158,7 +162,8 @@ Create the heir one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_heir(h, character_id):
+def create_rel_heir(h, character_url):
+    character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
         c = Character(id=character_id)
@@ -172,7 +177,8 @@ Create the overlord one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_overlord(h, character_id):
+def create_rel_overlord(h, character_url):
+    character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
         c = Character(id=character_id)
@@ -186,7 +192,8 @@ Create the founder one-to-one
 relationship between a house and 
 a character
 """
-def create_rel_founder(h, character_id):
+def create_rel_founder(h, character_url):
+    character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
         c = Character(id=character_id)
