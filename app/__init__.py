@@ -49,9 +49,7 @@ def house(arg):
 
 @app.route('/book/<int:arg>')
 def book(arg):
-    book={
-        name = "Game of Thrones!"
-    }
+    book = {"name": "Game of Thrones!"}
     return render_template('book.html', book=book)
 
 """
