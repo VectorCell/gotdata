@@ -12,14 +12,14 @@ app = Flask(__name__)
 def index():
     return app.send_static_file('index.html')
 
-@app.route('/query=<string:type>', methods=["GET"])
-def query(type):
-    data = None
-    if type == "characters":
-        return [c for c in query_db.get_all_characters()]
-    elif type == "houses":
-        return [c for c in query_db.get_all_houses()]
-    return data
+# @app.route('/query=<string:type>', methods=["GET"])
+# def query(type):
+#     data = None
+#     if type == "characters":
+#         return [c for c in query_db.get_all_characters()]
+#     elif type == "houses":
+#         return [c for c in query_db.get_all_houses()]
+#     return data
 
 @app.route('/characters')
 def characters():
