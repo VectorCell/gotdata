@@ -23,33 +23,31 @@ def query(type):
 
 @app.route('/characters')
 def characters():
-    characters = [c for c in query_db.get_all_characters()]
-    # characters = query_db.get_all_characters()
+    # characters = [c for c in query_db.get_all_characters()]
+    characters = query_db.get_all_characters()
     return render_template('characters.html', characters=characters)
 
 @app.route('/houses')
 def houses():
-    houses = [c for c in query_db.get_all_houses()]
-    # houses = query_db.get_all_houses()
+    # houses = [c for c in query_db.get_all_houses()]
+    houses = query_db.get_all_houses()
     return render_template('houses.html', houses=houses)
 
 @app.route('/books')
 def books():
-    books = [c for c in query_db.get_all_books()]
-    # books = query_db.get_all_books()
+    # books = [c for c in query_db.get_all_books()]
+    books = query_db.get_all_books()
     return render_template('books.html', books=books)
 
 @app.route('/character/<int:arg>')
 def character(arg):
     character = query_db.get_character(arg)
-    # print(character)
-    # print("This was a character")
     return render_template('character.html', character=character)
 
 @app.route('/house/<int:arg>')
 def house(arg):
     houses = query_db.get_house(arg)
-    return render_template('house.html', house=houses[arg])
+    return render_template('house.html', house=houses)
 
 @app.route('/book/<int:arg>')
 def book(arg):

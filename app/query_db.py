@@ -19,10 +19,10 @@ def get_all_books():
     return Book.query.all()
 
 def get_character(id):
-    return Character.query.get(id)
+    return Character.query.get(str(id))
 
 def get_house(id):
-    return House.query.get(id)
+    return House.query.get(str(id))
 
 def get_book(id):
-    return Book.query.get(id)
+    return Book.query.get(str(id))
