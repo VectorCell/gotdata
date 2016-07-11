@@ -50,14 +50,14 @@
           <th>Name</th>
           <th>Region</th>
           <th>Coat of Arms</th>
-          <th>URL</th>
+          <th>ID</th>
         </tr>
         {% for house in houses %}
           <tr>
             <td>{{ house['name']       }}</td>
             <td>{{ house['region']     }}</td>
             <td>{{ house['coatOfArms'] }}</td>
-            <td>{{ house['url']        }}</td>
+            <td>{{ house['id']        }}</td>
           </tr>
         {% endfor %}
       </table>

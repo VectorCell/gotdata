@@ -50,14 +50,14 @@
           <th>Name</th>
           <th>ISBN</th>
           <th>Released</th>
-          <th>URL</th>
+          <th>ID</th>
         </tr>
         {% for book in books %}
           <tr>
             <td>{{ book['name']       }}</td>
             <td>{{ book['isbn']     }}</td>
             <td>{{ book['released'] }}</td>
-            <td>{{ book['url']        }}</td>
+            <td>{{ book['id']        }}</td>
           </tr>
         {% endfor %}
       </table>
