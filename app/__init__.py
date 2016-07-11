@@ -33,8 +33,7 @@ def houses():
 
 @app.route('/books')
 def books():
-    # books = [c for c in query_db.get_all_books()]
-    books = []
+    books = [c for c in query_db.get_all_books()]
     return render_template('books.html', books=books)
 
 @app.route('/character/<int:arg>')
@@ -49,7 +48,7 @@ def house(arg):
 
 @app.route('/book/<int:arg>')
 def book(arg):
-    book = {"name": "Game of Thrones!"}
+    book = [c for c in query_db.get_all_books()]
     return render_template('book.html', book=book)
 
 """
