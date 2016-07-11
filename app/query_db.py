@@ -10,15 +10,19 @@ metadata = MetaData(bind=engine)
 
 
 def get_all_characters():
-    return Table('characters', metadata, autoload=True).select(True).execute()
+    return Character.query.all()
 
 def get_all_houses():
-    return Table('houses', metadata, autoload=True).select(True).execute()
+    return House.query.all()
 
 def get_all_books():
-    return Table('books', metadata, autoload=True).select(True).execute()
+    return Book.query.all()
 
 def get_character(id):
-	for character in get_all_characters():
-		if character.id == str(id):
-			return character
+    return Character.query.get(str(id))
+
+def get_house(id):
+    return House.query.get(str(id))
+
+def get_book(id):
+    return Book.query.get(str(id))
