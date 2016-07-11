@@ -72,14 +72,12 @@
       <h3>Born</h3>
         <p>{{character.born}}</p>
 
-      <h3>Alive/Dead Status</h3>
-        <p>{{character.died}}</p>
-
-      <h3>Mother</h3>
-        <p>{{character.mother}}</p>
-
-      <h3>Father</h3>
-        <p>{{character.father}}</p>
+      <h3>Life Status</h3>
+        {% if (character.died == "") %}
+          <p>Alive</p>
+        {% else %}
+          <p>Died: {{character.died}}</p>
+        {% endif %}
 
       <h3>Spouse</h3>
         <p>{{character.spouse}}</p>
