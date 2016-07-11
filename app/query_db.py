@@ -17,3 +17,8 @@ def get_all_houses():
 
 def get_all_books():
     return Table('books', metadata, autoload=True).select(True).execute()
+
+def get_character(id):
+	for character in get_all_characters():
+		if character.id == str(id):
+			return character

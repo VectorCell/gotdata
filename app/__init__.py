@@ -38,8 +38,10 @@ def books():
 
 @app.route('/character/<int:arg>')
 def character(arg):
-    characters = [c for c in query_db.get_all_characters()]
-    return render_template('character.html', character=characters[arg])
+    character = query_db.get_character(arg)
+    print(character)
+    print("This was a character")
+    return render_template('character.html', character=character)
 
 @app.route('/house/<int:arg>')
 def house(arg):
