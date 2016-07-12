@@ -45,6 +45,7 @@
   </nav>
 
   <div class="container info-box">
+
     <div class="row">
       <div class="col-md-12"><h1>{{character.name}}</h1></div>
     </div>
@@ -73,11 +74,12 @@
           <p>None</p>
         {% else %}
           <p>{{character.spouse}}</p>
+          <!-- <a href="/{{character.spouse['id']}}">{{character.spouse['name']}}</a> -->
         {% endif %}
 
         <h3>Allegiances</h3>
           <div class="list-group">
-            {% for house in character.allegiances %}
+            {% for house in character.allegiances|sort(attribute='name') %}
               <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
             {% endfor %}
 
@@ -91,23 +93,22 @@
       </div>
 
       <div class="col-md-6">
+        <img src="../static/img/characters/{{character.id}}.jpg" alt="Picture"></img>
+
         <h3>Book(s)</h3>
         <div class="list-group">
-          {% for book in character.books %}
+          {% for book in character.books|sort(attribute='name') %}
             <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
           {% endfor %}
         </div>
 
         <h3>POV Book(s)</h3>
         <div class="list-group">
-          {% for book in character.povBooks %}
+          {% for book in character.povBooks|sort(attribute='name') %}
             <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
           {% endfor %}
         </div>
       </div>
-    </div>
-
-    <div class="row">
 
     </div>
   </div>
