@@ -12,15 +12,6 @@ app = Flask(__name__)
 def index():
     return app.send_static_file('index.html')
 
-# @app.route('/query=<string:type>', methods=["GET"])
-# def query(type):
-#     data = None
-#     if type == "characters":
-#         return [c for c in query_db.get_all_characters()]
-#     elif type == "houses":
-#         return [c for c in query_db.get_all_houses()]
-#     return data
-
 @app.route('/characters')
 def characters():
     # characters = [c for c in query_db.get_all_characters()]
@@ -92,11 +83,11 @@ def api_multiple(model, commadelimited):
     multiple = []
     for id in commadelimited.split(','):
         if model == 'character' and query_db.get_character(id) is not None:
-            multiple +=  [query_db.get_character_dict(id)]
+            multiple += [query_db.get_character_dict(id)]
         elif model == 'house' and query_db.get_house(id) is not None:
-            multiple +=  [query_db.get_house_dict(id)]
+            multiple += [query_db.get_house_dict(id)]
         elif model == 'book' and query_db.get_book(id) is not None:
-            multiple +=  [query_db.get_book_dict(id)]
+            multiple += [query_db.get_book_dict(id)]
     return jsonify(multiple)
 
 @app.route('/api/<path:model>/<int:id>')
