@@ -1,6 +1,11 @@
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Arvo', serif;
+  font-size: 36px;
 }
 
 .navbar {
@@ -12,12 +17,17 @@ body {
 }
 
 .navbar-brand {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
 }
 
 .navbar-nav {
   padding: 7px 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>td {
+  padding: 16px;
 }
