@@ -59,14 +59,14 @@
         <p>{{house.region}}</p>
 
         <h3>Coat of Arms</h3>
-        {% if (house.coatOfArms != "") %}
+        {% if (house.coatOfArms) %}
           <p>{{house.coatOfArms}}</p>
         {% else %}
           <p>Unknown</p>
         {% endif %}
 
         <h3>Words</h3>
-        {% if (house.words != "") %}
+        {% if (house.words) %}
           <p>{{house.words}}</p>
         {% else %}
           <p>Unknown</p>
