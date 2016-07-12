@@ -11,7 +11,21 @@ h1 {
 }
 
 .navbar {
+  background-color: rgba(170,170,170,0.95);
+  border-color: rgba(130,130,130,0.75);
   box-shadow: 0 0 14px rgba(0,0,0,0.6);
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-header > a {
+  color: #e8e8e8;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-header > a:hover,
+.navbar-default .navbar-header > a:focus {
+  color: white;
 }
 
 .navbar-header {
@@ -29,7 +43,7 @@ h1 {
   font-weight: 300;
 }
 
-.table>thead>tr>th,
-.table>tbody>tr>td {
+.table > thead > tr > th,
+.table > tbody > tr > td {
   padding: 16px;
 }

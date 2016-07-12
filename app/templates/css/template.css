@@ -1,0 +1,13 @@
+body {
+  background-image: url("../img/triangular_color.png");
+}
+
+.navbar {
+  background-color: rgba(170,170,170,0.75);
+}
+
+.info-box {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
