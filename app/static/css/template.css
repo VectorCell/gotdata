@@ -16,3 +16,9 @@ body {
 .table > tbody > tr > td {
   padding: 16px;
 }
+
+img {
+  padding: 16px;
+  max-width: 320px;
+  max-height: auto;
+}
