@@ -14,19 +14,16 @@ def index():
 
 @app.route('/characters')
 def characters():
-    # characters = [c for c in query_db.get_all_characters()]
-    characters = query_db.get_all_characters()
+    characters = [c for c in query_db.get_all_characters() if c.name]
     return render_template('characters.html', characters=characters)
 
 @app.route('/houses')
 def houses():
-    # houses = [c for c in query_db.get_all_houses()]
-    houses = query_db.get_all_houses()
+    houses = [h for h in query_db.get_all_houses()if h.name]
     return render_template('houses.html', houses=houses)
 
 @app.route('/books')
 def books():
-    # books = [c for c in query_db.get_all_books()]
     books = query_db.get_all_books()
     return render_template('books.html', books=books)
 
@@ -53,24 +50,10 @@ def book(arg):
         image = '/img/books/' + str(book.id) + '.jpg'
     return render_template('book.html', book=book, coverimage=image)
 
-"""
-@app.route('/static/houses')
-def houses():
-    return app.send_static_file('/static/houses.html')
 
-@app.route('/static/characters')
-def houses():
-    return app.send_static_file('/static/characters.html')
-
-
-@app.route('/static/locations')
-def houses():
-    return app.send_static_file('/static/locations.html')
-
-@app.route('/static/events')
-def events():
-    return app.send_static_file('/static/events.html')
-"""
+#
+# API
+#
 
 @app.route('/api/<path:model>')
 def api_all(model):
@@ -109,9 +92,15 @@ def api_single(model, id):
     else:
         return jsonify({'message': 'error 404 not found'})
 
+
+#
+# Static files
+#
+
 @app.route('/<path:path>')
 def static_proxy(path):
     return app.send_static_file(path)
+
 
 if __name__ == "__main__":
     if (os.getuid() == 1003): # ahounsel

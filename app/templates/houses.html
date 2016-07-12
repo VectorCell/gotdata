@@ -57,7 +57,7 @@
           </tr>
         </thead>
         <tbody>
-          {% for house in houses %}
+          {% for house in houses|sort(attribute='name') %}
             <tr>
               <td><a href="house/{{house['id']}}">{{house['name']}}</a></td>
               <td>{{ house['id']        }}</td>

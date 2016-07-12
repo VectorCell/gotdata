@@ -57,7 +57,7 @@
           </tr>
         </thead>
         <tbody>
-          {% for character in characters %}
+          {% for character in characters|sort(attribute='name') %}
             <tr>
               <td><a href="character/{{character['id']}}">{{character['name']}}</a></td>
               <td>{{ character['id']     }}</td>
