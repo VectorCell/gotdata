@@ -18,7 +18,7 @@ body {
 }
 .pageable-table-model > thead > tr > th,
 .pageable-table-model > tbody > tr > td {
-  padding: 12px;
+  padding: 6px;
 }
 
 img {
