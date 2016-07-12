@@ -55,7 +55,7 @@
         <p>{{house.words}}</p>
 
       <h3>Current Lord</h3>
-        <li>{{house.currentLord['name']}}</li>
+        <p>{{house.currentLord['name']}}</p>
         <!-- <a href="../character/{{house.currentLord['id']}}">{{house.currentLord['name']}}</a> -->
 
       <h3>Heir</h3>
@@ -73,7 +73,7 @@
       <h3>Sworn Members</h3>
         <ul>
           {% for character in house.swornMembers %}
-            <li><a href="../character/{{house.overlord['id']}}">{{house.overlord['name']}}</a></li>
+            <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
           {% endfor %}
         </ul>
     </div>
