@@ -33,12 +33,11 @@ def create_characters():
         died = d["died"]
         father = d["father"]
         mother = d["mother"]
-        spouse = d["spouse"]
 
         c = Character.query.get(id)
         if not c:
             c = Character(id=id, name=name, gender=gender, culture=culture, born=born,
-                          died=died, father=father, mother=mother, spouse=spouse)
+                          died=died, father=father, mother=mother)
         else:
             c.name = name
             c.gender = gender
@@ -47,14 +46,31 @@ def create_characters():
             c.died = died
             c.father = father
             c.mother = mother
-            c.spouse = spouse            
 
+        create_rel_spouse(c, d["spouse"])
         create_rel_allegiances(c, d["allegiances"])
         create_rel_books(c, d["books"])
         create_rel_povbooks(c, d["povBooks"])
 
         db.session.add(c)
-        print(c.id)
+        print(c)
+
+
+"""
+Create the spouse one-to-one 
+relationship between two characters
+"""
+def create_rel_spouse(c, character_url):
+    if character_url == "":
+        return
+
+    character_id = character_url.split("/").pop()
+    s = Character.query.get(character_id)
+    if not s:
+        s = Character(id=character_id)
+    c.spouse = s
+
+    db.session.add(s)
 
 
 """
@@ -139,7 +155,7 @@ def create_houses():
         create_rel_founder(h, d["founder"])
 
         db.session.add(h)
-        print(h.id)
+        print(h)
 
 
 """
@@ -148,6 +164,9 @@ relationship between a house and
 a character
 """
 def create_rel_currentlord(h, character_url):
+    if character_url == "":
+        return
+
     character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
@@ -163,6 +182,9 @@ relationship between a house and
 a character
 """
 def create_rel_heir(h, character_url):
+    if character_url == "":
+        return
+
     character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
@@ -178,6 +200,9 @@ relationship between a house and
 a character
 """
 def create_rel_overlord(h, character_url):
+    if character_url == "":
+        return
+
     character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
@@ -193,6 +218,9 @@ relationship between a house and
 a character
 """
 def create_rel_founder(h, character_url):
+    if character_url == "":
+        return
+
     character_id = character_url.split("/").pop()
     c = Character.query.get(character_id)
     if not c:
@@ -234,7 +262,7 @@ def create_books():
             b.released = released
         
         db.session.add(b)
-        print(b.id)
+        print(b)
 
 
 """

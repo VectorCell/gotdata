@@ -1,7 +1,7 @@
 from __init__ import app
 from flask_sqlalchemy import SQLAlchemy
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://austin:ahh10523@localhost/gotdata"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://austin:ahh10523@localhost/testdb"
 db = SQLAlchemy(app)
 
 
@@ -9,19 +9,19 @@ db = SQLAlchemy(app)
 Many-to-many association tables
 """
 characters_houses = db.Table("characters_houses",
-                             db.Column("character_url", db.String(
+                             db.Column("character_id", db.String(
                                  512), db.ForeignKey("characters.id")),
-                             db.Column("house_url", db.String(512), db.ForeignKey("houses.id")))
+                             db.Column("house_id", db.String(512), db.ForeignKey("houses.id")))
 
 characters_books = db.Table("characters_books",
-                            db.Column("character_url", db.String(
+                            db.Column("character_id", db.String(
                                  512), db.ForeignKey("characters.id")),
-                            db.Column("book_url", db.String(512), db.ForeignKey("books.id")))
+                            db.Column("book_id", db.String(512), db.ForeignKey("books.id")))
 
 characters_povbooks = db.Table("characters_povbooks",
-                               db.Column("character_url", db.String(
+                               db.Column("character_id", db.String(
                                     512), db.ForeignKey("characters.id")),
-                               db.Column("book_url", db.String(512), db.ForeignKey("books.id")))
+                               db.Column("book_id", db.String(512), db.ForeignKey("books.id")))
 
 
 
@@ -40,9 +40,12 @@ class Character(db.Model):
     died = db.Column(db.String(512))
     father = db.Column(db.String(512))
     mother = db.Column(db.String(512))
-    spouse = db.Column(db.String(512))
+
+    # Foreign keys
+    spouse_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
 
     # Relationships
+    spouse = db.relationship("Character", remote_side=[id])
     allegiances = db.relationship("House", secondary=characters_houses,
                                   back_populates="swornMembers")
     books = db.relationship("Book", secondary=characters_books,
@@ -51,7 +54,7 @@ class Character(db.Model):
                                back_populates="povCharacters")
 
     def __init__(self, id="", name="", gender="", culture="", 
-                 born="", died="", father="", mother="", spouse=""):
+                 born="", died="", father="", mother=""):
 
         self.id = id
         self.name = name
@@ -61,7 +64,6 @@ class Character(db.Model):
         self.died = died
         self.father = father
         self.mother = mother
-        self.spouse = spouse
 
     def __repr__(self):
         return "<Character %r>" % self.name
@@ -83,16 +85,16 @@ class House(db.Model):
     diedOut = db.Column(db.String(512))
 
     # Foreign keys
-    currentLord_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
-    heir_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
-    overlord_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
-    founder_url = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    currentLord_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    heir_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    overlord_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    founder_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
 
     # Relationships
-    currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_url")
-    heir = db.relationship("Character", uselist=False, foreign_keys="House.heir_url")
-    overlord = db.relationship("Character", uselist=False, foreign_keys="House.overlord_url")
-    founder = db.relationship("Character", uselist=False, foreign_keys="House.founder_url")
+    currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_id")
+    heir = db.relationship("Character", uselist=False, foreign_keys="House.heir_id")
+    overlord = db.relationship("Character", uselist=False, foreign_keys="House.overlord_id")
+    founder = db.relationship("Character", uselist=False, foreign_keys="House.founder_id")
     swornMembers = db.relationship("Character", secondary=characters_houses,
                                    back_populates="allegiances")
 
