@@ -118,7 +118,5 @@ if __name__ == "__main__":
         app.run(host='0.0.0.0', port=8085)
     elif (os.getuid() == 1002): # shcott
         app.run(host='0.0.0.0', port=8086)
-    elif (os.getuid() == 197609): # shcott's laptop
-        app.run(host='0.0.0.0', port=8087)
     else:
         app.run()
