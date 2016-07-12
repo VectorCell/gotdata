@@ -65,7 +65,7 @@
         <p>{{house.words}}</p>
 
         <h3>Current Lord</h3>
-        {% if (house.currentLord == {}) %}
+        {% if (house.currentLord is defined) %}
           <p>Unknown</p>
         {% else %}
           <!-- <p>{{house.currentLord['name']}}</p> -->
@@ -73,7 +73,7 @@
         {% endif %}
 
         <h3>Heir</h3>
-        {% if (house.heir == {}) %}
+        {% if (house.heir is defined) %}
           <p>Unknown</p>
         {% else %}
           <!-- <p>{{house.heir['name']}}</p> -->
@@ -81,7 +81,7 @@
         {% endif %}
 
         <h3>Overlord</h3>
-        {% if (house.overlord == {}) %}
+        {% if (house.overlord is defined) %}
           <p>Unknown</p>
         {% else %}
           <!-- <p>{{house.overlord['name']}}</p> -->
@@ -89,7 +89,7 @@
         {% endif %}
 
         <h3>Founder</h3>
-        {% if (house.founder == {}) %}
+        {% if (house.founder is defined) %}
           <p>Unknown</p>
         {% else %}
           <!-- <p>{{house.founder['name']}}</p> -->
