@@ -78,6 +78,7 @@
           <p>None</p>
         {% else %}
           <p>{{character.spouse}}</p>
+          <!-- <a href="/{{character.spouse['id']}}">{{character.spouse['name']}}</a> -->
         {% endif %}
 
         <h3>Allegiances</h3>
@@ -96,6 +97,8 @@
       </div>
 
       <div class="col-md-6">
+        <img src="../static/img/characters/{{character.id}}.jpg" alt="Picture"></img>
+
         <h3>Book(s)</h3>
         <div class="list-group">
           {% for book in character.books|sort(attribute='name') %}
@@ -110,9 +113,6 @@
           {% endfor %}
         </div>
       </div>
-    </div>
-
-    <div class="row">
 
     </div>
   </div>

@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/triangular_color.png");
+  background-image: url("../img/bg/triangular_color.png");
 }
 
 .navbar {
@@ -15,4 +15,10 @@ body {
 .table > thead > tr > th,
 .table > tbody > tr > td {
   padding: 16px;
+}
+
+img {
+  padding: 16px;
+  max-width: 400px;
+  max-height: auto;
 }
