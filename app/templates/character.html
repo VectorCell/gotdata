@@ -46,26 +46,26 @@
     <h1>{{character.name}}</h1>
 
     <div>
-      <img src="{{character.img}}"></img>
+      <!-- <img src="{{character.img}}"></img> -->
 
       <h3>Book(s)</h3>
         <ul>
           {% for book in character.books %}
-            <li><a href="book/{{book['id']}}">{{book['name']}}</a></li>
+            <li><a href="../book/{{book['id']}}">{{book['name']}}</a></li>
           {% endfor %}
         </ul>
 
       <h3>POV Book(s)</h3>
         <ul>
           {% for book in character.povBooks %}
-            <li><a href="book/{{book['id']}}">{{book['name']}}</a></li>
+            <li><a href="../book/{{book['id']}}">{{book['name']}}</a></li>
           {% endfor %}
         </ul>
 
       <h3>Allegiances</h3>
         <ul>
           {% for house in character.allegiances %}
-            <li><a href="book/{{book['id']}}">{{book['name']}}</a></li>
+            <li><a href="../house/{{house['id']}}">{{house['name']}}</a></li>
           {% endfor %}
         </ul>
 

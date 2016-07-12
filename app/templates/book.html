@@ -45,19 +45,19 @@
     <h1>{{book.name}}</h1>
 
     <div>
-      <img src="{{book.img}}"></img>
+      <!-- <img src="{{book.img}}"></img> -->
 
       <h3>Characters</h3>
         <ul>
           {% for character in book.characters %}
-            <li>{{character}}</li>
+            <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
           {% endfor %}
         </ul>
 
       <h3>Characters</h3>
         <ul>
           {% for character in book.characters %}
-            <li>{{character}}</li>
+            <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
           {% endfor %}
         </ul>
 

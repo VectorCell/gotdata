@@ -55,21 +55,25 @@
         <p>{{house.words}}</p>
 
       <h3>Current Lord</h3>
-        <li>{{house.currentLord}}</li>
+        <li>{{house.currentLord['name']}}</li>
+        <!-- <a href="../character/{{house.currentLord['id']}}">{{house.currentLord['name']}}</a> -->
 
       <h3>Heir</h3>
-        <p>{{house.heir}}</p>
+        <p>{{house.heir['name']}}</p>
+        <!-- <a href="../character/{{house.heir['id']}}">{{house.heir['name']}}</a> -->
 
       <h3>Overlord</h3>
-        <p>{{house.overlord}}</p>
+        <p>{{house.overlord['name']}}</p>
+        <!-- <a href="../character/{{house.overlord['id']}}">{{house.overlord['name']}}</a> -->
 
       <h3>Founder</h3>
-        <p>{{house.founder}}</p>
+        <p>{{house.founder['name']}}</p>
+        <!-- <a href="../character/{{house.founder['id']}}">{{house.founder['name']}}</a> -->
 
       <h3>Sworn Members</h3>
         <ul>
-          {% for members in house.swornMembers %}
-            <li>{{members}}</li>
+          {% for character in house.swornMembers %}
+            <li><a href="../character/{{house.overlord['id']}}">{{house.overlord['name']}}</a></li>
           {% endfor %}
         </ul>
     </div>
