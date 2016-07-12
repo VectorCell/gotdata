@@ -12,8 +12,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/template.css">
 
 </head>
 
@@ -42,51 +44,57 @@
     </div>
   </nav>
 
-  <div class="container">
-    <h1>{{character.name}}</h1>
+  <div class="container info-box">
+    <div class="row">
+      <div class="col-md-12"><h1>{{character.name}}</h1></div>
+    </div>
 
-    <div>
-      <!-- <img src="{{character.img}}"></img> -->
-
-      <h3>Book(s)</h3>
-        <ul>
-          {% for book in character.books %}
-            <li><a href="../book/{{book['id']}}">{{book['name']}}</a></li>
-          {% endfor %}
-        </ul>
-
-      <h3>POV Book(s)</h3>
-        <ul>
-          {% for book in character.povBooks %}
-            <li><a href="../book/{{book['id']}}">{{book['name']}}</a></li>
-          {% endfor %}
-        </ul>
-
-      <h3>Allegiances</h3>
-        <ul>
-          {% for house in character.allegiances %}
-            <li><a href="../house/{{house['id']}}">{{house['name']}}</a></li>
-          {% endfor %}
-        </ul>
-
-      <h3>Gender</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Gender</h3>
         <p>{{character.gender}}</p>
 
-      <h3>Born</h3>
+        <h3>Born</h3>
         <p>{{character.born}}</p>
 
-      <h3>Living Status</h3>
+        <h3>Living Status</h3>
         {% if (character.died == "") %}
           <p>Alive</p>
         {% else %}
           <p>Died: {{character.died}}</p>
         {% endif %}
 
-      <h3>Spouse</h3>
+        <h3>Spouse</h3>
         <p>{{character.spouse}}</p>
+      </div>
 
-      <h3>Culture</h3>
+      <div class="col-md-4">
+        <h3>Allegiances</h3>
+          <div class="list-group">
+            {% for house in character.allegiances %}
+              <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
+            {% endfor %}
+
+        <h3>Culture</h3>
         <p>{{character.culture}}</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Book(s)</h3>
+        <div class="list-group">
+          {% for book in character.books %}
+            <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
+          {% endfor %}
+        </div>
+
+        <h3>POV Book(s)</h3>
+        <div class="list-group">
+          {% for book in character.povBooks %}
+            <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
+          {% endfor %}
+        </div>
+      </div>
 
     </div>
   </div>

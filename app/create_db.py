@@ -217,7 +217,7 @@ def create_books():
         publisher = d["publisher"]
         country = d["country"]
         mediaType = d["mediaType"]
-        released = d["released"]
+        released = d["released"].split("T")[0]
 
         b = Book.query.get(id)
         if not b:
