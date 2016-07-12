@@ -1,0 +1,1498 @@
+2:Walder
+12:Balon Greyjoy
+13:Chayle
+14:Gillam
+15:High Septon
+16:Margaery Tyrell
+17:Melicent
+18:Meribald
+19:Moelle
+20:Mordane
+21:Nysterica
+22:Ollidor
+23:Osmynd
+24:Raynard
+25:Scolera
+26:Torbert
+27:Tywin Lannister
+28:Unella
+29:Abelar Hightower
+30:Addam Frey
+31:Addam Marbrand
+32:Addam Osgrey
+33:Addam Velaryon
+34:Addison Hill
+35:Aegon Blackfyre
+36:Aegon Frey
+37:Aegon Frey
+38:Aegon I
+39:Aegon II
+40:Aegon III
+41:Aegon IV
+42:Aegon Targaryen
+43:Aegon Targaryen
+44:Aegon Targaryen
+45:Aegon Targaryen
+46:Aegon V
+47:Aegor Rivers
+48:Aelinor Penrose
+49:Aemma Arryn
+50:Aemon Blackfyre
+51:Aemon Costayne
+52:Aemon Estermont
+53:Aemon Rivers
+54:Aemon Targaryen
+55:Aemond Targaryen
+56:Aenys Frey
+57:Aenys I
+58:Aerion Targaryen
+59:Aerion Targaryen
+60:Aeron Greyjoy
+61:Aerys I
+62:Aerys II
+63:Aglantine
+64:Aladale Wynch
+65:Alan
+66:Alannys Harlaw
+67:Albar Royce
+68:Alekyne Florent
+69:Alerie Hightower
+70:Alesander Frey
+71:Alesander Staedmon
+72:Alester Florent
+73:Alester Norcross
+74:Alester Oakheart
+75:Alester Tyrell
+76:Alicent Hightower
+77:Alla Tyrell
+78:Allar Deem
+79:Alliser Thorne
+80:Allyria Dayne
+81:Alyce Graceford
+82:Alyn Ambrose
+83:Alyn Cockshaw
+84:Alyn Connington
+85:Alyn Estermont
+86:Alyn Frey
+87:Alyn Haigh
+88:Alyn Hunt
+89:Alyn Stackspear
+90:Alyn Tarbeck
+91:Alyn Velaryon
+92:Alys Arryn
+93:Alys Arryn
+94:Alys Beesbury
+95:Alys Frey
+96:Alys Karstark
+97:Alys Karstark
+98:Alys Karstark
+99:Alysane Mormont
+100:Alysanne Bulwer
+101:Alysanne Farman
+102:Alysanne Hightower
+103:Alysanne Lefford
+104:Alysanne Osgrey
+105:Alysanne Targaryen
+106:Alysanne Tarth
+107:Alyssa Arryn
+108:Alyssa Blackwood
+109:Alyssa Targaryen
+110:Alyssa Velaryon
+111:Alyx Frey
+112:Amarei Crakehall
+113:Ambrose Butterwell
+114:Amerei Frey
+115:Amory Lorch
+116:Andar Royce
+117:Anders Yronwood
+118:Andrew Estermont
+119:Andrey Charlton
+120:Andros Brax
+121:Androw Ashford
+122:Androw Frey
+123:Annara Farring
+124:Antario Jast
+125:Anya Waynwood
+126:Archibald Yronwood
+127:Ardrian Celtigar
+128:Argella Durrandon
+129:Argilac Durrandon
+130:Arianne Martell
+131:Arianne Tarth
+132:Arlan of Pennytree
+133:Armond Caswell
+134:Arnolf Karstark
+135:Aron Santagar
+136:Arra Norrey
+137:Arrec Durrandon
+138:Arron Qorgyle
+139:Arstan Selmy
+140:Arthor Karstark
+141:Arthur Ambrose
+142:Arthur Dayne
+143:Artos Stark
+144:Artys I Arryn
+145:Arwood Frey
+146:Arwyn Frey
+147:Arwyn Oakheart
+148:Arya Stark
+149:Arys Oakheart
+150:Asha Greyjoy
+151:Ashara Dayne
+152:Aubrey Ambrose
+153:Axell Florent
+154:Baela Targaryen
+155:Baelon Targaryen
+156:Baelon Targaryen
+157:Baelon Targaryen
+158:Baelor Blacktyde
+159:Baelor Hightower
+160:Baelor I
+161:Baelor Targaryen
+162:Balman Byrch
+163:Balon Botley
+164:Balon Swann
+165:Barba Bracken
+166:Barbrey Dustin
+167:Barre
+168:Barristan Selmy
+169:Barth
+170:Barthogan Stark
+171:Bass
+172:Bayard Norcross
+173:Bellena Hawick
+174:Ben Bushy
+175:Ben Plumm
+176:Benedar Belmore
+177:Benedict Broom
+178:Benedict I Justman
+179:Benfred Tallhart
+180:Benfrey Frey
+181:Benjen Stark
+182:Benjen Stark
+183:Benjen Stark
+184:Bennard Brune
+185:Bennarion Botley
+186:Bennis
+187:Beony Beesbury
+188:Beren Tallhart
+189:Berena Hornwood
+190:Beric Dondarrion
+191:Beron Blacktyde
+192:Beron Stark
+193:Bertram Beesbury
+194:Beth Cassel
+195:Betha Blackwood
+196:Bethany Bolton
+197:Bethany Bracken
+198:Bethany Redwyne
+199:Bethany Rosby
+200:Bonifer Hasty
+201:Boremund Harlaw
+202:Boros Blount
+203:Bowen Marsh
+204:Bradamar Frey
+205:Brandon Norrey
+206:Brandon Stark
+207:Brandon Stark
+208:Brandon Stark
+209:Brandon Stark
+210:Brandon Stark
+211:Brandon Stark
+212:Brandon Stark
+213:Brandon Stark
+214:Brandon Tallhart
+215:Branston Cuy
+216:Brienne of Tarth
+217:Bronn
+218:Bryan Fossoway
+219:Bryan Frey
+220:Bryce Caron
+221:Bryen Caron
+222:Bryen Farring
+223:Brynden Tully
+224:Buford Bulwer
+225:Burton Crakehall
+226:Calla Blackfyre
+227:Carellen Smallwood
+228:Carolei Waynwood
+229:Casper Wylde
+230:Cassana Estermont
+231:Cassella Vaith
+232:Catelyn Stark
+233:Cedric Payne
+234:Cedrik Storm
+235:Cerenna Lannister
+236:Cerissa Brax
+237:Cersei Frey
+238:Cersei Lannister
+239:Ceryse Hightower
+240:Clarence Charlton
+241:Clarence Crabb
+242:Clarent Crakehall
+243:Clayton Suggs
+244:Clement Crabb
+245:Clement Piper
+246:Cletus Yronwood
+247:Cley Cerwyn
+248:Cleyton Caswell
+249:Colen of Greenpools
+250:Colin Florent
+251:Colmar Frey
+252:Corenna Swann
+253:Corlys Velaryon
+254:Cortnay Penrose
+255:Corwyn Corbray
+256:Corwyn Corbray
+257:Crake
+258:Cregan Karstark
+259:Cregan Stark
+260:Creighton Longbough
+261:Creighton Redfort
+262:Cynthea Frey
+263:Cyrenna Swann
+264:Dacey Mormont
+265:Daella Targaryen
+266:Daella Targaryen
+267:Daemon Blackfyre
+268:Daemon II Blackfyre
+269:Daemon Targaryen
+270:Daena Targaryen
+271:Daenerys Targaryen
+272:Daenora Targaryen
+273:Daeron I
+274:Daeron II
+275:Daeron Targaryen
+276:Daeron Targaryen
+277:Daeron Vaith
+278:Dagon Greyjoy
+279:Dagos Manwoody
+280:Dalbridge
+281:Dale Drumm
+282:Damion Lannister
+283:Damon Lannister
+284:Damon Lannister
+285:Damon Marbrand
+286:Damon Paege
+287:Damon Shett
+288:Damon Vypren
+289:Danelle Lothston
+290:Danos Slynt
+291:Danwell Frey
+292:Darlessa Marbrand
+293:Daryn Hornwood
+294:Daven Lannister
+295:Deana Hardyng
+296:Delena Florent
+297:Della Frey
+298:Delonne Allyrion
+299:Dennis Plumm
+300:Denys Arryn
+301:Denys Darklyn
+302:Denys Drumm
+303:Denys Mallister
+304:Denys Redwyne
+305:Denyse Hightower
+306:Desmond Grell
+307:Desmond Redwyne
+308:Devan Seaworth
+309:Deziel Dalt
+310:Dick Follard
+311:Dickon Frey
+312:Dickon Manwoody
+313:Dickon Tarly
+314:Domeric Bolton
+315:Donal Noye
+316:Donel Greyjoy
+317:Donella Hornwood
+318:Donnel
+319:Donnel Drumm
+320:Donnel Haigh
+321:Donnel Locke
+322:Donnel Swann
+323:Donnor Saltcliffe
+324:Donnor Stark
+325:Dontos Hollard
+326:Doran Martell
+327:Dorna Swyft
+328:Dorren Stark
+329:Duncan
+330:Duncan Targaryen
+331:Dunstan Drumm
+332:Duram Bar Emmon
+333:Durran
+334:Dyanna Dayne
+335:Dykk Harlaw
+336:Ebben
+337:Eddara Tallhart
+338:Eddard Karstark
+339:Eddard Stark
+340:Edderion Stark
+341:Eddison Tollet
+342:Eden Risley
+343:Edgerran Oakheart
+344:Edmund Ambrose
+345:Edmund Waxley
+346:Edmure Tully
+347:Edmyn Tully
+348:Edric Dayne
+349:Edrick Stark
+350:Edwyd Fossoway
+351:Edwyle Stark
+352:Edwyn Frey
+353:Edwyn Osgrey
+354:Edwyn Stark
+355:Eglantine
+356:Elbert Arryn
+357:Eldon Estermont
+358:Eldred Codd
+359:Eleanor Mooton
+360:Eleyna Westerling
+361:Elia Martell
+362:Elinor Tyrell
+363:Ella Lannister
+364:Ellaria Sand
+365:Ellery Vance
+366:Ellyn Ever Sweet
+367:Ellyn Reyne
+368:Elmar Frey
+369:Elwood Meadows
+370:Elyana Vypren
+371:Elyas Willum
+372:Elyn Norridge
+373:Elys Waynwood
+374:Elys Westerling
+375:Emberlei Frey
+376:Emmon Cuy
+377:Emmon Frey
+378:Emphyria Vance
+379:Endrew Tarth
+380:Eon Hunter
+381:Erena Glover
+382:Ermesande Hayford
+383:Erren Florent
+384:Ethan Glover
+385:Euron Greyjoy
+386:Eustace
+387:Eustace Hunter
+388:Eustace Osgrey
+389:Eyron Stark
+390:Ezzelyno
+391:Falena Stokeworth
+392:Falyse Stokeworth
+393:Flement Brax
+394:Forley Prester
+395:Foss the Archer
+396:Frankyln Fowler
+397:Galbart Glover
+398:Galladon Tarth
+399:Galtry the Green
+400:Gared
+401:Garlan Tyrell
+402:Garrett Paege
+403:Garrison Prester
+404:Garse Goodbrook
+405:Garth Greenfield
+406:Garth Greyfeather
+407:Garth Hightower
+408:Garth Tyrell
+409:Garth XII Gardener
+410:Garth the Gardener
+411:Gawen Glover
+412:Gawen Swann
+413:Gawen Westerling
+414:Gawen Wylde
+415:Genna Lannister
+416:Gerald Gower
+417:Geremy Frey
+418:Gerion Lannister
+419:Germund Botley
+420:Gerold Grafton
+421:Gerold Hightower
+422:Gerold Lannister
+423:Gevin Harlaw
+424:Gilbert Farring
+425:Gilbert of the Vines
+426:Gilwood Hunter
+427:Gladden Wylde
+428:Glendon Flowers
+429:Godric Borrell
+430:Godry Farring
+431:Gormon Peake
+432:Gormond Drumm
+433:Gormond Goodbrother
+434:Gorold Goodbrother
+435:Gowen Baratheon
+436:Gran Goodbrother
+437:Grance Morrigen
+438:Grazdan mo Eraz
+439:Grenn
+440:Greydon Goodbrother
+441:Gulian Qorgyle
+442:Gulian Swann
+443:Guncer Sunglass
+444:Gunthor Hightower
+445:Guthor Grimm
+446:Guyard Morrigen
+447:Gwayne Corbray
+448:Gwayne Gaunt
+449:Gwayne Hightower
+450:Gwin Goodbrother
+451:Gwynesse Harlaw
+452:Gwyneth Yronwood
+453:Gylbert Farwynd
+454:Gyles
+455:Gyles Farwynd
+456:Gyles Grafton
+457:Gyles III Gardener
+458:Gyles Rosby
+459:Gysella Goodbrother
+460:Halleck Hoare
+461:Hallis Mollen
+462:Halmon Paege
+463:Halys Hornwood
+464:Harbert Paege
+465:Harlan Grandison
+466:Harlan Hunter
+467:Harlen Tyrell
+468:Harlon Botley
+469:Harlon Greyjoy
+470:Harmen Uller
+471:Harmond Umber
+472:Harrag Hoare
+473:Harras Harlaw
+474:Harren Botley
+475:Harren Hoare
+476:Harrion Karstark
+477:Harrold Hardyng
+478:Harrold Osgrey
+479:Harrold Westerling
+480:Harry Strickland
+481:Harwin Strong
+482:Harwood Fell
+483:Harwood Stout
+484:Harwyn Hoare
+485:Harwyn Plumm
+486:Harys Haigh
+487:Harys Swyft
+488:Helaena Targaryen
+489:Helicent Uffering
+490:Helman Tallhart
+491:Herbert Bolling
+492:Herrock Kenning
+493:Hilmar Drumm
+494:Hoare
+495:Hoarfrost Umber
+496:Hobber Redwyne
+497:Hooded Man
+498:Horas Redwyne
+499:Horton Redfort
+500:Hosman Norcross
+501:Hosteen Frey
+502:Hoster Frey
+503:Hoster Tully
+504:Hother Umber
+505:Hotho Harlaw
+506:Howland Reed
+507:Hubard Rambton
+508:Hugh
+509:Hugh Beesbury
+510:Hugh Grandison
+511:Hugo Vance
+512:Hugo Wull
+513:Humfrey Beesbury
+514:Humfrey Hardyng
+515:Humfrey Hewett
+516:Humfrey Swyft
+517:Humfrey Wagstaff
+518:Hyle Hunt
+519:Igon Vyrwel
+520:Illifer
+521:Ilyn Payne
+522:Imry Florent
+523:Jacelyn Bywater
+524:Jack Bulwer
+525:Jack Musgood
+526:Jaehaerys I
+527:Jaehaerys II
+528:Jaime Frey
+529:Jaime Lannister
+530:Jammos Frey
+531:Janei Lannister
+532:Janna Tyrell
+533:Janos Slynt
+534:Janyce Hunter
+535:Jared Frey
+536:Jaremy Rykker
+537:Jarman Buckwell
+538:Jason Lannister
+539:Jason Mallister
+540:Jasper Arryn
+541:Jasper Redfort
+542:Jasper Waynwood
+543:Jasper Wylde
+544:Jeffory Mallister
+545:Jeffory Norcross
+546:Jena Dondarrion
+547:Jeor Mormont
+548:Jeyne Arryn
+549:Jeyne Beesbury
+550:Jeyne Darry
+551:Jeyne Farman
+552:Jeyne Fossoway
+553:Jeyne Goodbrook
+554:Jeyne Lothston
+555:Jeyne Lydden
+556:Jeyne Marbrand
+557:Jeyne Poole
+558:Jeyne Royce
+559:Jeyne Swann
+560:Jeyne Westerling
+561:Jeyne Westerling
+562:Joanna Lannister
+563:Joanna Swyft
+564:Jocelyn Swyft
+565:Joffrey Baratheon
+566:Joffrey Caswell
+567:Joffrey Lonmouth
+568:Johanna Lannister
+569:Johanna Swann
+570:John the Oak
+571:Jojen Reed
+572:Jon Arryn
+573:Jon Bettley
+574:Jon Brax
+575:Jon Bulwer
+576:Jon Connington
+577:Jon Fossoway
+578:Jon Hollard
+579:Jon Lynderly
+580:Jon Myre
+581:Jon Penrose
+582:Jon Redfort
+583:Jon Snow
+584:Jon Stark
+585:Jon Umber
+586:Jon Umber
+587:Jon Wylde
+588:Jonelle Cerwyn
+589:Jonnel Stark
+590:Jonos Frey
+591:Jonos Stark
+592:Jonothor Darry
+593:Jorah Stark
+594:Jorelle Mormont
+595:Jory Cassel
+596:Joseth Mallister
+597:Josmyn Peckledon
+598:Josua Willum
+599:Jothos Slynt
+600:Joyeuse Erenford
+601:Justin Massey
+602:Jyanna Frey
+603:Karlon Stark
+604:Karyl Vance
+605:Kevan Lannister
+606:Kirth Vance
+607:Kyle Condon
+608:Kyle Royce
+609:Kyra Frey
+610:Laena Velaryon
+611:Laenor Velaryon.
+612:Lambert Turnberry
+613:Lancel Lannister
+614:Lancel V Lannister
+615:Lann
+616:Lanna Lannister
+617:Larence Snow
+618:Larys Strong
+619:Leana Frey
+620:Lenwood Tawney
+621:Leo Blackbar
+622:Leo Lefford
+623:Leo Tyrell
+624:Leo Tyrell
+625:Leobald Tallhart
+626:Leona Tyrell
+627:Leona Woolfield
+628:Leonella Lefford
+629:Leslyn Haigh
+630:Lester Morrigen
+631:Lewyn Martell
+632:Lewys Lydden
+633:Lewys Piper
+634:Leyla Hightower
+635:Leyton Hightower
+636:Lia Serry
+637:Liane Vance
+638:Lollys Stokeworth
+639:Lomas Estermont
+640:Loras Tyrell
+641:Lord Ashford
+642:Lord Caswell
+643:Lord Staunton
+644:Lorent Caswell
+645:Lorent Lorch
+646:Lorent Marbrand
+647:Lorent Tyrell
+648:Lorra Royce
+649:Lothar Frey
+650:Lothar Mallery
+651:Lothor Brune
+652:Lucamore Strong
+653:Lucas Codd
+654:Lucas Corbray
+655:Lucas Inchfield
+656:Lucas Lothston
+657:Lucas Roote
+658:Lucas Tyrell
+659:Luceon Frey
+660:Lucias Vypren
+661:Lucimore Botley
+662:Lucion Lannister
+663:Lucos Chyttering
+664:Luthor Tyrell
+665:Luthor Tyrell
+666:Luthor Tyrell
+667:Lyanna Mormont
+668:Lyarra Stark
+669:Lyessa Flint
+670:Lyle Crakehall
+671:Lyman Beesbury
+672:Lyman Darry
+673:Lymond Goodbrook
+674:Lymond Lychester
+675:Lymond Mallister
+676:Lymond Vikary
+677:Lyn Corbray
+678:Lynesse Hightower
+679:Lyonel Baratheon
+680:Lyonel Bentley
+681:Lyonel Corbray
+682:Lyonel Frey
+683:Lyonel Selmy
+684:Lyonel Strong
+685:Lyonel Tyrell
+686:Lyonel Tyrell
+687:Lyra Mormont
+688:Lysa Arryn
+689:Lysa Meadows
+690:Lythene Frey
+691:Mace Tyrell
+692:Maege Mormont
+693:Maegelle Frey
+694:Maegor I
+695:Maekar I
+696:Maelor Targaryen
+697:Maelys I Blackfyre
+698:Maldon Massey
+699:Mallador Locke
+700:Malwyn Frey
+701:Mandon Moore
+702:Manfred Dondarrion
+703:Manfred Lothston
+704:Manfred Swann
+705:Manfrey Martell
+706:Manfryd Lothston
+707:Manfryd Yew
+708:Margot Lannister
+709:Mariah Martell
+710:Maric Seaworth
+711:Marissa Frey
+712:Mariya Darry
+713:Mark Mullendore
+714:Mark Ryswell
+715:Marlon Manderly
+716:Marna Locke
+717:Maron Botley
+718:Maron Greyjoy
+719:Maron Nymeros Martell
+720:Maron Volmark
+721:Marq Piper
+722:Marq Rankenfell
+723:Marsella Waynwood
+724:Martyn Cassel
+725:Martyn Lannister
+726:Martyn Mullendore
+727:Marwyn Belmore
+728:Mary Mertyns
+729:Matarys Targaryen
+730:Mathis Frey
+731:Mathis Rowan
+732:Maynard Plumm
+733:Medgar Tully
+734:Medger Cerwyn
+735:Meera Reed
+736:Megga Tyrell
+737:Melantha Blackwood
+738:Melara Crane
+739:Melara Hetherspoon
+740:Meldred Merlyn
+741:Melesa Crakehall
+742:Melessa Florent
+743:Melisandre
+744:Melissa Blackwood
+745:Melwyn Sarsfield
+746:Meredyth Crane
+747:Merianne Frey
+748:Merlon Crakehall
+749:Mern IX Gardener
+750:Merrell Florent
+751:Merrett Frey
+752:Meryn Trant
+753:Michael Mertyns
+754:Mina Tyrell
+755:Minisa Whent
+756:Monford Velaryon
+757:Monterys Velaryon
+758:Moqorro
+759:Morgil Hastwyck
+760:Moribald Chester
+761:Morros Slynt
+762:Mors Manwoody
+763:Mors Martell
+764:Mors Umber
+765:Morya Frey
+766:Moryn Tyrell
+767:Murmison
+768:Mychel Redfort
+769:Mylenda Caron
+770:Myles Manwoody
+771:Myles Mooton
+772:Myles Smallwood
+773:Myranda Lefford
+774:Myranda Royce
+775:Myrcella Baratheon
+776:Myria Jordayne
+777:Myriame Manderly
+778:Myrielle Lannister
+779:Naerys Targaryen
+780:Norbert Vance
+781:Nymella Toland
+782:Nymeria
+783:Olene Tyrell
+784:Olenna Redwyne
+785:Olymer Tyrell
+786:Olyvar Frey
+787:Olyvar Oakheart
+788:Ondrew Locke
+789:Orbert Caswell
+790:Orivel
+791:Ormond Osgrey
+792:Ormond Westerling
+793:Ormond Yronwood
+794:Ormund Baratheon
+795:Ormund Wylde
+796:Orton Merryweather
+797:Orys Baratheon
+798:Osbert Serry
+799:Osfryd Kettleblack
+800:Osmund Frey
+801:Osmund Kettleblack
+802:Osney Kettleblack
+803:Ossifer Plumm
+804:Oswell Kettleblack
+805:Oswell Whent
+806:Othell Yarwyck
+807:Otho Bracken
+808:Otto Hightower
+809:Ottyn Wythers
+810:Owen Inchfield
+811:Owen Norrey
+812:Parmen Crane
+813:Pate
+814:Patrek Mallister
+815:Paxter Redwyne
+816:Pearse Caron
+817:Perra Frey
+818:Perra Royce
+819:Perriane Frey
+820:Perwyn Frey
+821:Perwyn Osgrey
+822:Peter Plumm
+823:Petyr Baelish
+824:Petyr Frey
+825:Philip Foote
+826:Philip Plumm
+827:Podrick Payne
+828:Preston Greenfield
+829:Pypar
+830:Qarl Kenning
+831:Qarlton Chelsted
+832:Qhorin
+833:Qhorwyn Hoare
+834:Qorgyle
+835:Quellon Botley
+836:Quellon Greyjoy
+837:Quenten Banefort
+838:Quentin Tyrell
+839:Quenton Greyjoy
+840:Quenton Hightower
+841:Quenton Qoherys
+842:Quentyn Ball
+843:Quentyn Blackwood
+844:Quentyn Martell
+845:Quentyn Qorgyle
+846:Ralf Kenning
+847:Ralf Stonehouse
+848:Ralph Buckler
+849:Ramsay Snow
+850:Randyll Tarly
+851:Ravella Swann
+852:Raymun Darry
+853:Raymun Fossoway
+854:Raymund Frey
+855:Raymund Tyrell
+856:Raynald Westerling
+857:Raynard Ruttiger
+858:Red Alyn
+859:Redwyn
+860:Regenard Estren
+861:Renfred Rykker
+862:Renly Baratheon
+863:Renly Norcross
+864:Reynard Webber
+865:Rhae Targaryen
+866:Rhaegar Frey
+867:Rhaegar Targaryen
+868:Rhaegel Targaryen
+869:Rhaella Targaryen
+870:Rhaelle Targaryen
+871:Rhaena Targaryen
+872:Rhaena Targaryen
+873:Rhaena Targaryen
+874:Rhaenyra Targaryen
+875:Rhaenys Targaryen
+876:Rhaenys Targaryen
+877:Rhea Florent
+878:Rhea Royce
+879:Rhialta Vance
+880:Rhonda Rowan
+881:Richard Horpe
+882:Richard Lonmouth
+883:Richard Morrigen
+884:Rickard Karstark
+885:Rickard Ryswell
+886:Rickard Stark
+887:Rickard Stark
+888:Rickard Thorne
+889:Rickard Tyrell
+890:Rickard Wylde
+891:Rickon Stark
+892:Robar Royce
+893:Robb Reyne
+894:Robert Arryn
+895:Robert Ashford
+896:Robert Brax
+897:Robert Brax
+898:Robert Flowers
+899:Robert Frey
+900:Robert Frey
+901:Robert I Baratheon
+902:Robert Paege
+903:Robett Glover
+904:Robin Greyjoy
+905:Robin Hill
+906:Robin Hollard
+907:Robin Moreland
+908:Robin Peasebury
+909:Robin Ryger
+910:Robyn Rhysling
+911:Robyn Ryswell
+912:Rodrik Cassel
+913:Rodrik Greyjoy
+914:Rodrik Harlaw
+915:Rodrik Ryswell
+916:Rodrik Stark
+917:Rodrik Stark
+918:Rodwell Stark
+919:Roelle
+920:Rohanne
+921:Roland Crakehall
+922:Roland Crakehall
+923:Rollam Westerling
+924:Rolland Darklyn
+925:Rolland Storm
+926:Rolland Uffering
+927:Rolph Spicer
+928:Ronald Connington
+929:Ronald Vance
+930:Ronnel Harclay
+931:Ronnel Stout
+932:Ronnet Connington
+933:Roose Bolton
+934:Roose Ryswell
+935:Roryn Drumm
+936:Rosamund Lannister
+937:Roslin Frey
+938:Rossart
+939:Royce Coldwater
+940:Runcel Hightower
+941:Rupert Brax
+942:Rupert Crabb
+943:Russell Merryweather
+944:Ryam Florent
+945:Ryam Redwyne
+946:Rycherd Crane
+947:Ryella Frey
+948:Ryella Royce
+949:Rylene Florent
+950:Ryman Frey
+951:Saera Targaryen
+952:Sallei Paege
+953:Samwell Spicer
+954:Samwell Tarly
+955:Sandor Clegane
+956:Sandor Frey
+957:Sansa Stark
+958:Sargon Botley
+959:Sarra Frey
+960:Sarya Whent
+961:Sawane Botley
+962:Sebastion Errol
+963:Sebaston Farman
+964:Sefton Staunton
+965:Selmond Stackspear
+966:Selwyn Tarth
+967:Serala of Myr
+968:Serra Frey
+969:Serwyn
+970:Shadrich
+971:Shaera Targaryen
+972:Shella Whent
+973:Shiera Crakehall
+974:Shierle Swyft
+975:Shireen Baratheon
+976:Shirei Frey
+977:Shyra Errol
+978:Sigfry Stonetree
+979:Sigfryd Harlaw
+980:Sigorn
+981:Simon Leygood
+982:Simon Staunton
+983:Simon Toyne
+984:Stafford Lannister
+985:Steffarion Sparr
+986:Steffon Baratheon
+987:Steffon Darklyn
+988:Steffon Fossoway
+989:Steffon Frey
+990:Steffon Hollard
+991:Steffon Stackspear
+992:Steffon Swyft
+993:Steffon Varner
+994:Stevron Frey
+995:Stonesnake
+996:Sumner Crakehall
+997:Sybell Spicer
+998:Sybelle Glover
+999:Sylva Santagar
+1000:Sylwa Paege
+1001:Symon Hollard
+1002:Symon Santagar
+1003:Symond Botley
+1004:Symond Frey
+1005:Symond Templeton
+1006:Taena of Myr
+1007:Talbert Serry
+1008:Talla Tarly
+1009:Tallad
+1010:Tanda Stokeworth
+1011:Tanton Fossoway
+1012:Terrance Lynderly
+1013:Terrence Kenning
+1014:Terrence Toyne
+1015:The Sparr
+1016:The Stonehouse
+1017:Theo Wull
+1018:Theodan Wells
+1019:Theodore Tyrell
+1020:Theomar Smallwood
+1021:Theomore Harlaw
+1022:Theon Greyjoy
+1023:Theon Stark
+1024:Thoren Smallwood
+1025:Tion Frey
+1026:Tion Lannister
+1027:Titus Peake
+1028:Tom Costayne
+1029:Tommen Baratheon
+1030:Tommen Costayne
+1031:Torren Liddle
+1032:Torrence Teague
+1033:Torrhen Karstark
+1034:Torrhen Stark
+1035:Trebor Jordayne
+1036:Tremond Gargalen
+1037:Tristan Mudd
+1038:Tristan Ryger
+1039:Tristifer Botley
+1040:Tristifer IV Mudd
+1041:Tristifer V
+1042:Triston Sunderland
+1043:Trystane Martell
+1044:Tya Lannister
+1045:Tyana Wylde
+1046:Tybolt Crakehall
+1047:Tybolt Hetherspoon
+1048:Tybolt Lannister
+1049:Tygett Lannister
+1050:Tyland Lannister
+1051:Tyrek Lannister
+1052:Tyrion Lannister
+1053:Tysane Frey
+1054:Tyta Frey
+1055:Tytos Brax
+1056:Tytos Frey
+1057:Tytos Lannister
+1058:Tywin Frey
+1059:Tywin Frey
+1060:Ulrick Dayne
+1061:Ulwyck Uller
+1062:Urrigon Greyjoy
+1063:Utherydes Wayn
+1064:Uthor Tollett
+1065:Uthor Underleaf
+1066:Vaemond Velaryon
+1067:Valarr Targaryen
+1068:Vardis Egen
+1069:Vayon Poole
+1070:Velaena Velaryon
+1071:Vickon Botley
+1072:Vickon Greyjoy
+1073:Victaria Tyrell
+1074:Victarion Greyjoy
+1075:Victor Tyrell
+1076:Viserys I
+1077:Viserys II
+1078:Viserys Plumm
+1079:Viserys Targaryen
+1080:Vortimer Crane
+1081:Walda Frey
+1082:Walda Frey
+1083:Walda Frey
+1084:Walda Frey
+1085:Walda Frey
+1086:Walda Rivers
+1087:Walda Rivers
+1088:Walder Brax
+1089:Walder Frey
+1090:Walder Frey
+1091:Walder Frey
+1092:Walder Frey
+1093:Walder Frey
+1094:Walder Goodbrook
+1095:Walder Haigh
+1096:Walder Rivers
+1097:Waldon Wynch
+1098:Wallace Waynwood
+1099:Walter Whent
+1100:Walton Frey
+1101:Walton Stark
+1102:Waltyr Frey
+1103:Warryn Beesbury
+1104:Waymar Royce
+1105:Wendel Frey
+1106:Wendel Manderly
+1107:Whalen Frey
+1108:Wilbert Osgrey
+1109:Will
+1110:Willam Dustin
+1111:Willam Stark
+1112:Willam Wythers
+1113:Willas Tyrell
+1114:Willem Darry
+1115:Willem Frey
+1116:Willem Lannister
+1117:Willem Wylde
+1118:William Mooton
+1119:Willis Fell
+1120:Willis Wode
+1121:Wyl Waynwood
+1122:Wylis Manderly
+1123:Wylla Manderly
+1124:Wyman Manderly
+1125:Wynafrei Whent
+1126:Wynafryd Manderly
+1127:Wynton Stout
+1128:Ygon Farwynd
+1129:Ynys Yronwood
+1130:Yohn Farwynd
+1131:Yohn Royce
+1132:Yoren
+1133:Ysilla Royce
+1134:Zachery Frey
+1135:Zhoe Blanetree
+1136:Zia Frey
+1137:"Monster"
+1138:Addam
+1139:Aethan
+1140:Aethelmure
+1141:Aggar
+1142:Aggo
+1143:Agrivane
+1144:Alan of Rosby
+1145:Alaric of Eysen
+1146:Alayaya
+1147:Albett
+1148:Alebelly
+1149:Alequo Adarys
+1150:Alesandor Torrent
+1151:Alfyn
+1152:Alia of Braavos
+1153:All-for-Joffrey
+1154:Allaquo
+1155:Allard Seaworth
+1156:Alvyn Sharp
+1157:Alyce
+1158:Alyn
+1159:Alyn
+1160:Alysanne Bracken
+1161:Amabel
+1162:Ambrode
+1163:Andrey Dalt
+1164:Andrik
+1165:Anguy
+1166:Areo Hotah
+1167:Argrave the Defiant
+1168:Armen
+1169:Armistead Vance
+1170:Arneld
+1171:Arnell
+1172:Arron
+1173:Arryk
+1174:Arson
+1175:Arya Flint
+1176:Assadora
+1177:Aurane Waters
+1178:Ayrmidon
+1179:Azor Ahai
+1180:Azzak
+1181:Bael
+1182:Baelish
+1183:Balaq
+1184:Ballabar
+1185:Bandy
+1186:Bannen
+1187:Barbara Bracken
+1188:Barra
+1189:Barsena
+1190:Barth
+1191:Bearded Ben
+1192:Beardless Dick
+1193:Becca
+1194:Becca
+1195:Beck
+1196:Bedwyck
+1197:Belandra
+1198:Belaquo
+1199:Beldecar
+1200:Belis
+1201:Bella
+1202:Bellegere Otherys
+1203:Bellegere Otherys
+1204:Bellonara Otherys
+1205:Belwas
+1206:Ben
+1207:Ben
+1208:Ben
+1209:Benedict
+1210:Bennet
+1211:Beqqo
+1212:Bess Bracken
+1213:Bessa
+1214:Bessa
+1215:Bethany
+1216:Bethany Fair-Fingers
+1217:Betharios
+1218:Bhakaz zo Loraq
+1219:Bharbo
+1220:Big Belly Ben
+1221:Big Boil
+1222:Biter
+1223:Black Bernarr
+1224:Blane
+1225:Bloodbeard
+1226:Bluetooth
+1227:Bodger
+1228:Borcas
+1229:Borroq
+1230:Bors
+1231:Boy
+1232:Brea
+1233:Brella
+1234:Brenett
+1235:Briar
+1236:Brogg
+1237:Brown Bernarr
+1238:Brusco
+1239:Bryan of Oldtown
+1240:Bryen
+1241:Brynden Blackwood
+1242:Brynden Rivers
+1243:Bump
+1244:Butterbumps
+1245:Buu
+1246:Byam Flint
+1247:Byan Votyris
+1248:Byren Flowers
+1249:Byron
+1250:Cadwyl
+1251:Cadwyn
+1252:Cafferen
+1253:Caleotte
+1254:Calon
+1255:Camarron
+1256:Carrot
+1257:Cass
+1258:Castos
+1259:Catelyn Bracken
+1260:Cayn
+1261:Cedra
+1262:Cellador
+1263:Cerrick
+1264:Cetheres
+1265:Chataya
+1266:Chella daughter of Cheyk
+1267:Chett
+1268:Cheyk
+1269:Chiggen
+1270:Chiswyck
+1271:Clarence Crabb
+1272:Clegane
+1273:Clement
+1274:Cleon
+1275:Cleos Frey
+1276:Clifford Conklyn
+1277:Clydas
+1278:Cohollo
+1279:Coldhands
+1280:Colemon
+1281:Collio Quaynis
+1282:Conn son of Coratt
+1283:Conwy
+1284:Coratt
+1285:Corliss Penny
+1286:Corlos
+1287:Cosgrove
+1288:Cossomo
+1289:Cotter Pyke
+1290:Courteny Greenhill
+1291:Craghas Drahar
+1292:Cragorn
+1293:Craster
+1294:Crawn son of Calor
+1295:Cressen
+1296:Cuger
+1297:Cutjack
+1298:Daario Naharis
+1299:Dacks
+1300:Daegon Shepherd
+1301:Daemon Sand
+1302:Daenaera Velaryon
+1303:Daenerys Targaryen
+1304:Daeryssa
+1305:Dafyn Vance
+1306:Dagmer
+1307:Dagon Ironmaker
+1308:Dake
+1309:Dake
+1310:Dale Seaworth
+1311:Dalla
+1312:Dalla
+1313:Damon
+1314:Dan
+1315:Dancy
+1316:Danny Flint
+1317:Dareon
+1318:Darla Deddings
+1319:Davos Seaworth
+1320:Del
+1321:Delp
+1322:Denestan
+1323:Dennett
+1324:Denyo Terys
+1325:Dermot
+1326:Desmond
+1327:Devyn
+1328:Dhazzar
+1329:Dick
+1330:Dick Crabb
+1331:Dirk
+1332:Dobber
+1333:Dolf son of Holger
+1334:Donnel Hill
+1335:Donnel Waynwood
+1336:Donnis
+1337:Donyse
+1338:Dorcas
+1339:Dorea Sand
+1340:Doreah
+1341:Dormund
+1342:Dornish Dilly
+1343:Doss
+1344:Draqaz
+1345:Drennan
+1346:Drogo
+1347:Dryn
+1348:Dudley
+1349:Dunaver
+1350:Dunsen
+1351:Dyah
+1352:Dywen
+1353:Easy
+1354:Ebrose
+1355:Edric Storm
+1356:Eggon
+1357:Egon Emeros
+1358:Elaena Targaryen
+1359:Elder Brother
+1360:Eldiss
+1361:Elenei
+1362:Elia Sand
+1363:Elron
+1364:Elwood
+1365:Elza
+1366:Emma
+1367:Emmett
+1368:Emmond
+1369:Emrick
+1370:Endehar
+1371:Enger
+1372:Erik Ironmaker
+1373:Eroeh
+1374:Erreck
+1375:Erreg
+1376:Errok
+1377:Erryk
+1378:Esgred
+1379:Eustace
+1380:Eustace Brune
+1381:Ezzara
+1382:Falia Flowers
+1383:Farlen
+1384:Fern
+1385:Ferny
+1386:Ferrego Antaryon
+1387:Ferret
+1388:Florys the Fox
+1389:Fogo
+1390:Fornio
+1391:Fralegg
+1392:Franklyn Frey
+1393:Frenken
+1394:Frenya
+1395:Frynne
+1396:Gage
+1397:Galazza Galare
+1398:Galladon of Morne
+1399:Gallard
+1400:Galt
+1401:Galyeon of Cuy
+1402:Gareth
+1403:Gareth Clifton
+1404:Garigus
+1405:Garin
+1406:Garin
+1407:Gariss
+1408:Garizon
+1409:Garrett Flowers
+1410:Garse Flowers
+1411:Garth Greenhand
+1412:Garth of Greenaway
+1413:Garth of Oldtown
+1414:Gascoyne
+1415:Gavin
+1416:Gelmarr
+1417:Gendel
+1418:Gendry
+1419:Gerardys
+1420:Gergen
+1421:Gerold Dayne
+1422:Gerren
+1423:Gerrick
+1424:Gerris Drinkwater
+1425:Ghael
+1426:Ghost of High Heart
+1427:Gilly
+1428:Glendon Hewett
+1429:Goady
+1430:Godwyn
+1431:Goghor
+1432:Goodwin
+1433:Gorghan of Old Ghis
+1434:Gormon Tyrell
+1435:Gorne
+1436:Grazdan
+1437:Grazdan mo Ullhor
+1438:Grazdan the Great
+1439:Grazdan zo Galare
+1440:Grazdar zo Galare
+1441:Great Walrus
+1442:Gregor Clegane
+1443:Gretchel
+1444:Grey King
+1445:Grey Worm
+1446:Griffin King
+1447:Grigg
+1448:Grisel
+1449:Grisella
+1450:Groleo
+1451:Grubbs
+1452:Grunt
+1453:Gueren
+1454:Gulian
+1455:Gunthor son of Gurn
+1456:Gurn
+1457:Guyne
+1458:Gyldayn
+1459:Gyleno Dothare
+1460:Gyloro Dothare
+1461:Gynir
+1462:Haegon Blackfyre
+1463:Haggo
+1464:Haggon
+1465:Hairy Hal
+1466:Hake
+1467:Hal
+1468:Halder
+1469:Haldon
+1470:Hali
+1471:Hallyne
+1472:Hamish
+1473:Harbert
+1474:Hareth
+1475:Hareth
+1476:Harghaz
+1477:Harle
+1478:Harle
+1479:Harma
+1480:Harmund Sharp
+1481:Harmune
+1482:Harodon
+1483:Harra
+1484:Harrag Sharp
+1485:Harren Half-Hoare
+1486:Harry Sawyer
+1487:Harsley
+1488:Harwin
+1489:Hayhead
+1490:Hazrak zo Loraq
+1491:Hazzea
+1492:Heke
+1493:Helliweg
+1494:Helly
+1495:Helya
+1496:Hendry Bracken
+1497:Henk
+1498:Henly
+1499:Heward
+1500:Hibald
+1501:Hizdahr zo Loraq
+1502:Hobb
+1503:Hod
+1504:Hoke
+1505:Holger
+1506:Holly
+1507:Hop-Robin
+1508:Hot Pie
