@@ -33,7 +33,11 @@ def books():
 @app.route('/character/<int:arg>')
 def character(arg):
     character = query_db.get_character(arg)
-    return render_template('character.html', character=character)
+    if character is None:
+        image = '/img/characters/999.jpg'
+    else:
+        image = '/img/characters/' + str(character.id) + '.jpg'
+    return render_template('character.html', character=character, characterimage=image)
 
 @app.route('/house/<int:arg>')
 def house(arg):
@@ -43,7 +47,11 @@ def house(arg):
 @app.route('/book/<int:arg>')
 def book(arg):
     book = query_db.get_book(arg)
-    return render_template('book.html', book=book)
+    if book is None:
+        image = '/'
+    else:
+        image = '/img/books/' + str(book.id) + '.jpg'
+    return render_template('book.html', book=book, coverimage=image)
 
 """
 @app.route('/static/houses')
