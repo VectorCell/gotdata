@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
 import os
@@ -72,6 +72,43 @@ def houses():
 def events():
     return app.send_static_file('/static/events.html')
 """
+
+@app.route('/api/<path:model>')
+def api_all(model):
+    if model == 'characters':
+        characters = [query_db.get_character_dict(c.id) for c in query_db.get_all_characters()]
+        return jsonify(characters)
+    if model == 'houses':
+        houses = [query_db.get_house_dict(c.id) for c in query_db.get_all_houses()]
+        return jsonify(houses)
+    if model == 'books':
+        books = [query_db.get_book_dict(c.id) for c in query_db.get_all_books()]
+        return jsonify(books)
+    else:
+        return jsonify({'message': 'error 404 not found'})
+
+@app.route('/api/<path:model>/<string:commadelimited>')
+def api_multiple(model, commadelimited):
+    multiple = []
+    for id in commadelimited.split(','):
+        if model == 'character' and query_db.get_character(id) is not None:
+            multiple +=  [query_db.get_character_dict(id)]
+        elif model == 'house' and query_db.get_house(id) is not None:
+            multiple +=  [query_db.get_house_dict(id)]
+        elif model == 'book' and query_db.get_book(id) is not None:
+            multiple +=  [query_db.get_book_dict(id)]
+    return jsonify(multiple)
+
+@app.route('/api/<path:model>/<int:id>')
+def api_single(model, id):
+    if model == 'character' and query_db.get_character(id) is not None:
+        return query_db.get_character_json(id)
+    elif model == 'house' and query_db.get_house(id) is not None:
+        return query_db.get_house_json(id)
+    elif model == 'book' and query_db.get_book(id) is not None:
+        return query_db.get_book_json(id)
+    else:
+        return jsonify({'message': 'error 404 not found'})
 
 @app.route('/<path:path>')
 def static_proxy(path):
