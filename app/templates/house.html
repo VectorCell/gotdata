@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
@@ -71,11 +72,11 @@
         <!-- <a href="../character/{{house.founder['id']}}">{{house.founder['name']}}</a> -->
 
       <h3>Sworn Members</h3>
-        <ul>
+        <div class="list-group">
           {% for character in house.swornMembers %}
-            <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
+            <a class="list-group-item" href="../character/{{character['id']}}">{{character['name']}}</a>
           {% endfor %}
-        </ul>
+        </div>
     </div>
   </div>
 

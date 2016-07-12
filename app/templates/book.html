@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
@@ -48,18 +49,18 @@
       <!-- <img src="{{book.img}}"></img> -->
 
       <h3>Characters</h3>
-        <ul>
+        <div class="list-group">
           {% for character in book.characters %}
-            <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
+            <a class="list-group-item" href="../character/{{character['id']}}">{{character['name']}}</a>
           {% endfor %}
-        </ul>
+        </div>
 
       <h3>POV Characters</h3>
-        <ul>
+        <div class="list-group">
           {% for character in book.povCharacters %}
-            <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
+            <a class="list-group-item" href="../character/{{character['id']}}">{{character['name']}}</a>
           {% endfor %}
-        </ul>
+        </div>
 
       <h3>Number of Pages</h3>
         <p>{{book.numberOfPages}}</p>

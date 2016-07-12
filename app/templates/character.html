@@ -12,6 +12,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
 
@@ -49,25 +50,25 @@
       <!-- <img src="{{character.img}}"></img> -->
 
       <h3>Book(s)</h3>
-        <ul>
+        <div class="list-group">
           {% for book in character.books %}
-            <li><a href="../book/{{book['id']}}">{{book['name']}}</a></li>
+            <a class="list-group-item href="../book/{{book['id']}}">{{book['name']}}</a>
           {% endfor %}
-        </ul>
+        </div>
 
       <h3>POV Book(s)</h3>
-        <ul>
+        <div class="list-group">
           {% for book in character.povBooks %}
-            <li><a href="../book/{{book['id']}}">{{book['name']}}</a></li>
+            <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
           {% endfor %}
-        </ul>
+        </div>
 
       <h3>Allegiances</h3>
-        <ul>
+        <div class="list-group">
           {% for house in character.allegiances %}
-            <li><a href="../house/{{house['id']}}">{{house['name']}}</a></li>
+            <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
           {% endfor %}
-        </ul>
+        </div>
 
       <h3>Gender</h3>
         <p>{{character.gender}}</p>

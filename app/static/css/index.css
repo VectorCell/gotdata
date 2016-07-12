@@ -1,11 +1,13 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
+  font-weight: 400;
 }
 
 h1 {
   font-family: 'Arvo', serif;
   font-size: 36px;
+  font-weight: 400;
 }
 
 .navbar {
