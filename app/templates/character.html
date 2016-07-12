@@ -75,17 +75,21 @@
 
         <h3>Spouse</h3>
         {% if (character.spouse is defined) %}
-          <p>None</p>
-        {% else %}
           <!-- <p>{{character.spouse}}</p> -->
           <a href="{{character.spouse['id']}}">{{character.spouse['name']}}</a>
+        {% else %}
+          <p>None</p>
         {% endif %}
 
         <h3>Allegiances</h3>
+        {% if (character.spouse is defined) %}
           <div class="list-group">
             {% for house in character.allegiances|sort(attribute='name') %}
               <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
             {% endfor %}
+        {% else %}
+          <p>Unknown</p>
+        {% endif %}
 
         <h3>Culture</h3>
         {% if (character.culture == "") %}
