@@ -77,8 +77,8 @@
         {% if (character.spouse == "") %}
           <p>None</p>
         {% else %}
-          <p>{{character.spouse}}</p>
-          <!-- <a href="/{{character.spouse['id']}}">{{character.spouse['name']}}</a> -->
+          <!-- <p>{{character.spouse}}</p> -->
+          <a href="/{{character.spouse['id']}}">{{character.spouse['name']}}</a>
         {% endif %}
 
         <h3>Allegiances</h3>
