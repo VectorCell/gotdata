@@ -49,45 +49,53 @@
     <div>
       <!-- <img src="{{character.img}}"></img> -->
 
-      <h3>Book(s)</h3>
-        <div class="list-group">
-          {% for book in character.books %}
-            <a class="list-group-item href="../book/{{book['id']}}">{{book['name']}}</a>
-          {% endfor %}
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Gender</h3>
+          <p>{{character.gender}}</p>
+
+          <h3>Born</h3>
+          <p>{{character.born}}</p>
+
+          <h3>Living Status</h3>
+          {% if (character.died == "") %}
+            <p>Alive</p>
+          {% else %}
+            <p>Died: {{character.died}}</p>
+          {% endif %}
+
+          <h3>Spouse</h3>
+          <p>{{character.spouse}}</p>
         </div>
 
-      <h3>POV Book(s)</h3>
-        <div class="list-group">
-          {% for book in character.povBooks %}
-            <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
-          {% endfor %}
+        <div class="col-md-4">
+          <h3>Allegiances</h3>
+            <div class="list-group">
+              {% for house in character.allegiances %}
+                <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
+              {% endfor %}
+
+          <h3>Culture</h3>
+          <p>{{character.culture}}</p>
+          </div>
         </div>
 
-      <h3>Allegiances</h3>
-        <div class="list-group">
-          {% for house in character.allegiances %}
-            <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
-          {% endfor %}
+        <div class="col-md-4">
+          <h3>Book(s)</h3>
+          <div class="list-group">
+            {% for book in character.books %}
+              <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
+            {% endfor %}
+          </div>
+
+          <h3>POV Book(s)</h3>
+          <div class="list-group">
+            {% for book in character.povBooks %}
+              <a class="list-group-item" href="../book/{{book['id']}}">{{book['name']}}</a>
+            {% endfor %}
+          </div>
         </div>
-
-      <h3>Gender</h3>
-        <p>{{character.gender}}</p>
-
-      <h3>Born</h3>
-        <p>{{character.born}}</p>
-
-      <h3>Living Status</h3>
-        {% if (character.died == "") %}
-          <p>Alive</p>
-        {% else %}
-          <p>Died: {{character.died}}</p>
-        {% endif %}
-
-      <h3>Spouse</h3>
-        <p>{{character.spouse}}</p>
-
-      <h3>Culture</h3>
-        <p>{{character.culture}}</p>
+      </div>
 
     </div>
   </div>
