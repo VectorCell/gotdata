@@ -50,12 +50,18 @@
           <th>Name</th>
           <th>ID</th>
           <th>Culture</th>
+          <th>Dead/Alive</th>
         </tr>
         {% for character in characters %}
           <tr>
             <td><a href="character/{{character['id']}}">{{character['name']}}</a></td>
             <td>{{ character['id']     }}</td>
             <td>{{ character['culture'] }}</td>
+            {% if (character['died'] == "") %}
+              <td>Alive</td>
+            {% else %}
+              <td>Dead</td>
+            {% endif %}
           </tr>
         {% endfor %}
       </table>

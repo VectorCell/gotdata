@@ -54,9 +54,9 @@
           {% endfor %}
         </ul>
 
-      <h3>Characters</h3>
+      <h3>POV Characters</h3>
         <ul>
-          {% for character in book.characters %}
+          {% for character in book.povCharacters %}
             <li><a href="../character/{{character['id']}}">{{character['name']}}</a></li>
           {% endfor %}
         </ul>
