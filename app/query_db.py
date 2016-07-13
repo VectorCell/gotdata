@@ -1,14 +1,7 @@
 from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
-
-from __init__ import app
-from models import db, Character, House, Book
-
-
-engine = create_engine(app.config["SQLALCHEMY_DATABASE_URI"])
-metadata = MetaData(bind=engine)
-
+from models import Character, House, Book
 
 def get_all_characters():
     return Character.query.all()
