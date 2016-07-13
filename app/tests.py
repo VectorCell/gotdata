@@ -27,7 +27,7 @@ class TestGOTData(TestCase):
 
     def tearDown(self):
         db.session.remove()
-        db.drop_all()
+        #db.drop_all()
 
     # -----------
     # Character table tests
