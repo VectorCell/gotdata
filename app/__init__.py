@@ -73,21 +73,21 @@ def api_all(model):
 def api_multiple(model, commadelimited):
     multiple = []
     for id in commadelimited.split(','):
-        if model == 'character' and query_db.get_character(id) is not None:
+        if model == 'characters' and query_db.get_character(id) is not None:
             multiple += [query_db.get_character_dict(id)]
-        elif model == 'house' and query_db.get_house(id) is not None:
+        elif model == 'houses' and query_db.get_house(id) is not None:
             multiple += [query_db.get_house_dict(id)]
-        elif model == 'book' and query_db.get_book(id) is not None:
+        elif model == 'books' and query_db.get_book(id) is not None:
             multiple += [query_db.get_book_dict(id)]
     return jsonify(multiple)
 
 @app.route('/api/<path:model>/<int:id>')
 def api_single(model, id):
-    if model == 'character' and query_db.get_character(id) is not None:
+    if model == 'characters' and query_db.get_character(id) is not None:
         return query_db.get_character_json(id)
-    elif model == 'house' and query_db.get_house(id) is not None:
+    elif model == 'houses' and query_db.get_house(id) is not None:
         return query_db.get_house_json(id)
-    elif model == 'book' and query_db.get_book(id) is not None:
+    elif model == 'books' and query_db.get_book(id) is not None:
         return query_db.get_book_json(id)
     else:
         return jsonify({'message': 'error 404 not found'})
