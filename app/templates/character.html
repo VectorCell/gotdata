@@ -89,6 +89,7 @@
             {% for house in character.allegiances|sort(attribute='name') %}
               <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
             {% endfor %}
+          </div>
         {% endif %}
 
         <h3>Culture</h3>
@@ -97,7 +98,6 @@
         {% else %}
           <p>{{character.culture}}</p>
         {% endif %}
-        </div>
       </div>
 
       <div class="col-md-6">
