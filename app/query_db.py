@@ -39,10 +39,11 @@ def get_character_dict(id):
     d['culture'] = char.culture
     d['born'] = char.born
     d['died'] = char.died
-    d['spouse'] = char.spouse.split("/").pop() # char.spouse
-    d['allegiances'] = [h.id for h in char.allegiances]
-    d['books'] = [b.id for b in char.books]
-    d['povBooks'] = [b.id for b in char.povBooks]
+    if char.spouse is not None:
+        d['spouse'] = int(char.spouse.id)
+    d['allegiances'] = [int(h.id) for h in char.allegiances]
+    d['books'] = [int(b.id) for b in char.books]
+    d['povBooks'] = [int(b.id) for b in char.povBooks]
     return d
 
 def get_house_dict(id):
@@ -54,11 +55,15 @@ def get_house_dict(id):
     d['coatOfArms'] = house.coatOfArms
     d['founded'] = house.founded
     d['diedOut'] = house.diedOut
-    d['currentLord'] = house.currentLord.id
-    d['heir'] = house.heir.id
-    d['overlord'] = house.overlord.id
-    d['founder'] = house.founder.id
-    d['swornMembers'] = [p.id for p in house.swornMembers]
+    if house.currentLord is not None:
+        d['currentLord'] = int(house.currentLord.id)
+    if house.heir is not None:
+        d['heir'] = int(house.heir.id)
+    if house.overlord is not None:
+        d['overlord'] = int(house.overlord.id)
+    if house.founder is not None:
+        d['founder'] = int(house.founder.id)
+    d['swornMembers'] = [int(p.id) for p in house.swornMembers]
     return d
 
 def get_book_dict(id):

@@ -10,11 +10,16 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/datatables.min.css"/>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/datatables.min.js"></script>
+
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
   <link rel="stylesheet" type="text/css" href="../static/css/template.css">
+  <script src="../static/js/data_table.js"></script>
 
 </head>
 
@@ -54,35 +59,69 @@
         <p>{{house.region}}</p>
 
         <h3>Coat of Arms</h3>
-        <p>{{house.coatOfArms}}</p>
+        {% if (not house.coatOfArms) %}
+          <p>Unknown</p>
+        {% else %}
+          <p>{{house.coatOfArms}}</p>
+        {% endif %}
 
         <h3>Words</h3>
-        <p>{{house.words}}</p>
+        {% if (not house.words) %}
+          <p>Unknown</p>
+        {% else %}
+          <p>{{house.words}}</p>
+        {% endif %}
 
         <h3>Current Lord</h3>
-        <p>{{house.currentLord['name']}}</p>
-        <!-- <a href="../character/{{house.currentLord['id']}}">{{house.currentLord['name']}}</a> -->
+        {% if (not house.currentLord) %}
+          <p>Unknown</p>
+        {% else %}
+          <a href="../character/{{house.currentLord['id']}}">{{house.currentLord['name']}}</a>
+        {% endif %}
 
         <h3>Heir</h3>
-        <p>{{house.heir['name']}}</p>
-        <!-- <a href="../character/{{house.heir['id']}}">{{house.heir['name']}}</a> -->
+        {% if (not house.heir) %}
+          <p>Unknown</p>
+        {% else %}
+          <a href="../character/{{house.heir['id']}}">{{house.heir['name']}}</a>
+        {% endif %}
 
         <h3>Overlord</h3>
-        <p>{{house.overlord['name']}}</p>
-        <!-- <a href="../character/{{house.overlord['id']}}">{{house.overlord['name']}}</a> -->
+        {% if (not house.overlord) %}
+          <p>Unknown</p>
+        {% else %}
+          <a href="../character/{{house.overlord['id']}}">{{house.overlord['name']}}</a>
+        {% endif %}
 
         <h3>Founder</h3>
-        <p>{{house.founder['name']}}</p>
-        <!-- <a href="../character/{{house.founder['id']}}">{{house.founder['name']}}</a> -->
+        {% if (not house.founder) %}
+          <p>Unknown</p>
+        {% else %}
+          <a href="../character/{{house.founder['id']}}">{{house.founder['name']}}</a>
+        {% endif %}
       </div>
 
       <div class="col-md-6">
         <h3>Sworn Members</h3>
-        <div class="list-group">
+        <!-- <div class="list-group">
           {% for character in house.swornMembers|sort(attribute='name') %}
             <a class="list-group-item" href="../character/{{character['id']}}">{{character['name']}}</a>
           {% endfor %}
-        </div>
+        </div> -->
+        <table class="pageable-table-model display table">
+          <thead>
+            <tr>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for character in house.swornMembers|sort(attribute='name') %}
+              <tr>
+                <td><a href="book/{{character['id']}}">{{character['name']}}</a></td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
       
     </div>

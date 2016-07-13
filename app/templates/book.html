@@ -10,11 +10,16 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/datatables.min.css"/>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/datatables.min.js"></script>
+
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
   <link rel="stylesheet" type="text/css" href="../static/css/template.css">
+  <script src="../static/js/data_table.js"></script>
 
 </head>
 
@@ -75,18 +80,46 @@
 
       <div class="col-md-6">
         <h3>Characters</h3>
-        <div class="list-group">
+        <!-- <div class="list-group">
           {% for character in book.characters|sort(attribute='name') %}
             <a class="list-group-item" href="../character/{{character['id']}}">{{character['name']}}</a>
           {% endfor %}
-        </div>
+        </div> -->
+        <table class="pageable-table-model display table">
+        <thead>
+          <tr>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for character in book.characters|sort(attribute='name') %}
+            <tr>
+              <td><a href="../character/{{character['id']}}">{{character['name']}}</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
 
         <h3>POV Characters</h3>
-        <div class="list-group">
+        <!-- <div class="list-group">
           {% for character in book.povCharacters|sort(attribute='name') %}
             <a class="list-group-item" href="../character/{{character['id']}}">{{character['name']}}</a>
           {% endfor %}
-        </div>
+        </div> -->
+        <table class="pageable-table-model display table">
+          <thead>
+            <tr>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for character in book.povCharacters|sort(attribute='name') %}
+              <tr>
+                <td><a href="../character/{{character['id']}}">{{character['name']}}</a></td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
 
     </div>
