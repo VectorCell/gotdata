@@ -6,7 +6,6 @@ from flask import Flask
 from flask_testing import TestCase
 from flask_sqlalchemy import SQLAlchemy
 
-from __init__ import app
 from models import db, Character, House, Book
 
 

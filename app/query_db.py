@@ -1,27 +1,26 @@
 from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
-
-import models
+from models import Character, House, Book
 
 def get_all_characters():
-    return models.Character.query.all()
+    return Character.query.all()
 
 def get_all_houses():
-    return models.House.query.all()
+    return House.query.all()
 
 def get_all_books():
-    return models.Book.query.all()
+    return Book.query.all()
 
 
 def get_character(id):
-    return models.Character.query.get(str(id))
+    return Character.query.get(str(id))
 
 def get_house(id):
-    return models.House.query.get(str(id))
+    return House.query.get(str(id))
 
 def get_book(id):
-    return models.Book.query.get(str(id))
+    return Book.query.get(str(id))
 
 
 def get_character_dict(id):
