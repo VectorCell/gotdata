@@ -2,7 +2,6 @@ from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
 
-from __init__ import app
 from models import db, Character, House, Book
 
 
