@@ -5,10 +5,6 @@ from sqlalchemy import create_engine, MetaData, Table
 from models import db, Character, House, Book
 
 
-engine = create_engine(app.config["SQLALCHEMY_DATABASE_URI"])
-metadata = MetaData(bind=engine)
-
-
 def get_all_characters():
     return Character.query.all()
 

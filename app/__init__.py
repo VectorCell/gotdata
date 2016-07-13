@@ -5,7 +5,9 @@ import os
 
 import query_db
 
+
 app = Flask(__name__)
+
 
 @app.route('/')
 @app.route('/index')
