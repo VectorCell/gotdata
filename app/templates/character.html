@@ -60,40 +60,44 @@
         <p>{{character.gender}}</p>
 
         <h3>Born</h3>
-        {% if (character.born == "") %}
+        {% if (not character.born) %}
           <p>Unknown</p>
         {% else %}
           <p>{{character.born}}</p>
         {% endif %}
 
         <h3>Living Status</h3>
-        {% if (character.died == "") %}
+        {% if (not character.died) %}
           <p>Alive</p>
         {% else %}
           <p>Died: {{character.died}}</p>
         {% endif %}
 
         <h3>Spouse</h3>
-        {% if (character.spouse == "") %}
+        {% if (not character.spouse) %}
           <p>None</p>
         {% else %}
-          <p>{{character.spouse}}</p>
-          <!-- <a href="/{{character.spouse['id']}}">{{character.spouse['name']}}</a> -->
+          <!-- <p>{{character.spouse}}</p> -->
+          <a href="{{character.spouse['id']}}">{{character.spouse['name']}}</a>
         {% endif %}
 
         <h3>Allegiances</h3>
+        {% if (not character.allegiances) %}
+          <p>Unknown</p>
+        {% else %}
           <div class="list-group">
             {% for house in character.allegiances|sort(attribute='name') %}
               <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
             {% endfor %}
+          </div>
+        {% endif %}
 
         <h3>Culture</h3>
-        {% if (character.culture == "") %}
+        {% if (not character.culture) %}
           <p>Unknown</p>
         {% else %}
           <p>{{character.culture}}</p>
         {% endif %}
-        </div>
       </div>
 
       <div class="col-md-6">
