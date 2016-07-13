@@ -59,24 +59,23 @@
         <p>{{house.region}}</p>
 
         <h3>Coat of Arms</h3>
-        {% if (house.coatOfArms) %}
-          <p>{{house.coatOfArms}}</p>
-        {% else %}
+        {% if (not house.coatOfArms) %}
           <p>Unknown</p>
+        {% else %}
+          <p>{{house.coatOfArms}}</p>
         {% endif %}
 
         <h3>Words</h3>
-        {% if (house.words) %}
-          <p>{{house.words}}</p>
-        {% else %}
+        {% if (not house.words) %}
           <p>Unknown</p>
+        {% else %}
+          <p>{{house.words}}</p>
         {% endif %}
 
         <h3>Current Lord</h3>
         {% if (not house.currentLord) %}
           <p>Unknown</p>
         {% else %}
-          <!-- <p>{{house.currentLord['name']}}</p> -->
           <a href="../character/{{house.currentLord['id']}}">{{house.currentLord['name']}}</a>
         {% endif %}
 
@@ -84,7 +83,6 @@
         {% if (not house.heir) %}
           <p>Unknown</p>
         {% else %}
-          <!-- <p>{{house.heir['name']}}</p> -->
           <a href="../character/{{house.heir['id']}}">{{house.heir['name']}}</a>
         {% endif %}
 
@@ -92,7 +90,6 @@
         {% if (not house.overlord) %}
           <p>Unknown</p>
         {% else %}
-          <!-- <p>{{house.overlord['name']}}</p> -->
           <a href="../character/{{house.overlord['id']}}">{{house.overlord['name']}}</a>
         {% endif %}
 
@@ -100,7 +97,6 @@
         {% if (not house.founder) %}
           <p>Unknown</p>
         {% else %}
-          <!-- <p>{{house.founder['name']}}</p> -->
           <a href="../character/{{house.founder['id']}}">{{house.founder['name']}}</a>
         {% endif %}
       </div>

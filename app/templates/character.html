@@ -60,17 +60,17 @@
         <p>{{character.gender}}</p>
 
         <h3>Born</h3>
-        {% if (character.born) %}
-          <p>{{character.born}}</p>
-        {% else %}
+        {% if (not character.born) %}
           <p>Unknown</p>
+        {% else %}
+          <p>{{character.born}}</p>
         {% endif %}
 
         <h3>Living Status</h3>
-        {% if (character.died) %}
-          <p>Died: {{character.died}}</p>
-        {% else %}
+        {% if (not character.died) %}
           <p>Alive</p>
+        {% else %}
+          <p>Died: {{character.died}}</p>
         {% endif %}
 
         <h3>Spouse</h3>
@@ -92,7 +92,7 @@
         {% endif %}
 
         <h3>Culture</h3>
-        {% if (character.culture) %}
+        {% if (not character.culture) %}
           <p>Unknown</p>
         {% else %}
           <p>{{character.culture}}</p>
