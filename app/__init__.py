@@ -52,7 +52,7 @@ def book(arg):
 
 @app.route('/unittest')
 def unittest():
-    return "Wow this is some text!"
+    return "Here is where the unit test logs will be."
 
 #
 # API
