@@ -98,13 +98,13 @@ class House(db.Model):
     # Foreign keys
     currentLord_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
     heir_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
-    overlord_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
+    overlord_id = db.Column(db.String(512), db.ForeignKey("houses.id"))
     founder_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
 
     # Relationships
     currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_id")
     heir = db.relationship("Character", uselist=False, foreign_keys="House.heir_id")
-    overlord = db.relationship("Character", uselist=False, foreign_keys="House.overlord_id")
+    overlord = db.relationship("House", remote_side=[id]);
     founder = db.relationship("Character", uselist=False, foreign_keys="House.founder_id")
     swornMembers = db.relationship("Character", secondary=characters_houses,
                                    back_populates="allegiances")

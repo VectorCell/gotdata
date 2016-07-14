@@ -196,20 +196,19 @@ def create_rel_heir(h, character_url):
 
 """
 Create the overlord one-to-one 
-relationship between a house and 
-a character
+relationship between two houses 
 """
-def create_rel_overlord(h, character_url):
-    if character_url == "":
+def create_rel_overlord(h, house_url):
+    if house_url == "":
         return
 
-    character_id = character_url.split("/").pop()
-    c = Character.query.get(character_id)
-    if not c:
-        c = Character(id=character_id)
-    h.overlord = c
+    house_id = house_url.split("/").pop()
+    o = House.query.get(house_id)
+    if not o:
+        o = House(id=house_id)
+    h.overlord = o
 
-    db.session.add(c)
+    db.session.add(o)
 
 
 """
