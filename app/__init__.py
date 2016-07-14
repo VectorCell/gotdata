@@ -55,7 +55,11 @@ def book(arg):
 
 @app.route('/unittest')
 def unittest():
-    return "Here is where the unit test logs will be."
+    import subprocess
+    command = "python tests.py"
+    process = subprocess.Popen(command, stdout=None, stderr=subprocess.PIPE, shell=True)
+    output = process.communicate()
+    return ''.join(o for o in output if isinstance(o, str))
 
 #
 # API
