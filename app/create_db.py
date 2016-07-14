@@ -2,6 +2,7 @@ import json
 
 from models import db, Character, House, Book
 
+
 """
 Create the database
 """
