@@ -81,6 +81,13 @@
           <a href="{{character.spouse['id']}}">{{character.spouse['name']}}</a>
         {% endif %}
 
+        <h3>Culture</h3>
+        {% if (not character.culture) %}
+          <p>Unknown</p>
+        {% else %}
+          <p>{{character.culture}}</p>
+        {% endif %}
+
         <h3>Allegiances</h3>
         {% if (not character.allegiances) %}
           <p>Unknown</p>
@@ -90,13 +97,6 @@
               <a class="list-group-item" href="../house/{{house['id']}}">{{house['name']}}</a>
             {% endfor %}
           </div>
-        {% endif %}
-
-        <h3>Culture</h3>
-        {% if (not character.culture) %}
-          <p>Unknown</p>
-        {% else %}
-          <p>{{character.culture}}</p>
         {% endif %}
       </div>
 

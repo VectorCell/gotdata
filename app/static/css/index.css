@@ -11,9 +11,11 @@ h1 {
 }
 
 .navbar {
-  background-color: rgba(170,170,170,0.95);
-  border-color: rgba(130,130,130,0.75);
-  box-shadow: 0 0 14px rgba(0,0,0,0.6);
+  /*background-color: rgba(170,170,170,0.95);*/
+  background-color: rgba(170,170,170,0.0);
+  /*border-color: rgba(130,130,130,0.75);*/
+  border-color: rgba(130,130,130,0.0);
+  /*box-shadow: 0 0 14px rgba(0,0,0,0.6);*/
 }
 
 .navbar-default .navbar-nav > li > a,
