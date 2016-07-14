@@ -50,6 +50,9 @@ def book(arg):
         image = '/img/books/' + str(book.id) + '.jpg'
     return render_template('book.html', book=book, coverimage=image)
 
+@app.route('/unittest')
+def unittest():
+    return "Here is where the unit test logs will be."
 
 #
 # API

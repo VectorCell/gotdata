@@ -16,6 +16,14 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="stylesheet" type="text/css" href="css/template.css">
+  <script>
+    function runUnitTests() {
+      $.get("/unittest", function(data) {
+        // $(".unit-test-results").html(data);
+        alert(data);
+      });
+    }
+  </script>
 </head>
 
 <body>
@@ -125,7 +133,7 @@
             <li>No. of issues: </li>
             <li>No. of unit tests: 0</li>
           </ul>
-          <p>Rhain is a senior at UT majoring in computer science and electrical engineering</p>
+          <p>Paragraph about person.</p>
         </div>
       </div>
       <div class="person row">
@@ -151,6 +159,7 @@
         <p>No. of commits: 175</p>
         <p>No. of issues: 33</p>
         <p>No. of unit tests: 13</p>
+        <button onclick="runUnitTests();">Run Unit Tests</button>
       </div>
 
       <div class="col-md-3">
