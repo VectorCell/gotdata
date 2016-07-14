@@ -11,18 +11,9 @@ h1 {
 }
 
 .navbar {
-  /*background-color: rgba(170,170,170,0.95);*/
-  background-color: rgba(170,170,170,0.0);
-}
-
-.navbar-brand {
-  font-size: 24pt;
-  font-weight: bold;
-}
-
-.navbar-nav {
-  font-size: 20pt;
-  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-color: rgba(0, 0, 0, 0);
+  padding: 7px 24px;
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -35,19 +26,21 @@ h1 {
 .navbar-default .navbar-header > a:hover,
 .navbar-default .navbar-header > a:focus {
   color: white;
-}
-
-.navbar-header {
-  padding: 7px 24px;
-}
+} 
 
 .navbar-brand {
-  font-size: 24px;
-  font-weight: 400;
+  /*font-size: 24px;
+  font-weight: 400;*/
+  font-size: 24pt;
+  font-weight: bold;
+  color: white;
 }
 
 .navbar-nav {
-  padding: 7px 12px;
+  /*padding: 7px 12px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 300;*/
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
 }
