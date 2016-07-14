@@ -3,8 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 SQLALCHEMY_DATABASE_URI = "sqlite:////tmp/default.db"
 SQLALCHEMY_BINDS = {
-    "test": "sqlite:////tmp/test.db",
-    "production": "postgresql://austin:ahh10523@localhost/gotdata"
+    "test": "postgresql://austin:ahh10523@localhost/test",
 }
 
 app = Flask(__name__)
