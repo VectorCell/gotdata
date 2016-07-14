@@ -3,21 +3,6 @@ body {
   background-image: url("../img/bg/stonewall.jpg");
 }
 
-.navbar {
-  /*background-color: rgba(170,170,170,0.95);*/
-  background-color: rgba(170,170,170,0.0);
-}
-
-.navbar-brand {
-  font-size: 24pt;
-  font-weight: bold;
-}
-
-.navbar-nav {
-  font-size: 20pt;
-  font-weight: bold;
-}
-
 .info-box {
   width: 80%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -50,25 +35,18 @@ body {
   background-color: rgba(40, 40, 40, 1);
 }
 
-/* unvisited link */
 a:link {
     color: rgba(63, 153, 255, 1);
 }
 
-/* visited link */
 a:visited {
     color: rgba(153, 102, 255, 1);
 }
 
-/* mouse over link */
-a:hover {
-    /*color: hotpink;*/
-}
+a:hover {}
 
 /* selected link */
-a:active {
-    /*color: blue;*/
-}
+a:active {}
 
 img {
   padding: 16px;
