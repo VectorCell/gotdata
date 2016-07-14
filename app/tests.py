@@ -12,7 +12,7 @@ from flask import Flask
 from flask_testing import TestCase
 from flask_sqlalchemy import SQLAlchemy
 
-from models import db, Character, House, Book
+from test_models import app, db, Character, House, Book
 
 
 class TestGOTData(TestCase):
@@ -21,11 +21,7 @@ class TestGOTData(TestCase):
     # Set up the db
     # -----------
 
-    SQLALCHEMY_DATABASE_URI = "sqlite:////tmp/unittest.db"
-
     def create_app(self):
-        app = Flask(__name__)
-        app.config["Testing"] = True
         return app
 
     def setUp(self):

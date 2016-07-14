@@ -3,8 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 SQLALCHEMY_DATABASE_URI = "sqlite:////tmp/default.db"
 SQLALCHEMY_BINDS = {
-    "dev": "postgresql://austin:ahh10523@localhost/dev",
-    "production": "postgresql://austin:ahh10523@localhost/gotdata"
+    "test": "postgresql://austin:ahh10523@localhost/test",
 }
 
 app = Flask(__name__)
@@ -18,19 +17,19 @@ characters_houses = db.Table("characters_houses",
                              db.Column("character_id", db.String(
                                  512), db.ForeignKey("characters.id")),
                              db.Column("house_id", db.String(512), db.ForeignKey("houses.id")),
-                             info={"bind_key": "dev"})
+                             info={"bind_key": "test"})
 
 characters_books = db.Table("characters_books",
                             db.Column("character_id", db.String(
                                  512), db.ForeignKey("characters.id")),
                             db.Column("book_id", db.String(512), db.ForeignKey("books.id")),
-                            info={"bind_key": "dev"})
+                            info={"bind_key": "test"})
 
 characters_povbooks = db.Table("characters_povbooks",
                                db.Column("character_id", db.String(
                                     512), db.ForeignKey("characters.id")),
                                db.Column("book_id", db.String(512), db.ForeignKey("books.id")),
-                               info={"bind_key": "dev"})
+                               info={"bind_key": "test"})
 
 
 
@@ -38,7 +37,7 @@ characters_povbooks = db.Table("characters_povbooks",
 Characters table model
 """
 class Character(db.Model):
-    __bind_key__ = "dev"
+    __bind_key__ = "test"
     __tablename__ = "characters"
 
     # Table attributes
@@ -83,7 +82,7 @@ class Character(db.Model):
 Houses table model
 """
 class House(db.Model):
-    __bind_key__ = "dev"
+    __bind_key__ = "test"
     __tablename__ = "houses"
 
     # Table attributes
@@ -128,7 +127,7 @@ class House(db.Model):
 Books table model
 """
 class Book(db.Model):
-    __bind_key__ = "dev"
+    __bind_key__ = "test"
     __tablename__ = "books"
 
     # Table attributes
