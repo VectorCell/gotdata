@@ -115,7 +115,7 @@
             </tr>
           </thead>
           <tbody>
-            {% for character in house.swornMembers|sort(attribute='name') %}
+            {% for character in house.swornMembers if character['name'] %}
               <tr>
                 <td><a href="/character/{{character['id']}}">{{character['name']}}</a></td>
               </tr>

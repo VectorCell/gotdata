@@ -56,16 +56,22 @@
           <tr>
             <th>Name</th>
             <th>ID</th>
+            <th>Allegiance</th>
             <th>Culture</th>  
             <th>Dead/Alive</th>
           </tr>
         </thead>
         <tbody>
-          {% for character in characters|sort(attribute='name') %}
+          {% for character in characters if character['name'] %}
             <tr>
-              <td><a href="character/{{character['id']}}">{{character['name']}}</a></td>
-              <td>{{ character['id']     }}</td>
-              <td>{{ character['culture'] }}</td>
+              <td><a href="/character/{{character['id']}}">{{character['name']}}</a></td>
+              <td>{{ character['id']             }}</td>
+              <td>
+                {% if character['allegiances'] %}
+                  <a href="/house/{{character['allegiances'][0]['id']}}">{{ character['allegiances'][0]['name'] }}</a>
+                {% endif %}
+              </td>
+              <td>{{ character['culture']        }}</td>
               {% if (character['died'] == "") %}
                 <td>Alive</td>
               {% else %}

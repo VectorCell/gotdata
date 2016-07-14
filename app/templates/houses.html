@@ -57,6 +57,8 @@
             <th>Name</th>
             <th>ID</th>
             <th>Region</th>
+            <th>Current Lord</th>
+            <th>Overlord</th>
             <th>Coat of Arms</th>
           </tr>
         </thead>
@@ -66,6 +68,16 @@
               <td><a href="house/{{house['id']}}">{{house['name']}}</a></td>
               <td>{{ house['id']        }}</td>
               <td>{{ house['region']     }}</td>
+              <td>
+                {% if house['currentLord'] %}
+                  <a href="/character/{{house['currentLord']['id']}}">{{ house['currentLord']['name'] }}</a>
+                {% endif %}
+              </td>
+              <td>
+                {% if house['overlord'] %}
+                  <a href="/houses/{{house['overlord']['id']}}">{{ house['overlord']['name'] }}</a>
+                {% endif %}
+              </td>
               <td>{{ house['coatOfArms'] }}</td>
             </tr>
           {% endfor %}

@@ -92,7 +92,7 @@
           </tr>
         </thead>
         <tbody>
-          {% for character in book.characters|sort(attribute='name') %}
+          {% for character in book.characters if character['name'] %}
             <tr>
               <td><a href="../character/{{character['id']}}">{{character['name']}}</a></td>
             </tr>
@@ -113,7 +113,7 @@
             </tr>
           </thead>
           <tbody>
-            {% for character in book.povCharacters|sort(attribute='name') %}
+            {% for character in book.povCharacters if character['name'] %}
               <tr>
                 <td><a href="../character/{{character['id']}}">{{character['name']}}</a></td>
               </tr>
