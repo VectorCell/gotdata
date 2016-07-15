@@ -37,12 +37,17 @@ characters_povbooks = db.Table("characters_povbooks",
 
 
 
+class CharacterQuery(BaseQuery, SearchQueryMixin):
+    pass
+
+
 """
 Characters table model
 """
 class Character(db.Model):
     __bind_key__ = "dev"
     __tablename__ = "characters"
+    query_class = CharacterQuery
 
     # Table attributes
     id = db.Column(db.String(512), primary_key=True)
@@ -85,7 +90,7 @@ class Character(db.Model):
         return "<Character %r>" % self.name
 
 
-class CharacterQuery(BaseQuery, SearchQueryMixin):
+class HouseQuery(BaseQuery, SearchQueryMixin):
     pass
 
 
@@ -95,6 +100,7 @@ Houses table model
 class House(db.Model):
     __bind_key__ = "dev"
     __tablename__ = "houses"
+    query_class = HouseQuery
 
     # Table attributes
     id = db.Column(db.String(512), primary_key=True)
@@ -136,7 +142,7 @@ class House(db.Model):
         return "<House %r>" % self.name
 
 
-class HouseQuery(BaseQuery, SearchQueryMixin):
+class BookQuery(BaseQuery, SearchQueryMixin):
     pass
 
 
@@ -146,6 +152,7 @@ Books table model
 class Book(db.Model):
     __bind_key__ = "dev"
     __tablename__ = "books"
+    query_class = BookQuery
 
     # Table attributes
     id = db.Column(db.String(512), primary_key=True)
@@ -181,7 +188,3 @@ class Book(db.Model):
 
     def __repr__(self):
         return "<Book %r>" % self.name
-
-
-class BookQuery(BaseQuery, SearchQueryMixin):
-    pass

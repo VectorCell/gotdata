@@ -2,7 +2,14 @@ from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
 
+from sqlalchemy_searchable import parse_search_query
+from sqlalchemy_searchable import search
+from sqlalchemy.orm import sessionmaker
+
 from models import db, Character, House, Book
+
+
+engine = create_engine("postgresql://austin:ahh10523@localhost/dev")
 
 
 def search_db(*terms):
@@ -17,7 +24,16 @@ def search_books(*terms):
     #for item in Book.query.search(terms[0]).all():
     #    results += [{'type': 'Book', 'data': item}]
     #return results
-    return [{'type': 'Book', 'data': get_book(5)}]
+
+    session = sessionmaker(bind=engine)
+    s = session()
+    query = s.query(Book)
+    results = []
+    for item in search(query, terms[0]):
+        results += [{'type': 'Book', 'data': item}]
+    return results
+
+    #return [{'type': 'Book', 'data': get_book(5)}]
 
 def search_houses(*terms):
     return [{'type': 'House', 'data': get_house(378)}]

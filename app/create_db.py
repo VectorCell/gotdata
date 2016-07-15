@@ -8,6 +8,7 @@ Create the database
 """
 def create_db():
     db.drop_all()
+    #db.configure_mappers()
     db.create_all()
 
     create_characters()    
