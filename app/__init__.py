@@ -53,6 +53,20 @@ def book(arg):
         image = '/img/books/' + str(book.id) + '.jpg'
     return render_template('book.html', book=book, coverimage=image)
 
+#
+# Search results
+#
+
+@app.route('/search/<path:query>')
+def search(query):
+    tokens = query.split('+')
+    results = query_db.search_db(*tokens)
+    return render_template('search.html', results=results)
+
+#
+# Unit tests
+#
+
 @app.route('/unittest')
 def unittest():
     import subprocess

@@ -1,7 +1,30 @@
 from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table
-from models import Character, House, Book
+
+from models import db, Character, House, Book
+
+
+def search_db(*terms):
+    results = []
+    results += search_books(*terms)
+    results += search_houses(*terms)
+    results += search_characters(*terms)
+    return results
+
+def search_books(*terms):
+    #results = []
+    #for item in Book.query.search(terms[0]).all():
+    #    results += [{'type': 'Book', 'data': item}]
+    #return results
+    return [{'type': 'Book', 'data': get_book(5)}]
+
+def search_houses(*terms):
+    return [{'type': 'House', 'data': get_house(378)}]
+
+def search_characters(*terms):
+    return [{'type': 'Character', 'data': get_character(15)}]
+
 
 def get_all_characters():
     return Character.query.all()
