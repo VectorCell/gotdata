@@ -1,5 +1,7 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy, BaseQuery
+from sqlalchemy_searchable import SearchQueryMixin, make_searchable
+from sqlalchemy_utils.types import TSVectorType
 
 SQLALCHEMY_DATABASE_URI = "sqlite:////tmp/default.db"
 SQLALCHEMY_BINDS = {
@@ -10,6 +12,7 @@ SQLALCHEMY_BINDS = {
 app = Flask(__name__)
 app.config.from_object(__name__)
 db = SQLAlchemy(app)
+make_searchable()
 
 """
 Many-to-many association tables
@@ -50,6 +53,9 @@ class Character(db.Model):
     died = db.Column(db.String(512))
     father = db.Column(db.String(512))
     mother = db.Column(db.String(512))
+    search_vector = db.Column(TSVectorType("name", "gender", "culture",
+                                           "born", "died", "father", 
+                                           "mother"))
 
     # Foreign keys
     spouse_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
@@ -79,6 +85,10 @@ class Character(db.Model):
         return "<Character %r>" % self.name
 
 
+class CharacterQuery(BaseQuery, SearchQueryMixin):
+    pass
+
+
 """
 Houses table model
 """
@@ -94,6 +104,8 @@ class House(db.Model):
     words = db.Column(db.String(512))
     founded = db.Column(db.String(512))
     diedOut = db.Column(db.String(512))
+    search_vector = db.Column(TSVectorType("name", "region", "coatOfArms",
+                                           "words", "founded", "diedOut"))
 
     # Foreign keys
     currentLord_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
@@ -124,6 +136,10 @@ class House(db.Model):
         return "<House %r>" % self.name
 
 
+class HouseQuery(BaseQuery, SearchQueryMixin):
+    pass
+
+
 """
 Books table model
 """
@@ -140,6 +156,9 @@ class Book(db.Model):
     country = db.Column(db.String(512))
     mediaType = db.Column(db.String(512))
     released = db.Column(db.String(512))
+    search_vector = db.Column(TSVectorType("name", "isbn", "numberOfPages",
+                                           "publisher", "country", "mediaType",
+                                           "released"))
 
     # Relationships
     characters = db.relationship("Character", secondary=characters_books,
@@ -162,3 +181,7 @@ class Book(db.Model):
 
     def __repr__(self):
         return "<Book %r>" % self.name
+
+
+class BookQuery(BaseQuery, SearchQueryMixin):
+    pass
