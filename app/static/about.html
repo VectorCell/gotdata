@@ -16,10 +16,10 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="stylesheet" type="text/css" href="css/template.css">
+  <script src="js/search.js"></script>
   <script>
     function runUnitTests() {
       $.get("/unittest", function(data) {
-        // $(".unit-test-results").html(data);
         alert(data);
       });
     }
@@ -41,6 +41,20 @@
       <div class="collapse navbar-collapse" id="theNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/about.html">About</a></li>
+          <li>
+            <div id="search-bar-container">
+              <form id="search-form" role="search">
+                <div class="input-group stylish-input-group">
+                  <input id="search-input" type="text" class="form-control" placeholder="Search all">
+                  <span class="input-group-addon">
+                    <button id="search-button" type="submit">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
