@@ -19,6 +19,7 @@
 
   <link rel="stylesheet" type="text/css" href="../static/css/index.css">
   <link rel="stylesheet" type="text/css" href="../static/css/template.css">
+  <script src="../static/js/search.js"></script>
   <script src="../static/js/data_table.js"></script>
 
 </head>
@@ -38,6 +39,20 @@
       <div class="collapse navbar-collapse" id="theNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/about.html">About</a></li>
+          <li>
+            <div id="search-bar-container">
+              <form id="search-form" role="search">
+                <div class="input-group stylish-input-group">
+                  <input id="search-input" type="text" class="form-control" placeholder="Search all">
+                  <span class="input-group-addon">
+                    <button id="search-button" type="submit">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/characters">Characters</a></li>
@@ -56,10 +71,10 @@
           <tr>
             <th>Name</th>
             <th>ID</th>
+            <th>Pages</th>
+            <th>Publisher</th>
             <th>ISBN</th>
             <th>Released</th>
-            <th>Publisher</th>
-            <th>Pages</th>
           </tr>
         </thead>
         <tbody>
@@ -67,10 +82,10 @@
             <tr>
               <td><a href="book/{{book['id']}}">{{book['name']}}</a></td>
               <td>{{ book['id']        }}</td>
+              <td>{{ book['numberOfPages'] }}</td>
+              <td>{{ book['publisher']     }}</td>
               <td>{{ book['isbn']     }}</td>
               <td>{{ book['released'] }}</td>
-              <td>{{ book['publisher']     }}</td>
-              <td>{{ book['numberOfPages'] }}</td>
             </tr>
           {% endfor %}
         </tbody>
