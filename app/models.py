@@ -1,7 +1,7 @@
+import flask_whooshalchemy
+
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy, BaseQuery
-from sqlalchemy_searchable import SearchQueryMixin, make_searchable
-from sqlalchemy_utils.types import TSVectorType
+from flask_sqlalchemy import SQLAlchemy
 
 SQLALCHEMY_DATABASE_URI = "sqlite:////tmp/default.db"
 SQLALCHEMY_BINDS = {
@@ -11,8 +11,9 @@ SQLALCHEMY_BINDS = {
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+app.config["WHOOSH_BASE"] = "whoosh"
 db = SQLAlchemy(app)
-make_searchable()
+
 
 """
 Many-to-many association tables
@@ -36,13 +37,13 @@ characters_povbooks = db.Table("characters_povbooks",
                                info={"bind_key": "dev"})
 
 
-
 """
 Characters table model
 """
 class Character(db.Model):
     __bind_key__ = "dev"
     __tablename__ = "characters"
+    __searchable__ = ["name", "gender", "culture", "born", "died", "father", "mother"]
 
     # Table attributes
     id = db.Column(db.String(512), primary_key=True)
@@ -53,9 +54,6 @@ class Character(db.Model):
     died = db.Column(db.String(512))
     father = db.Column(db.String(512))
     mother = db.Column(db.String(512))
-    search_vector = db.Column(TSVectorType("name", "gender", "culture",
-                                           "born", "died", "father", 
-                                           "mother"))
 
     # Foreign keys
     spouse_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
@@ -85,9 +83,6 @@ class Character(db.Model):
         return "<Character %r>" % self.name
 
 
-class CharacterQuery(BaseQuery, SearchQueryMixin):
-    pass
-
 
 """
 Houses table model
@@ -95,6 +90,7 @@ Houses table model
 class House(db.Model):
     __bind_key__ = "dev"
     __tablename__ = "houses"
+    __searchable__ = ["name", "region", "coatOfArms", "words", "founded", "diedOut"]
 
     # Table attributes
     id = db.Column(db.String(512), primary_key=True)
@@ -104,8 +100,6 @@ class House(db.Model):
     words = db.Column(db.String(512))
     founded = db.Column(db.String(512))
     diedOut = db.Column(db.String(512))
-    search_vector = db.Column(TSVectorType("name", "region", "coatOfArms",
-                                           "words", "founded", "diedOut"))
 
     # Foreign keys
     currentLord_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
@@ -136,16 +130,13 @@ class House(db.Model):
         return "<House %r>" % self.name
 
 
-class HouseQuery(BaseQuery, SearchQueryMixin):
-    pass
-
-
 """
 Books table model
 """
 class Book(db.Model):
     __bind_key__ = "dev"
     __tablename__ = "books"
+    __searchable__ = ["name", "isbn", "publisher", "country", "mediaType", "released"]
 
     # Table attributes
     id = db.Column(db.String(512), primary_key=True)
@@ -156,9 +147,6 @@ class Book(db.Model):
     country = db.Column(db.String(512))
     mediaType = db.Column(db.String(512))
     released = db.Column(db.String(512))
-    search_vector = db.Column(TSVectorType("name", "isbn", "numberOfPages",
-                                           "publisher", "country", "mediaType",
-                                           "released"))
 
     # Relationships
     characters = db.relationship("Character", secondary=characters_books,
@@ -183,5 +171,10 @@ class Book(db.Model):
         return "<Book %r>" % self.name
 
 
-class BookQuery(BaseQuery, SearchQueryMixin):
-    pass
+"""
+Index the models for searching 
+with Whoosh
+"""
+flask_whooshalchemy.whoosh_index(app, Character)
+flask_whooshalchemy.whoosh_index(app, House)
+flask_whooshalchemy.whoosh_index(app, Book)
