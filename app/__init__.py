@@ -60,8 +60,9 @@ def book(arg):
 @app.route('/search/<path:query>')
 def search(query):
     tokens = query.split('+')
+    query = query.replace('+', ' ')
     results = query_db.search_db(*tokens)
-    return render_template('search.html', results=results)
+    return render_template('search.html', query=query, results=results)
 
 #
 # Unit tests

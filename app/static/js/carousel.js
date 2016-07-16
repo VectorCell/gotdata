@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
   var $item = $('.carousel .item');
 
   $item.height($(window).height());
