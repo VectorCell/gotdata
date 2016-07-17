@@ -31,9 +31,9 @@ class TestGOTData(TestCase):
         db.session.remove()
         db.drop_all()
 
-    -----------
-    Character table tests
-    -----------
+    # -----------
+    # Character table tests
+    # -----------
 
     def test_get_characters_1(self):
         a_character = Character(id="1", name="A character")
