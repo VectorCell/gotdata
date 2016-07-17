@@ -114,16 +114,16 @@ class TestGOTData(TestCase):
         self.assertEqual(h.spouse, w)
 
     def test_get_spouse_2(self):
-        c1 = Character(id="4", name="A character")
-        c2 = Character(id="5", name="Another character")
+        c1 = Character(id="6", name="Character 6")
+        c2 = Character(id="7", name="Character 7")
         c1.spouse = c2
         #c2.spouse = c1
         db.session.add(c1)
         db.session.add(c2)
         db.session.commit()
 
-        h = Character.query.get("4")
-        w = Character.query.get("5")
+        h = Character.query.get("6")
+        w = Character.query.get("7")
         self.assertEqual(h.spouse, w)
         #self.assertEqual(w.spouse, h)
 
@@ -131,13 +131,25 @@ class TestGOTData(TestCase):
     # House table tests
     # -----------
 
-    def test_get_house(self):
+    def test_get_houses_1(self):
         a_house = House(id="6", name="A house")
         db.session.add(a_house)
         db.session.commit()
 
         self.assertEqual(repr(House.query.get("6")),
                          "<House u'A house'>")
+
+    def test_get_houses_1(self):
+        h1 = House(id="1", name="House 1")
+        db.session.add(h1)
+        h2 = House(id="2", name="House 2")
+        db.session.add(h2)
+        db.session.commit()
+
+        self.assertEqual(repr(House.query.get("1")),
+                         "<House u'House 1'>")
+        self.assertEqual(repr(House.query.get("2")),
+                         "<House u'House 2'>")
 
     def test_get_swornmembers(self):
         a_house = House(id="7", name="A house")
