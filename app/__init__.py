@@ -83,6 +83,7 @@ def search(query):
 @app.route('/unittest')
 def unittest():
     print('current working directory:', os.getcwd())
+    print('script path:', os.path.realpath(__file__))
     import subprocess
     command = "python /var/www/FlaskApp/app/tests.py"
     process = subprocess.Popen(command, stdout=None, stderr=subprocess.PIPE, shell=True)
