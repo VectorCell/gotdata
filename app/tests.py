@@ -151,7 +151,7 @@ class TestGOTData(TestCase):
         self.assertEqual(repr(House.query.get("2")),
                          "<House u'House 2'>")
 
-    def test_get_swornmembers(self):
+    def test_get_swornmembers_1(self):
         a_house = House(id="7", name="A house")
         a_character = Character(id="8", name="A character")
         a_house.swornMembers.append(a_character)
@@ -162,6 +162,23 @@ class TestGOTData(TestCase):
         h = House.query.get("7")
         c = Character.query.get("8")
         self.assertEqual(h.swornMembers[0], c)
+
+    def test_get_swornmembers_2(self):
+        h1 = House(id="1", name="House 1")
+        c1 = Character(id="1", name="Character 1")
+        c2 = Character(id="2", name="Character 2")
+        h1.swornMembers.append(c1)
+        h1.swornMembers.append(c2)
+        db.session.add(c1)
+        db.session.add(c2)
+        db.session.add(h1)
+        db.session.commit()
+        
+        h = House.query.get("1")
+        c1 = Character.query.get("1")
+        c2 = Character.query.get("2")
+        self.assertEqual(h.swornMembers[0], c1)
+        self.assertEqual(h.swornMembers[1], c2)
 
     def test_get_currentlord(self):
         a_house = House(id="9", name="A house")
@@ -179,7 +196,7 @@ class TestGOTData(TestCase):
     # Book table tests
     # -----------
 
-    def test_get_book(self):
+    def test_get_books_1(self):
         a_book = Book(id="11", name="A book")
         db.session.add(a_book)
         db.session.commit()
@@ -187,7 +204,19 @@ class TestGOTData(TestCase):
         self.assertEqual(repr(Book.query.get("11")),
                          "<Book u'A book'>")
 
-    def test_get_characters(self):
+    def test_get_books_2(self):
+        b1 = Book(id="1", name="Book 1")
+        b2 = Book(id="2", name="Book 2")
+        db.session.add(b1)
+        db.session.add(b2)        
+        db.session.commit()
+
+        self.assertEqual(repr(Book.query.get("1")),
+                                "<Book u'Book 1'>")
+        self.assertEqual(repr(Book.query.get("2")),
+                                "<Book u'Book 2'>")
+
+    def test_get_book_characters_1(self):
         a_book = Book(id="12", name="A book")
         a_character = Character(id="13", name="A character")
         a_book.characters.append(a_character)
@@ -199,7 +228,25 @@ class TestGOTData(TestCase):
         c = Character.query.get("13")
         self.assertEqual(b.characters[0], c)
 
-    def test_get_povcharacters(self):
+    def test_get_book_characters_2(self):
+        b1 = Book(id="1", name="Book 1")
+        b2 = Book(id="2", name="Book 2")
+        c1 = Character(id="1", name="Character 1")
+        b1.characters.append(c1)
+        b2.characters.append(c2)
+        db.session.add(c1)
+        db.session.add(b1)
+        db.session.add(b2)
+        db.session.commit()
+        
+        b1 = Book.query.get("1")
+        b2 = Book.query.get("2")
+        c1 = Character.query.get("1")
+        self.assertEqual(b1.characters[0], c1)
+        self.assertEqual(b2.characters[0], c1)
+        self.assertEqual(b1.characters[0], b2.characters[0])
+
+    def test_get_povcharacters_1(self):
         a_book = Book(id="14", name="A book")
         a_character = Character(id="15", name="A character")
         a_book.povCharacters.append(a_character)
@@ -210,6 +257,32 @@ class TestGOTData(TestCase):
         b = Book.query.get("14")
         c = Character.query.get("15")
         self.assertEqual(b.povCharacters[0], c)
+
+    def test_get_povcharacters_2(self):
+        b1 = Book(id="1", name="Book 1")
+        b2 = Book(id="2", name="Book 2")        
+        c1 = Character(id="1", name="Character 1")
+        c2 = Character(id="2", name="Character 2")
+        b1.povCharacters.append(c1)
+        b1.povCharacters.append(c2)
+        b2.povCharacters.append(c1)
+        b2.povCharacters.append(c2)
+        db.session.add(c1)
+        db.session.add(c2)
+        db.session.add(b1)
+        db.session.add(b2)
+        db.session.commit()
+        
+        b1 = Book.query.get("1")
+        b2 = Book.query.get("2")
+        c1 = Character.query.get("1")
+        c2 = Character.query.get("2")
+        self.assertEqual(b1.povCharacters[0], c1)
+        self.assertEqual(b1.povCharacters[1], c2)
+        self.assertEqual(b2.povCharacters[0], c1)
+        self.assertEqual(b2.povCharacters[1], c2)
+        self.assertEqual(b1.povCharacters[0], b2.povCharacters[0])
+        self.assertEqual(b1.povCharacters[1], b2.povCharacters[1])
 
 # -----------
 # Main
