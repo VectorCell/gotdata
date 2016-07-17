@@ -113,19 +113,19 @@ class TestGOTData(TestCase):
         w = Character.query.get("5")
         self.assertEqual(h.spouse, w)
 
-#    def test_get_spouse_2(self):
-#       c1 = Character(id="6", name="Character 6")
-#        c2 = Character(id="7", name="Character 7")
-#        c1.spouse = c2
-#        c2.spouse = c1
-#        db.session.add(c1)
-#        db.session.add(c2)
-#        db.session.commit()
-#
-#        c1 = Character.query.get("6")
-#        c2 = Character.query.get("7")
-#        self.assertEqual(c1.spouse, c2)
-#        self.assertEqual(c2.spouse, c1)
+    def test_get_spouse_2(self):
+        c1 = Character(id="4", name="A character")
+        c2 = Character(id="5", name="Another character")
+        c1.spouse = c2
+        #c2.spouse = c1
+        db.session.add(c1)
+        db.session.add(c2)
+        db.session.commit()
+
+        h = Character.query.get("4")
+        w = Character.query.get("5")
+        self.assertEqual(h.spouse, w)
+        #self.assertEqual(w.spouse, h)
 
     # -----------
     # House table tests
