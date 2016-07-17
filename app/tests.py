@@ -35,13 +35,13 @@ class TestGOTData(TestCase):
     # Character table tests
     # -----------
 
-    def test_get_character_1(self):
-        a_character = Character(id="1", name="A character")
-        db.session.add(a_character)
-        db.session.commit()
+    # def test_get_character_1(self):
+    #     a_character = Character(id="1", name="A character")
+    #     db.session.add(a_character)
+    #     db.session.commit()
 
-        self.assertEqual(repr(Character.query.get("1")),
-                        "<Character u'A character'>")
+    #     self.assertEqual(repr(Character.query.get("1")),
+    #                     "<Character u'A character'>")
 
     def test_get_characters_1(self):
         a_character = Character(id="1", name="Character 1")
