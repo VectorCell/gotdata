@@ -152,15 +152,15 @@ class TestGOTData(TestCase):
                         "<House u'House 2'>")
 
     def test_get_houses_3(self):
-        h1 = House(id="1",name="Tully", region="The Riverlands", coatOfArms="trout",words="We surrender",founded="10",diedOut"11")
+        h1 = House(id="1", name="Tully", region="The Riverlands", coatOfArms="trout", words="We surrender", founded="10", diedOut="11")
         c1 = Character(id="1", name="Character 1")
         c2 = Character(id="2", name="Character 2")
         c3 = Character(id="3", name="Character 3")
         c4 = Character(id="4", name="Character 4")
-        h1.currentLord.append(c1)
-        h1.heir.append(c2)
-        h1.overlord.append(c3)
-        h1.founder.append(c4)
+        h1.currentLord = c1
+        h1.heir=c2
+        h1.overlord = c3
+        h1.founder=c4
         h1.swornMembers.append(c1)
         h1.swornMembers.append(c3)
         db.session.add(h1)
@@ -177,10 +177,10 @@ class TestGOTData(TestCase):
         self.assertEqual(h1.words,"We surrender")
         self.assertEqual(h1.founded,"10")
         self.assertEqual(h1.diedOut,"11")
-        self.assertEqual(h1.currentLord[0],c1)
-        self.assertEqual(h1.heir[0],c2)
-        self.assertEqual(h1.overlord[0],c3)
-        self.assertEqual(h1.founder[0],c4)
+        self.assertEqual(h1.currentLord,c1)
+        self.assertEqual(h1.heir,c2)
+        self.assertEqual(h1.overlord,c3)
+        self.assertEqual(h1.founder,c4)
         self.assertEqual(h1.swornMembers[0],c1)
         self.assertEqual(h1.swornMembers[1],c3)
 
