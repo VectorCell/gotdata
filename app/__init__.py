@@ -82,12 +82,9 @@ def search(query):
 
 @app.route('/unittest')
 def unittest():
-    print('current working directory:', os.getcwd())
-    print('script path:', os.path.realpath(__file__))
     import subprocess
     directory = '/'.join(os.path.realpath(__file__).split('/')[0:-1])
     command = 'python ' + directory + '/tests.py'
-    print('command:', command)
     process = subprocess.Popen(command, stdout=None, stderr=subprocess.PIPE, shell=True)
     output = process.communicate()
     return ''.join(o for o in output if isinstance(o, str))
