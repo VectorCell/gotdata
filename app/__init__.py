@@ -60,9 +60,15 @@ def book(arg):
 @app.route('/search/<path:query>')
 def search(query):
     tokens = query.split('+')
-    query = query.replace('+', ' ')
-    results = query_db.search_db(*tokens)
-    return render_template('search.html', query=query, results=results)
+    query_and = ' AND '.join(t for t in tokens)
+    query_or = ' OR '.join(t for t in tokens)
+    results_and = query_db.search_db(' AND '.join(t for t in tokens))
+    results_or = query_db.search_db(' OR '.join(t for t in tokens))
+    return render_template('search.html',
+                           query_and=query_and,
+                           results_and=results_and,
+                           query_or=query_or,
+                           results_or=results_or)
 
 #
 # Unit tests

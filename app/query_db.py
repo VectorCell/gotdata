@@ -9,21 +9,33 @@ from sqlalchemy.orm import sessionmaker
 from models import db, Character, House, Book
 
 
-def search_db(*terms):
+def search_db(query):
     results = []
-    results += search_books(*terms)
-    results += search_houses(*terms)
-    results += search_characters(*terms)
+    results += search_books(query)
+    results += search_houses(query)
+    results += search_characters(query)
     return results
 
-def search_books(*terms):
-    return [{'type': 'Book', 'data': get_book(5)}]
+def search_books(query):
+    results = []
+    for item in Book.query.whoosh_search(query).all():
+        results += [{'type': 'Book', 'data': item}]
+    return results
+    #return [{'type': 'Book', 'data': get_book(5)}]
 
-def search_houses(*terms):
-    return [{'type': 'House', 'data': get_house(378)}]
+def search_houses(query):
+    results = []
+    for item in House.query.whoosh_search(query).all():
+        results += [{'type': 'House', 'data': item}]
+    return results
+    #return [{'type': 'House', 'data': get_house(378)}]
 
-def search_characters(*terms):
-    return [{'type': 'Character', 'data': get_character(15)}]
+def search_characters(query):
+    results = []
+    for item in Character.query.whoosh_search(query).all():
+        results += [{'type': 'Character', 'data': item}]
+    return results
+    #return [{'type': 'Character', 'data': get_character(15)}]
 
 
 def get_all_characters():
