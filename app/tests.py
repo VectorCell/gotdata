@@ -44,10 +44,10 @@ class TestGOTData(TestCase):
                         "<Character u'A character'>")
 
     def test_get_characters_2(self):
-        a_character = Character(id="1", name="Character 1")
-        db.session.add(a_character)
-        a_character = Character(id="2", name="Character 2")
-        db.session.add(a_character)
+        c1 = Character(id="1", name="Character 1")
+        db.session.add(c1)
+        c1 = Character(id="2", name="Character 2")
+        db.session.add(c1)
         db.session.commit()
 
         self.assertEqual(repr(Character.query.get("1")),
@@ -56,12 +56,12 @@ class TestGOTData(TestCase):
                         "<Character u'Character 2'>")
 
     def test_get_characters_3(self):
-        a_character = Character(id="1", name="Character 1")
-        db.session.add(a_character)
-        a_character = Character(id="2", name="Character 2")
-        db.session.add(a_character)
-        a_character = Character(id="3", name="Character 3")
-        db.session.add(a_character)
+        c1 = Character(id="1", name="Character 1")
+        db.session.add(c1)
+        c2 = Character(id="2", name="Character 2")
+        db.session.add(c2)
+        c3 = Character(id="3", name="Character 3")
+        db.session.add(c3)
         db.session.commit()
 
         self.assertEqual(repr(Character.query.get("1")),
@@ -71,7 +71,7 @@ class TestGOTData(TestCase):
         self.assertEqual(repr(Character.query.get("3")),
                         "<Character u'Character 3'>")   
 
-    def test_get_allegiances(self):
+    def test_get_allegiances_1(self):
         a_house = House(id="2", name="A house")
         a_character = Character(id="3", name="A character")
         a_character.allegiances.append(a_house)
@@ -83,7 +83,25 @@ class TestGOTData(TestCase):
         c = Character.query.get("3")
         self.assertEqual(c.allegiances[0], h)
 
-    def test_get_spouse(self):
+    def test_get_allegiances_2(self):
+        h1 = House(id="1", name="House 1")
+        db.session.add(h1)
+        a_character = Character(id="1", name="Character 1")
+        a_character.allegiances.append(h1)
+        db.session.add(a_character)
+        a_character = Character(id="2", name="Character 2")
+        a_character.allegiances.append(h1)
+        db.session.add(a_character)
+        db.session.commit()
+        
+        h = House.query.get("1")
+        c1 = Character.query.get("1")
+        self.assertEqual(c1.allegiances[0], h)
+        c2 = Character.query.get("2")
+        self.assertEqual(c2.allegiances[0], h)
+        self.assertEqual(c1.allegiances[0], c2.allegiances[0])
+
+    def test_get_spouse_1(self):
         husband = Character(id="4", name="A character")
         wife = Character(id="5", name="Another character")
         husband.spouse = wife
@@ -94,6 +112,20 @@ class TestGOTData(TestCase):
         h = Character.query.get("4")
         w = Character.query.get("5")
         self.assertEqual(h.spouse, w)
+
+    def test_get_spouse_2(self):
+        c1 = Character(id="1", name="Character 1")
+        c2 = Character(id="2", name="Character 2")
+        c1.spouse = c2
+        c2.spouse = c1
+        db.session.add(c1)
+        db.session.add(c2)
+        db.session.commit()
+
+        c1 = Character.query.get("1")
+        c2 = Character.query.get("2")
+        self.assertEqual(c1.spouse, c2)
+        self.assertEqual(c2.spouse, c1)
 
     # -----------
     # House table tests
