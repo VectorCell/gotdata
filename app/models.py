@@ -13,11 +13,10 @@ SQLALCHEMY_BINDS = {
 app = Flask(__name__)
 app.config.from_object(__name__)
 
-#if os.getuid() == 33: # www-data (apache)
-#    app.config['WHOOSH_BASE'] = '/var/www/whoosh'
-#else:
-#    app.config['WHOOSH_BASE'] = 'whoosh'
-app.config['WHOOSH_BASE'] = 'whoosh'
+if os.getuid() == 33: # www-data (apache)
+    app.config['WHOOSH_BASE'] = '/var/www/whoosh'
+else:
+    app.config['WHOOSH_BASE'] = 'whoosh'
 
 db = SQLAlchemy(app)
 
