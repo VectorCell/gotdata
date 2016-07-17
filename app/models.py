@@ -180,11 +180,7 @@ class Book(db.Model):
 Index the models for searching 
 with Whoosh
 """
-try:
-    flask_whooshalchemy.whoosh_index(app, Character)
-    flask_whooshalchemy.whoosh_index(app, House)
-    flask_whooshalchemy.whoosh_index(app, Book)
-except OSError as ose:
-    print('File permissions error in models.py')
-    print(ose)
+flask_whooshalchemy.whoosh_index(app, Character)
+flask_whooshalchemy.whoosh_index(app, House)
+flask_whooshalchemy.whoosh_index(app, Book)
 
