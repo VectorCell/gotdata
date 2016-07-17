@@ -139,7 +139,7 @@ class TestGOTData(TestCase):
         self.assertEqual(repr(House.query.get("6")),
                          "<House u'A house'>")
 
-    def test_get_houses_1(self):
+    def test_get_houses_2(self):
         h1 = House(id="1", name="House 1")
         db.session.add(h1)
         h2 = House(id="2", name="House 2")
