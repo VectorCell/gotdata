@@ -31,19 +31,31 @@ class TestGOTData(TestCase):
         db.session.remove()
         db.drop_all()
 
-    # -----------
-    # Character table tests
-    # -----------
-
-    # def test_get_character_1(self):
-    #     a_character = Character(id="1", name="A character")
-    #     db.session.add(a_character)
-    #     db.session.commit()
-
-    #     self.assertEqual(repr(Character.query.get("1")),
-    #                     "<Character u'A character'>")
+    -----------
+    Character table tests
+    -----------
 
     def test_get_characters_1(self):
+        a_character = Character(id="1", name="A character")
+        db.session.add(a_character)
+        db.session.commit()
+
+        self.assertEqual(repr(Character.query.get("1")),
+                        "<Character u'A character'>")
+
+    def test_get_characters_2(self):
+        a_character = Character(id="1", name="Character 1")
+        db.session.add(a_character)
+        a_character = Character(id="2", name="Character 2")
+        db.session.add(a_character)
+        db.session.commit()
+
+        self.assertEqual(repr(Character.query.get("1")),
+                        "<Character u'Character 1'>")
+        self.assertEqual(repr(Character.query.get("2")),
+                        "<Character u'Character 2'>")
+
+    def test_get_characters_3(self):
         a_character = Character(id="1", name="Character 1")
         db.session.add(a_character)
         a_character = Character(id="2", name="Character 2")
