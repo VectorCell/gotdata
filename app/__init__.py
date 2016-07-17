@@ -85,7 +85,8 @@ def unittest():
     print('current working directory:', os.getcwd())
     print('script path:', os.path.realpath(__file__))
     import subprocess
-    command = "python /var/www/FlaskApp/app/tests.py"
+    directory = '/'.join(os.path.realpath(__file__).split('/')[0:-1])
+    command = 'python ' + directory + '/tests.py'
     process = subprocess.Popen(command, stdout=None, stderr=subprocess.PIPE, shell=True)
     output = process.communicate()
     return ''.join(o for o in output if isinstance(o, str))
