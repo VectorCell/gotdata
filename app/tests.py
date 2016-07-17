@@ -233,7 +233,7 @@ class TestGOTData(TestCase):
         b2 = Book(id="2", name="Book 2")
         c1 = Character(id="1", name="Character 1")
         b1.characters.append(c1)
-        b2.characters.append(c2)
+        b2.characters.append(c1)
         db.session.add(c1)
         db.session.add(b1)
         db.session.add(b2)
