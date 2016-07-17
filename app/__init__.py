@@ -77,7 +77,7 @@ def search(query):
 @app.route('/unittest')
 def unittest():
     import subprocess
-    command = "python tests.py"
+    command = "python /var/www/FlaskApp/app/tests.py"
     process = subprocess.Popen(command, stdout=None, stderr=subprocess.PIPE, shell=True)
     output = process.communicate()
     return ''.join(o for o in output if isinstance(o, str))
