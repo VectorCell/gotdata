@@ -63,13 +63,13 @@ def search(query):
     query_and = ' AND '.join(t for t in tokens)
     query_or = ' OR '.join(t for t in tokens)
     if query_and == query_or:
-        results_and = query_db.search_db(' AND '.join(t for t in tokens))
+        results_and = query_db.search_db(query_and)
         return render_template('search.html',
                                query_and=query_and,
                                results_and=results_and)
     else:
-        results_and = query_db.search_db(' AND '.join(t for t in tokens))
-        results_or = query_db.search_db(' OR '.join(t for t in tokens))
+        results_and = query_db.search_db(query_and)
+        results_or = query_db.search_db(query_or)
         return render_template('search.html',
                                query_and=query_and,
                                results_and=results_and,
