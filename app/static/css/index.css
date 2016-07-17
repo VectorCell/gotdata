@@ -20,7 +20,7 @@ h1 {
 
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-header > a {
-  color: #e8e8e8;
+  color: #DED9C5;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -35,7 +35,7 @@ h1 {
   font-weight: 400;*/
   font-size: 24pt;
   font-weight: bold;
-  color: white;
+  /*color: white;*/
 }
 
 .navbar-nav {
@@ -44,7 +44,7 @@ h1 {
   font-weight: 300;*/
   font-size: 20pt;
   font-weight: bold;
-  color: white;
+  /*color: white;*/
 }
 
 #search-bar-container {
@@ -62,6 +62,6 @@ h1 {
 }
 
 .stylish-input-group button {
-    border:0;
-    background:transparent;
+  border: 0;
+  background: transparent;
 }
