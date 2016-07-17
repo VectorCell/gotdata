@@ -64,3 +64,8 @@ a.list-group-item:hover {
   background-color: rgba(40, 40, 40, 1);
   color: rgba(63, 153, 255, 1);
 }
+
+a:visited.list-group-item:hover {
+  color: rgba(153, 102, 255, 1);
+}
+
