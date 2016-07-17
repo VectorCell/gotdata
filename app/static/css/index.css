@@ -11,9 +11,11 @@ h1 {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.75);
-  border-color: rgba(0, 0, 0, 0);
-  padding: 7px 24px;
+  /*background-color: rgba(0, 0, 0, 0.75);*/
+  background-color: rgba(20, 20, 20, 0.97);
+  border-color: #000;
+  border-bottom: 4px solid #968D62;
+  padding: 7px 10px;
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -46,6 +48,8 @@ h1 {
 }
 
 #search-bar-container {
+  width: 15vw;
+  min-width: 200px;
   padding: 7px 10px;
 }
 
