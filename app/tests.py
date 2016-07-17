@@ -41,7 +41,7 @@ class TestGOTData(TestCase):
         db.session.commit()
 
         self.assertEqual(repr(Character.query.get("1")),
-                        "<Character u'A character'>")
+                        "<Character u'Character 1'>")
 
     def test_get_characters_2(self):
         c1 = Character(id="1", name="Character 1")
@@ -81,7 +81,7 @@ class TestGOTData(TestCase):
         
         h1 = House.query.get("1")
         c1 = Character.query.get("1")
-        self.assertEqual(c.allegiances[0], h1)
+        self.assertEqual(c1.allegiances[0], h1)
 
     def test_get_allegiances_2(self):
         h1 = House(id="1", name="House 1")
