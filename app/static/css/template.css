@@ -3,13 +3,32 @@ body {
   background-image: url("../img/bg/stonewall.jpg");
 }
 
+a:link {
+  color: rgba(63, 153, 255, 1);
+}
+
+a:visited {
+  color: rgba(153, 102, 255, 1);
+}
+
+a:hover {}
+
+/* selected link */
+a:active {}
+
+img {
+  padding: 16px;
+  max-width: 400px;
+  max-height: auto;
+}
+
 .info-box {
   width: 80%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(8, 8, 8, 0.6);
   /*background-color: rgba(255, 255, 255, 0.5);*/
   padding: 40px 50px;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  color: white;
+  color: #DED9C5;
 }
 
 .pageable-table > thead > tr > th,
@@ -24,7 +43,7 @@ body {
 }
 
 .table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(10, 10, 10, 1);
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
@@ -35,21 +54,18 @@ body {
   background-color: rgba(40, 40, 40, 1);
 }
 
-a:link {
-    color: rgba(63, 153, 255, 1);
+.list-group-item {
+  background-color: rgba(20, 20, 20, 1);
+  border-color: rgba(10, 10, 10, 0.5);
 }
 
-a:visited {
-    color: rgba(153, 102, 255, 1);
+/*.list-group-item,*/
+a.list-group-item:hover {
+  background-color: rgba(40, 40, 40, 1);
+  color: rgba(63, 153, 255, 1);
 }
 
-a:hover {}
-
-/* selected link */
-a:active {}
-
-img {
-  padding: 16px;
-  max-width: 400px;
-  max-height: auto;
+a:visited.list-group-item:hover {
+  color: rgba(153, 102, 255, 1);
 }
+
