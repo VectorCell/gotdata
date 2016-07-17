@@ -35,13 +35,29 @@ class TestGOTData(TestCase):
     # Character table tests
     # -----------
 
-    def test_get_character(self):
+    def test_get_character_1(self):
         a_character = Character(id="1", name="A character")
         db.session.add(a_character)
         db.session.commit()
 
         self.assertEqual(repr(Character.query.get("1")),
-                         "<Character u'A character'>")
+                        "<Character u'A character'>")
+
+    def test_get_characters_1(self):
+        a_character = Character(id="1", name="Character 1")
+        db.session.add(a_character)
+        a_character = Character(id="2", name="Character 2")
+        db.session.add(a_character)
+        a_character = Character(id="3", name="Character 3")
+        db.session.add(a_character)
+        db.session.commit()
+
+        self.assertEqual(repr(Character.query.get("1")),
+                        "<Character u'Character 1'>")
+        self.assertEqual(repr(Character.query.get("2")),
+                        "<Character u'Character 2'>")
+        self.assertEqual(repr(Character.query.get("3")),
+                        "<Character u'Character 3'>")   
 
     def test_get_allegiances(self):
         a_house = House(id="2", name="A house")
