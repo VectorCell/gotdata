@@ -114,16 +114,16 @@ class TestGOTData(TestCase):
         self.assertEqual(h.spouse, w)
 
     def test_get_spouse_2(self):
-        c1 = Character(id="1", name="Character 1")
-        c2 = Character(id="2", name="Character 2")
+        c1 = Character(id="6", name="Character 6")
+        c2 = Character(id="7", name="Character 7")
         c1.spouse = c2
         c2.spouse = c1
         db.session.add(c1)
         db.session.add(c2)
         db.session.commit()
 
-        c1 = Character.query.get("1")
-        c2 = Character.query.get("2")
+        c1 = Character.query.get("6")
+        c2 = Character.query.get("7")
         self.assertEqual(c1.spouse, c2)
         self.assertEqual(c2.spouse, c1)
 
