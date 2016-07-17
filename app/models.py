@@ -11,7 +11,12 @@ SQLALCHEMY_BINDS = {
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config["WHOOSH_BASE"] = "whoosh"
+
+if os.getuid() == 33: # www-data (apache)
+    app.config['WHOOSH_BASE'] = '/var/www/whoosh'
+else:
+    app.config['WHOOSH_BASE'] = 'whoosh'
+
 db = SQLAlchemy(app)
 
 
@@ -179,5 +184,6 @@ try:
     flask_whooshalchemy.whoosh_index(app, House)
     flask_whooshalchemy.whoosh_index(app, Book)
 except OSError as ose:
+    print('File permissions error in models.py')
     print(ose)
 
