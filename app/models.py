@@ -166,6 +166,8 @@ class Book(db.Model):
         self.released = released
 
     def __repr__(self):
+        return "<Book %r>" % self.name
+
 
 
 """
