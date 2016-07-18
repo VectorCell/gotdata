@@ -1,17 +1,19 @@
 $(document).ready(function() {
 	$.getJSON('yu-gi-oh.json', function(data) {
 		// var data = [4, 8, 15, 16, 23, 42];
-		var dataTypes = [];
-
-		alert("Data:")
-		alert(data);
+		var dataTypes = [0, 0, 0];
 
 		$.each(data, function(index) {
-    		dataTypes.push(data[index]["type"]);
+    		type = data[index]["type"]
+    		if (type == "monster")
+    			dataTypes[0] += 1;
+    		else if (type == "spell")
+    			dataTypes[1] += 1;
+    		else if (type == "trap")
+    			dataTypes[2] += 1;
 		});
 
-		alert("Data Types:");
-		alert(dataTypes);
+		console.log(dataTypes);
 
 		var width = 420,
 		    barHeight = 20;
