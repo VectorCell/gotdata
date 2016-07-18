@@ -1,7 +1,8 @@
 $(document).ready(function() {
-	$.getJSON('yu-gi-oh.json', function(data) {
-		// var data = [4, 8, 15, 16, 23, 42];
-		var dataTypes = [0, 0, 0];
+	$.getJSON('/yu-gi-oh.json', function(data) {
+		var dataTypes = [0, 0, 0, 0];
+		var dataSubtypes = [0, 50];
+		var dataFamilies = [0, 10, 0, 10, 110, 0];
 
 		$.each(data, function(index) {
     		type = data[index]["type"]
@@ -11,12 +12,11 @@ $(document).ready(function() {
     			dataTypes[1] += 1;
     		else if (type == "trap")
     			dataTypes[2] += 1;
+    		else // unknown type
+    			dataTypes[3] += 1;
 		});
 
-		console.log(dataTypes);
-
-		var width = 420,
-		    barHeight = 20;
+		var width = 420, barHeight = 20;
 
 		var x = d3.scale.linear()
 		    .domain([0, d3.max(dataTypes)])
@@ -25,16 +25,45 @@ $(document).ready(function() {
 		var chart = d3.select("#chart-types")
 		    .attr("width", width)
 		    .attr("height", barHeight * dataTypes.length);
-
 		var bar = chart.selectAll("g")
 		    .data(dataTypes)
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
-
 		bar.append("rect")
 		    .attr("width", x)
 		    .attr("height", barHeight - 1);
+		bar.append("text")
+		    .attr("x", function(d) { return x(d) - 3; })
+		    .attr("y", barHeight / 2)
+		    .attr("dy", ".35em")
+		    .text(function(d) { return d; });
 
+		var chart = d3.select("#chart-subtypes")
+		    .attr("width", width)
+		    .attr("height", barHeight * dataSubtypes.length);
+		var bar = chart.selectAll("g")
+		    .data(dataSubtypes)
+		  .enter().append("g")
+		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
+		bar.append("rect")
+		    .attr("width", x)
+		    .attr("height", barHeight - 1);
+		bar.append("text")
+		    .attr("x", function(d) { return x(d) - 3; })
+		    .attr("y", barHeight / 2)
+		    .attr("dy", ".35em")
+		    .text(function(d) { return d; });
+
+		var chart = d3.select("#chart-families")
+		    .attr("width", width)
+		    .attr("height", barHeight * dataFamilies.length);
+		var bar = chart.selectAll("g")
+		    .data(dataFamilies)
+		  .enter().append("g")
+		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
+		bar.append("rect")
+		    .attr("width", x)
+		    .attr("height", barHeight - 1);
 		bar.append("text")
 		    .attr("x", function(d) { return x(d) - 3; })
 		    .attr("y", barHeight / 2)
