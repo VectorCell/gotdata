@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{api.name}}</title>
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/datatables.min.css"/>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/dt-1.10.12/datatables.min.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/template.css">
+  <script src="../static/js/search.js"></script>
+  <script src="../static/js/data_table.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/index.html">GoT Data</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="theNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/about.html">About</a></li>
+          <li>
+            <div id="search-bar-container">
+              <form id="search-form" role="search">
+                <div class="input-group stylish-input-group">
+                  <input id="search-input" type="text" class="form-control" placeholder="Search all">
+                  <span class="input-group-addon">
+                    <button id="search-button" type="submit">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/characters">Characters</a></li>
+          <li><a href="/houses">Houses</a></li>
+          <li><a href="/books">Books</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container info-box">
+    <h1>{{api.name}}</h1>
+
+    <!-- CONTENT -->
+  </div>
+
+</body>
+
+</html>
