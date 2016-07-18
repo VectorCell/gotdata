@@ -186,7 +186,9 @@ class TestGOTData(TestCase):
                         "<House u'House 2'>")
 
     def test_get_houses_3(self):
-        h1 = House(id="1", name="Tully", region="The Riverlands", coatOfArms="trout", words="We surrender", founded="10", diedOut="11")
+        h1 = House(id="1", name="Tully", region="The Riverlands", 
+                    coatOfArms="trout", words="We surrender", 
+                    founded="10", diedOut="11")
         c1 = Character(id="1", name="Character 1")
         c2 = Character(id="2", name="Character 2")
         c3 = Character(id="3", name="Character 3")
@@ -352,7 +354,7 @@ class TestGOTData(TestCase):
         c2 = Character.query.get("2")
 
         self.assertTrue((b1.povCharacters[0] == c1 and b1.povCharacters[1] == c2) or
-			(b1.povCharacters[0] == c2 and b1.povCharacters[1] == c1))
+                        (b1.povCharacters[0] == c2 and b1.povCharacters[1] == c1))
         self.assertTrue((b2.povCharacters[0] == c1 and b2.povCharacters[1] == c2) or
                         (b2.povCharacters[0] == c2 and b2.povCharacters[1] == c1))
 
