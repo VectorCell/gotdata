@@ -31,9 +31,9 @@ $(document).ready(function() {
     		dataFamiliesDict[family] += 1;
 		});
 
-		var dataTypes = dataTypesDict.values();
-		var dataSubtypes = dataSubtypesDict.values();
-		var dataFamilies = dataFamiliesDict.values();
+		var dataTypes = Object.values(dataTypesDict);
+		var dataSubtypes = Object.values(dataSubtypesDict);
+		var dataFamilies = Object.values(dataFamiliesDict);
 
 
 		var width = 420, barHeight = 20;
