@@ -217,7 +217,7 @@ class TestGOTData(TestCase):
         self.assertEqual(h1.founder,c4)
 
         self.assertTrue((h1.swornMembers[0] == c1 and h1.swornMembers[1] == c3) or
-                        (h1.swornMembers[0] == c3 and h1.swornmembers[1] == c1))
+                        (h1.swornMembers[0] == c3 and h1.swornMembers[1] == c1))
 
 
 
