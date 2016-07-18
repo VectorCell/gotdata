@@ -27,13 +27,13 @@ img {
   background-color: rgba(8, 8, 8, 0.6);
   /*background-color: rgba(255, 255, 255, 0.5);*/
   padding: 40px 50px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.4);*/
   color: #DED9C5;
 }
 
 .pageable-table > thead > tr > th,
 .pageable-table > tbody > tr > td {
-  padding: 16px;
+  padding: 24px;
   /*background-color: rgba(23, 23, 23, 0.9);*/
 }
 .pageable-table-model > thead > tr > th,

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Characters</title>
+  <title>{{api.name}}</title>
   
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -64,39 +64,9 @@
   </nav>
 
   <div class="container info-box">
-    <h1>Characters</h1>
-    <div class="table-responsive">
-      <table class="pageable-table display table table-striped table-hover">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>ID</th>
-            <th>Allegiance</th>
-            <th>Culture</th>  
-            <th>Dead/Alive</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for character in characters if character['name'] %}
-            <tr>
-              <td><a href="/character/{{character['id']}}">{{character['name']}}</a></td>
-              <td>{{ character['id'] }}</td>
-              <td>
-                {% if character['allegiances'] %}
-                  <a href="/house/{{character['allegiances'][0]['id']}}">{{ character['allegiances'][0]['name'] }}</a>
-                {% endif %}
-              </td>
-              <td>{{ character['culture'] }}</td>
-              {% if (character['died'] == "") %}
-                <td>Alive</td>
-              {% else %}
-                <td>Dead</td>
-              {% endif %}
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+    <h1>{{api.name}}</h1>
+
+    <!-- CONTENT -->
   </div>
 
 </body>
