@@ -1,6 +1,11 @@
 $(document).ready(function() {
-	$.get('/yu-gi-oh.json', function(data) {
+	$.getJSON('yu-gi-oh.json', function(data) {
 		// var data = [4, 8, 15, 16, 23, 42];
+		var dataTypes = [];
+
+		$.each(data, function(index) {
+    		dataTypes.push(data[index]["type"]);
+		});
 
 		var width = 420,
 		    barHeight = 20;
