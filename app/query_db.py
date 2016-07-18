@@ -21,21 +21,18 @@ def search_books(query):
     for item in Book.query.whoosh_search(query).all():
         results += [{'type': 'Book', 'data': item}]
     return results
-    #return [{'type': 'Book', 'data': get_book(5)}]
 
 def search_houses(query):
     results = []
     for item in House.query.whoosh_search(query).all():
         results += [{'type': 'House', 'data': item}]
     return results
-    #return [{'type': 'House', 'data': get_house(378)}]
 
 def search_characters(query):
     results = []
     for item in Character.query.whoosh_search(query).all():
         results += [{'type': 'Character', 'data': item}]
     return results
-    #return [{'type': 'Character', 'data': get_character(15)}]
 
 
 def get_all_characters():
