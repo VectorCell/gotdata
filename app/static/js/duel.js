@@ -32,10 +32,11 @@ $(document).ready(function() {
 		});
 
 		var getValues = function(object) {
-			var list = []
+			var list = [];
 			for (key in object) {
 				list.push(object[key]);
 			}
+			return list;
 		}
 
 		var dataTypes = getValues(dataTypesDict);
