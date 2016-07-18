@@ -215,8 +215,12 @@ class TestGOTData(TestCase):
         self.assertEqual(h1.heir,c2)
         self.assertEqual(h1.overlord,c3)
         self.assertEqual(h1.founder,c4)
-        self.assertEqual(h1.swornMembers[0],c1)
-        self.assertEqual(h1.swornMembers[1],c3)
+
+        self.assertTrue((h1.swornMembers[0] == c1 and h1.swornMembers[1] == c3) or
+                        (h1.swornMembers[0] == c3 and h1.swornmembers[1] == c1))
+
+
+
 
     def test_get_swornmembers_1(self):
         h1 = House(id="1", name="House 1")
@@ -244,8 +248,10 @@ class TestGOTData(TestCase):
         h1 = House.query.get("1")
         c1 = Character.query.get("1")
         c2 = Character.query.get("2")
-        self.assertEqual(h1.swornMembers[0], c1)
-        self.assertEqual(h1.swornMembers[1], c2)
+
+        self.assertTrue((h1.swornMembers[0] == c1 and h1.swornMembers[1] == c2) or
+                        (h1.swornMembers[0] == c2 and h1.swornMembers[1] == c1))
+
 
     def test_get_currentlord(self):
         h1 = House(id="1", name="House 1")
@@ -344,14 +350,11 @@ class TestGOTData(TestCase):
         b2 = Book.query.get("2")
         c1 = Character.query.get("1")
         c2 = Character.query.get("2")
-        self.assertEqual(b1.povCharacters[0], c1)
-        self.assertEqual(b1.povCharacters[1], c2)
-        self.assertEqual(b2.povCharacters[0], c1)
-        self.assertEqual(b2.povCharacters[1], c2)
-        self.assertEqual(b1.povCharacters[0], b2.povCharacters[0])
-        #Race? 
-        #self.assertEqual(b1.povCharacters[1], b2.povCharacters[1])
-        self.assertTrue(b1.povCharacters[0] == b2.povCharacters[0])
+
+        self.assertTrue((b1.povCharacters[0] == c1 and b1.povCharacters[1] == c2) or
+			(b1.povCharacters[0] == c2 and b1.povCharacters[1] == c1))
+        self.assertTrue((b2.povCharacters[0] == c1 and b2.povCharacters[1] == c2) or
+                        (b2.povCharacters[0] == c2 and b2.povCharacters[1] == c1))
 
 # -----------
 # Main
