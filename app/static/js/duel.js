@@ -3,9 +3,15 @@ $(document).ready(function() {
 		// var data = [4, 8, 15, 16, 23, 42];
 		var dataTypes = [];
 
+		alert("Data:")
+		alert(data);
+
 		$.each(data, function(index) {
     		dataTypes.push(data[index]["type"]);
 		});
+
+		alert("Data Types:");
+		alert(dataTypes);
 
 		var width = 420,
 		    barHeight = 20;
