@@ -1,3 +1,10 @@
+@font-face {
+  font-family: gotFont;
+  src: url(got.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -5,17 +12,26 @@ body {
 }
 
 h1 {
-  font-family: 'Arvo', serif;
+  font-family: 'gotFont';
   font-size: 36px;
   font-weight: 400;
 }
 
+h2, h3 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+}
+
 .navbar {
+  font-family: 'gotFont';
+  font-weight: 300;
+
   /*background-color: rgba(0, 0, 0, 0.75);*/
   background-color: rgba(20, 20, 20, 0.97);
   border-color: #000;
   border-bottom: 4px solid #968D62;
   padding: 7px 10px;
+  padding-top: 12px;
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -27,14 +43,15 @@ h1 {
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-header > a:hover,
 .navbar-default .navbar-header > a:focus {
+  font-size: 17pt; /* experimental */
   color: white;
 } 
 
 .navbar-brand {
   /*font-size: 24px;
   font-weight: 400;*/
-  font-size: 24pt;
-  font-weight: bold;
+  font-size: 16pt;
+  /*font-weight: bold;*/
   /*color: white;*/
 }
 
@@ -42,12 +59,14 @@ h1 {
   /*padding: 7px 12px;
   font-size: 20px;
   font-weight: 300;*/
-  font-size: 20pt;
-  font-weight: bold;
+  font-size: 16pt;
+  /*font-weight: bold;*/
   /*color: white;*/
 }
 
 #search-bar-container {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   width: 15vw;
   min-width: 200px;
   padding: 7px 10px;

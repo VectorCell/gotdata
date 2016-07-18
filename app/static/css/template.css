@@ -33,7 +33,7 @@ img {
 
 .pageable-table > thead > tr > th,
 .pageable-table > tbody > tr > td {
-  padding: 26px;
+  padding: 24px;
   /*background-color: rgba(23, 23, 23, 0.9);*/
 }
 .pageable-table-model > thead > tr > th,
