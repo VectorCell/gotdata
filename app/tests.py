@@ -351,6 +351,7 @@ class TestGOTData(TestCase):
         self.assertEqual(b1.povCharacters[0], b2.povCharacters[0])
         #Race? 
         #self.assertEqual(b1.povCharacters[1], b2.povCharacters[1])
+        self.assertTrue(b1.povCharacters[0] == b2.povCharacters[0])
 
 # -----------
 # Main
