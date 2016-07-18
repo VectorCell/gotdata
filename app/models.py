@@ -17,6 +17,7 @@ if os.getuid() == 33: # www-data (apache)
     app.config['WHOOSH_BASE'] = '/'.join(os.path.realpath(__file__).split('/')[0:-1]) + '/whoosh'  #'/var/www/whoosh'
 else:
     app.config['WHOOSH_BASE'] = 'whoosh'
+print("Using whoosh base: " + app.config['WHOOSH_BASE'])
 
 db = SQLAlchemy(app)
 
