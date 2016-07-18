@@ -11,15 +11,15 @@ $(document).ready(function() {
 		    barHeight = 20;
 
 		var x = d3.scale.linear()
-		    .domain([0, d3.max(data)])
+		    .domain([0, d3.max(dataTypes)])
 		    .range([0, width]);
 
 		var chart = d3.select("#chart-types")
 		    .attr("width", width)
-		    .attr("height", barHeight * data.length);
+		    .attr("height", barHeight * dataTypes.length);
 
 		var bar = chart.selectAll("g")
-		    .data(data)
+		    .data(dataTypes)
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 
