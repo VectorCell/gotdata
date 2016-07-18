@@ -31,9 +31,16 @@ $(document).ready(function() {
     		dataFamiliesDict[family] += 1;
 		});
 
-		var dataTypes = Object.values(dataTypesDict);
-		var dataSubtypes = Object.values(dataSubtypesDict);
-		var dataFamilies = Object.values(dataFamiliesDict);
+		var getValues = function(object) {
+			var list = []
+			for (key in object) {
+				list.push(object[key]);
+			}
+		}
+
+		var dataTypes = getValues(dataTypesDict);
+		var dataSubtypes = getValues(dataSubtypesDict);
+		var dataFamilies = getValues(dataFamiliesDict);
 
 
 		var width = 420, barHeight = 20;
