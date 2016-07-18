@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	$.getJSON('/yu-gi-oh.json', function(data) {
-		// var dataTypes = [0, 0, 0, 0];
 		var dataTypesDict = {};
 		var dataSubtypesDict = {};
 		var dataFamiliesDict = {};
@@ -32,18 +31,21 @@ $(document).ready(function() {
     		dataFamiliesDict[family] += 1;
 		});
 
+		var dataTypes = dataTypesDict.values();
+		var dataSubtypes = dataSubtypesDict.values();
+		var dataFamilies = dataFamiliesDict.values();
+
 
 		var width = 420, barHeight = 20;
 
 		var x = d3.scale.linear()
 		    .domain([0, d3.max(dataTypes)])
 		    .range([0, width]);
-
 		var chart = d3.select("#chart-types")
 		    .attr("width", width)
 		    .attr("height", barHeight * dataTypes.length);
 		var bar = chart.selectAll("g")
-		    .data(dataTypesDict.values())
+		    .data(dataTypes)
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 		bar.append("rect")
@@ -55,11 +57,14 @@ $(document).ready(function() {
 		    .attr("dy", ".35em")
 		    .text(function(d) { return d; });
 
-		var chart = d3.select("#chart-subtypes")
+		x = d3.scale.linear()
+		    .domain([0, d3.max(dataSubtypes)])
+		    .range([0, width]);
+		chart = d3.select("#chart-subtypes")
 		    .attr("width", width)
 		    .attr("height", barHeight * dataSubtypes.length);
-		var bar = chart.selectAll("g")
-		    .data(dataSubtypesDict.values())
+		bar = chart.selectAll("g")
+		    .data(dataSubtypes)
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 		bar.append("rect")
@@ -71,11 +76,14 @@ $(document).ready(function() {
 		    .attr("dy", ".35em")
 		    .text(function(d) { return d; });
 
-		var chart = d3.select("#chart-families")
+		x = d3.scale.linear()
+		    .domain([0, d3.max(dataFamilies)])
+		    .range([0, width]);
+		chart = d3.select("#chart-families")
 		    .attr("width", width)
 		    .attr("height", barHeight * dataFamilies.length);
-		var bar = chart.selectAll("g")
-		    .data(dataFamiliesDict.values())
+		bar = chart.selectAll("g")
+		    .data(dataFamilies)
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 		bar.append("rect")
