@@ -14,7 +14,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 if os.getuid() == 33: # www-data (apache)
-    app.config['WHOOSH_BASE'] = '/var/www/whoosh'
+    app.config['WHOOSH_BASE'] = '/'.join(os.path.realpath(__file__).split('/')[0:-1]) + '/whoosh'  #'/var/www/whoosh'
 else:
     app.config['WHOOSH_BASE'] = 'whoosh'
 

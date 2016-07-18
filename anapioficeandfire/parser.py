@@ -8,6 +8,26 @@ import operator
 from os import listdir
 from os.path import isfile, join
 
+import urllib.request
+
+
+def read_other_api():
+	response = urllib.request.urlopen('http://itstimetoduel.me/apiv1/cards')
+	data = json.loads(response.read().decode('utf-8'))
+	print(type(data))
+	for item in data:
+		d = {}
+		d['id'] = item[0]
+		d['card_type'] = item[-7]
+		d['name'] = item[4]
+		d['text'] = item[5]
+		d['family'] = item[4567]
+		print(item)
+		for k in d:
+			print(k + " :: " + d[k])
+		print(d)
+		print()
+
 
 def combine_all():
 
@@ -37,4 +57,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+	read_other_api()
