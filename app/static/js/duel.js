@@ -1,20 +1,37 @@
 $(document).ready(function() {
 	$.getJSON('/yu-gi-oh.json', function(data) {
-		var dataTypes = [0, 0, 0, 0];
-		var dataSubtypes = [0, 50];
-		var dataFamilies = [0, 10, 0, 10, 110, 0];
+		// var dataTypes = [0, 0, 0, 0];
+		var dataTypesDict = {};
+		var dataSubtypesDict = {};
+		var dataFamiliesDict = {};
 
 		$.each(data, function(index) {
-    		type = data[index]["type"]
-    		if (type == "monster")
-    			dataTypes[0] += 1;
-    		else if (type == "spell")
-    			dataTypes[1] += 1;
-    		else if (type == "trap")
-    			dataTypes[2] += 1;
-    		else // unknown type
-    			dataTypes[3] += 1;
+    		// var type = data[index]["type"];
+    		// if (type == "monster")
+    		// 	dataTypes[0] += 1;
+    		// else if (type == "spell")
+    		// 	dataTypes[1] += 1;
+    		// else if (type == "trap")
+    		// 	dataTypes[2] += 1;
+    		// else // unknown type
+    		// 	dataTypes[3] += 1;
+
+    		var type = data[index]["type"];
+    		if (!(type in dataTypesDict))
+    			dataTypesDict[type] = 0;
+    		dataTypesDict[type] += 1;
+
+    		var subtype = data[index]["subtype"];
+    		if (!(subtype in dataSubtypesDict))
+    			dataSubtypesDict[subtype] = 0;
+    		dataSubtypesDict[subtype] += 1;
+
+    		var family = data[index]["family"];
+    		if (!(family in dataFamiliesDict))
+    			dataFamiliesDict[family] = 0;
+    		dataFamiliesDict[family] += 1;
 		});
+
 
 		var width = 420, barHeight = 20;
 
@@ -26,7 +43,7 @@ $(document).ready(function() {
 		    .attr("width", width)
 		    .attr("height", barHeight * dataTypes.length);
 		var bar = chart.selectAll("g")
-		    .data(dataTypes)
+		    .data(dataTypesDict.values())
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 		bar.append("rect")
@@ -42,7 +59,7 @@ $(document).ready(function() {
 		    .attr("width", width)
 		    .attr("height", barHeight * dataSubtypes.length);
 		var bar = chart.selectAll("g")
-		    .data(dataSubtypes)
+		    .data(dataSubtypesDict.values())
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 		bar.append("rect")
@@ -58,7 +75,7 @@ $(document).ready(function() {
 		    .attr("width", width)
 		    .attr("height", barHeight * dataFamilies.length);
 		var bar = chart.selectAll("g")
-		    .data(dataFamilies)
+		    .data(dataFamiliesDict.values())
 		  .enter().append("g")
 		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 		bar.append("rect")

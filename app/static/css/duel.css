@@ -1,8 +1,12 @@
-#chart-types rect {
+#chart-types rect,
+#chart-subtypes rect,
+#chart-families rect {
   fill: steelblue;
 }
 
-#chart-types text {
+#chart-types text,
+#chart-subtypes text,
+#chart-families text {
   fill: white;
   font: 10px sans-serif;
   text-anchor: end;
