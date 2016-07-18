@@ -84,17 +84,9 @@
               <td>
                 {% if character['allegiances'] %}
                   <a href="/house/{{character['allegiances'][0]['id']}}">{{ character['allegiances'][0]['name'] }}</a>
-                {% else %}
-                  Unknown
                 {% endif %}
               </td>
-              <td>
-                {% if character['allegiances'] %}
-                  {{ character['culture'] }}
-                {% else %}
-                  Unknown
-                {% endif %}
-              </td>
+              <td>{{ character['culture'] }}</td>
               {% if (character['died'] == "") %}
                 <td>Alive</td>
               {% else %}
