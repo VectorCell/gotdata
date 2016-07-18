@@ -80,13 +80,21 @@
           {% for character in characters if character['name'] %}
             <tr>
               <td><a href="/character/{{character['id']}}">{{character['name']}}</a></td>
-              <td>{{ character['id']             }}</td>
+              <td>{{ character['id'] }}</td>
               <td>
                 {% if character['allegiances'] %}
                   <a href="/house/{{character['allegiances'][0]['id']}}">{{ character['allegiances'][0]['name'] }}</a>
+                {% else %}
+                  Unknown
                 {% endif %}
               </td>
-              <td>{{ character['culture']        }}</td>
+              <td>
+                {% if character['allegiances'] %}
+                  {{ character['culture'] }}
+                {% else %}
+                  Unknown
+                {% endif %}
+              </td>
               {% if (character['died'] == "") %}
                 <td>Alive</td>
               {% else %}
