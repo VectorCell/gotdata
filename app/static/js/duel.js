@@ -15,7 +15,7 @@ function createGraph(tag, data, graphWidth) {
 	var dataKeys = getKeys(data);
 	var dataValues = getValues(data);
 
-	var margin = {top: 20, right: 20, bottom: 80, left: 60},
+	var margin = {top: 20, right: 20, bottom: 100, left: 60},
 	    width = graphWidth - margin.left - margin.right,
 	    height = 400 - margin.top - margin.bottom;
 
@@ -117,7 +117,7 @@ $(document).ready(function() {
 		var dataFamilies = getValues(dataFamiliesDict);
 
 		createGraph("#chart-types", dataTypesDict, 600);
-		createGraph("#chart-subtypes", dataSubtypesDict, 1000);
+		createGraph("#chart-subtypes", dataSubtypesDict, 1400);
 		createGraph("#chart-families", dataFamiliesDict, 800);
 	});
 });
