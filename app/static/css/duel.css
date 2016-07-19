@@ -1,13 +1,29 @@
-#chart-types rect,
-#chart-subtypes rect,
-#chart-families rect {
+#chart-types,
+#chart-subtypes,
+#chart-families {
+  /*background-color: gray;*/
+}
+
+.bar {
   fill: steelblue;
 }
 
-#chart-types text,
-#chart-subtypes text,
-#chart-families text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: end;
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: sans-serif;
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #DED9C5;
+  shape-rendering: crispEdges;
+}
+
+text {
+  fill: #DED9C5;
 }
