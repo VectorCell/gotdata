@@ -1,0 +1,38 @@
+.chart-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.chart-container::-webkit-scrollbar * {
+  background: transparent;
+}
+
+#chart-types,
+#chart-subtypes,
+#chart-families {
+  /*background-color: gray;*/
+}
+
+.bar {
+  fill: #407FFF;
+}
+
+.bar:hover {
+  fill: lightblue;
+}
+
+.axis {
+  font: sans-serif;
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #DED9C5;
+  shape-rendering: crispEdges;
+}
+
+text {
+  fill: #DED9C5;
+}

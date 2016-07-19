@@ -69,31 +69,7 @@
     <div class="row">
       <div class="col-md-12"><h1>Search results for "{{query_and}}"</h1></div>
     </div>
-    <table class="pageable-table display table table-striped table-hover">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>ID</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for result in results_and %}
-          <div class="row">
-            <tr>
-              <td>{{ result['type']}}</td>
-              <td><a href="/{{result['type']|lower}}/{{result['data'].id}}">{{ result['data'].name }}</a></td>
-              <td>{{ result['data'].id }}</td>
-            </tr>
-          </div>
-        {% endfor %}
-      </tbody>
-    </table>
-
-    {% if query_or %}
-      <div class="row">
-        <div class="col-md-12"><h1>Search results for "{{query_or}}"</h1></div>
-      </div>
+    <div class="table-responsive">
       <table class="pageable-table display table table-striped table-hover">
         <thead>
           <tr>
@@ -103,7 +79,7 @@
           </tr>
         </thead>
         <tbody>
-          {% for result in results_or %}
+          {% for result in results_and %}
             <div class="row">
               <tr>
                 <td>{{ result['type']}}</td>
@@ -114,6 +90,34 @@
           {% endfor %}
         </tbody>
       </table>
+    </div>
+
+    {% if query_or %}
+      <div class="row">
+        <div class="col-md-12"><h1>Search results for "{{query_or}}"</h1></div>
+      </div>
+      <div class="table-responsive">
+        <table class="pageable-table display table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Name</th>
+              <th>ID</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for result in results_or %}
+              <div class="row">
+                <tr>
+                  <td>{{ result['type']}}</td>
+                  <td><a href="/{{result['type']|lower}}/{{result['data'].id}}">{{ result['data'].name }}</a></td>
+                  <td>{{ result['data'].id }}</td>
+                </tr>
+              </div>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
     {% endif %}
 
   </div>
