@@ -15,7 +15,7 @@ function createGraph(tag, data, graphWidth) {
 	var dataKeys = getKeys(data);
 	var dataValues = getValues(data);
 
-	var margin = {top: 20, right: 20, bottom: 70, left: 40},
+	var margin = {top: 20, right: 20, bottom: 80, left: 60},
 	    width = graphWidth - margin.left - margin.right,
 	    height = 400 - margin.top - margin.bottom;
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
 	// 	"spell": 12,
 	// 	"trap": 62
 	// };
-	// createGraph("#chart-types", falseData, 600);
+	// createGraph("#chart-types", falseData, 1000);
 	// return;
 
 	$.getJSON('/yu-gi-oh.json', function(data) {

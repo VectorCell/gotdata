@@ -1,3 +1,12 @@
+.chart-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.chart-container::-webkit-scrollbar * {
+  background: transparent;
+}
+
 #chart-types,
 #chart-subtypes,
 #chart-families {
