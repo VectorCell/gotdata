@@ -6,12 +6,14 @@ from models import db, Character, House, Book
 """
 Create the database
 """
+
+
 def create_db():
     db.drop_all()
-    #db.configure_mappers()
+    # db.configure_mappers()
     db.create_all()
 
-    create_characters()    
+    create_characters()
     create_houses()
     create_books()
 
@@ -21,6 +23,8 @@ def create_db():
 """
 Create the characters table
 """
+
+
 def create_characters():
     with open("../anapioficeandfire/characters.json") as char_file:
         characters = json.load(char_file)
@@ -37,8 +41,9 @@ def create_characters():
 
         c = Character.query.get(id)
         if not c:
-            c = Character(id=id, name=name, gender=gender, culture=culture, born=born,
-                          died=died, father=father, mother=mother)
+            c = Character(
+                id=id, name=name, gender=gender, culture=culture, born=born,
+                died=died, father=father, mother=mother)
         else:
             c.name = name
             c.gender = gender
@@ -58,9 +63,11 @@ def create_characters():
 
 
 """
-Create the spouse one-to-one 
+Create the spouse one-to-one
 relationship between two characters
 """
+
+
 def create_rel_spouse(c, character_url):
     if character_url == "":
         return
@@ -75,9 +82,11 @@ def create_rel_spouse(c, character_url):
 
 
 """
-Create the allegiances/swornMembers many-to-many 
+Create the allegiances/swornMembers many-to-many
 relationship between characters and houses
 """
+
+
 def create_rel_allegiances(c, a):
     for house_url in a:
         house_id = house_url.split("/").pop()
@@ -86,14 +95,16 @@ def create_rel_allegiances(c, a):
             h = House(id=house_id)
         else:
             c.allegiances.append(h)
-            
+
         db.session.add(h)
 
 
 """
-Create the books/characters many-to-many 
+Create the books/characters many-to-many
 relationship between characters and books
 """
+
+
 def create_rel_books(c, b):
     for book_url in b:
         book_id = book_url.split("/").pop()
@@ -107,9 +118,11 @@ def create_rel_books(c, b):
 
 
 """
-Create the povBooks/povCharacters many-to-many 
+Create the povBooks/povCharacters many-to-many
 relationship between characters and books
 """
+
+
 def create_rel_povbooks(c, b):
     for book_url in b:
         book_id = book_url.split("/").pop()
@@ -125,6 +138,8 @@ def create_rel_povbooks(c, b):
 """
 Create the houses table
 """
+
+
 def create_houses():
     with open("../anapioficeandfire/houses.json") as house_file:
         houses = json.load(house_file)
@@ -160,10 +175,12 @@ def create_houses():
 
 
 """
-Create the currentLord one-to-one 
-relationship between a house and 
+Create the currentLord one-to-one
+relationship between a house and
 a character
 """
+
+
 def create_rel_currentlord(h, character_url):
     if character_url == "":
         return
@@ -178,10 +195,12 @@ def create_rel_currentlord(h, character_url):
 
 
 """
-Create the heir one-to-one 
-relationship between a house and 
+Create the heir one-to-one
+relationship between a house and
 a character
 """
+
+
 def create_rel_heir(h, character_url):
     if character_url == "":
         return
@@ -196,9 +215,11 @@ def create_rel_heir(h, character_url):
 
 
 """
-Create the overlord one-to-one 
-relationship between two houses 
+Create the overlord one-to-one
+relationship between two houses
 """
+
+
 def create_rel_overlord(h, house_url):
     if house_url == "":
         return
@@ -213,10 +234,12 @@ def create_rel_overlord(h, house_url):
 
 
 """
-Create the founder one-to-one 
-relationship between a house and 
+Create the founder one-to-one
+relationship between a house and
 a character
 """
+
+
 def create_rel_founder(h, character_url):
     if character_url == "":
         return
@@ -233,6 +256,8 @@ def create_rel_founder(h, character_url):
 """
 Create the books table
 """
+
+
 def create_books():
     with open("../anapioficeandfire/books.json") as book_file:
         books = json.load(book_file)
@@ -260,7 +285,7 @@ def create_books():
             b.country = country
             b.mediaType = mediaType
             b.released = released
-        
+
         db.session.add(b)
         print(b)
 

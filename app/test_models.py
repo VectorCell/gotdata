@@ -16,26 +16,30 @@ Many-to-many association tables
 characters_houses = db.Table("characters_houses",
                              db.Column("character_id", db.String(
                                  512), db.ForeignKey("characters.id")),
-                             db.Column("house_id", db.String(512), db.ForeignKey("houses.id")),
+                             db.Column("house_id", db.String(
+                                 512), db.ForeignKey("houses.id")),
                              info={"bind_key": "test"})
 
 characters_books = db.Table("characters_books",
                             db.Column("character_id", db.String(
-                                 512), db.ForeignKey("characters.id")),
-                            db.Column("book_id", db.String(512), db.ForeignKey("books.id")),
+                                      512), db.ForeignKey("characters.id")),
+                            db.Column("book_id", db.String(
+                                512), db.ForeignKey("books.id")),
                             info={"bind_key": "test"})
 
 characters_povbooks = db.Table("characters_povbooks",
                                db.Column("character_id", db.String(
-                                    512), db.ForeignKey("characters.id")),
-                               db.Column("book_id", db.String(512), db.ForeignKey("books.id")),
+                                         512), db.ForeignKey("characters.id")),
+                               db.Column("book_id", db.String(
+                                   512), db.ForeignKey("books.id")),
                                info={"bind_key": "test"})
-
 
 
 """
 Characters table model
 """
+
+
 class Character(db.Model):
     __bind_key__ = "test"
     __tablename__ = "characters"
@@ -62,7 +66,7 @@ class Character(db.Model):
     povBooks = db.relationship("Book", secondary=characters_povbooks,
                                back_populates="povCharacters")
 
-    def __init__(self, id="", name="", gender="", culture="", 
+    def __init__(self, id="", name="", gender="", culture="",
                  born="", died="", father="", mother=""):
 
         self.id = id
@@ -81,6 +85,8 @@ class Character(db.Model):
 """
 Houses table model
 """
+
+
 class House(db.Model):
     __bind_key__ = "test"
     __tablename__ = "houses"
@@ -101,10 +107,14 @@ class House(db.Model):
     founder_id = db.Column(db.String(512), db.ForeignKey("characters.id"))
 
     # Relationships
-    currentLord = db.relationship("Character", uselist=False, foreign_keys="House.currentLord_id")
-    heir = db.relationship("Character", uselist=False, foreign_keys="House.heir_id")
-    overlord = db.relationship("Character", uselist=False, foreign_keys="House.overlord_id")
-    founder = db.relationship("Character", uselist=False, foreign_keys="House.founder_id")
+    currentLord = db.relationship("Character", uselist=False,
+                                  foreign_keys="House.currentLord_id")
+    heir = db.relationship("Character", uselist=False,
+                           foreign_keys="House.heir_id")
+    overlord = db.relationship("Character", uselist=False,
+                               foreign_keys="House.overlord_id")
+    founder = db.relationship("Character", uselist=False,
+                              foreign_keys="House.founder_id")
     swornMembers = db.relationship("Character", secondary=characters_houses,
                                    back_populates="allegiances")
 
@@ -126,6 +136,8 @@ class House(db.Model):
 """
 Books table model
 """
+
+
 class Book(db.Model):
     __bind_key__ = "test"
     __tablename__ = "books"

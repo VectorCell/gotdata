@@ -16,17 +16,20 @@ def search_db(query):
     results += search_characters(query)
     return results
 
+
 def search_books(query):
     results = []
     for item in Book.query.whoosh_search(query).all():
         results += [{'type': 'Book', 'data': item}]
     return results
 
+
 def search_houses(query):
     results = []
     for item in House.query.whoosh_search(query).all():
         results += [{'type': 'House', 'data': item}]
     return results
+
 
 def search_characters(query):
     results = []
@@ -38,8 +41,10 @@ def search_characters(query):
 def get_all_characters():
     return Character.query.all()
 
+
 def get_all_houses():
     return House.query.all()
+
 
 def get_all_books():
     return Book.query.all()
@@ -48,8 +53,10 @@ def get_all_books():
 def get_character(id):
     return Character.query.get(str(id))
 
+
 def get_house(id):
     return House.query.get(str(id))
+
 
 def get_book(id):
     return Book.query.get(str(id))
@@ -58,7 +65,7 @@ def get_book(id):
 def get_character_dict(id):
     d = {}
     char = get_character(id)
-    d['id'] = id;
+    d['id'] = id
     d['name'] = char.name
     d['gender'] = char.gender
     d['culture'] = char.culture
@@ -71,10 +78,11 @@ def get_character_dict(id):
     d['povBooks'] = [int(b.id) for b in char.povBooks]
     return d
 
+
 def get_house_dict(id):
     d = {}
     house = get_house(id)
-    d['id'] = id;
+    d['id'] = id
     d['name'] = house.name
     d['region'] = house.region
     d['coatOfArms'] = house.coatOfArms
@@ -90,6 +98,7 @@ def get_house_dict(id):
         d['founder'] = int(house.founder.id)
     d['swornMembers'] = [int(p.id) for p in house.swornMembers]
     return d
+
 
 def get_book_dict(id):
     d = {}
@@ -108,8 +117,10 @@ def get_book_dict(id):
 def get_character_json(id):
     return jsonify(get_character_dict(id))
 
+
 def get_house_json(id):
     return jsonify(get_house_dict(id))
+
 
 def get_book_json(id):
     return jsonify(get_book_dict(id))
