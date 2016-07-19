@@ -31,6 +31,13 @@ img {
   color: #DED9C5;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .info-box {
+  	width: 90%;
+  	padding: 20px 30px;
+  }
+}
+
 .pageable-table > thead > tr > th,
 .pageable-table > tbody > tr > td {
   padding: 24px;
