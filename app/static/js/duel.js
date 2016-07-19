@@ -1,4 +1,4 @@
-function createGraph(tag, data) {
+function createGraph(tag, data, graphWidth) {
 	function getKeys(object) {
 		var list = [];
 		for (key in object)
@@ -16,7 +16,7 @@ function createGraph(tag, data) {
 	var dataValues = getValues(data);
 
 	var margin = {top: 20, right: 20, bottom: 70, left: 40},
-	    width = 800 - margin.left - margin.right,
+	    width = graphWidth - margin.left - margin.right,
 	    height = 400 - margin.top - margin.bottom;
 
 	var x = d3.scale.ordinal()
@@ -58,7 +58,7 @@ function createGraph(tag, data) {
 	.append("text")
 		.attr("transform", "rotate(-90)")
 		.attr("x", "-2")
-		.attr("y", "-30")
+		.attr("y", "-32")
 		.style("text-anchor", "end")
 		.text("# of Cards");
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
 	// 	"spell": 12,
 	// 	"trap": 62
 	// };
-	// createGraph("#chart-types", falseData);
+	// createGraph("#chart-types", falseData, 600);
 	// return;
 
 	$.getJSON('/yu-gi-oh.json', function(data) {
@@ -116,67 +116,8 @@ $(document).ready(function() {
 		var dataSubtypes = getValues(dataSubtypesDict);
 		var dataFamilies = getValues(dataFamiliesDict);
 
-		createGraph("#chart-types", dataTypesDict);
-		createGraph("#chart-subtypes", dataSubtypesDict);
-		createGraph("#chart-families", dataFamiliesDict);
-
-		// var width = 420, barHeight = 20;
-
-		// var x = d3.scale.linear()
-		//     .domain([0, d3.max(dataTypes)])
-		//     .range([0, width]);
-		// var chart = d3.select("#chart-types")
-		//     .attr("width", width)
-		//     .attr("height", barHeight * dataTypes.length);
-		// var bar = chart.selectAll("g")
-		//     .data(dataTypes)
-		//   .enter().append("g")
-		//     .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
-		// bar.append("rect")
-		//     .attr("width", x)
-		//     .attr("height", barHeight - 1);
-		// bar.append("text")
-		//     .attr("x", function(d) { return x(d) - 3; })
-		//     .attr("y", barHeight / 2)
-		//     .attr("dy", ".35em")
-		//     .text(function(d) { return d; });
-
-		// x = d3.scale.linear()
-		//     .domain([0, d3.max(dataSubtypes)])
-		//     .range([0, width]);
-		// chart = d3.select("#chart-subtypes")
-		//     .attr("width", width)
-		//     .attr("height", barHeight * dataSubtypes.length);
-		// bar = chart.selectAll("g")
-		//     .data(dataSubtypes)
-		//   .enter().append("g")
-		//     .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
-		// bar.append("rect")
-		//     .attr("width", x)
-		//     .attr("height", barHeight - 1);
-		// bar.append("text")
-		//     .attr("x", function(d) { return x(d) - 3; })
-		//     .attr("y", barHeight / 2)
-		//     .attr("dy", ".35em")
-		//     .text(function(d) { return d; });
-
-		// x = d3.scale.linear()
-		//     .domain([0, d3.max(dataFamilies)])
-		//     .range([0, width]);
-		// chart = d3.select("#chart-families")
-		//     .attr("width", width)
-		//     .attr("height", barHeight * dataFamilies.length);
-		// bar = chart.selectAll("g")
-		//     .data(dataFamilies)
-		//   .enter().append("g")
-		//     .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
-		// bar.append("rect")
-		//     .attr("width", x)
-		//     .attr("height", barHeight - 1);
-		// bar.append("text")
-		//     .attr("x", function(d) { return x(d) - 3; })
-		//     .attr("y", barHeight / 2)
-		//     .attr("dy", ".35em")
-		//     .text(function(d) { return d; });
+		createGraph("#chart-types", dataTypesDict, 600);
+		createGraph("#chart-subtypes", dataSubtypesDict, 1000);
+		createGraph("#chart-families", dataFamiliesDict, 800);
 	});
 });
