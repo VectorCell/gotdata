@@ -5,11 +5,11 @@
 }
 
 .bar {
-  fill: steelblue;
+  fill: #1F69FF;
 }
 
 .bar:hover {
-  fill: brown;
+  fill: lightblue;
 }
 
 .axis {

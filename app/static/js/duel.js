@@ -16,8 +16,8 @@ function createGraph(tag, data) {
 	var dataValues = getValues(data);
 
 	var margin = {top: 20, right: 20, bottom: 70, left: 40},
-	    width = 600 - margin.left - margin.right,
-	    height = 300 - margin.top - margin.bottom;
+	    width = 800 - margin.left - margin.right,
+	    height = 400 - margin.top - margin.bottom;
 
 	var x = d3.scale.ordinal()
 		.domain(dataKeys)
@@ -47,18 +47,18 @@ function createGraph(tag, data) {
 		.attr("transform", "translate(0," + height + ")")
 		.call(xAxis)
 	.selectAll("text")
-		.style("text-anchor", "end")
+		.attr("transform", "rotate(-90)" )
 		.attr("dx", "-.8em")
 		.attr("dy", "-.55em")
-		.attr("transform", "rotate(-90)" );
+		.style("text-anchor", "end");
 
 	svg.append("g")
 		.attr("class", "y axis")
 		.call(yAxis)
 	.append("text")
 		.attr("transform", "rotate(-90)")
-		.attr("y", 6)
-		.attr("dy", ".71em")
+		.attr("x", "-2")
+		.attr("y", "-30")
 		.style("text-anchor", "end")
 		.text("# of Cards");
 
@@ -78,8 +78,8 @@ $(document).ready(function() {
 	// 	"spell": 12,
 	// 	"trap": 62
 	// };
-
 	// createGraph("#chart-types", falseData);
+	// return;
 
 	$.getJSON('/yu-gi-oh.json', function(data) {
 		var dataTypesDict = {};
@@ -87,17 +87,7 @@ $(document).ready(function() {
 		var dataFamiliesDict = {};
 
 		$.each(data, function(index) {
-    		// var type = data[index]["type"];
-    		// if (type == "monster")
-    		// 	dataTypes[0] += 1;
-    		// else if (type == "spell")
-    		// 	dataTypes[1] += 1;
-    		// else if (type == "trap")
-    		// 	dataTypes[2] += 1;
-    		// else // unknown type
-    		// 	dataTypes[3] += 1;
-
-    		var type = data[index]["type"];
+			var type = data[index]["type"];
     		if (!(type in dataTypesDict))
     			dataTypesDict[type] = 0;
     		dataTypesDict[type] += 1;
@@ -108,6 +98,7 @@ $(document).ready(function() {
     		dataSubtypesDict[subtype] += 1;
 
     		var family = data[index]["family"];
+    		if (family == "") family = "none";
     		if (!(family in dataFamiliesDict))
     			dataFamiliesDict[family] = 0;
     		dataFamiliesDict[family] += 1;
@@ -125,9 +116,9 @@ $(document).ready(function() {
 		var dataSubtypes = getValues(dataSubtypesDict);
 		var dataFamilies = getValues(dataFamiliesDict);
 
-		createGraph("#chart-types", dataTypesDicts);
-		createGraph("#chart-subtypes", dataSubtypesDicts);
-		createGraph("#chart-families", dataFamiliesDicts);
+		createGraph("#chart-types", dataTypesDict);
+		createGraph("#chart-subtypes", dataSubtypesDict);
+		createGraph("#chart-families", dataFamiliesDict);
 
 		// var width = 420, barHeight = 20;
 
