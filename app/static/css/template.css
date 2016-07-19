@@ -32,6 +32,10 @@ img {
 }
 
 @media only screen and (max-device-width: 480px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
   .info-box {
   	width: 90%;
   	padding: 20px 30px;
