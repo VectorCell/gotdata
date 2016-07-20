@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "Project #5": {
+      "type": "object",
+      "properties": {
+        "Git SHA": {
+          "type": "string"
+        },
+        "GitHub Username": {
+          "type": "string"
+        },
+        "GitHub URL": {
+          "type": "string"
+        },
+        "Travis CI URL": {
+          "type": "string"
+        },
+        "Website URL": {
+          "type": "string"
+        },
+        "Leader EID": {
+          "type": "string"
+        },
+        "Leader E-mail": {
+          "type": "string"
+        },
+        "Leader Estimated Completion Time": {
+          "type": "integer"
+        },
+        "Leader Actual   Completion Time": {
+          "type": "integer"
+        },
+        "Member #2 EID": {
+          "type": "string"
+        },
+        "Member #2 E-mail": {
+          "type": "string"
+        },
+        "Member #2 Estimated Completion Time": {
+          "type": "integer"
+        },
+        "Member #2 Actual   Completion Time": {
+          "type": "integer"
+        },
+        "Member #2 Less Than Satisfactory": {
+          "type": "boolean"
+        },
+        "Member #2 Point Adjustment": {
+          "type": "boolean"
+        },
+        "Member #3 EID": {
+          "type": "string"
+        },
+        "Member #3 E-mail": {
+          "type": "string"
+        },
+        "Member #3 Estimated Completion Time": {
+          "type": "integer"
+        },
+        "Member #3 Actual   Completion Time": {
+          "type": "integer"
+        },
+        "Member #3 Point Adjustment": {
+          "type": "boolean"
+        },
+        "Member #3 Less Than Satisfactory": {
+          "type": "boolean"
+        },
+        "Member #4 EID": {
+          "type": "string"
+        },
+        "Member #4 E-mail": {
+          "type": "string"
+        },
+        "Member #4 Estimated Completion Time": {
+          "type": "integer"
+        },
+        "Member #4 Actual   Completion Time": {
+          "type": "integer"
+        },
+        "Member #4 Point Adjustment": {
+          "type": "boolean"
+        },
+        "Member #4 Less Than Satisfactory": {
+          "type": "boolean"
+        },
+        "Member #5 EID": {
+          "type": "string"
+        },
+        "Member #5 E-mail": {
+          "type": "string"
+        },
+        "Member #5 Estimated Completion Time": {
+          "type": "integer"
+        },
+        "Member #5 Actual   Completion Time": {
+          "type": "integer"
+        },
+        "Member #5 Point Adjustment": {
+          "type": "boolean"
+        },
+        "Member #5 Less Than Satisfactory": {
+          "type": "boolean"
+        },
+        "Member #6 EID": {
+          "type": "string"
+        },
+        "Member #6 E-mail": {
+          "type": "string"
+        },
+        "Member #6 Estimated Completion Time": {
+          "type": "integer"
+        },
+        "Member #6 Actual   Completion Time": {
+          "type": "integer"
+        },
+        "Member #6 Point Adjustment": {
+          "type": "boolean"
+        },
+        "Member #6 Less Than Satisfactory": {
+          "type": "boolean"
+        },
+        "Comments": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

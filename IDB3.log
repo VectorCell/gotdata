@@ -1,0 +1,2093 @@
+commit e68cb8ed5047dd533d0066ffc47484c5cbe0147c
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 17:19:06 2016 -0500
+
+    Add new links and libraries to about page
+
+commit 4ed6cd0f3953b28383e71ce5d2b572187356854b
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 19 17:33:20 2016 -0400
+
+    Format with autopep8
+
+commit 64912353ed17576aaab2a48054d476cd8f5560c0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 19 17:27:34 2016 -0400
+
+    Rename app/html to app/epydoc
+
+commit 87a758b4108317a82c993f09398a45028400e222
+Merge: 895112b 2488a61
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 04:13:02 2016 -0400
+
+    Merge branch 'scott' into dev
+
+commit 2488a612756af22f75471b349295cfa4138e12cc
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 04:12:39 2016 -0400
+
+    Fix image scaling on mobile devices
+
+commit 55477a54c85b1902cc305334711607fba5428237
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 03:06:06 2016 -0500
+
+    Make general css more mobile-friendly
+
+commit 4d08378449f39fd360f3288e53a26ad763c3e0e5
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 02:54:07 2016 -0500
+
+    Minor fix
+
+commit 1bbd02a677db7351160c47e11cddb5241eb5c918
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 02:52:51 2016 -0500
+
+    Make graphs more mobile-friendly
+
+commit 54eb6b450cbe2a1d108905047b76b45080735f78
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 02:35:59 2016 -0500
+
+    Fix search page look for mobile browsers
+
+commit 3b780c5878dd47ca9dcd0c9d6f342711bd26099a
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 02:28:32 2016 -0500
+
+    Improve graph
+
+commit 68b14e68773f459565a010c73112008543985f81
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 19 02:03:31 2016 -0500
+
+    Implement initial graph visualization
+
+commit 75fbfb75c669cd12ccef49eb3faf1b3c3320bc20
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 18:29:50 2016 -0500
+
+    Minor edit
+
+commit d64bcc0a7b49b02b05de8bb7ad23dc064890d613
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 18:28:28 2016 -0500
+
+    Minor edit
+
+commit 47abf6f6f68dd891cd541c7d2cf4db0a08dbcd17
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 18:22:59 2016 -0500
+
+    Minor edit
+
+commit 8a0ef03603f4777c266b6d22c47c45b43130cabf
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 18:21:45 2016 -0500
+
+    Minor edit
+
+commit 57785adc882973a80c9c404d5425fa3437120b99
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 18:18:36 2016 -0500
+
+    Minor change
+
+commit 8dddce05dddc85d1f7406fe168602d5ece098a51
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 17:40:14 2016 -0500
+
+    Minor edit
+
+commit eb569272db2636908df97b5f3ea73fa838ae873d
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 17:33:33 2016 -0500
+
+    Minor edit
+
+commit 1db0dd538e1b723b3e1781579363a616cb5bd941
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 17:23:01 2016 -0500
+
+    Minor edit
+
+commit 895112b9e19f34d19a0cf7187d0dee34c9c375c9
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 18 18:18:38 2016 -0400
+
+    Remove models.html
+
+commit e330fb8a6ebaa63303ad8a94abaf1298667307cc
+Merge: 2f970d4 dc531f0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 18 18:17:08 2016 -0400
+
+    Merge branch 'austin' into dev
+
+commit dc531f0b46447f810d1a2653e9eb15ff2d530a16
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 18 18:16:17 2016 -0400
+
+    Add epydoc output
+
+commit 78064463c22360d6d357047bfa2462991fcb2e19
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 17:15:58 2016 -0500
+
+    Minor naming edit
+
+commit 0dd92c98d3b65e4927eb8b9239ad664c0cf1e2bd
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 17:12:28 2016 -0500
+
+    Minor edit to duel.js
+
+commit 044a0fc82b4a9d9c3a8aff48f17887222329522a
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 16:57:30 2016 -0500
+
+    Test API visualization
+
+commit 2f970d4ac3a03b7e7ff831ff0bc4a8e7cebb2299
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 17:45:57 2016 -0400
+
+    added info to about page
+
+commit 0cec8f650958a8b14e862b764a1fab9e73b23d2b
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 16:49:19 2016 -0400
+
+    removed extraneous comments from query_db.py
+
+commit 437869986baeba1d36ee3e8fa23d0b9752b497b2
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 16:48:38 2016 -0400
+
+    added yu-gi-oh json grabbed from other group's repo
+
+commit 66ba3e1829432ae16eb83677d90901e68d5db247
+Merge: f3e13c2 4c0f4cd
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 16:34:57 2016 -0400
+
+    Merge branch 'dev' into bismith
+
+commit f3e13c23171c3f9e4e715e22cf9319090a0705b7
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 16:34:48 2016 -0400
+
+    fixed whoosh index issue, just remember that www-data must own the repo if run using apache, closes #42
+
+commit 4539540e25560e8471e90454773c62e9cdd0693a
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 16:30:36 2016 -0400
+
+    debug print of whoosh base
+
+commit 4c0f4cd3d16e1ce777e372b4c1777ad0a6d6d42c
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Mon Jul 18 15:30:15 2016 -0500
+
+    Finished testing
+
+commit e049cdc78bc27d0556a682884041c93bfb507a7a
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 18 16:28:50 2016 -0400
+
+    attempt to remove special directory for whoosh indices when run by apache
+
+commit 421d77cc6f558940d474bc5723a7e250c5e97a7b
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Mon Jul 18 16:22:02 2016 -0400
+
+    Capitalization error
+
+commit b8c46de2aac09b2620a89dc4bb314878f83680d5
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Mon Jul 18 16:17:25 2016 -0400
+
+    Current testing shouldnt fail
+
+commit 464c77303b38986ddde22719835f161270ad8984
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Mon Jul 18 14:53:04 2016 -0500
+
+    AssertTrue
+
+commit f4a430853d4864ca56fd88d8fd0dc492f411647d
+Merge: d3701b6 f98355d
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 04:02:30 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit f98355d432a16a9ad4a523ba7a421123f0f942e4
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 03:59:45 2016 -0500
+
+    Remove added defaults because they look funny
+
+commit 0ea19f94b1c2d8d73a0158c4c12b99e625e3960c
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 03:56:19 2016 -0500
+
+    Add a few defaults to model tables
+
+commit 3ad25efc14858da22c72c6201040a7c8e980b506
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 03:49:00 2016 -0500
+
+    Test add GoT font; may be broken for firefox
+
+commit a9b6a6a00f0402c00c2f4b84f932c7fcec842821
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 18 03:20:45 2016 -0500
+
+    Add layout for API page with no content
+
+commit d3701b6f6b3f635bd8e1b3b0ab71fb8f4320651f
+Merge: 4982cab 8b7c650
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Sun Jul 17 15:43:34 2016 -0500
+
+    Merge branch 'rhain' into dev
+
+commit 8b7c650d74e541c7bfeb08d2298c313c47bea5ca
+Author: rkaman <rhain.a.kaman@gmail.com>
+Date:   Sun Jul 17 16:41:25 2016 -0400
+
+    adding a test for houses
+
+commit 4982cab41a500a70d6de5b2257c038142edb0008
+Merge: d5ce6ca 451da5e
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 16:30:43 2016 -0400
+
+    Merge branch 'dev' of github.com:holtk/cs373-idb into dev
+
+commit d5ce6ca5299b8151a3d8ca03387db401941a4fef
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 16:30:07 2016 -0400
+
+    removed duplication of efforts in search processing
+
+commit 451da5e318d2cb15cd953ffa605be582826fc5a2
+Merge: ce2aab8 7b2963a
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 15:27:48 2016 -0500
+
+    Merge branch 'holt' into dev
+
+commit 7b2963a9436bc2fc24a7077bc43453fbf30a0df7
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 16:27:07 2016 -0400
+
+    Added character test
+
+commit ce2aab81b53cef55d7f9d6b129b3719641fe2120
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 16:24:36 2016 -0400
+
+    removed duplication of efforts in search token compilation
+
+commit 2937acde78f5d9614a814195250066d277f65734
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Sun Jul 17 15:23:23 2016 -0500
+
+    added a test for houses
+
+commit 2b8e98751d76ceeebe65029c7dec0a158aaef80e
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 15:41:37 2016 -0400
+
+    Typos are going to get the best of me
+
+commit 6c9d92c5e6357e567d9318c9d1fe167707fbd0c1
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 14:39:22 2016 -0500
+
+    Standarized the tests
+
+commit 1ca023421aa905a773bc6f0c5724cffc4406e941
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 15:24:53 2016 -0400
+
+    I guess there was a typo?
+
+commit 9e09d836715ebbab0404839749d4380a4043deef
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 15:13:42 2016 -0400
+
+    typo
+
+commit a031d68f92b3245173c257d745490a85e747e3b7
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 14:11:36 2016 -0500
+
+    Added some tests
+
+commit 8900992cb452cd1441341e52eb7f9888c19ebb52
+Merge: 8f0de0b 86a6a64
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 13:45:02 2016 -0500
+
+    Merge branch 'dev' of https://github.com/holtk/cs373-idb into dev
+
+commit 8f0de0bae87904f3954755482d37e8467f1f2346
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 14:43:12 2016 -0400
+
+    get_houses typo
+
+commit 86a6a64f26d1e4714474f31fbd02e64f3feca276
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Sun Jul 17 14:41:39 2016 -0400
+
+    Minor fix to visited links of lists
+
+commit bb6281a0c2f5015d18e458af064bfd340760434b
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 13:40:03 2016 -0500
+
+    Added get house test
+
+commit be5e6001af4041d62b93570b9e6ea19af2caf32b
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Sun Jul 17 13:37:34 2016 -0500
+
+    Minor changes to design; make lists darker
+
+commit bb716cf697fa62e89b2a8ddcc4b0169b6c9bd771
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 14:35:27 2016 -0400
+
+    IDK whats wrong with test spouse 2
+
+commit de1337ae23d6dd375d4d0b9182a646a0ceace52c
+Author: Holt <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 14:18:43 2016 -0400
+
+    test_get_spouse_2 is broken
+
+commit 116fab4cdeda455ce25cda83c458ba9e337683db
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 13:16:36 2016 -0500
+
+    Trying to fix tests
+
+commit 46b88404cdc56e19862e5f2b0bf1b3c8dcec2ce7
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 13:12:53 2016 -0500
+
+    Making sure I didn't break tests with edits
+
+commit 013011232ef8a17b4059e77f56788dc103672ae0
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 13:00:23 2016 -0500
+
+    comments becaome uncommented somehow
+
+commit 0a11381079ff1a23de0ae579447006c45f966f3e
+Merge: 81c174c 0273754
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 12:57:13 2016 -0500
+
+    file path fixed
+
+commit 02737547a71a5eebb7c71fd267c0681e77cfad22
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 13:53:47 2016 -0400
+
+    fixed file path issue when running unit tests
+
+commit f8e72f7d4f9f33c600b43d4715767478bae9eac9
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 13:52:22 2016 -0400
+
+    attempt to dynamically determine directory of tests.py
+
+commit 8d7ed8e1f3b79d79e98a4e65953d241806de49ea
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 13:51:39 2016 -0400
+
+    attempt to dynamically determine directory of tests.py
+
+commit bf46945a48056c0905119b9fe507a4448596497d
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 13:48:43 2016 -0400
+
+    attempt to dynamically determine directory of tests.py
+
+commit 81c174cddcc805dffb9871c20ad79025e9695910
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 12:47:46 2016 -0500
+
+    Opps deleted python
+
+commit b9c099a370f6f3065808bf03baed478001318f3c
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 13:46:29 2016 -0400
+
+    attempt to determine working directory used by apache
+
+commit 780db60444ed9f717f7f2aea42ce36aacbb3d22d
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 12:43:58 2016 -0500
+
+    Changed __init__.py to run tests
+
+commit dbd9b9c805cffdb1249a5b135dfbf52ed48d9959
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 12:35:28 2016 -0500
+
+    Unit tests not running?
+
+commit ab160227e9f25f6e99d37b955945e497cc0e50a0
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Sun Jul 17 12:26:47 2016 -0500
+
+    Added test get_characters
+
+commit d450170e84537c6b3ae20e5e79823eb8611afe4f
+Merge: 494d61c 7f03be6
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Sun Jul 17 02:38:21 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 7f03be6b211ed46634977fde14e77e945548d5d5
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Sun Jul 17 02:38:05 2016 -0500
+
+    Fix search bar; slightly edit nav bar look
+
+commit 494d61c9041f468ba6e7317cd5277228aab0d1c9
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 01:07:21 2016 -0400
+
+    only shows two search tables when there are multiple search tokens
+
+commit 07b3ea8e73e6d9dab065b430624f08dbeb89fd82
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 00:59:37 2016 -0400
+
+    fixed last commit
+
+commit 9e832109b4c72373d1d4c2f327dd4dbc8d7e9dad
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 00:58:10 2016 -0400
+
+    added search.js script to search template, so the search bar on that page actually works
+
+commit 35a479bda4c4e75dd1db9d21e9ae57811200ffcf
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 00:48:47 2016 -0400
+
+    fixed unit tests when running with apache
+
+commit ab339eaedf50196641711afbdc83e92d94ebc23a
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 00:41:30 2016 -0400
+
+    added search bar to search template
+
+commit 1ffbb02237ddfb04298dc4e06c15ebfb2afc34de
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sun Jul 17 00:18:36 2016 -0400
+
+    implemented whoosh-based search on frontend/backend
+
+commit f9e0839fd7eb8b308229da6ae6418fdd48c2a114
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:42:30 2016 -0400
+
+    added search template
+
+commit 036df90c3f250fd06af288184beb41fe09ae0760
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:39:23 2016 -0400
+
+    removed safety bars from the bottom of models.py to force us to confront permissions errors
+
+commit f9e2cefbbfb02740e53fefcc7174184ae6fcd0d3
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:38:04 2016 -0400
+
+    nah, never mind, we need a per-user policy, at least for www-data
+
+commit e571075b7b0c7268ce90b27ec515cf5807519c50
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:35:00 2016 -0400
+
+    attempt to fix permissions error without implementing a per-user policy
+
+commit ae4b9e850ad1ccca190a6b03840bac7feda42b1d
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:32:29 2016 -0400
+
+    attempt 3 to isolate permissions error that causes apache to fail but running flask manually to not
+
+commit 1baedffaf2061fb9eaf00c41c655e4d61725c7a7
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:27:00 2016 -0400
+
+    attempt 2 to isolate permissions error that causes apache to fail but running flask manually to not
+
+commit 0f94dae7397ad8d0b5002fa06244eb5f25bf82e3
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:18:35 2016 -0400
+
+    attempt to isolate permissions error that causes apache to fail but running flask manually to not
+
+commit d906c641d386217184ab9590130b6b3b2e49deee
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 23:07:10 2016 -0400
+
+    replaced line I accidentally deleted that broke the site
+
+commit 8fce3793074c4cbaeaea7da7d7bf28bcab9bd7f7
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 22:56:54 2016 -0400
+
+    about to integrate whoosh searching with site
+
+commit 8b4fbca5418e921dcef37c10018c314a4a96ab76
+Merge: dc2bdab 68e6d25
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 16 22:54:21 2016 -0400
+
+    resolved merge from dev (convert to whoosh searching)
+
+commit 68e6d2591c0b3e476e40a0d1a97a4634f203eca1
+Merge: a679f02 1314fbd
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 16 11:34:58 2016 -0400
+
+    Merge branch 'dev' into austin
+
+commit a679f020b33e961e2db2b526c90f1717e40adce0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 16 11:34:36 2016 -0400
+
+    Use Whoosh for backend full-text searching
+
+commit dc2bdabc5a4968c02931bc4ea0b2e641b5aafd49
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Fri Jul 15 18:02:19 2016 -0400
+
+    word towards getting search working on the backend
+
+commit 1314fbd9f287abc0788bd88b2f4a7637d1af52f6
+Merge: 9b0ef65 eaab5b6
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Fri Jul 15 16:31:54 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit eaab5b6da1bd402634684e8ab88abb7a449564e0
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Fri Jul 15 16:25:27 2016 -0500
+
+    Add search bar on front end
+
+commit 9b0ef654d6e82b6c7963b960ee488684ac7b8d12
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Fri Jul 15 16:58:46 2016 -0400
+
+    added query string to search template
+
+commit e8aca912ae103f724d7c703256c32707841a9d32
+Merge: e9694a6 e49d5fc
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Fri Jul 15 16:46:56 2016 -0400
+
+    Merge branch 'austin' into dev
+
+commit e49d5fc31f3c6672d06d8295e9142bea37973cb0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Fri Jul 15 16:46:32 2016 -0400
+
+    Add backend search capability
+
+commit e9694a6469675b08c8f66e89c5692fc752a72c73
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Fri Jul 15 16:46:26 2016 -0400
+
+    added search template, search functions in query_db
+
+commit 345664407e4d0283c69ed587ed95c9323977784c
+Merge: 5f79adc 9c4372a
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 18:08:20 2016 -0400
+
+    Merge branch 'dev' into austin
+
+commit 5f79adcfab2258c9f8b96c9b04f4eaef04b175d7
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 18:07:14 2016 -0400
+
+    Modify overlord relationship to point to a house
+
+commit 9c4372a93800081b67618f3dbece8ea8a79442aa
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 18:01:22 2016 -0400
+
+    I'm pretty sure the button works now, closes #37
+
+commit 93515cfdff3b2a1981bcae4ba7197e02ccddecb6
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 17:47:29 2016 -0400
+
+    tests.py now drops tables after running
+
+commit 2e751cd5db116170d154ae8d9bfd538e2ca97279
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 17:43:29 2016 -0400
+
+    more work on dark theme
+
+commit 802d1d0abdd7979d12db3d5758a2640af1dc2e19
+Merge: 33602d4 1bc8229
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 17:34:09 2016 -0400
+
+    Merge branch 'austin' into dev
+
+commit 1bc8229f76868cec9e1ead0ebd16d478c2fcaf82
+Merge: 5ac00b9 149e0c2
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 17:33:07 2016 -0400
+
+    Merge branch 'master' into austin
+
+commit 5ac00b905a5f608ab95a48e4e03698adc5ede505
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 17:33:03 2016 -0400
+
+    Fix merge conflict with master
+
+commit 691a4d8083c75471ec316afd8f289555e83ef8f4
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 17:30:59 2016 -0400
+
+    Remove bad char ids list
+
+commit 88e5e7cebc7eff24deba376fc682e1fe119e6910
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 14 17:27:35 2016 -0400
+
+    Add 'dev' and 'test' postgres databases
+
+commit 33602d4090a4ee8efbec42cc204c152bd0671f5d
+Merge: b9d53e1 f343602
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Thu Jul 14 16:25:33 2016 -0500
+
+    Merge branch 'dev' of https://github.com/holtk/cs373-idb into dev
+
+commit b9d53e116252231193a46fdf2491caa32b80ef0a
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Thu Jul 14 16:25:06 2016 -0500
+
+    trying this again
+
+commit f343602c533bd688a18cb2bbd53ce82ede5f5439
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 17:24:51 2016 -0400
+
+    added navbar changes from template.css to index.css
+
+commit 2ad7b91e2db23193cf04ceaf42276a61b806295f
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 17:22:02 2016 -0400
+
+    made dark theme
+
+commit b5108e3cc8c93b051dd9d2c5e53b900040441e4b
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 16:17:28 2016 -0400
+
+    testing different bg img for template pages
+
+commit 4a124cd1f052d2b6ce283c2323cfed686fe84897
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 15:47:49 2016 -0400
+
+    fixed typo from last commit
+
+commit 62c1301684ee3d527c2f03b08f77ad93ab7d3556
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 14 15:43:50 2016 -0400
+
+    added more columns to model pages
+
+commit f216cf222318e2fa5d7206c13d134c41ec2bee62
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Thu Jul 14 13:49:09 2016 -0500
+
+    Added / infront of character
+
+commit bec07b6d884de1e36adeb96148a4ca2d481bddd2
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Thu Jul 14 13:46:08 2016 -0500
+
+    Changed book to character
+
+commit 5e21a44cf8a30783d97323e41a04368c441426fe
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Thu Jul 14 13:36:02 2016 -0500
+
+    Removed div
+
+commit 5f3b4460ae5fdda93c6a27fb06c8497ab649d081
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Wed Jul 13 14:09:11 2016 -0400
+
+    Use test db for unit tests
+
+commit 149e0c2f17eaa6c45c31a69616fd41df3df0ae49
+Merge: 6d29407 bff60b8
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 22:54:24 2016 -0400
+
+    Merge branch 'dev' of github.com:holtk/cs373-idb into dev
+
+commit 6d2940714ba6f84549675df4bc017211b8af1081
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 22:54:10 2016 -0400
+
+    no longer drops tables in tests.py
+
+commit bff60b8f4b895a9b46265a147eb1f3f7ee7e9981
+Merge: 76d153c cd934d9
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 22:54:10 2016 -0400
+
+    Merge branch 'austin' into dev
+
+commit cd934d991a71f4229c195c451a95cb4a4cf06644
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 22:51:06 2016 -0400
+
+    Add disclaimer to tests.py
+
+commit 76d153cef82279f74bc38365409d908737f951ab
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 21:50:53 2016 -0500
+
+    Edit unit test message
+
+commit cfe58642612f87631192c82f5db670ead634cac1
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 21:49:30 2016 -0500
+
+    Edit button notification
+
+commit 604f3a8a43507beee9a82da382efbaf358021116
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 21:42:01 2016 -0500
+
+    Test unit testing
+
+commit bbf654b46eb0da2dab433bb3504e583456f380fb
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 22:03:30 2016 -0400
+
+    Revert to bf71f2f
+
+commit 9b4cfd36200450260ffd6d43cd90056737e8a35b
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 22:00:14 2016 -0400
+
+    Revert "Merge branch 'master' of https://github.com/holtk/cs373-idb"
+    
+    This reverts commit 833cf176d9b61e417707b27a569f3ea7314b67a4, reversing
+    changes made to bf71f2fa39cbd440a10cdf13cf390418abe82f99.
+
+commit d6b06aaf28e1eb781f12fb24ee8811e4f191c3dc
+Merge: 051b297 833cf17
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 21:54:00 2016 -0400
+
+    fixes from merge
+
+commit 051b297b1f2df908c99ea383518348ee60936afe
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 21:52:30 2016 -0400
+
+    updated query_db
+
+commit 833cf176d9b61e417707b27a569f3ea7314b67a4
+Merge: bf71f2f 989f7f2
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 21:45:51 2016 -0400
+
+    Merge branch 'master' of https://github.com/holtk/cs373-idb
+
+commit bf71f2fa39cbd440a10cdf13cf390418abe82f99
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 21:45:12 2016 -0400
+
+    Fix circular dependency
+
+commit af96c9ab844e40ecc7586391377fe0d2fa9e9476
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 21:42:10 2016 -0400
+
+    more attempts to remove circular dependencies
+
+commit 6dc885cebd7ff98682de703a541583c94e0356bb
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 21:29:10 2016 -0400
+
+    attempt to remove circular dependencies
+
+commit 989f7f2f3db0b778fa1886f449d3d683291ea1a4
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Tue Jul 12 20:20:02 2016 -0500
+
+    just added a sentence for my description
+
+commit 081b9e0f1e3e364eef90b4d45afe407b98c22c4e
+Merge: 25498e0 32e3f01
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 21:11:19 2016 -0400
+
+    Merge branch 'dev' into bismith
+
+commit 25498e081eec46a18246aa9fe00d4792f67f345f
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 21:11:07 2016 -0400
+
+    added list of bad character ids
+
+commit 32e3f0124beaf4e43f3a708167e4f56efdfcb334
+Merge: 605ffcf 2b1227f
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 20:57:35 2016 -0400
+
+    Merge branch 'dev' into austin
+
+commit 2b1227fe0307c11c43f9439abee3a5c2f6c73608
+Merge: e842b1b 8238cfb
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 20:57:04 2016 -0400
+
+    Merge branch 'master' into dev
+
+commit 605ffcfc8e35cc34ea3bdd7d46e2e7ab0dcf0597
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 20:55:39 2016 -0400
+
+    Update unit tests to use current models
+
+commit e842b1b03deb2251f979885fc55eb0fabd9e5cf2
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 19:44:21 2016 -0500
+
+    Update about page
+
+commit b241a2552a9c6e700fad3cb672c282f7e1eac21a
+Merge: 24b0427 c8324a7
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 19:23:07 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit c8324a737cfd016fa64073f6966890d7f85afae3
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 19:22:29 2016 -0500
+
+    Fix some broken HTML portions
+
+commit 29a80e05a591e951b9a2523da9529193d588ce5e
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 19:07:09 2016 -0500
+
+    Minor change
+
+commit 24b04270631210dc6ac66fc6c262181c1f9d4dc0
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 20:06:01 2016 -0400
+
+    fixed API to reflect changes to db structure
+
+commit 9c4d25bc367863962c2e6c381b9e4fc8c03af217
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 19:01:40 2016 -0500
+
+    Minor change
+
+commit 8238cfb8f19d1d8770233e63b634e5c76d4e69af
+Merge: 1e5d202 380dc54
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 19:58:09 2016 -0400
+
+    Merge branch 'austin'
+
+commit 380dc545770ae5bf4bc0dcb4cbbee1fc775d6261
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 19:57:21 2016 -0400
+
+    Use the production database on the website
+
+commit 4a5d2ce4f6d292844271e2fb3cd9b3cc79023b22
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:55:29 2016 -0500
+
+    Fix display for real?
+
+commit d0dd07873494ed7c31c4307da53b20cdd86dea17
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:54:20 2016 -0500
+
+    Test display
+
+commit 911f6d5e0e02c881054b7a325896fb55d02136e2
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:41:14 2016 -0500
+
+    Fix displaying empty attributes
+
+commit bf33176aa184030a72f511997c93b3190709c1ef
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:37:24 2016 -0500
+
+    Minor change to displaying empty relationships
+
+commit 9caef60bda9b49172456953a897ce3311c725352
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:33:30 2016 -0500
+
+    Minor fixes
+
+commit 33cb6a6861d0db00f925922236a3eb4ce26ef1cc
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:29:08 2016 -0500
+
+    Minor fix
+
+commit 8267427469bcaf3555d1d276496695b941d9f74e
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:28:11 2016 -0500
+
+    Minor fix
+
+commit 31446afa287a142523c8072b0f580eea15a46495
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:26:40 2016 -0500
+
+    Update design to reflect new relationships
+
+commit 60371bf1bd521a3d9b0257650daa402653b71f25
+Merge: 1e5d202 199db78
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:20:47 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 199db788b50bac1e0ef1b6ad9711ce79ba8bad91
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:19:07 2016 -0500
+
+    Minor fix
+
+commit 4cc341a246c869747a81ec9b4f754a4eb15e7719
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:12:44 2016 -0500
+
+    Minor fix
+
+commit c8db991ac340fc72955c2b1d87df0ac982bb07fc
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 18:10:28 2016 -0500
+
+    Edit table design
+
+commit 1e5d20283c965f8bf35a74c8f1b3bcd25a19fef5
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 19:03:40 2016 -0400
+
+    updated images for a few key characters
+
+commit 4b12276cae6a85786e6a3d60587fd0e9516494b9
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 17:59:43 2016 -0500
+
+    Edit long lists to be pageable
+
+commit a1935e0c01cf2675faa02bd823a8393a8328462e
+Merge: d26e405 50b3176
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 18:58:31 2016 -0400
+
+    Merge branch 'dev' into austin
+
+commit d26e405b5050b2e0c8278f5f5bb3c9fffb16ce85
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 12 18:57:31 2016 -0400
+
+    Add spouse relationship; tidy up models
+
+commit 50b3176c5854a7285800d75318a8acf281a88d83
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 18:32:48 2016 -0400
+
+    removed extra image from character template
+
+commit d6f8155e781f77da06aa0b5c2fe3d61642dbc1a7
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 18:30:00 2016 -0400
+
+    removed extra image from book template
+
+commit 5a0c9c031bf7922d90f94c326f8c4090dfabceb5
+Merge: 75767d6 5d354bb
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 16:48:54 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 75767d6c54c4bb5f88bea1c48901c6f6d76cc246
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 17:47:48 2016 -0400
+
+    backend ignores model items without names, and templates now sort lists by name
+
+commit 5d354bb9951a144ecf7ab483f65687559631dd0e
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 16:47:21 2016 -0500
+
+    Add pagination
+
+commit 479b836a497e62f8306ab137978da9b17fc03be2
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 16:38:27 2016 -0500
+
+    Test paging
+
+commit 38f9ed77379e3fcb715b66973ffe8da96399f6ec
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 17:23:23 2016 -0400
+
+    added character and book images to templates
+
+commit f20b907490657bf51fe8e9da84eb0115ebf01c88
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 16:08:45 2016 -0500
+
+    Organize background image files
+
+commit f3c2816c0a5efcc064d4ec96eb1e47776d912b52
+Merge: dd20595 39b53cc
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 16:03:54 2016 -0500
+
+    Merge branch 'dev' into scott
+
+commit dd20595c66c176f677e0148357d03a5b2240a924
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 16:03:33 2016 -0500
+
+    Enlarge images slightly
+
+commit 39b53cc30ad3e1795683635bcea5d12ec758c41f
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 16:51:54 2016 -0400
+
+    added placeholder images for characters with no picture
+
+commit 57f5de97e9ce199304aaaa1c5454918e3354bbab
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 15:51:33 2016 -0500
+
+    Fix image scaling
+
+commit 805b0d75767310fcee61be406f9bf836cd56907a
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 15:47:08 2016 -0500
+
+    Add images into html files
+
+commit eda2bddedfa6c4446376f78fcb7a73d6e3816e07
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 16:24:29 2016 -0400
+
+    added character images
+
+commit d771dfef66df56f3f24fc5fa1198bf3c3092d0b9
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 16:17:40 2016 -0400
+
+    added image downloader script for character images
+
+commit 7f698f18cd3f161785bdb932ccf0b2afbccd588c
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 16:17:17 2016 -0400
+
+    added image downloader script for character images
+
+commit d7ad5a1c629b0688c58027d0b812f06ea30ad17e
+Merge: 48354eb 54ed527
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 14:50:35 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 54ed527256aae80dc55cdd7a3b08d47dd0138370
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 13:26:39 2016 -0500
+
+    Make all images square; minor design change to character.html
+
+commit 3d8141898a7551ad6bf7dcca1ef5b9d5a06f54cb
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 13:12:29 2016 -0500
+
+    Edit design structure for some pages
+
+commit 48354eb213700e581b30a3750631cdaac92d7bf6
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 12 14:10:57 2016 -0400
+
+    added images for book covers (by book ID)
+
+commit 59b1b65f0b368401af12616e5850d23e8c63918a
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 12:50:16 2016 -0500
+
+    Change css file paths back
+
+commit 34dce0038535acf9e94f7191630f9adf1316ef87
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 03:11:00 2016 -0500
+
+    Fix css paths
+
+commit 06f7c6e91e1700a9f820cbc1636e0d76ac734781
+Merge: 87f7a0e 67e591e
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 02:00:19 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 67e591efd8ca7a33817ec1be2458a231540214a0
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 01:50:36 2016 -0500
+
+    Edit design for all pages
+
+commit f55a88c88ffd176b00dd5cd33b140b6b629baec4
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 01:43:19 2016 -0500
+
+    Move files around
+
+commit 4177e73bcdb714656adc8dbe033dda39c6217ee5
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 12 01:38:52 2016 -0500
+
+    Edit nav bar and design for character page
+
+commit 7ecbb384ccd8db27b9b4b867f0ee3eef47e69967
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 23:30:23 2016 -0500
+
+    Update character page design
+
+commit fc7fec4b970eb65b9a5619125e3f602cdf478cae
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 23:17:34 2016 -0500
+
+    Minor edit; change bullet list design
+
+commit a01588c9cdec1319ef50110cf727fcce83888add
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 23:02:16 2016 -0500
+
+    Edit table design and header font
+
+commit 87f7a0eabe777979796f4853be339daf1f0e374c
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 11 23:10:36 2016 -0400
+
+    cleaned up code from last commit
+
+commit f5ce96eb08c3afcc0eeec28f608ddcfc02f8a439
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 11 23:04:35 2016 -0400
+
+    implemented RESTful API
+
+commit f8311e88912cf1e463847a458324ae2f75fad850
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 19:42:36 2016 -0500
+
+    Edit create_db to parse book release date
+
+commit 40c69aa61952e3be853bbe4488afce75eca873b6
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 19:36:40 2016 -0500
+
+    Edit/add attributes
+
+commit 55b6e02bed8d3507757be723f421bc6f6cc60d22
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 19:13:00 2016 -0500
+
+    Minor fix
+
+commit da5d097fda5dbba8ae49ed6a616ad11b67439957
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 19:07:11 2016 -0500
+
+    Add links to character house and book pages
+
+commit ba4047910c4f6bff26979e60927889f24ec52b03
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 18:59:23 2016 -0500
+
+    Minor change
+
+commit 4b45a28975d64b727635a88235cbadba035ae925
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 18:58:08 2016 -0500
+
+    Add links to some character relationships
+
+commit 227bea3f3ae79c101cbd5cc64dabc70ad5bc56a8
+Merge: d6e19f5 fb22773
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 18:17:37 2016 -0500
+
+    Merge branch 'dev' of https://github.com/holtk/cs373-idb into dev
+
+commit d6e19f5c28ad92eecb2fcb89e99e34957c12fdaf
+Merge: a93a400 4d863d9
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 18:17:20 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 4d863d98f7eeae138936b781d7470bbff2128905
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 18:10:35 2016 -0500
+
+    Minor fix
+
+commit a6be517264340b9a056b575455f64598250fce28
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 17:35:30 2016 -0500
+
+    Minor change
+
+commit de2930d968dd8917ea0c7dea7154c839f3d645d1
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 17:33:08 2016 -0500
+
+    Update query_db functions and usage
+
+commit fb227730f0cff7e3fe09acf32c38143e49714208
+Merge: a93a400 ea84ac0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 11 18:25:29 2016 -0400
+
+    Merge branch 'austin' into dev
+
+commit cf3b8417705f48c08b9f5db95d7c879f3d053663
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 17:12:34 2016 -0500
+
+    Update links in model table pages
+
+commit ea84ac03ded53d4dbaf441955bf2730ab1bb8f33
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 11 18:10:06 2016 -0400
+
+    Use new ID column for creating relationships
+
+commit a93a400276b81d81a35076bea7b6ee5a150c2113
+Merge: 226bcf1 4c7075d
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 16:34:08 2016 -0500
+
+    Merge branch 'dev' of https://github.com/holtk/cs373-idb into dev
+
+commit 4c7075d28fd066ee71365dceca11793ac70ad2ad
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 11 17:18:07 2016 -0400
+
+    Add yUML.txt, a text representation of UML.pdf
+
+commit ce08f097e2989a2456a2c285d8ee1e18a8e4ec5f
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 11 16:16:37 2016 -0500
+
+    Update UML.pdf
+
+commit 226bcf1b4324792d9b27428c987a40f61c6ce96e
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 16:07:58 2016 -0500
+
+    Change column URL to column ID
+
+commit 5402a9084d66b510643fd1f793476b383efd9614
+Merge: 9079a4e c96bb84
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 15:52:34 2016 -0500
+
+    Merge branch 'dev' into scott
+
+commit c96bb84df0ad14818800904082db4318207ca01c
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Mon Jul 11 16:51:49 2016 -0400
+
+    get_character now uses character id
+
+commit 9079a4edbbdc562354dad8182f07dcd903414fb0
+Merge: e521a24 fe23f32
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 15:39:21 2016 -0500
+
+    Merge branch 'dev' into scott
+
+commit fe23f32371d190eb749f7f67dc4bc33f0f0f2f1c
+Merge: 154d938 7be0c61
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 11 16:37:28 2016 -0400
+
+    Merge branch 'dev' into austin
+
+commit 154d938074638aaa2fd5c61887c47082f96d6f09
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 11 16:34:22 2016 -0400
+
+    Replace url columns with id columns
+
+commit e521a240f6c860a2480a47bb26f2d15056ec1e95
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 15:31:18 2016 -0500
+
+    Minor change
+
+commit 0e2e36690e6633a1a85de3ea3f807b2abfc2ac0e
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 15:28:22 2016 -0500
+
+    Change death info
+
+commit 7be0c61ff8f4e8d67d2a906df571c0f64d8c1619
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 03:01:11 2016 -0500
+
+    Change tables slightly for mobile devices
+
+commit fc896021de1e11f9057a4b7320ee1fee8932e6a5
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 02:48:30 2016 -0500
+
+    Minor edits to about page; test mobile for characters page
+
+commit 1a90a6f2f558581740a505b627e3dff0aa73b7c9
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 02:38:01 2016 -0500
+
+    Minor graphical edit
+
+commit 8d4357788e7d2565a61a5f8cf7c762b1eec83be6
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 02:22:19 2016 -0500
+
+    Fix nav bar links
+
+commit ef129ccb3e35465cd299b176e27d359d2d023d04
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 02:14:02 2016 -0500
+
+    Update templates
+
+commit 2f2efa2a236915cb0567bab268c259267fdb3f99
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 02:03:13 2016 -0500
+
+    Minor change
+
+commit b647ba40257c7513dd0e1e4b9eb32d150da53614
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 02:01:55 2016 -0500
+
+    Implement basic book and books html pages; fix attributes for all pages
+
+commit ea7c3c0657fbd220918734cdd40df2f62b125b91
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 11 01:14:58 2016 -0500
+
+    Remove broken angular; test embedding data
+
+commit f49e5b80abe8f3e510428ae6fd58e05bef34de93
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Sun Jul 10 23:26:30 2016 -0500
+
+    Test AngularJS
+
+commit 464642e4277542ae1c3c861990ca2eee872f35e0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 10 13:27:59 2016 -0400
+
+    Populate remaining relationships
+    
+    - Populate currentLord one-to-one relationship b/w a house and a character
+    - Populate heir one-to-one relationship b/w a house and a character
+    - Populate overlord one-to-one relationship b/w a house and a character
+    - Populate founder one-to-one relationship b/w a house and a character
+    - Add gender attribute to Character model
+
+commit 10ec85f270409a86c901cd342d3a26766a1b9e38
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 10 12:41:59 2016 -0400
+
+    Populate remaining many-to-many relationships
+    
+    - Populate books/characters relationship b/w characters and books
+    - Populate povBooks/povCharacters relationship b/w characters and books
+    - Add characters_povbooks association table
+
+commit b7f6b8358ff6348b620f7e4e1aadfd4cae49aeb4
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 10 11:59:48 2016 -0400
+
+    Populate allegiances/swornMembers relationship
+
+commit 2e4262da68ef35baac64cb75d8f305a8d87d6675
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 9 17:58:20 2016 -0400
+
+    unique port numbers for each user when running __init__.py
+
+commit df55ca83bbb281fbf72afbd689fc9e7b2a59eb5e
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 9 15:45:47 2016 -0400
+
+    added simple database querying, with simple templates for houses and characters pages (without pagination for now)
+
+commit 2287d2a0208b388c67a11b06d3e45353dd5503e2
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 9 15:03:31 2016 -0400
+
+    fixed navbar issue I broke with last commit
+
+commit 18cf42058ad538626c07b58e64f08d00bffdbdaf
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Sat Jul 9 15:00:45 2016 -0400
+
+    fixed navbar with links relative to root
+
+commit 2b81a421bb06ec6dab2aafb9ff53510dcea6cd17
+Merge: 4d7b9d1 b4a3116
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Sat Jul 9 12:54:51 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit b4a31164b04cf7bf3abcab39508860dea84882ea
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Sat Jul 9 12:53:23 2016 -0500
+
+    Add functionality for templates and example usage in init
+
+commit 4d7b9d1a606c1ecac07cc9c406f7f8007c8e4e24
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 9 12:51:37 2016 -0400
+
+    Populate 'houses' table (w/o relationships)
+    
+    - Change all String attributes to be 512 bytes long
+
+commit 89e8bad8a2c1cf5678c936cdebbf70d40d7a05cd
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 9 12:42:30 2016 -0400
+
+    Populate 'books' table (w/o relationships)
+
+commit bf6b1da3f8f7986c2b53bd56a8f9312b63827338
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 9 12:28:50 2016 -0400
+
+    Add create_db.py; format Python code
+    
+    - Populate 'characters' table (w/o relationships)
+    - Add function/method comments
+    - Use consistent whitespace and newlines
+
+commit 605afa9be84b9c37b04dcfaa9f3b377a54fe8f86
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Fri Jul 8 16:33:25 2016 -0500
+
+    Temp edits
+
+commit 5ca1e05288a68b2af9cfe639ee80d18318140724
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Fri Jul 8 17:17:03 2016 -0400
+
+    Add postgresql database URI
+
+commit a06568779617d95749554b5a157eeefdfb819d98
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Fri Jul 8 15:48:07 2016 -0500
+
+    Test embedding in templates
+
+commit 5e3054183960f18d169b8a233fe062b9fdbe3b78
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Fri Jul 8 16:44:21 2016 -0400
+
+    Add currentLord, heir, overlord, and founder relationships
+
+commit e358fcff70ad5a40326de84375f01e5d08833f9a
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Fri Jul 8 15:33:01 2016 -0400
+
+    Add books/povBooks and characters/povCharacters relationships
+
+commit ea41f779967d7704c9441d2c28a3acda8d62b58d
+Merge: 54a407c 4d6efc0
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Thu Jul 7 22:00:01 2016 -0500
+
+    Merge branch 'dev'
+
+commit 54a407c4a9d176ea74bea91d87d4bea01b437c71
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 7 19:11:07 2016 -0400
+
+    Add allegiances/swornMembers relationship
+
+commit 4d6efc05466b1fde9da3580935d2d26107d706d1
+Merge: 11a1897 e1e0772
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Thu Jul 7 17:54:29 2016 -0500
+
+    Merge branch 'dev' into scott
+
+commit 11a1897ebe898bfe2c004d2aa3774c1463da61e2
+Author: shcott <scott.huang.21@outlook.com>
+Date:   Thu Jul 7 17:50:28 2016 -0500
+
+    Add basic templates; minor fixes
+
+commit b4132f2cd0b46bfc68b00862771291c954514747
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Thu Jul 7 18:39:42 2016 -0400
+
+    Match models with 'An API of Ice and Fire' (w/o relationships)
+
+commit e1e07725712a5d88dbf34f91d31c63f34efcb949
+Merge: eb071b5 5fa2df4
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 7 17:08:58 2016 -0500
+
+    Merge branch 'bismith' into dev
+
+commit 5fa2df40bf68bf0da2b575d3d5dd5e9df90004a2
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Thu Jul 7 17:08:22 2016 -0500
+
+    consolidated An API of Ice and Fire JSON files for models: books, characters, houses
+
+commit eb071b52f3482870a03588f0b65f86d7f6ae9050
+Merge: 51b9c3b 8b47940
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 21:46:00 2016 -0400
+
+    Merge branch 'bismith' into dev
+
+commit 8b47940d1df5b6fad8816a7fb0b98dfe70a3188a
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 19:48:24 2016 -0500
+
+    sorted locations.txt
+
+commit 92c83497ce0bba6cf3a795bcee66c567df2ac24d
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 19:47:38 2016 -0500
+
+    added parser script and locations list
+
+commit d1140d82b7ad2e385091477f4293a0bdac867ad6
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 20:18:20 2016 -0400
+
+    An API of Ice and Fire downloader.sh removed mistakenly created files
+
+commit 51b9c3b3b0fa0bb860eec64c458e5ca00513061f
+Merge: 58b80f4 c4b87b3
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 20:13:07 2016 -0400
+
+    Merge branch 'bismith' into dev
+    
+    removed empty json files
+
+commit c4b87b35b87e1147388abc19dc7d99338bd313ad
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 20:12:04 2016 -0400
+
+    removed empty json files
+
+commit 58b80f433684cb7e159ecc48ef1b47510e681ad2
+Merge: 43298c6 7ded877
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 17:49:30 2016 -0400
+
+    Merge branch 'bismith' into dev
+    
+    added An API of Ice and Fire json files
+
+commit 7ded8779bf20bcfa06c0bf292eee91edc52711b2
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Wed Jul 6 17:49:06 2016 -0400
+
+    added An API of Ice and Fire
+
+commit 43298c663c930219b2fd8fe9956c946893a24030
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 21:39:51 2016 -0500
+
+    Add log
+
+commit 5e716085a9dbe0c74639e9e53f6523404b1620a6
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 21:29:27 2016 -0500
+
+    Add to about page; fix first nav bar link not working
+
+commit 2e7c81587c505249d0b09eb7d14ebf817b9c0e1a
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 21:11:25 2016 -0500
+
+    Add to about page
+
+commit 8dedab61a52bbd3ee87fc50bb4b819737ecb20d7
+Merge: a836863 bcc3899
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 22:07:51 2016 -0400
+
+    Merge branch 'master' of https://github.com/holtk/cs373-idb
+
+commit a83686351e3e9256fcc7cc56ca692b38f2753884
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 22:07:37 2016 -0400
+
+    Add pictures and videos to static pages
+
+commit bcc3899fdefef88a92e9dc8158f990a19996621a
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 21:57:08 2016 -0400
+
+    Add placeholder makefile
+
+commit e72fee5a18925e425855d60927857e594bfaa709
+Merge: 0db67e8 e550a4d
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 20:39:42 2016 -0500
+
+    Merge dev
+
+commit e550a4dfee645794ad226413fbc4be3483c8ba92
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 20:32:51 2016 -0500
+
+    Update about page; fix navbar
+
+commit 0db67e854ddb731afad49658a67f928cf0125db9
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 21:26:16 2016 -0400
+
+    Add Austin's about-me
+
+commit 640b355034d1200881cd7796ef8650364fb00c71
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 20:10:35 2016 -0500
+
+    Add austin.jpg
+
+commit b7e6018a06a2a89e5255d03bd1706b81b196eb26
+Merge: 5723f66 397cf56
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 5 20:37:36 2016 -0400
+
+    Merge branch 'bismith' into dev
+    
+    added headshot
+
+commit 397cf561c48065ea970fa902867d2a563d3d0042
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Tue Jul 5 20:36:52 2016 -0400
+
+    added headshot
+
+commit 5723f66f7a98561d9c579c85496b26ed84107c3a
+Merge: a09386c e7dd8b7
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 19:48:54 2016 -0400
+
+    Merge branch 'austin'
+
+commit e7dd8b7ca3efce97deec5d22332ccfdfab31cc1e
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 19:47:13 2016 -0400
+
+    Format models.py and tests.py
+
+commit a09386cf430f63b1f92419574626438da38ba655
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 18:30:15 2016 -0500
+
+    Reorganize people on about page
+
+commit 71e767a59ae22e761dcb8c7cf5eaafffa028ab9f
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 19:29:48 2016 -0400
+
+    Add final unit tests for phase 1; close #6
+
+commit 605bc56f0d71e090cb6323852b744a39da73d638
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 18:27:01 2016 -0500
+
+    Add names for about page
+
+commit 9d2d75033ac007e3d9d28642402e5a3dfabc0eb5
+Merge: 5d6fd62 6167acf
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 18:18:53 2016 -0500
+
+    Merge branch 'scott' into dev
+
+commit 6167acff10199c883b0c1277c659fa316ae57584
+Merge: 945d0df 26a9a8d
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 18:16:29 2016 -0500
+
+    Merge branch 'master' into scott
+
+commit 5d6fd62f1672dc75451e4fdfcacff7f6121d5704
+Merge: a3eee78 26a9a8d
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 18:15:02 2016 -0500
+
+    Merge branch 'master' into dev
+
+commit 9646c41725e64466ac31969558ff0befce40e768
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 19:14:46 2016 -0400
+
+    Add more unit tests
+
+commit 945d0df030dd76b05f85e9b5475ae1058a3f2a50
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 18:13:20 2016 -0500
+
+    Add about page; minor fixes
+
+commit 6530fea4ace371010b2beab44beb525eeae7b8fb
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 19:01:45 2016 -0400
+
+    Fix models; add more unit tests
+
+commit 57ae5408e51e2f80773eb030f04a47a00e68fae3
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 18:38:41 2016 -0400
+
+    Fix relationships; set up db in tests.py
+
+commit a3eee78b23172e771badf28c0f1029a89235c4c8
+Author: holtk <holtkostohryz@gmail.com>
+Date:   Tue Jul 5 17:37:18 2016 -0500
+
+    Holt added head shot
+
+commit 26a9a8d889b72bc2c99e0b09765c7fe58e5f8a78
+Author: Holt Kostohryz <holtkostohryz@gmail.com>
+Date:   Tue Jul 5 17:03:21 2016 -0500
+
+    Small edits
+
+commit 5a93e78b31d34ba7115f119ed577a9acfe82bb46
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Tue Jul 5 17:12:59 2016 -0400
+
+    Add tests.py
+
+commit a755869ac2226de894c092390124659d037ac5aa
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Tue Jul 5 00:00:36 2016 -0500
+
+    Edit images to fit scaling better; minor changes
+
+commit 5595c8008c70c2cdab5d00228c3fc9485898b031
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 18:24:04 2016 -0500
+
+    Remove comment
+
+commit 33d273694573113ece4e1f3076d3187c5dbd015e
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 18:20:28 2016 -0500
+
+    Fix background scaling issue
+
+commit 0a5e00efe688d8cea60b2915f1febbaf88390363
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 15:38:26 2016 -0500
+
+    Fix bg2.jpg
+
+commit 3a3913348ff9d3b2a4335552889fd278f58d0aba
+Merge: c2e7325 d0ad05a
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 15:34:17 2016 -0400
+
+    Merge branch 'master' into austin
+
+commit d0ad05ae27869a45d9700e5ae7d22aee3d7c1c7f
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 15:32:52 2016 -0400
+
+    Fix master branch's port number
+
+commit c2e73258f603bcc8b08c1a74b821e3e7348474aa
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 15:30:31 2016 -0400
+
+    Add __init__() to each table
+
+commit 459d5ca709792fa655c4a1d996f190a9631fa6ab
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 15:05:12 2016 -0400
+
+    Delete flask.py
+
+commit 046f807bcbf668a58284ff52719a01c4b480106c
+Merge: 408d725 d0c50f0
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 14:40:41 2016 -0400
+
+    Merge branch 'master' into austin
+
+commit d0c50f01a5fd005f9cda72317cb33697f4b6bae8
+Merge: 39543a7 88191ae
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 14:33:33 2016 -0400
+
+    Merge branch 'master' into dev
+
+commit 408d7250a5c7b0b617f3c58ab99a0490655eacbf
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 14:29:54 2016 -0400
+
+    Add relationships; run test website on port 8081
+
+commit 88191ae9759b9bb4b87d0a087fa750c06880b3b2
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 12:57:48 2016 -0500
+
+    Fix merging error
+
+commit 235864b11afdf286aceb6f880f74dd139a108b10
+Merge: 26041e6 35e0771
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 12:57:19 2016 -0500
+
+    Merge branch 'dev'
+
+commit 26041e6f1c613e5c26d6f658165a5dd6fcd1829b
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 12:53:33 2016 -0500
+
+    Merging
+
+commit dc9811c60530c97d2a24a56b2904aa56125bca9a
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 13:37:44 2016 -0400
+
+    Comment out postgresql code for now
+
+commit 39543a787c52de4e8e74a1178943d3897f739bea
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Mon Jul 4 12:50:29 2016 -0400
+
+    Add app/flask.py and modify app/__init__.py
+
+commit 35e07710b79e2c48d0348af7d2ec8c2e7f3ed264
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 04:06:40 2016 -0500
+
+    Add to the GUI
+
+commit 1f6d63c0e02e6b6f3c6216d97c077d51abae75ed
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 03:15:17 2016 -0500
+
+    More minor fixes to GUI
+
+commit 08514452193e0b901aa76fb448240e5108e90742
+Merge: e055053 bb48e05
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 03:01:21 2016 -0500
+
+    Accidental push on master; merging
+
+commit bb48e057d24d69d6376c538b315e3c4d2d70d113
+Author: Scott <scott.huang.21@outlook.com>
+Date:   Mon Jul 4 02:56:09 2016 -0500
+
+    Minor fixes to GUI of static pages
+
+commit e055053071c1e9928296388700e5844161c1cf30
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 3 14:53:37 2016 -0400
+
+    Add foreign keys
+
+commit d0827c3f64b6e4858a9fad4c0f2e31856a33e3c3
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 3 13:57:48 2016 -0400
+
+    Add Location table model
+
+commit 969bc423d6a70549cd69514a2c30309f8185e11b
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 3 13:51:45 2016 -0400
+
+    Add Event table model
+
+commit 6482764a68ba161fd265766fab856f4749fb3996
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sun Jul 3 13:45:02 2016 -0400
+
+    Add House table model
+
+commit 2233ce71942b9e9ecdb83241afdcb58964769350
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Sun Jul 3 01:09:43 2016 -0500
+
+    changed location.html to use locations
+
+commit 5b78396244501da35b51bb991e6f9310bb6f601f
+Author: Rhain Kaman <rkaman@cs.utexas.edu>
+Date:   Sun Jul 3 01:07:28 2016 -0500
+
+    added some locations, not finished yet
+
+commit b0ee3a99714f05de39c601b80a332e95c8129551
+Author: Sangmin Han <sh115@cs.utexas.edu>
+Date:   Sat Jul 2 20:00:30 2016 -0500
+
+    fixed the paths
+
+commit f1c36ea857617d34d0d7ee0dbb563e7a758ee76f
+Author: Sangmin Han <sh115@cs.utexas.edu>
+Date:   Sat Jul 2 19:46:18 2016 -0500
+
+    static html files (not done)
+
+commit fac691e3d8daaf4a6875300d8ac09a23852f603d
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Sat Jul 2 19:13:28 2016 -0500
+
+    Another minor change to file path
+
+commit 7348f3c95665a742f138437841863162c59144e9
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Sat Jul 2 18:52:43 2016 -0500
+
+    Fix typo in file path
+
+commit 6562201cf268f1d857496845e6f9863ed3ed1289
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Sat Jul 2 18:44:37 2016 -0500
+
+    Fix fiel paths for flask in main page
+
+commit f1c5bf916912e2c066389d294cde6e1557987f60
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Sat Jul 2 18:30:49 2016 -0500
+
+    Minor fix to nav bar of main page
+
+commit 0b179cbea7a0b4b354ea78106e960c81ed5da588
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Sat Jul 2 16:46:24 2016 -0500
+
+    Add carousel; beautify main page close #10
+
+commit 97610cdb3805ce4785b778411dac176c5e53494e
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 2 17:30:18 2016 -0400
+
+    Add Character table model
+
+commit 57b7c83111c2df5c767924a4603516de86504b19
+Author: Austin Hounsel <austin.hounsel@gmail.com>
+Date:   Sat Jul 2 16:25:34 2016 -0400
+
+    Add app/models.py; update .gitignore
+
+commit 79c4e5334c7a74511e34abf26a420cc69cafa5b6
+Author: Holt Kostohryz <holtkostohryz@gmail.com>
+Date:   Sat Jul 2 13:35:32 2016 -0500
+
+    API Description Locations Done
+
+commit bb8800f5db208c5eceb38cb921e2a1f0455b8326
+Author: Holt Kostohryz <holtkostohryz@gmail.com>
+Date:   Sat Jul 2 13:02:59 2016 -0500
+
+    API Description Events Done
+
+commit d2c51b168727d4abd20b914dd436c977fc2948ae
+Author: Holt Kostohryz <holtkostohryz@gmail.com>
+Date:   Sat Jul 2 12:33:25 2016 -0500
+
+    API Description House and characters done
+
+commit 47fd275c89988a887b27edb37ac31fc60ff41faa
+Author: Holt Kostohryz <holtkostohryz@gmail.com>
+Date:   Sat Jul 2 11:19:17 2016 -0500
+
+    Transferring API Description file from Apiary.io
+
+commit cc01a1397a2813f514afda5a8fd29737dacbc4dc
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Fri Jul 1 17:01:29 2016 -0500
+
+    Update index.thml
+
+commit 387e2e789201edf5be36570b961348dae89c44fe
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Fri Jul 1 17:49:27 2016 -0400
+
+    fixed flaskapp.wsgi
+
+commit a919bd6ba2788a9a643a493704ec6c827264f514
+Author: Brandon Smith <vectorcell@gmail.com>
+Date:   Fri Jul 1 17:35:27 2016 -0400
+
+    renamed repo dir on VPS
+
+commit 4fa481066f3b6eaf4438773d40e37f4eb9b1e23d
+Author: ahounsel <austin.hounsel@gmail.com>
+Date:   Fri Jul 1 16:01:51 2016 -0500
+
+    Add UML.pdf
+
+commit a5aa217a567e9586212cd1ba664c919e0cc4d185
+Author: Scott Huang <scott.huang.21@outlook.com>
+Date:   Wed Jun 29 16:21:42 2016 -0500
+
+    Initial commit; add travis and gitignore files
